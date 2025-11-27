@@ -1,0 +1,7 @@
+python-dotenv
+openai
+google-generativeai
+google-genai
+openpyxl
+chromadb
+python-docx

@@ -1,0 +1,654 @@
+```json
+{
+  "metadata": {
+    "Title": "CYP2D6-guided opioid therapy for adults with cancer pain: a randomized implementation clinical trial",
+    "First_author": "Scott A. Mosley",
+    "Published_year": 2023,
+    "Journal": "Pharmacotherapy",
+    "Corresponding": "Larisa H. Cavallari, Department of Pharmacotherapy and Translational Research and Center for Pharmacogenomics, University of Florida, P O Box 100486, Gainesville, FL 32610-0486; Tel 352-273-8245; lcavallari@cop.ufl.edu.",
+    "DOI": "10.1002/phar.2875.",
+    "Declaration_of_interest": "S.A.M and L.H.C received support for this study from Mallinckrodt Pharmaceuticals. Mallinckrodt Pharmaceuticals had no role in the study design, data collection, analysis, interpretation of data, or writing of the report. There were no restrictions regarding the submission of the report for publication and Mallinckrodt Pharmaceuticals did not have access to any study data. J.S.S. is a member of the company advisory boards for Taiho, Pfizer, Helsinn Therapeutics, Tersera, Ipsen, Advanced Accelerated Applications, and Cancer Expert Now, but none of these companies had a role in funding, conducting, or publishing this report. T.J.G is a member of the company advisory boards for YES, BillionToOne, Tempus Labs, and Pfizer, but none of these companies had a role in funding, conducting, or publishing this report. H.L.M is a member of the company advisory boards for Viecure and Illumina, is on the board of directors for Vyant Bio, and is co-founder of Clarified Precision Medicine. PGx Accelerator, and Genovation Health, but none of these companies had a role in funding, conducting, or publishing this report. All other authors reported no conflicts of interest.",
+    "Funding": "This work was funded, in part, by a fellowship award from Mallinckrodt Pharmaceuticals. Work by S.A.M. was supported by the National Center for Advancing Translational Science (NCATS) of the U.S. National Institutes of Health (NIH) grant UL1 TR001855. Work by L.H.C. was supported by the National Institutes of Health (NIH) grant U01 HG007269 as part of the NIH IGNITE network and NIH UL1 TR001427. The trial is registered at Clinical Trials.gov, #NCT02664350; URL: https://clinicaltrials.gov/ct2/show/NCT02664350."
+  },
+  "article_structure": [
+    {
+      "level": 1,
+      "title": "Introduction",
+      "content": [
+        "The CYP2D6 enzyme metabolizes opioids commonly prescribed for cancer-related pain, and CYP2D6 polymorphisms may contribute to variability in opioid response. We evaluated the feasibility of implementing CYP2D6-guided opioid prescribing for patients with cancer and report pilot outcome data.",
+        "Methods—Adult patients from two cancer centers were prospectively enrolled into a hybrid implementation-effectiveness clinical trial and randomized to CYP2D6-genotype guided opioid selection, with clinical recommendations, or usual care. Implementation metrics, including provider response, medication changes consistent with recommendations, and patient-reported pain and symptom scores at baseline and up to 8 weeks were assessed.",
+        "Results—Most (87/114, 76%) patients approached for the study agreed to participate. Of 85 patients randomized, 71% were prescribed oxycodone at baseline. The median (range) time to receive CYP2D6 test results was 10 (3–37) days; 24% of patients had physicians acknowledge genotype results in a clinic note. Among patients with CYP2D6 genotype-guided recommendations to change therapy (n=11), 18% had a change congruent with recommendations. Among patients who completed baseline and follow-up questionnaires (n=48), there was no difference in change in mean composite pain score (-1.01±2.1 vs -0.41±2.5; p=0.19) or symptom severity at last follow-up (3.96 ± 2.18 vs 3.47 ± 1.78; p=0.63) between the usual care arm (n=26) and genotype-guided arm (n=22), respectively.",
+        "Conclusion—Our study revealed high acceptance of pharmacogenetic testing as part of a clinical trial among patients with cancer pain. However, provider response to genotype-guided recommendations was low, impacting assessment of pain-related outcomes. Addressing barriers to utility of pharmacogenetics results and clinical recommendations will be critical for implementation success.",
+        "Cancer-related pain is a frequent and burdensome symptom associated with the disease and its treatment. Opioids are a first-line approach to alleviate moderate to severe pain for patients with cancer.1,2 Up to half of patients undergoing active cancer treatment and over 75 percent of those with advanced disease warrant opioid therapy, but individual responses vary widely leaving nearly a third of patients with inadequate pain relief.3,4,5 Although causes are multifactorial, accumulating evidence shows that pharmacogenetics (PGx) is associated with inter-individual differences in the pharmacokinetic and pharmacodynamic response to opioids.4,6,7 Currently, genetic factors may be responsible for 12% to 60% of variability in response to opioid therapy.5",
+        "Among genetic factors, CYP2D6 genotype has the strongest evidence for influencing response to opioid analgesics. Codeine, tramadol, hydrocodone, and oxycodone undergo CYP2D6 bioactivation to metabolites (morphine, O-desmethyltramadol, hydromorphone, and oxymorphone, respectively) with higher affinity for the mu-opioid receptor than the parent compound.8,9 The CYP2D6 gene is highly polymorphic, with over 140 alleles",
+        "identified,10 including instances of gene deletion or duplication.11 CYP2D6 alleles are categorized as having normal, decreased, or no function, and CYP2D6 metabolizer phenotype, ranging from poor metabolizer (PM) to ultra-rapid metabolizer (UM), is determined by an individual's diplotype.12,13 In clinical context, PMs and intermediate metabolizers (IMs) have lower concentrations of the more active metabolites of CYP2D6-metabolized opioids, compared to normal metabolizers (NMs), and may fail to derive sufficient pain relief from these drugs; the data are strongest for codeine and tramadol.14,15 UMs have increased enzymatic activity and may be at increased risk for life-threatening toxicity with opioids metabolized by CYP2D6 secondary to higher concentrations of more potent metabolites.16,17",
+        "The Clinical Pharmacogenetics Implementation Consortium (CPIC) recommends avoiding codeine and tramadol for CYP2D6 PMs or UMs, and to consider non-opioids or opioids less influenced by CYP2D6 to reduce the risk for ineffective pain relief or toxicity, respectively.13 Similarly, alternative treatment is recommended for IMs who derive insufficient pain relief from codeine or tramadol.13 Data are more limited for hydrocodone, but recent studies suggest CYP2D6 phenotype may be important for its analgesic response.15,18",
+        "Accumulating data support CYP2D6-guided opioid prescribing, but its utility in clinical practice, including use in managing cancer-related pain, is limited.15 Therefore, we aimed to examine the feasibility of implementing clinical CYP2D6 genotyping to guide pain management in cancer patients and gather pilot data on the effectiveness of this approach. We also summarize key lessons learned with this implementation."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 1,
+      "title": "Methods",
+      "content": [],
+      "subsections": [
+        {
+          "level": 2,
+          "title": "Study design and procedures:",
+          "content": [
+            "The study design was approved by the University of Florida (UF) and Moffitt Cancer Center Institutional Review Boards as described previously.19,20 Briefly, this hybrid implementation-effectiveness trial tested the feasibility of implementing of CYP2D6-guided pain management while obtaining pilot data on the implementation's impact on pain-related outcomes.21 Adult cancer patients with suboptimal pain control (pain score ≥4)22 were referred for trial enrollment by their oncologist at UF Health Cancer Center or by a Moffitt Supportive Care Medicine (SCM) clinician in consultation with the patient's primary oncologist. After obtaining informed consent, a buccal brush sample was collected from each patient for genotyping, and patients were randomized to the CYP2D6-guided or usual care arm. Each site developed and managed their own randomization. Moffitt used a website research randomizer (https://www.randomizer.org/) and randomized 120 ‘sets,' and UF used a similar website (http://www.randomization.com to randomize 100 subjects into 2 groups (genotype or control) using blocks of 10 (seed 12381). Patients, providers, and researchers were not blinded to randomization groups.",
+            "Samples from patients in the genotype-guided arm at each site were sent to the UF Health Pathology Laboratory for CYP2D6 genotyping using the Luminex® 100/200™ System using xTAG® CYP2D6 Kit v3 Assay, validated according to College of American Pathologists/",
+            "Clinical Laboratory Improvement Amendments standards. The CYP2D6 variants and copy number alterations tested for were previously described (Table S1).19 Similar to other clinical assays, duplications were reported, but which allele was duplicated and number of copies could not be detected, leading to ranged phenotypes (e.g., NM-UM) in some cases. Patients with NM-UM phenotype range were treated as UMs to err on the side of caution. Otherwise, genotype information was translated into phenotypes, as described in Table S1. The genotype results and predicted phenotype (based on CYP2D6 activity score per CPIC guidelines at the time of the study)12 were placed in the electronic health record (EHR) in a discrete format at UF Health and via secure email in PDF format, which was uploaded in the research section of the EHR, at Moffitt. Pharmacists considered CYP2D6 results and concomitant CYP2D6 inhibitors, per FDA classification, to assign a clinical phenotype for each patient.23 For patients taking strong inhibitors (e.g., bupropion, fluoxetine), the clinical phenotype (regardless of genotype) was adjusted to a PM, while for moderate (e.g., duloxetine) and weak inhibitors (e.g., sertraline), the activity score was reduced by 50% to derive the clinical phenotype.12 Recommendations were made to avoid codeine, tramadol, hydrocodone, and oxycodone for PMs, IMs, and UMs. Recommendations were provided to the treating physician in the consult note, which was placed in the EHR (UF) or sent via secure email (Moffitt). Generally, morphine or hydromorphone was recommended as an alternative opioid. Prescribing decisions were left to the physician's discretion. Samples collected from patients in the usual care arm were sent to the UF Center for Pharmacogenomics and Precision Medicine for CYP2D6 genotyping at the end of the study for research purposes only (i.e., were not placed in the EHR or shared with physicians for clinical use), using PCR and pyrosequencing as previously described.24,25."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Data collection:",
+          "content": [
+            "Demographic, clinical, and social data were obtained via EHR review and a standardized baseline questionnaire after enrollment. At baseline and 2, 4, 6, and 8 weeks, patients in both arms were asked to complete the Brief Pain Inventory-Short Form (BPI-SF)26, consisting of 11 items, to assess pain intensity, and the M. D. Anderson Symptom Inventory (MDASI)27, consisting of 13 items, to assess symptom severity. Medications from the EHR were recorded at baseline and at the time of last follow up. Upon study completion, the EHR was reviewed to evaluate physicians' clinical notes during each patient's period of trial enrollment to identify physician acknowledgement of CYP2D6 genotyping results and opioid therapy changes."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Data analysis:",
+          "content": [
+            "The primary outcomes were feasibility of implementing a genotype-guided opioid prescribing approach to manage pain for cancer patients and the change in pain intensity. Feasibility was assessed based on the implementation metrics of percent of patients willing to participate, genotype turnaround time (defined as number of days from sample collection to results being reported by the pathology laboratory), percent of patients with a CYP2D6 phenotype that warranted alternative therapy, and physician acknowledgement of genotype results. For the effectiveness outcome, a composite pain score (scale of 1 to 10) was calculated, which was the average of the patient-reported “worst pain” and “pain on average\" in the last 24 hours and “pain you have right now\" from the BPI-SF.28 Pain",
+            "was categorized as mild, (score 1–3), moderate (score of 4-6) or severe (score of 7–10) according to National Comprehensive Cancer Network guidelines.22 Two composites from the MDASI questionnaire were calculated if more than 50% of the questions were answered: core symptom severity, which was the mean of 13 core symptom items, and symptom distress, which was the mean of 6 interference items. Change in pain and symptom severity scores was calculated as the percent difference from baseline score to the score at last follow up ([baseline - follow-up] / baseline). Patients who only completed baseline and week two surveys were excluded from this analysis since this may not have allowed sufficient time for the physician to receive and act on genotype results. Data were compared between the two arms using x2 analysis or Fishers Exact and the two-sample t-test or Wilcoxon rank-sum for categorical and continuous data, respectively. Data analyses were conducted using SAS software, version 9.4 (SAS Institute, Carry, NC).",
+            "Initial targeted enrollment was 176 patients, which was estimated to provide 80% power with an alpha of 0.05 to detect a one point difference in BPI-SF pain scores between groups.29 However, funding was was discontinued after the first year due to changes in the sponsor's priorities. The number of participants enrolled was thus a convenience sample to evaluate the feasibility and provide preliminary effectiveness data of a CYP2D6-guided approach to pain management."
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "title": "Results",
+      "content": [],
+      "subsections": [
+        {
+          "level": 2,
+          "title": "Patient population:",
+          "content": [
+            "Of 114 patients approached across sites, 87 (76%) agreed to participate (UF: 63/71; Moffitt: 24/43). The primary reason cited for declining participation was not having time to participate. Of those who agreed to participate, two later withdrew consent, with one patient transferring to hospice care and the other electing to not complete the surveys. Of the remaining 85 patients, 38 were randomized to the genotype-guided arm and 47 to the usual care arm (Figure 1). Six participants (7%) died over the course of follow-up. In all, 22 (58%) in the genotype-guided arm and 26 (55%) in the usual care arm completed the baseline and ≥1 follow up questionnaire after 2 weeks and were included in analysis of pain intensity, symptom severity, and symptom distress.",
+            "Baseline characteristics, shown in Table 1, were similar between study arms. The mean age of participants was 57°10 years, and most (84%) self-reported race as White. The most common cancer types were lung (27%) and colon (19%) cancer, and nearly 75% had metastatic disease. Oxycodone was the most frequently prescribed opioid at baseline (71% of all patients), and 40% of patients were taking multiple opioids. No patients were treated with codeine, and five were treated with tramadol."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Implementation metrics:",
+          "content": [
+            "Implementation metrics for the genotype-guided group are shown in Table 2. The median genotype turnaround time was 10 days and was longer for Moffitt compared to UF participants because of the time required for sample shipment to UF. Genotyping failed with initial sample collection 13% (5/38) of the time, with a similar failure rate for samples from",
+            "each institution. Four of the five patients with failed genotyping provided a second sample while one declined retesting. Genotyping failed a second time for one patient. Results were ultimately returned for 36/38 (95%) patients. The need for sample recollection led to turnaround times ranging from 17–37 days for the three patients obtaining results. After excluding samples requiring recollection, median (range) turnaround time was 9 (3–18) days.",
+            "Based on genotype alone, 22% (8/36) of patients in the genotype arm were assigned a PM, IM, or NM-UM phenotype (Table 3). After considering use of CYP2D6 inhibitors, 3/36 (8%) patients had phenoconversion, and the percent with an IM or PM ‘clinical phenotype' increased from 19% to 28% (Table 3). Of the 11 patients in the genotype guided arm with a PM, IM, or NM-UM clinical phenotype, 10 (91%) were taking oxycodone and one (9%) was taking hydrocodone.",
+            "Review of clinic notes revealed that for patients in the genotype-guided arm, physicians at UF acknowledged genotype results being available about a third of the time; none of physicians from Moffitt acknowledged genotype results in their clinical notes (Table 2). Pharmacotherapy changes congruent with recommendations (i.e., from a CYP2D6-metabolized opioid to a non-CYP2D6-metabolized medication), occurred in 2/11 patients (18%) with actionable phenotypes (PM, IM, or NM-UM); one patient was switched from oxycodone to fentanyl and the other was switched from oxycodone to morphine. There were no such changes in those with the NM phenotype (0/25). In the usual care group, changes from CYP2D6-metabolized to non-CYP2D6-metabolized medication occurred in none of the patients with an actionable phenotype (0/7) and in 1/39 (2.6%) with the NM phenotype."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Patient reported outcome metrics:",
+          "content": [
+            "Fifty-seven percent of all surveys were completed by participants. There was no difference in baseline composite pain score or symptom severity between arms (Table 4). The percent of patients in the genotype-guided and usual care groups reporting moderate pain at baseline was 47% and 51%, respectively, and the percent reporting severe pain was 29% and 28%, respectfully. When limiting analysis to patients in either the genotype-guided or usual care group on oxycodone, tramadol, and/or hydrocodone at baseline, the composite pain scores remained similar between the CYP2D6 NM, IM, and PM clinical phenotypes (p=0.89; n=63) (Figure 2). There were also no differences in baseline pain score by CYP2D6 phenotype when limiting analysis to those on oxycodone (p=0.88; n=58) (Table S2). The results did not change when examining the association between baseline pain score and phenotype according to the current CPIC phenotype assignment (i.e. activity score of 1.0 is an IM; data not shown).30 The mean change in composite pain score from baseline to the last survey completed was -1.01 ± 2.10 in the usual care arm (from 5.18 ± 1.55 at baseline to 4.17 ± 2.08 at last follow-up; n=26) and by -0.41 ± 2.51 in the genotype-guided arm (from 4.79 ± 2.21 at baseline to 4.38 ± 2.05 at last follow-up; n=22) (p=0.37).",
+            "The core symptom severity and symptom distress, as assessed by the MDASI questionnaire, increased in both arms over the course of the study. Core symptom severity increased by 28% in the usual care arm (to 3.96 ± 2.18 at last follow-up; n=26) and 14% in the genotype-guided arm (3.47 ± 1.78 at last follow-up; n=22) (p=0.63). Symptom distress",
+            "increased by 22% in the usual care arm (to 4.10 ± 2.78 at last follow-up; n=26) and 5% in the genotype-guided arm (4.36 ± 2.56 at last follow-up; n=20) which were not significantly different between arms. (p-value=0.54)."
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "title": "Discussion",
+      "content": [
+        "PGx testing to guide opioid therapy for cancer pain proved desirable by patients, reflected by willingness to participate. However, we observed low provider utilization of genotype-guided recommendations. Overcoming implementation hurdles, including the low rate of prescribing in congruence with recommendations, is key for both successful PGx implementation in practice and future trials assessing outcomes with genotype-guided therapy. Accordingly, we summarize lessons learned from clinical implementation and research standpoints through the conduction of this trial (Table 5)."
+      ],
+      "subsections": [
+        {
+          "level": 2,
+          "title": "Lessons learned: clinical implementation:",
+          "content": [
+            "The low rate of prescribing action in the genotype-guided arm reinforces the need to assess barriers of changing medications when appropriate, based on CYP2D6 phenotype. Delays in obtaining PGx results may be a factor. In our study, as in previous trials,15,31 genotype results were available approximately one to two weeks following the patient's clinic visit. In our trial, physicians may have waited until the patient returned to clinic to act on results, which may have been after the participant's follow-up ended. It is also possible that physicians made changes to pain therapy during the enrollment visit and were hesitant to make additional changes just one to two weeks later when genotype results returned. Changes in therapy may also lead to increased out-of-pocket cost for patients if alternative pain medications or formulations result in additional expense or dependent on insurance coverage and prior authorizations, making certain medications financially unattainable for some, particularly vulnerable, patients.32",
+            "Another lesson learned was that genotyping from noninvasive sample collection (e.g., buccal cell collection via cytobrushes) may have contributed to the lower than desired genotyping success rate, requiring sample recollection and further delaying results. One solution implemented at UF to overcome this challenge is to collect additional buccal samples in the event the first sample fails to yield sufficient DNA. Of note, since the trial concluded, UF switched to foam brushes for buccal sample collection and has reported excellent genotyping success (>99%).31",
+            "Observations from our study may further contribute to the overall knowledgebase on oxycodone response and CYP2D6 clinical phenotype. Specifically, there was no difference in baseline pain score by CYP2D6 clinical phenotype among patients taking oxycodone. Data support a clear and strong CYP2D6 association with response to codeine and tramadol.13 There are also data suggesting that CYP2D6 genotype may effectively guide treatment with hydrocodone.15,31 However, the CYP2D6-oxycodone response relationship is less clear, and recent data suggest that CYP2D6 may not influence clinical response to oxycodone.15 A recent analysis of patients with cancer, most of whom were taking codeine, tramadol, or hydrocodone, found that compared to NMs, PMs or IMs had increased rates of hospitalizations secondary to pain and more often required non-CYP2D6 metabolized",
+            "opioids to manage pain.33 Based on this evidence, current clinical recommendations at UF Health Health are to avoid codeine, tramadol, and hydrocodone in PMs and IMs but no recommendations are provided for oxycodone.",
+            "During the trial, notes containing genotype-guided recommendations were placed in the 'research section' of the EHR at Moffitt, but PGx testing has since become more integrated into clinical practice. At UF, pharmacist recommendations were placed as consultation notes in the EHR and electronically routed to the oncologist. Of the eleven patients with recommendations to change opioid therapy, two had changes made, with prescribers noting genotype as a consideration in their clinical notes. This trial was the first PGx implementation for supportive care management in patients with cancer both at UF and Moffitt, and oncologists were not acclimated to looking for PGx results to guide opioid therapy, potentially contributing to the low adoption of PGx recommendations.",
+            "Early adopters of PGx testing have reported the importance of physician education for successful implementation and outlined five educational strategies: face-to-face (grand rounds presentations); direct-to-provider (email); point-of-care (CDS alerts); resource development (online training); and links to online resources.34 Our study utilized both, face-to-face education at the beginning of the study and direct-to-provider education through clinical notes or email with recommendations. However, automated CDS was not integrated into the EHR at either study site to prompt recommendations at the time of opioid prescribing. Providing recommendations through a clinical note without point-of-care CDS may have been insufficient for ensuring PGx considerations for therapy.35 Since the study concluded, automated alerts have become available at UF Health to relay genotype-guided recommendations. Moffitt now reports CYP2D6 results as discrete data to similarly allow for CDS when prescribing opioids. EHR integration of PGx test results and recommendations support transdisciplinary clinical care since all providers and staff involved in the patient's care can see such notes and test results.36,37",
+            "While our study used a reactive approach to genotyping, some institutions are genotyping prospectively for CYP2D6 and other pharmacogenes to inform future therapies.38,39 Indeed, our physician authors reported that not having results and accompanying recommendations at the time of enrollment was a major barrier to implementation. In the oncology setting, matched normal sample (germline) next generation sequencing (NGS) is expanding into routine care, and PGx information obtained from DNA sequencing is likely to become more common. Such information could be useful for pain management and other supportive care therapies, such as ondansetron, voriconazole, selective serotonin reuptake inhibitors, and proton pump inhibitors.40,41,42,43,44,45. Further understanding of clinical implementation barriers is needed to the guide the evolving practice landscape as healthcare moves to proactive genotyping for cancer management."
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "title": "Lessons learned: research methods:",
+      "content": [
+        "Most patients (76%) approached about our study were willing to participate without compensation and with the knowledge that they would not receive genotype results if randomized to the usual care arm. However, participation was lower than in other PGx trials (95% participation rates) in which those randomized to the control arm were offered clinical",
+        "genotyping upon study completion. This suggests that getting clinical PGx results may be a key motivator for participation.15,31",
+        "There was low adherence to survey completion suggesting that survey completion was over-burdening to this patient population. Similar issues have been reported in other studies of patient-reported outcomes.20 Strategies limiting the frequency of questionnaires, rather than the number of items included, appear to improve completion rates.20",
+        "Another challenge encountered was that each site created their own randomization log, which resulted in an excess of patients randomized to the usual care arm. Permuted block randomization, using a centralized randomization process and one randomization list per site may help ensure balance in the number of patients assigned to each arm.46",
+        "A limitation of our study was that data on duration of pain management was not collected. A longer duration of pain therapy may allow more time for trial-and-error, and thus, PGx results may be more valuable if obtained soon after cancer diagnosis. Future studies may benefit from focusing on patients initiating pain management or stratifying patients based on duration of prior pain management. Finally, pragmatic PGx clinical trials investigate the effectiveness of genotype-guided interventions in real-world settings that are inclusive of diverse clinical practices.37 Heterogeneity allows for a practical application to patient care, but analysis of interventions on outcomes such as pain control is challenging due to numerous covariates. This is especially true in oncology, where pain is complex and influenced by factors beyond pharmacotherapy. Clinical trials comparing pain among similar cancer types, disease burden, and treatment regimens, including types and duration of previous opioid therapy, may further elucidate the role of CYP2D6-guided cancer pain management."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 1,
+      "title": "Summary",
+      "content": [
+        "This hybrid implementation-effectiveness trial suggests that patients with cancer pain are interested in genetic testing to help guide pain management, but barriers to successful implementation exist. There are additional research-related barriers to successful assessment of outcomes with PGx implementation in this setting. Pain management is complex, and genetic factors only partially influence clinical decisions. Future clinical trials that incorporate genotyping into multimodal pain management models may help identify novel approaches that improve patient-reported outcomes, especially for those patients with suboptimal cancer pain control."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 1,
+      "title": "Supplementary Material",
+      "content": [
+        "Refer to Web version on PubMed Central for supplementary material."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 1,
+      "title": "Acknowledgements:",
+      "content": [
+        "This work was funded, in part, by a fellowship award from Mallinckrodt Pharmaceuticals. Work by S.A.M. was supported by the National Center for Advancing Translational Science (NCATS) of the U.S. National Institutes of Health (NIH) grant UL1 TR001855. Work by L.H.C. was supported by the National Institutes of Health (NIH) grant U01 HG007269 as part of the NIH IGNITE network and NIH UL1 TR001427. The trial is registered at Clinical Trials.gov, #NCT02664350; URL: https://clinicaltrials.gov/ct2/show/NCT02664350. The authors were",
+        "solely responsible for the design and conduct of this study, all study analyses, the drafting and editing of this manuscript, and its final contents."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 1,
+      "title": "References",
+      "content": [
+        "1. Teunissen SC, Wesker W, Kruitwagen C, de Haes HC, Voest EE, de Graeff A. Symptom prevalence in patients with incurable cancer: a systematic review. J Pain Symptom Manage. Jul 2007;34(1):94–104. [PubMed: 17509812]",
+        "2. van den Beuken-van Everdingen MH, de Rijke JM, Kessels AG, Schouten HC, van Kleef M, Patijn J. Prevalence of pain in patients with cancer: a systematic review of the past 40 years. Ann Oncol. Sep 2007;18(9):1437–1449. [PubMed: 17355955]",
+        "3. Hui D, Bruera E. A personalized approach to assessing and managing pain in patients with cancer. J Clin Oncol. Jun 1 2014;32(16):1640–1646. [PubMed: 24799495]",
+        "4. Kleine-Brueggeney M, Musshoff F, Stuber F, Stamer UM. Pharmacogenetics in palliative care. Forensic Sci Int. Dec 15 2010;203(1-3):63–70. [PubMed: 20709477]",
+        "5. Hajj A, Khabbaz L, Laplanche JL, Peoc'h K. Pharmacogenetics of opiates in clinical practice: the visible tip of the iceberg. Pharmacogenomics. Apr 2013;14(5):575–585. [PubMed: 23556453]",
+        "6. Bell GC, Donovan KA, McLeod HL. Clinical Implications of Opioid Pharmacogenomics in Patients with Cancer. Cancer control. 2015;22(4):426-432. [PubMed: 26678969]",
+        "7. Patel JN, Wiebe LA, Dunnenberger HM, McLeod HL. Value of Supportive Care Pharmacogenomics in Oncology Practice. Oncologist. Aug 2018;23(8):956–964. [PubMed: 29622698]",
+        "8. Stamer U, Musshoff F, Kobilay M, Madea B, Hoeft A, Stuber F. Concentrations of tramadol and O-desmethyltramadol enantiomers in different CYP2D6 genotypes. Clinical pharmacology and therapeutics. 2007 Jul 2007;82(1).",
+        "9. Lalovic B, Kharasch E, Hoffer C, Risler L, Liu-Chen LY, Shen DD. Pharmacokinetics and pharmacodynamics of oral oxycodone in healthy human subjects: role of circulating active metabolites. Clinical pharmacology and therapeutics. 2006 May 2006;79(5).",
+        "10. Nofziger C, Turner AJ, Sangkuhl K, et al. PharmVar GeneFocus: CYP2D6. Clinical pharmacology and therapeutics. 2020 Jan 2020;107(1).",
+        "11. Whirl-Carrillo M, Huddart R, Gong L, et al. An Evidence-Based Framework for Evaluating Pharmacogenomics Knowledge for Personalized Medicine. Clinical pharmacology and therapeutics. 2021 Sep 2021;110(3).",
+        "12. Crews KR, Gaedigk A, Dunnenberger HM, et al. Clinical Pharmacogenetics Implementation Consortium Guidelines for Cytochrome P450 2D6 Genotype and Codeine Therapy: 2014 Update. Clin Pharmacol Ther. Vol 95 2014:376-382. [PubMed: 24458010]",
+        "13. Crews KR, Monte AA, Huddart R, et al. Clinical Pharmacogenetics Implementation Consortium Guideline for CYP2D6, OPRM1, and COMT Genotypes and Select Opioid Therapy. Clinical pharmacology and therapeutics. 2021 Oct 2021;110(4).",
+        "14. Zwisler ST, Enggaard TP, Mikkelsen S, Brosen K, Sindrup SH. Impact of the CYP2D6 genotype on post-operative intravenous oxycodone analgesia. Acta Anaesthesiol Scand. Feb 2010;54(2):232-240. [PubMed: 19719813]",
+        "15. Smith DM, Weitzel KW, Elsey AR, et al. CYP2D6-guided opioid therapy improves pain control in CYP2D6 intermediate and poor metabolizers: a pragmatic clinical trial. Genet Med. Aug 2019;21(8):1842-1850. [PubMed: 30670877]",
+        "16. Ciszkowski C, Madadi P, Phillips MS, Lauwers AE, Koren G. Codeine, ultrarapid-metabolism genotype, and postoperative death. N Engl J Med. Vol 361. United States 2009:827-828. [PubMed: 19692698]",
+        "17. Elkalioubie A, Allorge D, Robriquet L, et al. Near-fatal tramadol cardiotoxicity in a CYP2D6 ultrarapid metabolizer. European journal of clinical pharmacology. 2011 Aug 2011;67(8).",
+        "18. Monte A, Heard K, Campbell J, Hamamura D, Weinshilboum R, Vasiliou V. The effect of CYP2D6 drug-drug interactions on hydrocodone effectiveness. Academic emergency medicine : official journal of the Society for Academic Emergency Medicine. 2014 Aug 2014;21(8).",
+        "19. Mosley S, Hicks J, Portman D, et al. Design and Rational for the Precision Medicine Guided Treatment for Cancer Pain Pragmatic Clinical Trial. Contemporary clinical trials. 2018 May 2018;68.",
+        "20. Cicali E, Weitzel K, Elsey A, et al. Challenges and lessons learned from clinical pharmacogenetic implementation of multiple gene-drug pairs across ambulatory care settings. Genetics in medicine : official journal of the American College of Medical Genetics. 2019 Oct 2019;21(10).",
+        "21. Curran GM, Bauer M, Mittman B, Pyne JM, Stetler C. Effectiveness-implementation hybrid designs: combining elements of clinical effectiveness and implementation research to enhance public health impact. Med Care. Mar 2012;50(3):217–226. [PubMed: 22310560]",
+        "22. Network NCC. NCCN clinical practice guidelines in oncology: adult cancer pain. Version 2.2016. 2016; https://www.nccn.org/. Accessed 18 December, 2016.",
+        "23. US_FDA. Drug Development and Drug Interactions: Table of Substrates, Inhibitors and Inducers | FDA. 2019.",
+        "24. Langaee T, Ronaghi M. Genetic variation analyses by Pyrosequencing. Mutation research. 06/03/2005 2005;573(1-2).",
+        "25. Langaee T, Hamadeh I, Chapman A, Gums J, Johnson J. A novel simple method for determining CYP2D6 gene copy number and identifying allele(s) with duplication/multiplication. PloS one. 01/27/2015 2015;10(1).",
+        "26. Cleeland CS, Ryan KM. Pain assessment: global use of the Brief Pain Inventory. Ann Acad Med Singapore. Mar 1994;23(2):129–138. [PubMed: 8080219]",
+        "27. Cleeland CS, Mendoza TR, Wang XS, et al. Assessing symptom distress in cancer patients: the M.D. Anderson Symptom Inventory. Cancer. Oct 1 2000;89(7):1634–1646. [PubMed: 11013380]",
+        "28. Von Korff M, Ormel J, Keefe F, Dworkin S. Grading the severity of chronic pain. Pain. 1992 Aug 1992;50(2).",
+        "29. Dworkin RH, Turk DC, Wyrwich KW, et al. Interpreting the clinical importance of treatment outcomes in chronic pain clinical trials: IMMPACT recommendations. J Pain. Feb 2008;9(2):105-121. [PubMed: 18055266]",
+        "30. Caudle K, Dunnenberger H, Freimuth R, et al. Standardizing terms for clinical pharmacogenetic test results: consensus terms from the Clinical Pharmacogenetics Implementation Consortium (CPIC). Genetics in medicine: official journal of the American College of Medical Genetics. 2017 Feb 2017;19(2).",
+        "31. Thomas C, Parvataneni H, Gray C, et al. A hybrid implementation-effectiveness randomized trial of CYP2D6-guided postoperative pain management. Genetics in medicine : official journal of the American College of Medical Genetics. 2021 Apr 2021;23(4).",
+        "32. Page R, Blanchard E. Opioids and Cancer Pain: Patients' Needs and Access Challenges. Journal of oncology practice. 2019 May 2019;15(5).",
+        "33. Reizine N, Danahey K, Schierer E, et al. Impact of CYP2D6 Pharmacogenomic Status on Pain Control Among Opioid-Treated Oncology Patients. The oncologist. 2021 Nov 2021;26(11).",
+        "34. Rohrer Vitek C, Abul-Husn N, Connolly J, et al. Healthcare provider education to support integration of pharmacogenomics in practice: the eMERGE Network experience. Pharmacogenomics. 2017 Jul 2017;18(10).",
+        "35. Cavallari L, Van Driest S, Prows C, et al. Multi-site Investigation of Strategies for the Clinical Implementation of CYP2D6 Genotyping to Guide Drug Prescribing. Genetics in medicine : official journal of the American College of Medical Genetics. 2019 Oct 2019;21(10).",
+        "36. Herr TM, Peterson JF, Rasmussen LV, Caraballo PJ, Peissig PL, Starren JB. Pharmacogenomic clinical decision support design and multi-site process outcomes analysis in the eMERGE Network. Journal of the American Medical Informatics Association. 2020;26(2):143-148.",
+        "37. Duarte J, Dalton R, Elchynski A, et al. Multisite investigation of strategies for the clinical implementation of pre-emptive pharmacogenetic testing. Genetics in medicine : official journal of the American College of Medical Genetics. 2021 Dec 2021;23(12).",
+        "38. Hicks J, El Rouby N, Ong H, et al. Opportunity for Genotype-Guided Prescribing Among Adult Patients in 11 US Health Systems. Clinical pharmacology and therapeutics. 01/11/2021 2021.",
+        "39. Patel J, Boselli D, Symanowski J, et al. Pilot study of multi-gene pharmacogenetic testing for pain management in oncology palliative medicine. Pharmacogenomics. 2021 Aug 2021;22(12).",
+        "40. Bell G, Caudle K, Whirl-Carrillo M, et al. Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline for CYP2D6 genotype and use of ondansetron and tropisetron. Clinical pharmacology and therapeutics. 2017 Aug 2017;102(2).",
+        "41. Lima J, Thomas C, Barbarino J, et al. Clinical Pharmacogenetics Implementation Consortium (CPIC) Guideline for CYP2C19 and Proton Pump Inhibitor Dosing. Clinical pharmacology and therapeutics. 08/08/2020 2020.",
+        "42. Hicks J, Bishop J, Sangkuhl K, et al. Clinical Pharmacogenetics Implementation Consortium (CPIC) Guideline for CYP2D6 and CYP2C19 Genotypes and Dosing of Selective Serotonin Reuptake Inhibitors. Clinical pharmacology and therapeutics. 2015 Aug 2015;98(2).",
+        "43. Hicks J, Sangkuhl K, Swen J, et al. Clinical pharmacogenetics implementation consortium guideline (CPIC) for CYP2D6 and CYP2C19 genotypes and dosing of tricyclic antidepressants: 2016 update. Clinical pharmacology and therapeutics. 2017 Jul 2017;102(1).",
+        "44. Theken K, Lee C, Gong L, et al. Clinical Pharmacogenetics Implementation Consortium Guideline (CPIC) for CYP2C9 and Nonsteroidal Anti-Inflammatory Drugs. Clinical pharmacology and therapeutics. 2020 Aug 2020;108(2).",
+        "45. Moriyama B, Obeng A, Barbarino J, et al. Clinical Pharmacogenetics Implementation Consortium (CPIC) Guidelines for CYP2C19 and Voriconazole Therapy. Clinical pharmacology and therapeutics. 2017 Jul 2017;102(1).",
+        "46. Broglio K, Berry Consultants LLC A, Texas. Randomization in Clinical Trials: Permuted Blocks and Stratification. JAMA. 2021;319(21):2223-2224."
+      ],
+      "subsections": []
+    }
+  ],
+  "Figs": [
+    {
+      "title": "Figure 1: Enrollment and Randomization Diagram",
+      "data": [
+        "Approached for informed consent (n=114)",
+        "Did not provide consent (n=27)",
+        "Declined due to time (n=11)",
+        "Did not feel well (n=8)",
+        "Not interested (n=4)",
+        "Pain not related to cancer (n=4)",
+        "Withdrew consent (n=2)",
+        "Enrollment",
+        "Randomized (n=85)",
+        "Allocation",
+        "Usual care arm (n=47)",
+        "CYP2D6 genotype-guided arm (n=38)",
+        "Follow-Up",
+        "Completed baseline questionnaire (n=44)",
+        "Did not complete baseline questionnaire (n=3)",
+        "Completed baseline questionnaire (n=38)",
+        "Analysis of patient reported outcomes",
+        "Completed baseline and 1 or more questionnaires after week 2 (n=26)",
+        "Did not complete any questionnaires after week 2 (n=18)",
+        "Completed baseline and 1 or more questionnaires after week 2 (n=22)",
+        "Did not complete any questionnaires after week 2 (n=16)"
+      ]
+    },
+    {
+      "title": "Figure 2: Baseline composite pain score by CYP2D6 phenotype for patients prescribed oxycodone, tramadol, or hydrocodone.",
+      "data": [
+        "Among all patients (genotype-guided and usual care groups) on at least one opioid metabolized by CYP2D6 (n=63) there was no difference (P=0.89) in median baseline composite pain scores by clinical phenotype (defined as genotype adjusted by concomitant CYP2D6 inhibitors; genotype to phenotype based on CPIC translations at the time of the study where activity score of 1.0 was considered a NM). Oxycodone (n=58), tramadol (n=5), and hydrocodone (n=3) was used by patients reported in this figure. Median composite pain scores were 5.00 for NM (n=47), 5.00 for IM (n=8), and 6.17 for PM (n=4) and are represented by the lines inside the boxes. The boxes define the 25th to 75th quartiles with the line being the median, and the vertical lines (whiskers) represent the maximum and minimum values. There was one individual who had a range phenotype of “NM to UM,” with a baseline pain composite score of 5.33 (not shown)."
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "title": "Table 1: Baseline characteristics of participants across sites",
+      "headers": [
+        "Characteristic",
+        "All (n=85)",
+        "Usual Care (n=47)",
+        "CYP2D6 guided (n=38)",
+        "P-value*"
+      ],
+      "rows": [
+        [
+          "Age, years, mean (SD)",
+          "57 ±10",
+          "56±10",
+          "59±11",
+          "0.14"
+        ],
+        [
+          "Male, n (%)",
+          "44 (52)",
+          "23 (49)",
+          "21 (55)",
+          "0.56"
+        ],
+        [
+          "Race, n (%)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "White",
+          "71 (84)",
+          "39 (83)",
+          "32 (84)",
+          ""
+        ],
+        [
+          "Black",
+          "7 (8)",
+          "3 (6)",
+          "4 (11)",
+          "0.80"
+        ],
+        [
+          "Other†",
+          "7 (8)",
+          "5 (11)",
+          "2 (5)",
+          ""
+        ],
+        [
+          "Cancer type, n (%)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Lung",
+          "23 (27)",
+          "12 (26)",
+          "11 (29)",
+          ""
+        ],
+        [
+          "Colon",
+          "16 (19)",
+          "10 (21)",
+          "6 (16)",
+          ""
+        ],
+        [
+          "Pancreatic",
+          "8 (9)",
+          "3 (6)",
+          "5 (13)",
+          "0.88"
+        ],
+        [
+          "Breast",
+          "7 (8)",
+          "4 (9)",
+          "3 (8)",
+          ""
+        ],
+        [
+          "Other‡",
+          "31 (36)",
+          "18 (38)",
+          "13 (34)",
+          ""
+        ],
+        [
+          "Metastatic disease, n (%)",
+          "62 (74)",
+          "35 (75)",
+          "27 (73)",
+          "0.91"
+        ],
+        [
+          "Opioid use, n (%)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "CYP2D6-metabolized",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Oxycodone§",
+          "60 (71)",
+          "30 (64)",
+          "30 (79)",
+          "0.23"
+        ],
+        [
+          "Tramadol",
+          "5 (6)",
+          "3 (6)",
+          "2 (5)",
+          "1.00"
+        ],
+        [
+          "Hydrocodone",
+          "4 (5)",
+          "3 (6)",
+          "1 (3)",
+          "0.62"
+        ],
+        [
+          "Non-CYP2D6 metabolized",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Morphine",
+          "22 (26)",
+          "11 (23)",
+          "11 (29)",
+          "0.56"
+        ],
+        [
+          "Fentanyl",
+          "13 (15)",
+          "9 (19)",
+          "4 (11)",
+          "0.27"
+        ],
+        [
+          "Hydromorphone",
+          "6 (7)",
+          "5 (11)",
+          "1 (3)",
+          "0.22"
+        ],
+        [
+          "Methadone",
+          "5 (6)",
+          "4 (9)",
+          "1 (3)",
+          "0.37"
+        ],
+        [
+          "Non opioid pain medication use, n (%)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "NSAIDS",
+          "26 (31)",
+          "14 (30)",
+          "12 (32)",
+          "0.86"
+        ],
+        [
+          "SSRI or SNRI",
+          "27 (32)",
+          "14 (30)",
+          "13 (34)",
+          "0.81"
+        ],
+        [
+          "TCA",
+          "4 (5)",
+          "1 (2)",
+          "3 (8)",
+          "0.32"
+        ],
+        [
+          "Gabapentin or pregabalin",
+          "31 (36)",
+          "19 (40)",
+          "12 (32)",
+          "0.49"
+        ]
+      ]
+    },
+    {
+      "title": "Table 2: Implementation metrics for patients in the genotype-guided arm overall and at each site",
+      "headers": [
+        "",
+        "Overall (n=38)",
+        "UF (n=30)",
+        "Moffitt (n=8)"
+      ],
+      "rows": [
+        [
+          "Genotyping turnaround time (TAT), median days (range)†*",
+          "10 (3-37)",
+          "9 (3-37)",
+          "13.5 (7-22)§"
+        ],
+        [
+          "Buccal cell result fail rate for 1st collection, n (%)",
+          "5 (13%)",
+          "4 (13%)",
+          "1 (13%)"
+        ],
+        [
+          "Physician acknowledged genotype for pain management in clinic note, n (%)",
+          "9 (24%)",
+          "9 (30%)",
+          "0"
+        ],
+        [
+          "Patients with actionable CYP2D6 clinical phenotype",
+          "11 (29%)",
+          "9 (30%)",
+          "2 (25%)"
+        ],
+        [
+          "Drug change in concordance with CYP2D6-guided recommendations, n (%) $",
+          "2 (18%)",
+          "2 (22%)",
+          "0"
+        ]
+      ]
+    },
+    {
+      "title": "Table 3: CYP2D6 genotype-derived phenotypes and clinical phenotypes",
+      "headers": [
+        "CYP2D6 Phenotype",
+        "All Patients\n(n=85) - Phenotype",
+        "All Patients\n(n=85) - Clinical Phenotype†",
+        "Genotype-guided\n(n=38) - Phenotype",
+        "Genotype-guided\n(n=38) - Clinical Phenotype†",
+        "Usual Care\n(n=47) - Phenotype",
+        "Usual Care\n(n=47) - Clinical Phenotype†"
+      ],
+      "rows": [
+        [
+          "NM-UM*",
+          "1 (1)",
+          "1 (1)",
+          "1 (3)",
+          "1 (3)",
+          "0 (0)",
+          "0 (0)"
+        ],
+        [
+          "NM",
+          "73 (86)",
+          "63 (74)",
+          "28 (74)",
+          "25 (66)",
+          "45 (96)",
+          "38 (81)"
+        ],
+        [
+          "IM",
+          "5 (6)",
+          "12 (14)",
+          "5 (13)",
+          "7 (18)",
+          "0 (0)",
+          "5 (11)"
+        ],
+        [
+          "PM",
+          "3 (4)",
+          "6 (7)",
+          "2 (5)",
+          "3 (8)",
+          "1 (2)",
+          "3 (6)"
+        ],
+        [
+          "No genotype",
+          "3 (4)",
+          "3 (4)",
+          "2 (5)",
+          "2 (5)",
+          "1 (2)",
+          "1 (2)"
+        ]
+      ]
+    },
+    {
+      "title": "Table 4: Baseline pain intensity, symptom severity, and symptom distress measures from all patients who answered baseline questionnaires",
+      "headers": [
+        "",
+        "All (n=82)",
+        "CYP2D6 genotype-guided (n=38)",
+        "Usual Care (n=44)",
+        "P-value"
+      ],
+      "rows": [
+        [
+          "Composite pain score, mean ± SD†",
+          "5.46 ± 1.97",
+          "5.22 ± 2.23",
+          "5.68 ± 1.70",
+          "0.28"
+        ],
+        [
+          "Core symptom severity mean ± SD",
+          "3.75 ± 1.71",
+          "3.60 ± 1.61",
+          "3.89 ± 1.80",
+          "0.45"
+        ],
+        [
+          "Symptom distress, mean ± SD†",
+          "4.26 ± 2.51",
+          "4.30 ± 2.38",
+          "4.23 ± 2.63",
+          "0.89"
+        ]
+      ]
+    },
+    {
+      "title": "Table 5: Summary of Lessons Learned",
+      "headers": [
+        "Category",
+        "Lesson Learned",
+        "Potential Solutions"
+      ],
+      "rows": [
+        [
+          "Clinical",
+          "Physician observance of CYP2D6-guided recommendations for patients receiving opioid therapy was low when results were received an average of two weeks after a clinic visit.",
+          "Pharmacogenetic test results may offer greater benefit if available preemptively or early after cancer diagnosis."
+        ],
+        [
+          "",
+          "Physicians may be less likely to act on genotype results if efficient clinical decision support is not provided.",
+          "PGx-guided recommendations should be easily assessable in the electronic health record.\nPGx results should be recorded as discrete data in the electronic health record to allow for automated clinical decision support at the point of prescribing."
+        ],
+        [
+          "",
+          "While buccal brushes provide a non-invasive option for genotype sample collection, they may be more prone to genotype failure.",
+          "Collect additional buccal swab samples in the event the initial sample fails."
+        ],
+        [
+          "",
+          "CYP2D6 phenotype was not associated with baseline pain intensity for patients taking oxycodone, suggesting that CYP2D6 activity may not have clinically significant effects on pain control with oxycodone.",
+          "Limit future genotyping to patients currently treated or anticipated to be treated with codeine, tramadol, or potentially hydrocodone."
+        ],
+        [
+          "",
+          "Understanding and addressing barriers to physician utilization of genotype-guided recommendations may be critical to successful implementation.",
+          "Engagement with end users of PGx results is important to optimize implementation efforts"
+        ],
+        [
+          "Research",
+          "Most patients with cancer-related pain were willing to participate in a trial of genotype-guided pain management even if no compensation was provided or genotype results returned at the end of the study.",
+          "Ensuring that PGx results are available in the electronic health record at the end of trial participation for those in the usual care arm may further enhance willingness to participate and provide opportunities for those in the usual care arm to potentially benefit from PGx results in the future."
+        ],
+        [
+          "",
+          "Patients may be unwilling to complete frequently administered surveys that have significant time burden for completion.",
+          "Limiting the frequency of study surveys may enhance completion rates for study-related procedures."
+        ],
+        [
+          "",
+          "Varying randomization schemes by site may lead to unbalanced arms for the overall trial population.",
+          "Randomization schemes should be consistent across sites."
+        ],
+        [
+          "",
+          "Provider referral of patients to a trial of genotype-guided therapy without assurance of willingness to act on results may lead to poor provider acceptance of genotype-guided recommendations.",
+          "Pragmatic trials should be reflective of patients for whom providers are willing to change therapy if warranted based on genotype results with accounting for the financial impact to patients which might increase precision medicine disparities."
+        ],
+        [
+          "",
+          "The complexity of pain in patients with cancer may potentially confound results outcomes of genotype-guided pain management.",
+          "Enrolling a more homogenous population in terms of cancer type and stage, opioid use, and treatment regimens will further elucidate the role of CYP2D6-guided cancer pain management."
+        ]
+      ]
+    }
+  ]
+}
+```

@@ -1,0 +1,759 @@
+```json
+{
+  "metadata": {
+    "Title": "Pharmacogenomic-guided opioid therapy for pain: a systematic review and meta-analysis of randomised controlled trials",
+    "First_author": "S. Jethwa",
+    "Published_year": 2025,
+    "Journal": "The Pharmacogenomics Journal",
+    "Corresponding": "S. Jethwa. email: sj648@cantab.ac.uk",
+    "DOI": "https://doi.org/10.1038/s41397-025-00379-w",
+    "Declaration_of_interest": "The authors declare no competing interests.",
+    "Funding": null
+  },
+  "tables": [
+    {
+      "title": "Table 1. PICO criteria.",
+      "headers": [
+        "Population",
+        "Intervention",
+        "Comparison",
+        "Outcome"
+      ],
+      "rows": [
+        [
+          "Individuals with pain who require treatment with opioid therapy",
+          "Pharmacogenomic-guided opioid prescribing",
+          "Treatment as usual",
+          "Pain intensity or severity"
+        ],
+        [
+          "Males or females aged 18 years old and above",
+          "",
+          "",
+          "Adverse event incidence or frequency"
+        ],
+        [
+          "",
+          "",
+          "",
+          "Mean opioid consumption"
+        ]
+      ]
+    },
+    {
+      "title": "Table 2. Summary of included studies.",
+      "headers": [
+        "Author",
+        "Study design",
+        "Sample size (patients)",
+        "Country",
+        "Type of pain",
+        "Pharmacogenomic test used"
+      ],
+      "rows": [
+        [
+          "Kraus et al. [20]",
+          "RCT, single-blind (patients), single-site",
+          "76",
+          "USA",
+          "Post-operative pain",
+          "RightMed pharmacogenomic test. CYP2B6, CYP2C9, CYP2C19, CYP2D6, OPRM1, CYP3A4, COMT genotyping"
+        ],
+        [
+          "Mosley et al. [23]",
+          "RCT, multisite, open-label",
+          "85",
+          "USA",
+          "Cancer pain",
+          "Luminex 100/200 system. CYP2D6 genotyping"
+        ],
+        [
+          "Agullo et al. [19]",
+          "Double-blinded RCT, single site, primary care",
+          "60",
+          "Spain",
+          "Chronic non-cancer pain",
+          "Real-time PCR rotor gene Q system. CYP2D6, OPRM1, and COMT genotyping"
+        ],
+        [
+          "Hamilton et al. [21]",
+          "RCT, patient blinded, single site",
+          "107",
+          "USA",
+          "Post-operative pain",
+          "CYP2D6, CYP3A4, CYP2B6, CYP2C19, CYP2C9, OPRM1, COMT and CYP1A2 genotyping. NEXT molecular analytics laboratory"
+        ],
+        [
+          "Thomas et al. [24]",
+          "RCT, Open-label, multisite",
+          "260",
+          "USA",
+          "Post-operative pain",
+          "OPRM1, CYP1A2, CYP2B6, CYP2C19, CYP3A4, CYP2C9, and CYP2D6 genotyping. Next generation sequencing"
+        ],
+        [
+          "Hamilton et al. [22]",
+          "RCT, single-blinded, single-site",
+          "31",
+          "USA",
+          "Post-operative pain",
+          "CYP2D6 genotyping using Luminex XTAG CYP2D6 Kit v3"
+        ]
+      ]
+    },
+    {
+      "title": "Table 3. Summary of participant characteristics in included studies.",
+      "headers": [
+        "Study",
+        "Experimental group male (%)",
+        "Experimental group female (%)",
+        "Experimental group mean age in years (SD)",
+        "Control group male (%)",
+        "Control group female (%)",
+        "Control group mean age in years (SD)",
+        "Experimental group ethnicity (%)",
+        "Control group ethnicity (%)"
+      ],
+      "rows": [
+        [
+          "Kraus et al. [20]",
+          "31",
+          "69",
+          "66 (10)",
+          "35",
+          "65",
+          "65 (9)",
+          "3 White\n97 Hispanic",
+          "3 White\n97 Hispanic"
+        ],
+        [
+          "Mosley et al. [23]",
+          "21",
+          "79",
+          "59 (11)",
+          "23",
+          "77",
+          "56 (10)",
+          "32 White\n5 Other",
+          "32 White\n5 Other"
+        ],
+        [
+          "Agullo et al. [19]",
+          "7",
+          "93",
+          "59 (14)",
+          "36",
+          "64",
+          "59 [14)",
+          "",
+          ""
+        ],
+        [
+          "Hamilton et al. [21]",
+          "Not specified. 50% male overall",
+          "Not specified. 50% female overall",
+          "Not specified. Mean age 65.7 overall",
+          "Not specified. 50% male overall",
+          "Not specified. 50% female overall",
+          "Not specified. Mean age 65.7 overall",
+          "85 White\n2 Black\n2 Other",
+          "85 White\n2 Black\n2 Other"
+        ],
+        [
+          "Thomas et al. [24]",
+          "41",
+          "59",
+          "68",
+          "42",
+          "58",
+          "65",
+          "92 White\n3 Black\n3 Asian",
+          "92 White\n3 Black\n3 Asian"
+        ],
+        [
+          "Hamilton et al. [22]",
+          "Not specified. 29% male overall",
+          "Not specified. 71% female overall",
+          "Not specified. Mean age 69.5 overall",
+          "Not specified. 29% male overall",
+          "Not specified. 71% female overall",
+          "Not specified. Mean age 69.5 overall",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "title": "Table 4. Summary of findings from included studies.",
+      "headers": [
+        "Study",
+        "Follow up time",
+        "Opioids prescribed",
+        "Prescribing guidelines used",
+        "Outcomes",
+        "Pharmacogenomic group results (SD)",
+        "Treatment as usual group results (SD)",
+        "GRADE",
+        "P value"
+      ],
+      "rows": [
+        [
+          "Kraus et al. [20]",
+          "24 h",
+          "Oxycodone, tramadol, morphine, fentanyl, hydromorphone",
+          "CPIC guidelines",
+          "OBAS and VAS pain score MME",
+          "n = 42\nAt follow-up, Mean OBAS 4.2 (SD 2.8).\nVAS mean score 3.1 (SD 1.4\nMME 40 (SD 30)",
+          "n = 34\nAt follow-up,\nMean OBAS 4.7 (SD 3.7).\nVAS mean score 3.2 (SD 1.6)\nMME 50 (SD 80)",
+          "ΘΘΘΘ\nHigh",
+          "OBAS\np = 0.55\nVAS\np = 0.70"
+        ],
+        [
+          "Mosley et al. [23]",
+          "8 weeks",
+          "Oxycodone, morphine, fentanyl, tramadol, methadone",
+          "CPIC guidelines",
+          "Symptom severity using MDASI and composite pain score",
+          "n = 22\nAt follow-up, mean CPS 4.38 (SD 2.05).\nMDASI symptom severity at follow up 3.47 (SD 1.78)",
+          "n = 26\nAt follow-up,\nmean CPS 4.17 (SD 2.08).\nMDASI symptom severity at follow up 3.96 (SD 2.18)",
+          "ΘΘ\nLow",
+          "CPS\np = 0.37\nMDASI\np = 0.63"
+        ],
+        [
+          "Agullo et al. [19]",
+          "3 months",
+          "Oxycodone, fentanyl, buprenorphine, tramadol, tapentadol",
+          "CPIC guidelines",
+          "Pain intensity using VAS, Median and mean TAE",
+          "n = 28\nMean pain intensity (VAS) at follow-up 59 mm (SD 20).\nAt follow-up, Median TAE = 1 (IQR 0-2).\nFollow-up mean TAE 1 (SD 2)",
+          "n = 22\nMean pain intensity (VAS) at follow-up 80 (SD 19).\nAt follow-up, Median TAE = 4 (IQR 2-6).\nFollow-up mean TAE 4 (SD 2)",
+          "ΘΘΘΘ\nHigh",
+          "Pain intensity\np < 0.01\nMedian TAE\np < 0.01\nMean TAE\np = 0.0001"
+        ],
+        [
+          "Hamilton et al. [21]",
+          "10 days",
+          "Oxycodone, tramadol, hydromorphone",
+          "CPIC guidelines",
+          "Mean pain level using 10-point numeric scale",
+          "n = 46\nAverage pain level at follow-up 3.1",
+          "n = 61\nAverage pain level 4.2",
+          "ΘΘΘΘ\nHigh",
+          "p < 0.05"
+        ],
+        [
+          "Thomas et al. [24]",
+          "2 weeks post-surgery",
+          "Tramadol, hydrocodone, morphine, oxycodone",
+          "Clinical Pharmacist provided recommendations",
+          "Mean pain intensity using PROMIS, mean composite pain score MME",
+          "n = 137\nAt follow-up, mean pain intensity 3.9 (SD 2.2).\nMean composite pain intensity 2.6 (SD 0.8) MME 204 (SD 41)",
+          "n = 74\nAt follow-up,\nmean pain intensity 3.8 (SD 2.1).\nMean composite pain intensity 2.5 (SD 0.7) MME 254 (SD 165)",
+          "ΘΘΘ\nModerate",
+          "Mean pain intensity\np = 0.815\nComposite pain p = 0.638"
+        ],
+        [
+          "Hamilton et al. [22]",
+          "10 days",
+          "Tramadol, hydrocodone",
+          "Pharmacogenetic report",
+          "Mean pain level using a 0-10 numeric scale",
+          "n = 13\nAt follow-up mean pain 3.2 (range 2.4-3.7)",
+          "n = 12\nAt follow-up,\nmean pain 4.2 (range 3.3-5.25)",
+          "ΘΘΘΘ\nHigh",
+          "p = 0.019"
+        ]
+      ]
+    },
+    {
+      "title": "Table 5. Risk of bias assessment.",
+      "headers": [
+        "Study",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "Overall"
+      ],
+      "rows": [
+        [
+          "Kraus et al",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        [
+          "Mosley et al",
+          "+",
+          "X",
+          "-",
+          "+",
+          "+",
+          "X"
+        ],
+        [
+          "Agullo et al",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        [
+          "Hamilton et al (2022)",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ],
+        [
+          "Thomas et al",
+          "+",
+          "+",
+          "+",
+          "-",
+          "+",
+          "-"
+        ],
+        [
+          "Hamilton et al (2020)",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+",
+          "+"
+        ]
+      ]
+    }
+  ],
+  "article_structure": [
+    {
+      "level": 1,
+      "title": "REVIEW ARTICLE",
+      "content": [
+        "Optimising opioid therapy is challenging due to variable patient responses linked to genetic variation. Pharmacogenomic-guided prescribing holds promise for personalisation, but its clinical effectiveness requires evaluation. We performed a systematic review and meta-analysis of RCTs comparing pharmacogenomic-guided versus standard opioid prescribing in adults. Adhering to PRISMA, we assessed risk of bias (RoB 2) and evidence certainty (GRADE). Six RCTs met inclusion criteria from 2496 screened articles. Meta-analysis showed pharmacogenomic-guided prescribing was associated with significantly reduced opioid consumption (SMD -0.38, 95% CI -0.67 to -0.08, p = 0.01). However, no significant difference in pain intensity was observed between groups (SMD -0.31, 95% CI -0.89 to 0.27, p = 0.30). Evidence regarding adverse events was limited to one trial, which reported a statistically significant reduction in incidence in the pharmacogenomic group (median [IQR]: 1 [0-2] vs. 3 [1-5]; p < 0.01). Further research is needed to determine if pharmacogenomics can improve opioid therapy outcomes."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 1,
+      "title": "INTRODUCTION",
+      "content": [
+        "It is estimated that the response to around 25% of commonly prescribed medications, including analgesics, is affected by genetic variation [1]. Genetic variants can influence the perception of pain and the modulation of pain in the peripheral and central nervous systems [2]. Pharmacogenomic tests have the potential to improve the management of pain, easing its burden on patients, the healthcare system and the wider economy.",
+        "Opioids, such as codeine, morphine, oxycodone, and fentanyl, are frequently used in the management of acute and chronic pain [3]. Individual responses to opioids can vary significantly, with differences in analgesic effectiveness and whether adverse effects occur, as well as their severity [4]. There is evidence that genetic factors such as single nucleotide polymorphisms contribute to variability in opioid response [5].",
+        "Utilising pharmacogenomic tests to guide opioid prescribing could improve pain management and reduce adverse effects. The findings of this review could inform the potential integration of pharmacogenomic-guided opioid prescribing into healthcare systems such as the NHS.",
+        "This review aims to evaluate whether pharmacogenomic-guided opioid prescribing improves outcomes. Additionally, it seeks to identify the gaps and limitations in the current literature and provide recommendations for future research."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 1,
+      "title": "METHODS",
+      "content": [],
+      "subsections": [
+        {
+          "level": 2,
+          "title": "Overview",
+          "content": [
+            "A PICO strategy was used to formulate the research question and determine eligibility criteria (Table 1) [6]. A systematic literature review was conducted in accordance with the PRISMA guidelines 2020, and a PRISMA checklist was completed [7]. The research protocol was published on PROSPERO (CRD42024550708). The search results were reported in accordance with the PRISMA-S checklist [8]. The risk of bias and certainty of the evidence was assessed, and a random-effects meta-analysis was carried out."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Information sources",
+          "content": [
+            "The following databases were searched from their inception: Medline, Embase, Cochrane Central Register of Controlled Trials, and Web of Science. A manual search of the reference lists of the included articles was conducted to identify further suitable articles. To identify unpublished research and trials not captured by the databases searched, the clinical trials register (clinical-trials.gov) was searched."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Search strategy",
+          "content": [
+            "Several pilot searches were conducted iteratively to refine the search strategy. Keywords, subject headings and subheadings were identified by searching phrases and concepts in individual databases. The sensitivity of pilot searches was checked to see if the results contained four key relevant articles that met the inclusion criteria. Boolean operators and truncations were used to enhance the search results. Embase was searched from inception to 31st May 2024, Medline was searched from inception to 30 May 2024, and Cochrane and Web of Science were searched from inception to 3rd June 2024. These searches were carried out independently by a second reviewer (MB).",
+            "The following search terms were used: Pain OR analgesia OR analgesic agent OR analgesics OR opioid OR opiate OR opiate alkaloids AND pharmacogenetic* OR pharmacogenomic* OR pharmacogenetic testing OR pharmacogenomic testing OR pharmacogenetic variant* OR pharmacogenomic variant* OR genetic testing OR genetic screening AND trial OR clinical trial OR randomized controlled trial OR controlled clinical trial.",
+            "When searching Embase, Medline, and Web of Science, no database-specific limits or filters (e.g., publication type, date range, language) were applied beyond the specified search terms in order to maximise the search results and avoid excluding potentially relevant articles. The Cochrane database search was restricted to trials only, excluding protocols and reviews, which were part of the exclusion criteria. The full search strategy is available in Supplementary Data File 1."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Eligibility criteria",
+          "content": [
+            "Studies were included if they met the following criteria: were randomised controlled trials involving adults (18 years and above) requiring opioid treatment for pain; the intervention consisted of using a pharmacogenomic test (single gene or panel) to guide opioid prescribing; the comparator was treatment as usual or standard care; the study reported one or more of the following outcome measures at any follow-up point after the intervention: pain intensity or severity, adverse event incidence or frequency, or mean opioid consumption. Studies were excluded if they were letters, editorials, reviews, protocols, conference abstracts, or case reports. No restrictions were placed on language; however, the search was conducted in English."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Selection process",
+          "content": [
+            "The initial stage involved screening and collating articles that appeared eligible based on their title and abstracts. A research protocol with detailed eligibility criteria was used to determine which articles were suitable and which could be excluded. The screening process was also carried out independently by a second reviewer (MB).",
+            "Rayyan, a web-based application designed to assist with systematic review screening, was used for the title and abstract screening [9]. An initial pilot screen was carried out by SJ and MB reviewers using 50 records to ensure the inclusion and exclusion criteria were applied appropriately. It was decided that if there were disagreements, they would be resolved by a third reviewer (KL).",
+            "Duplicates were detected using Rayyan and manually reviewed to decide whether to include or exclude the article. The next stage involved full-text screening of the articles to determine if they meet the full eligibility criteria. Reasons for exclusion were documented only at the full text review stage. This was also carried out by a second reviewer, MB. The selection of studies is presented in a PRISMA flow diagram (Fig. 1)."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Data extraction and management",
+          "content": [
+            "The data from the included studies was extracted using a data extraction template created in Excel. Extracted data items included: study author, year of publication, study title, study design, sample size, country, sample characteristics (age, gender, ethnicity, type of pain), opioids prescribed in intervention and control groups, genetic test used, genes tested, and outcomes measured. Where data was missing or incomplete, the authors of the studies were contacted to request it. Data management tools used include Microsoft Excel version 16.8 for data extraction and management, Endnote version 21.3 for managing references, Rayyan for screening titles and abstracts [9]."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Data synthesis methods",
+          "content": [
+            "Meta-analysis. Meta-analysis was conducted following the gui-dance from the Cochrane Handbook of Systematic Reviews version 6.4 [10]. Meta-analysis was conducted using the Cochrane Review Manager (RevMan) software version 5.4.1. Heterogeneity was measured statistically using the Chi-squared test (Chi²) and the I² statistic, which were also calculated using RevMan.",
+            "The Chi-squared statistic assesses whether the observed differences could be solely due to chance, with a P value of 0.05 and less indicating heterogeneity is present [11]. I² describes the variability in effect estimates because of heterogeneity and not due to chance [11]. As per the Cochrane Handbook [11], the following guide was used for interpreting the I² statistic: 0–40% might indicate heterogeneity that is not important; 30-60% may represent moderate heterogeneity; 50-90% may represent sub-stantial heterogeneity; and 75-100% represents considerable heterogeneity. It is noted that these thresholds overlap, and interpretation depends on context [11].",
+            "A random effects model meta-analysis would be carried out if moderate, substantial or considerable heterogeneity were found. If there were low levels of heterogeneity and the intervention effects were identical, a fixed effects model meta-analysis would be carried out instead. For the pain intensity and opioid consumption outcomes, a random-effects meta-analysis was carried out. Continuous outcomes used the mean difference as the effect measure. Different continuous scales were used to measure the outcomes, and so the standardised mean difference was used, with a 95% confidence interval. Data was presented in a forest plot. The test for the overall effect was calculated using the Z statistic using RevMan.",
+            "Narrative synthesis. The narrative synthesis was performed using the Synthesis Without Meta-analysis (SWIM) guidelines [12]. This is a 9-item checklist that is used for reporting reviews of interven-tions [12]. The checklist covers key areas, including describing standardised metric and synthesis methods, the criteria that were used to prioritise results for summary and synthesis, heterogeneity on reported effects, the certainty of evidence for every outcome, the methods used for the presentation of information and outcome reporting [12]."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Risk of bias assessment",
+          "content": [
+            "The risk of bias was assessed using the Cochrane Risk of Bias 2 (RoB 2) tool version 2 for randomised controlled trials [13]. It covers the following five domains: risk of bias that could arise from the randomisation process, divergences from the planned interventions (effect of adhering and assignment to intervention), omitted outcome data, bias in the selection of the reported result and potential bias in the measurement of the outcome [13]. Each domain is assigned either a low risk of bias, some concerns or high risk. Each study was assigned an overall risk of bias, and the direction of bias was predicted (if applicable). For each trial, the risk of bias assessment was recorded on the revised Cochrane risk-of-bias tool for randomised trials risk of bias template (version 22 August 2019). A second reviewer (MB) independently carried out the risk of bias assessment for all the included studies. Studies with a high risk of bias were excluded from the meta-analysis."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Ethics approval",
+          "content": [
+            "Ethics approval was not required for this systematic review as it exclusively utilised data from previously published studies. Each of the original studies included in this review had obtained ethics approval."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Certainty of evidence",
+          "content": [
+            "The GRADE framework was used to assess the certainty of evidence [14, 15]. The following key domains were assessed for every outcome: risk of bias, publication bias, inconsistency, indirectness and imprecision [14, 15]."
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "title": "RESULTS",
+      "content": [],
+      "subsections": [
+        {
+          "level": 2,
+          "title": "Included studies",
+          "content": [
+            "A total of 2496 records were identified from the four databases that were searched. No further articles were identified through the manual searching of reference lists of included articles or searching clinicaltrials.gov. Fig. 1 shows the PRISMA flow chart summarising the selection process. The duplicates were detected using Rayyan and manually reviewed. There were 535 duplicate records that were removed. The remaining 1961 records were screened using the title and abstract. Nine records were selected for full-text screening, and three articles were excluded because they did not meet the full eligibility criteria. The reason for the exclusion of 2 articles was due to the lack of published results since the trials had not been completed yet and results were not available [16, 17]. One article was excluded because there wasn't a comparator arm, and it was a single-arm study [18]. After the full-text screening, six articles were selected to be included in this review."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Summary of included studies",
+          "content": [
+            "Table 2 summarises the articles that met the eligibility criteria and were included in the review.",
+            "A total of 619 patients were recruited for the six trials. The characteristics of these participants are shown in Table 3. Five of the studies were conducted in the United States, and one study was conducted in Spain. Four of the studies involved postoperative pain; one involved cancer pain, and the other involved chronic non-cancer pain. Most patients had postopera-tive pain (Fig. 2). The six studies used various genotype tests, and the most commonly tested genes were CYP2D6 (all studies), OPRM1 and COMT (four studies). Fig. 3 shows the other genes commonly tested. CYP1A2 was the least tested gene and was included in only two studies.",
+            "Only one included study, Agullo et al. [19] specifically evaluated adverse events. They reported a statistically significant reduction in the incidence of clinically relevant adverse events in the pharmacogenomic-guided group compared to the usual care group (median events: 1 [IQR: 0-2] vs. 3 [IQR: 1-5], p < 0.01). Pharmacogenomic-guided prescribing was associated with a significant 30-34% reduction in common opioid-related adverse events, including headache, dry mouth, nervousness, and constipation. The study did not include information about the severity of adverse effects. Table 4 shows the summary of findings from the included studies."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Risk of bias",
+          "content": [
+            "The risk of bias assessment was carried out for all included studies using the Cochrane risk of bias template for randomised controlled trials. Table 5 summarises the risk of bias for the included studies.",
+            "Overall, four out of six studies had a low risk of bias [19-22], one study had a high risk of bias [23], and one had some concerns [24]. All six studies were randomised controlled trials, with three of the trials being single-blinded, two trials that were open-label [23, 24] and one double-blinded trial [19]. The study by Thomas et al. [24] overall, had some concerns which primarily arose from this study's open-label design.",
+            "The study by Mosley et al. [23] had a high risk of bias due to deviations from the intended interventions and missing outcome data. This study was therefore not included in the meta-analysis. This study was open-label, which could have potentially increased the risk of bias. There were failures in implementing the intervention; a large proportion of the prescribers were not using genotype-guided prescribing and did not review the genotype report for patients in the intervention arm [23]."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Meta-analysis",
+          "content": [
+            "Four studies were initially identified as reporting pain intensity outcomes. After the risk of bias assessment, three studies (n = 337) were included in the meta-analysis for the pain intensity outcome. The two studies by Hamilton et al. [21, 22] did not report standard deviation values, so it was not possible to use data from those studies for the meta-analysis. The pain intensity for the included studies was measured using different continuous scales. For Agullo et al. [19] and Kraus et al. [20], pain intensity was measured using a visual analogue scale, and Thomas et al. [24] used PROMIS (1-5 scale). The Chi-squared test had a statistically significant p-value (p = 0.005), and suggested heterogeneity was present. The I² statistic was 81% and indicated substantial levels of heterogeneity. Overall, these results indicated high levels of heterogeneity, so a random effects model was chosen for the meta-analysis.",
+            "For the opioid consumption outcome, only two studies (n = 270) reported opioid consumption using mean morphine milligram equivalents. Heterogeneity for the opioid consumption outcome was assessed using the Chi-squared test and the I² statistic. The analysis indicated low heterogeneity (Chi² = 1.28, p = 0.26; I² = 22%). However, due to clinical and methodological heterogeneity among the included studies, a random-effects model was used. The standardised mean difference was used to determine the effect size because the outcomes for pain intensity and opioid consumption were measured on continuous scales. The meta-analysis was carried out using RevMan, and the results for pain intensity and opioid consumption are presented in separate forest plots (Fig. 4 and Fig. 5, respectively).",
+            "The meta-analysis for pain intensity demonstrated a reduction in pain intensity in the pharmacogenomic-guided group com-pared to the usual care group, though this difference was not statistically significant (SMD -0.31; 95% CI -0.89 to 0.27; p = 0.30). For opioid consumption, the meta-analysis showed a statistically significant reduction in the pharmacogenomic-guided group compared to the usual care group (SMD -0.38; 95% CI -0.67 to -0.08; p = 0.01)."
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "title": "DISCUSSION",
+      "content": [
+        "After screening the records, a total of six articles were included in this review. All the included trials reported the outcome pain intensity using different scales, and only one trial reported adverse events. Our meta-analysis demonstrated a clinically important and statistically significant reduction in opioid consumption within the pharmacogenomic-guided group compared to usual care. This finding suggests a tangible benefit of the pharmacogenomic-guided approach in optimising opioid use. In contrast, for pain intensity, while three of the six individual studies reported statistically significant differences favouring the pharmacogenomic-guided group [19, 21, 22], the pooled meta-analysis indicated a trend towards reduced pain intensity but did not have statistical significance.",
+        "Only one study by Agullo et al. [19], reported adverse events. They found a statistically significant reduction in median adverse events at follow-up in the pharmacogenomic-guided group compared to the usual care group. However, as this evidence arises from a solitary study with a modest sample size (n = 60), definitive conclusions cannot be drawn. These findings under-score the urgent need for future randomised controlled trials explicitly focusing on comprehensive adverse event monitoring and reporting.",
+        "In all the included studies, the baseline pain levels were very similar for the pharmacogenomic-guided and usual care group. The study by Agullo et al. [19] recruited patients with chronic non-cancer pain and had results that were favourable for the pharmacogenomic-guided group. It could be possible that pharmacogenomic-guided opioid prescribing might benefit cer-tain types of pain more than others, for example, in the management of chronic cancer pain where opioid therapy is a common and often long-term treatment modality. In addition, the study by Agullo et al. [19] is the only included study that was conducted outside of the USA and the only one that had a double-blinded study design. The frequency of CYP2D6 normal, ultrarapid and poor metabolisers vary in different populations. It has been estimated that there is a high frequency (7-10%) of the CYP2D6 genotype that leads to the ultrarapid metaboliser phenotype present in the Spanish population. In contrast, a large retro-spective study of over 100,000 individuals across the United States reported an overall predicted ultrarapid metaboliser frequency of approximately 2.2% [25]. Although specific frequencies were not reported within the cohorts of the US-based trials included in our meta-analysis, this general US prevalence is notably lower than that reported in the Spanish population. This population difference could potentially contribute to the distinct findings in the Agullo et al. study [19], suggesting the Spanish population studied might derive greater benefit from pharmacogenomic-guided prescribing.",
+        "The other study involving chronic pain was Mosley et al. [23], which recruited patients with chronic cancer pain. Conversely, the results of this study appear not to support pharmacogenomic-guided prescribing. We excluded this study from our meta-analysis due to a high risk of bias. This study had evidence of a lack of compliance with the assigned treatment and reported that a significant number of clinicians did not review the pharmacogenomic report; therefore, the results from the pharmacogenomic-guided group might not be valid since they did not use pharmacogenomic-guided opioid prescribing.",
+        "The results regarding pain intensity from studies on post-operative pain are varied. Two of the studies did not report significant clinical improvements in pain intensity, and the other two studies did report statistically significant improvements in pain intensity. It is not clear what the reasons for this are, and it could be due to heterogeneity and confounding variables. The results could vary due to the type of operation. For instance, one study stratified their results based on the type of surgery the individuals had and found the outcomes were better for those in the genotype-guided group that underwent total knee replace-ment when compared to individuals in the genotype-guided group who had a total hip operation [24]. This suggests that the pharmacogenomic approach could possibly have varying impacts depending on the type of surgery. Furthermore, while a direct correlation between the reduction in pain intensity scores and opioid consumption was not explicitly assessable from the aggregated data in the included trials, the concurrent findings suggest that pharmacogenomic guidance may facilitate more appropriate opioid dosing without compromising, and potentially even improving, pain control. Future studies should aim to specifically investigate this dose-response relationship in the context of pharmacogenomic-guided therapy.",
+        "Clinical heterogeneity was evident among the included studies, primarily due to differences in pain types. Acute postoperative pain, as studied in four trials, is predominantly nociceptive and generally responsive to opioids [26]. In contrast, chronic non-cancer pain, as evaluated by Agullo et al. [19], often includes significant neuropathic or nociplastic components that may be less responsive to opioids [26, 27]. This inherent difference in pain mechanisms may partially explain variations observed in the outcomes. Subgroup analysis by pain type was not feasible due to limited available studies.",
+        "The sample sizes in all the included trials were small; studies with greater sample sizes and comparable outcomes are warranted. Future studies on different populations with diverse participants are needed because certain ancestry groups carry an increased risk of developing respiratory depression when taking opioids and could benefit more substantially from pharmacoge-nomic testing [28].",
+        "Furthermore, comorbidities such as depression could be con-founding variables that can affect pain perception and experience of pain. Future studies could perhaps have comorbidities such as depression as an exclusion criterion, or they could design the study so that those conditions are factored in, such as having separate cohorts with those conditions or incorporating subgroup analysis. Other factors, such as drug-drug interactions, could affect the efficacy of opioids [29]. Future studies should consider potential drug-drug interactions in their trial design and analysis.",
+        "One of the limitations of this review is that there is considerable clinical heterogeneity across the synthesised studies. This hetero-geneity arises from factors such as different pain aetiologies (acute postoperative and chronic non-cancer), varied surgical proce-dures, and inconsistent follow-up intervals. Future trials should aim to clearly report and standardise variables such as surgery type, duration, timing of pain assessment, and preoperative opioid use. Furthermore, standardisation of pain assessment scores and opioid consumption using morphine equivalents would signifi-cantly improve the comparison of treatment effects.",
+        "Although there is substantial evidence and guidelines that suggest CYP2D6 testing can be clinically useful when prescribing opioids such as codeine, tramadol and hydrocodone [30], future studies should explore other genes that could affect opioid response, such as OPRM1 [31]. Furthermore, there is growing evidence that genetic variants influencing innate immune path-ways implicated in processes like neuroinflammation and opioid tolerance could affect opioid response [32]. This potential link warrants further investigation. Alongside exploring such specific pathways, research is increasingly examining broader predictive approaches, notably the clinical utility of polygenic risk scores to predict drug response [33, 34]. These scores integrate information across multiple relevant genes and could have the potential for guiding opioid prescribing, though their practical application requires further investigation.",
+        "There are ongoing trials, such as ADOPT PGx (A Depression and Opioid Pragmatic Trial in Pharmacogenomics), which have not yet published full results [16]. ADOPT PGx is a randomised controlled trial that uses CYP2D6 pharmacogenomic-guided opioid prescrib-ing, and the comparator is treatment as usual [16]. Results from ongoing studies could be incorporated into future reviews and could help provide further evidence to determine if pharmacogenomic-guided opioid prescribing will lead to improved clinical outcomes.",
+        "Even if future studies demonstrate that pharmacogenomic-guided opioid prescribing could improve drug response and reduce adverse events, there remain challenges around its implementation. For instance, in the UK, some of the key barriers to implementing pharmacogenomic testing are staff training, challenges associated with informatics and data access, clinical decision support systems, and cost-effectiveness [35]. It is particularly difficult to implement pharmacogenomic testing in developing countries due to a lack of resources and investment in pharmacogenomics, lack of engagement from stakeholders, cultural issues and cost-effectiveness [36]. There is a need for further research into how to successfully implement pharmaco-genomic testing into routine practice, and cost-effectiveness studies for pharmacogenomic-guided opioid prescribing need to be carried out. There is growing evidence that supports the cost-effectiveness of pharmacogenomic testing [37-39]."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 1,
+      "title": "CONCLUSION",
+      "content": [
+        "The results of this meta-analysis indicate that pharmacogenomic-guided opioid prescribing is associated with a significant reduction in opioid consumption; however, its effect on pain intensity outcomes remains uncertain. While further high-quality randomised controlled trials are valuable for confirming clinical efficacy with high certainty, a comprehensive approach integrat-ing evidence from diverse sources is necessary to fully evaluate its potential and guide implementation. This includes real-world evidence to assess effectiveness in routine practice and modelling studies to understand long-term impacts and cost-effectiveness. Furthermore, even if efficacy and effectiveness are demonstrated, challenges around the practical implementation of pharmacoge-nomic testing need to be overcome."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 1,
+      "title": "DATA AVAILABILITY",
+      "content": [
+        "All raw data used to generate the figures is available in the included supplementary figures. Further information can be requested from the corresponding author."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 1,
+      "title": "REFERENCES",
+      "content": [],
+      "subsections": []
+    },
+    {
+      "level": 1,
+      "title": "AUTHOR CONTRIBUTIONS",
+      "content": [
+        "SJ conceptualised and designed the overall study, conducted the initial literature searches, performed the initial screening, data extraction, risk of bias assessment, initial data analysis, and wrote the original manuscript draft. MB played a significant role in shaping the final manuscript, including independently performing literature screening, contributing substantially to the writing, critical review, and extensive editing of the manuscript. Furthermore, MB conceptualised and proposed the meta-analysis for the morphine milligram equivalent (MME) outcome. KL provided supervisory input. All authors (SJ, MB, KL) reviewed and approved the final manuscript for submission."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 1,
+      "title": "COMPETING INTERESTS",
+      "content": [
+        "The authors declare no competing interests."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 1,
+      "title": "ADDITIONAL INFORMATION",
+      "content": [],
+      "subsections": [
+        {
+          "level": 2,
+          "title": "Supplementary information",
+          "content": [
+            "The online version contains supplementary material available at https://doi.org/10.1038/s41397-025-00379-w."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Correspondence and requests for materials",
+          "content": [
+            "should be addressed to S. Jethwa."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Reprints and permission information",
+          "content": [
+            "is available at http://www.nature.com/reprints"
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Publisher's note",
+          "content": [
+            "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations."
+          ],
+          "subsections": []
+        }
+      ]
+    }
+  ],
+  "Figs": [
+    {
+      "title": "Fig. 1 PRISMA flow chart of the study selection process. The flow chart illustrates the number of records identified, screened, assessed for eligibility, and included in the final review.",
+      "data": [
+        "Records identified from databases (n = 2,496): Embase (n = 1,184), Medline (n = 205), Web of Science (n = 599), Cochrane (n = 508)",
+        "Duplicate records removed (n = 535)",
+        "Records screened (n = 1,961)",
+        "Records excluded (n = 1,952)",
+        "Reports sought for retrieval (n = 9)",
+        "Reports not retrieved (n = 0)",
+        "Reports assessed for eligibility (n = 9)",
+        "Reports excluded (n = 3): Results not available (n = 2), Single arm study without a comparator (n = 1)",
+        "Studies included in review (n = 6)"
+      ],
+      "heterogeneity_info": null,
+      "overall_effect": null
+    },
+    {
+      "title": "Fig. 2 Percentage of patients and pain type. This shows the percentage of patients from included studies according to their pain type.",
+      "data": [
+        "Categories: Post-operative, Cancer pain, Chronic non-cancer pain",
+        "Approximate percentages: Post-operative ~65-70%, Cancer pain ~20-25%, Chronic non-cancer pain ~5-10%"
+      ],
+      "heterogeneity_info": null,
+      "overall_effect": null
+    },
+    {
+      "title": "Fig. 3 Genes commonly tested. Frequency of genes investigated in the included studies, with CYP2D6 being the most frequently tested gene (n = 6 studies).",
+      "data": [
+        "Genes and frequencies:",
+        "CYP2D6: 6",
+        "OPRM1: 4",
+        "COMT: 4",
+        "CYP1A2: 2",
+        "CYP2C19: 3",
+        "CYP2C9: 3",
+        "CYP3A4: 3",
+        "CYP2B6: 3"
+      ],
+      "heterogeneity_info": null,
+      "overall_effect": null
+    },
+    {
+      "title": "Fig. 4 Random-effects meta-analysis of pharmacogenomic-guided therapy versus usual care on pain intensity. The forest plot shows the random-effects meta-analysis of three studies comparing pharmacogenomic-guided therapy (experimental) with usual care (control). Effect size is presented as standardised mean difference (SMD with 95% confidence interval (CI). Squares represent the point estimate for each study, with the size of the square proportional to the study's weight. Horizontal lines indicate the 95% confidence intervals (CI). The diamond represents the pooled SMD. The pooled result shows no statistically significant difference between the groups (SMD-0.31; 95% CI, 0.89 to 0.27; P = 0.30).",
+      "data": [
+        [
+          "Study or Subgroup",
+          "Pharmacogenetic guided Mean",
+          "SD",
+          "Total",
+          "Usual care group Mean",
+          "SD",
+          "Total",
+          "Weight",
+          "Std. Mean Difference IV, Random, 95% CI",
+          "Std. Mean Difference IV, Random, 95% CI (Graph)"
+        ],
+        [
+          "Agullo et al 2023",
+          "59",
+          "20",
+          "28",
+          "80",
+          "19",
+          "22",
+          "28.8%",
+          "-1.06 [-1.65, -0.46]",
+          "[-1.65, -0.46]"
+        ],
+        [
+          "Kraus et al 2024",
+          "3.1",
+          "1.4",
+          "42",
+          "3.2",
+          "1.6",
+          "34",
+          "33.2%",
+          "-0.07 [-0.52, 0.39]",
+          "[-0.52, 0.39]"
+        ],
+        [
+          "Thomas et al 2021",
+          "3.9",
+          "2.2",
+          "137",
+          "3.8",
+          "2.1",
+          "74",
+          "37.9%",
+          "0.05 [-0.24, 0.33]",
+          "[-0.24, 0.33]"
+        ],
+        [
+          "Total (95% CI)",
+          "",
+          "",
+          "207",
+          "",
+          "",
+          "130",
+          "100.0%",
+          "-0.31 [-0.89, 0.27]",
+          "[-0.89, 0.27]"
+        ]
+      ],
+      "heterogeneity_info": "Tau² = 0.21; Chi² = 10.76, df = 2 (P = 0.005); I² = 81%",
+      "overall_effect": "Z = 1.05 (P = 0.30); SMD -0.31; 95% CI, -0.89 to 0.27"
+    },
+    {
+      "title": "Fig. 5 Random-effects meta-analysis of pharmacogenomic-guided therapy versus usual care on opioid consumption. This forest plot shows a random-effects meta-analysis comparing opioid consumption (in morphine milligram equivalents) between the pharmacogenomic-guided group and the usual care group. The effect size is the standardised mean difference (SMD). Squares represent the SMD for each study, with the size of the square proportional to the study's weight and horizontal lines indicating the 95% confidence interval (CI). The diamond represents the pooled SMD and its 95% CI. The analysis shows a significant reduction in opioid consumption favouring the pharmacogenomic-guided group (SMD = -0.38; 95% CI, 0.67 to -0.08; P = 0.01).",
+      "data": [
+        [
+          "Study or Subgroup",
+          "Pharmacogenetic guided Mean",
+          "SD",
+          "Total",
+          "Usual care group Mean",
+          "SD",
+          "Total",
+          "Weight",
+          "Std. Mean Difference IV, Random, 95% CI",
+          "Std. Mean Difference IV, Random, 95% CI (Graph)"
+        ],
+        [
+          "Kraus et al 2024",
+          "40",
+          "30",
+          "42",
+          "50",
+          "80",
+          "34",
+          "34.6%",
+          "-0.17 [-0.62, 0.28]",
+          "[-0.62, 0.28]"
+        ],
+        [
+          "Thomas et al 2021",
+          "204",
+          "41",
+          "126",
+          "254",
+          "165",
+          "68",
+          "65.4%",
+          "-0.48 [-0.78, -0.18]",
+          "[-0.78, -0.18]"
+        ],
+        [
+          "Total (95% CI)",
+          "",
+          "",
+          "168",
+          "",
+          "",
+          "102",
+          "100.0%",
+          "-0.38 [-0.67, -0.08]",
+          "[-0.67, -0.08]"
+        ]
+      ],
+      "heterogeneity_info": "Tau² = 0.01; Chi² = 1.28, df = 1 (P = 0.26); I² = 22%",
+      "overall_effect": "Z = 2.52 (P = 0.01); SMD = -0.38; 95% CI, -0.67 to -0.08"
+    }
+  ]
+}
+```
