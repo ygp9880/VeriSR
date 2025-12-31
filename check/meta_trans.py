@@ -1,8 +1,9 @@
 from openai import  OpenAI # 需 pip install openai
 import json
+from utils.client_utils import get_client;
 # 实验组信息 Methods
 # Set your API key
-client = OpenAI(base_url='https://api.openai-proxy.org/v1', api_key='sk-p8KW4EtRdh7i2MWf9o7YmmQZihySS5HA5D0Z1iEdddtLURpJ');
+client = get_client();
 
 
 def build_meta_trans_prompt(result):

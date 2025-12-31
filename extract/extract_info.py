@@ -4,16 +4,14 @@ from google import genai
 from google.genai import types
 
 # Set your API key
-openai_key = os.getenv("OPENAI_API_KEY")
-openbase_url = os.getenv("OPENAI_BASE_URL")
-
-client_openai = OpenAI(base_url=openbase_url, api_key=openai_key);
-
+client = OpenAI(base_url='https://api.openai-proxy.org/v1', api_key='sk-p8KW4EtRdh7i2MWf9o7YmmQZihySS5HA5D0Z1iEdddtLURpJ');
 #client = genai.Client(api_key='AIzaSyBeHNk55lDMRU5EH6SIdhtNQQsW04HJXzk')
 
 
 import openai
 import json
+
+
 
 openai.api_key = "YOUR_API_KEY_HERE"
 
@@ -312,6 +310,57 @@ def build_identify_table_prompt(tables_str):
     return prompt
 
 
+def build_identify_rob2_prompt(tables_str):
+    prompt = f"""
+    You are an expert assistant for biomedical literature extraction. 
+    From the provided JSON structure under the key "tables", identify and extract only the table that are related to rob2 results. 
+    Return their index (starting from 1 in the input order) and titles in a JSON array.
+
+    Input:
+    {tables_str}
+
+    Output format:
+    {{
+      "meta_analysis_tables": [
+        {{
+          "index": <table index>,
+          "title": "<table title>"
+        }}
+      ]
+    }}
+
+    Rules:
+    - A table is rob2 to meta-analysis.
+    - Index is the original position of the table in the input list, starting from 1.
+    - Preserve the original title text exactly as in the input.
+    """
+
+    return prompt
+
+def build_match_study_prompt(studies, files):
+    prompt = f"""
+    You are given two lists:
+
+1. A list of study references:
+studies is {studies}
+2. A list of file names:
+files is {files}
+Task:
+Match each study to its corresponding file based on author name and year (if provided). 
+Each study should be matched to exactly one file.
+
+Output requirements:
+- Return the result strictly in valid JSON format.
+- Use the file name as the key and the matched study name as the value.
+- Do not include any explanations or extra text outside the JSON.
+
+Expected output format example:
+{{
+  ["FileName.txt": "Study Name"] 
+}}
+    """
+    return prompt;
+
 #研究结果 result
 def build_result_prompt(article_text):
     prompt =  f"""
@@ -352,7 +401,7 @@ def build_indify_prompt(study_names, articles_list):
        - "study_name": The Study_or_Subgroup name you matched.
        - "index": The position of the article in the list, starting from 1.
        - "Title": The title of the matched article.
-    3. **If a Study_or_Subgroup name matches multiple articles, include all matches in the list.**
+    3. **If a study  name matches multiple articles, include all matches in the list.**
     4. If a study name has no matching article, return an empty object {{}} for that study name.
     5. The output should preserve the input order of study names.
 
@@ -371,7 +420,7 @@ def build_indify_prompt(study_names, articles_list):
     ]
 
     Input:
-    Study_or_Subgroup_list: {study_names}
+    study name: {study_names}
     Articles_list: {articles_list}
     
     
@@ -679,6 +728,8 @@ def extract_info(article_text, type):
         prompt = build_gene_info_prompt(article_text);
     elif type == 'rob2':
         prompt = build_rob2_domin_prompt(article_text);
+    elif type == 'rob2_table':
+        prompt = build_identify_rob2_prompt(article_text);
 
 
 
@@ -885,6 +936,54 @@ def indify_paper(study_names, article_list):
    # print(f' match_result is {response_text}')
     match_result = json.loads(response_text)
 
+    return match_result
+
+def indify_rob2_table(article_list):
+
+    prompt = build_identify_rob2_prompt(article_list)
+
+    #print(f" prompt is {prompt}")
+
+    response = client.chat.completions.create(
+        model="gpt-4.1",
+        messages=[
+            {"role": "system", "content": "你是一个医学数据分析专家"},
+            {"role": "user", "content": prompt}
+        ]
+    )
+
+    response_text = response.choices[0].message.content
+    response_text = response_text.replace("```json", "")
+    response_text = response_text.replace("```", "");
+    #print(f" response is {response_text}")
+    #match_result = json.loads(response_text)
+
+   # response_text = response.text;
+   # response_text = response_text.replace("```json", "")
+    #response_text = response_text.replace("```", "");
+   # print(f' match_result is {response_text}')
+    match_result = json.loads(response_text)
+
+    return match_result
+
+def match_study_file(studies, files):
+
+    prompt = build_match_study_prompt(studies, files);
+
+    #print(f" prompt is {prompt}")
+
+    response = client.chat.completions.create(
+        model="gpt-4.1",
+        messages=[
+            {"role": "system", "content": "你是一个医学数据分析专家"},
+            {"role": "user", "content": prompt}
+        ]
+    )
+
+    response_text = response.choices[0].message.content
+    response_text = response_text.replace("```json", "")
+    response_text = response_text.replace("```", "");
+    match_result = json.loads(response_text)
     return match_result
 
 

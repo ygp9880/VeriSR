@@ -1,0 +1,36 @@
+Analyze the provided PDF and extract the following information. Return the result as a single **JSON object** with the following keys:
+**Preserve Table Structure**
+    - Keep the original row and column structure of each table exactly as in the PDF.
+    - Ensure that column headers and row values are properly aligned. No column shifting or row misplacement is allowed.
+**Table Output Format**
+    - Return a single JSON object with the key `"tables"`, which contains an array of table objects.
+    - Each table object must include:
+        - `"title"`: The table title (or `null` if no title is found)
+        - `"headers"`: An array of column headers in the correct order
+        - `"rows"`: A two-dimensional array where each inner array represents one row of data, preserving the original order
+**Table Additional Rules**
+    - Do not merge cells. Keep rows and columns as they appear in the original table.
+    - If a cell is empty, represent it as an empty string `""`.
+    - Do not include any extra text outside the JSON
+* **metadata**: An object containing the bibliographic information of the article:
+  * `Title`: The full title of the article.
+  * `First_author`: The name of the first author.
+  * `Published_year`: The Year of online publication
+  * `Journal`: The name of the journal.
+  * `Corresponding`: The corresponding author information (name and email if available).
+  * `DOI`: The DOI of the article.
+  * `Declaration_of_interest`: Conflict of interest statement (if any).
+  * `Funding`: Funding information or grant details (if any).
+* **article\_structure**: A nested (hierarchical) array representing the document's structure. Each object in this array should contain:
+  * `level`: The heading depth as an integer (e.g., 1, 2, 3).
+  * `title`: The text of the section's heading.
+  * `content`: An array of paragraph strings that appear directly under this heading.
+  * `subsections`: A nested array for the next level of sections (empty if none).
+* **Figs**: An array of objects, where each object represents a figure and includes:
+  * `title`: The title or caption of the figure.
+  * `data`: Extract as much detailed content from the figure as possible.
+      - If the figure shows a table or forest plot, extract it as an array of arrays (rows and columns).
+      - If the content is textual or partially available, extract all available numbers, labels, and descriptions in structured form.
+      - If nothing is extractable, return null.
+  * `heterogeneity_info`: Extract any information related to heterogeneity, such as I², τ², p-values, subgroup differences, or other statistical measures indicating heterogeneity. Return null if not present.
+  * `overall_effect` Extract any information related to the overall effectReturn null if not present.:

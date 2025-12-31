@@ -3,10 +3,11 @@ import json
 from google import genai
 from google.genai import types
 from anthropic import Anthropic
+from utils.client_utils import get_client;
 
 # 实验组信息 Methods
 # Set your API key
-client = OpenAI(base_url='https://api.openai-proxy.org/v1', api_key='sk-p8KW4EtRdh7i2MWf9o7YmmQZihySS5HA5D0Z1iEdddtLURpJ');
+client = get_client();
 
 genai_client = genai.Client(api_key="sk-p8KW4EtRdh7i2MWf9o7YmmQZihySS5HA5D0Z1iEdddtLURpJ", vertexai=True, http_options={"base_url": "https://api.openai-proxy.org/google"},)
 
@@ -1152,7 +1153,11 @@ def compute_domain2_judgement(result) -> str | None:
     Compute the risk of bias judgement for the Domain using the algorithm
     from the RoB 2.0 deviations domain flowchart.
     """
-    domain = result['domains']['domain_2'];
+    domain = None;
+    if 'domain_2' in result['domains']:
+        domain = result['domains']['domain_2'];
+    else:
+        domain = result['domains'][1];
 
     # Answers for each question
     q1 = domain['Q2_1']['answer'].lower()  # 2.1
@@ -1210,7 +1215,13 @@ def compute_domain2_deviations_judgement(result) -> str | None:
 
     # 获取每个问题的回答
     # Answers for each question
-    domain = result['domains']['domain_2'];
+
+    domain = None;
+    if 'domain_2' in result['domains']:
+        domain = result['domains']['domain_2'];
+    else:
+        domain = result['domains'][1];
+
 
     q1 = domain['Q2_1']['answer'].lower()  # 2.1
     q2 = domain['Q2_2']['answer'].lower()
@@ -1260,7 +1271,15 @@ def compute_domain3_judgement(result) -> str | None:
     """
     Compute the risk of bias judgement for the Domain.
     """
-    domain = result['domains']['domain_3'];
+    #domain = result['domains']['domain_3'];
+
+    domain = None;
+    if 'domain_3' in result['domains']:
+        domain = result['domains']['domain_3'];
+    else:
+        domain = result['domains'][2];
+
+
     q1 = domain['Q3_1']['answer'].lower()  # 2.1
     q2 = domain['Q3_2']['answer'].lower()
     q3 = domain['Q3_3']['answer'].lower()
@@ -1292,7 +1311,15 @@ def compute_domain4_judgement(result) -> str | None:
     Compute the risk of bias judgement for the measurement of the outcome domain.
     """
 
-    domain = result['domains']['domain_4'];
+    #domain = result['domains']['domain_4'];
+    domain = None;
+    if 'domain_4' in result['domains']:
+        domain = result['domains']['domain_4'];
+    else:
+        domain = result['domains'][3];
+
+
+
     q1 = domain['Q4_1']['answer'].lower()  # 2.1
     q2 = domain['Q4_2']['answer'].lower()
     q3 = domain['Q4_3']['answer'].lower()

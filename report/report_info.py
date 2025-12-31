@@ -7,6 +7,7 @@ client = OpenAI(base_url='https://api.openai-proxy.org/v1', api_key='sk-p8KW4EtR
 import openai
 
 
+#一. Evaluation Summary
 def extract_meta_analysis_info(article_text: str) -> str:
     """
     Extract structured information from a systematic review / meta-analysis article.
@@ -195,7 +196,6 @@ Extraction Instructions for each field based on the provided text:
    - Extract information on what data items were collected.
    - Include study characteristics, participant characteristics, interventions, outcomes, and any other relevant variables.
    - Note if the extracted data covers all core information needed for systematic review analyses.
-
 Return the result strictly in **JSON format** with the following keys: 
 "Extraction_Process", "Extracted_Contents".
 Do not include any information outside of these fields.
@@ -349,17 +349,23 @@ def extract_report_info(article_text, type):
 
 if __name__ == "__main__":
     meta_content = content_utils.read_content("D:\\project\\zky\\paperAgent\\all_txt\\SR1.txt");
+
+
     report_1 = extract_report_info(meta_content,"report_1");
     print(f" report_1 is {report_1}");
-
     report_3_1 = extract_report_info(meta_content, "report_3_1");
     print(f" report_3_1 is {report_3_1}");
-    report_3_2 = extract_report_info(meta_content, "report_3_2");
-    print(f" report_3_2 is {report_3_2}");
+
+
+    #report_3_2 = extract_report_info(meta_content, "report_3_2");
+    #print(f" report_3_2 is {report_3_2}");
+
+
+    '''
     report_3_3 = extract_report_info(meta_content, "report_3_3");
     print(f" report_3_3 is {report_3_3}");
     report_3_4 = extract_report_info(meta_content, "report_3_4");
     print(f" report_3_4 is {report_3_4}");
     report_3_5 = extract_report_info(meta_content, "report_3_5");
     print(f" report_3_5 is {report_3_5}");
-
+    '''

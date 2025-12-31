@@ -621,7 +621,7 @@ def extract_original_data(meta_data):
         'n_ctrl': n_ctrl
     }
 
-def analyze_data(data, count):
+def analyze_data(data_path,data, png_name):
     """
     分析用户提供的数据
     """
@@ -651,9 +651,14 @@ def analyze_data(data, count):
             filter_studies.append(study);
 
     calculated_results = meta_analysis(new_studies, effect_type, model_type)
-    #plot_revman_style_forest(calculated_results, original_data, title, save_path=f"forest_plot_revman_{count}.png");
+    if len(new_studies) > 1:
+        plot_revman_style_forest(calculated_results, original_data, title, save_path=f"{data_path}\\{png_name}");
     #print(f" calculated_results is {calculated_results}");
     #heterog_results = meta_analysis_heterog(data['studies']);
+
+
+
+
 
     hetero_check_result = check_heterogeneity(data, calculated_results);
 
@@ -662,7 +667,17 @@ def analyze_data(data, count):
     # 验证结果
     data['studies'] = new_studies;
 
+    given_heter = data["heterogeneity_info"]
+    cal_heter = calculated_results["heterogeneity_info"]
+
+
+
     validation_results = validate_meta_analysis(data, calculated_results, filter_studies)
+
+    #validation_results['heterogeneity_info'] = given_heter;
+    #validation_results['compute_heterogeneity_info'] = cal_heter;
+    validation_results['hetero_check_result'] = hetero_check_result;
+
 
     # 打印结果
     print_meta_analysis_results(calculated_results, filter_studies, validation_results)

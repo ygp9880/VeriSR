@@ -1,258 +1,254 @@
----
-
-# ROB2 Analysis Pipeline
-
-A modular pipeline for extracting structured content from PDFs, performing ROB2 bias assessments with LLMs, and validating meta-analysis datasets.
+Sure 👍
+Below is a **clean, file-level English README.md**, written for **developers and users who run the project directly**.
+You can **copy–paste this as `README.md`**.
 
 ---
 
-## 💡 Overview
+# README
 
-This project provides a command-line based processing pipeline that supports:
+## Overview
 
+This system is a large language model–based intelligent agent designed to assist in the auditing of systematic reviews. 
+Using pharmacogenomics as an example, it enables automated review and textual interpretation of data extraction, meta-analysis, and risk-of-bias assessment results reported
+in systematic review articles. The study aims to provide empirical evidence for the development of an intelligent, traceable, and verifiable quality control framework for systematic reviews, 
+thereby improving the quality of peer review and reducing the risk of publishing flawed or biased studies.
+It supports an end-to-end workflow including:
 
-### ✅ **1. ROB2 risk-of-bias evaluation** (Domain1–Domain5 + overall)
+* PDF full-text extraction (powered by Google Gemini)
+* Meta-data extraction
+* Data consistency and correctness checks
+* Automated ROB2 (Risk of Bias 2) generation, refactoring, and comparison
+* Automatic report generation (Word / JSON)
+* Merging multiple reports into a single document
 
-Automatically evaluates ROB2 domains using a large language model (e.g., GPT-5).
-
-### ✅ **2. Meta-analysis data validation**
-
-Supports both **binary outcomes** and **continuous outcomes**.
-
-### ✅ **2. Report generate**
-
-### ✅ **4. Configurable runtime**
-
-Using:
-
-* `.env` variables
-* Command-line arguments
-* Logging to file + console
-* Modular task-based execution (`rob`, `report`, `check`)
+All functions are orchestrated via **`main.py` using command-line arguments**.
 
 ---
 
-## 📂 Project Structure
+## Requirements
 
-```
-evaluation_Systematic_review/
-│
-├─ data/                    # Input data: text and Excel files
-│   ├─ SR1.txt
-│   ├─ SR1Aguloetal2023.txt
-│   ├─ SR1Hamiltonetal2020.txt
-│   ├─ SR1Hamiltonetal2022.txt
-│   ├─ SR1Krausetal2023.txt
-│   ├─ SR1Mosleyetal2023.txt
-│   ├─ SR1Thomasetal2021.txt
-│   └─ SR1Thomasetal2021.xlsx
-│
-├─ prompt/                  # LLM prompt templates and processing functions
-│   ├─ __init__.py
-│   ├─ bin_meta_code.py         # Binary outcome meta-analysis checks
-│   ├─ continue_meta_code.py    # Continuous outcome checks
-│   ├─ extract_info.py          # Extract structured info from text
-│   ├─ meta_analysis.py
-│   ├─ report_generator.py
-│   ├─ ROB2_analysis.py         # Main ROB2 evaluation
-│   ├─ ROB2_analysis_bak.py     # Backup / old ROB2 version
-│   ├─ rr_test.py
-│   └─ system_prompt.py         # Base prompts for LLMs
-│
-├─ report/                  # Report generation and plotting
-│   ├─ __init__.py
-│   ├─ check_info.py
-│   ├─ plot_meta_forest.py     # Forest plot generation
-│   ├─ report_info.py          # Extract report sections
-│   ├─ report_to_doc.py        # Generate DOCX reports
-│   └─ rob_compare.py          # Compare ROB2 results across studies
-│
-├─ utils/                   # Utility functions
-│   ├─ __init__.py
-│   ├─ alg_util.py
-│   └─ content_utils.py       # read/write text, JSON
-│
-├─ vector/                  # Vector search / embeddings
-│   ├─ __init__.py
-│   └─ vector_search.py
-│
-├─ main.py                  # Entry point with command-line args
-├─ .env                     # Environment variables
-└─ mylog.log                # Runtime logs
+* Python ≥ 3.9
+* Windows / Linux / macOS
 
-```
-
----
-
-## ⚙️ Installation
-
-### **1. Install dependencies**
+### Install Dependencies
 
 ```bash
 pip install -r requirement.txt
 ```
 
+(Additional dependencies may be required by submodules.)
 
+---
+
+## Environment Variables
+
+Create a `.env` file in the project root directory:
+
+```env
+gemini_key=YOUR_GOOGLE_GEMINI_API_KEY
+```
+
+The application will automatically load this key at runtime.
+
+---
+
+## Project Structure
+
+```
+paperAgent/
+├── main.py
+├── prompt_extract_content.txt
+├── agent.log
+├── pdf/                     # Input PDF files
+├── meta/                    # Meta text and intermediate results
+├── data/                    # Extracted structured data
+├── result/                  # Intermediate and final outputs
+├── rob2_meta/               # ROB2 generation and refactoring
+├── extract/                 # Information extraction modules
+├── check/                   # Data validation and consistency checks
+├── report/                  # Report generation and merging
+├── utils/                   # Utility functions
+├── .env
+└── README.md
 ```
 
 ---
 
-## 🔧 Environment Variables
+## Usage
 
-Create a `.env` file in the root directory:
-
-```
-OPENAI_API_KEY=
-GEMINI_KEY=
-OPENAI_BASE_URL=
-
-```
-
----
-
-## 🚀 How to Run
-
-### **1. Base command**
+All functionality is accessed through:
 
 ```bash
-python main.py
+python main.py -c <command> [options]
 ```
 
-### **2. Override via arguments**
+---
 
-| Argument      | Description                    |
-| ------------- | ------------------------------ |
-| `--command`   | rob / report / check           |
-| `--meta_path` | path to metadata               |
-| `--data_path` | input PDF directory            |
-| `--save_path` | directory for generated output |
+## Commands
 
-Example:
+### 1. Extract Text from PDFs
 
 ```bash
-python main.py --command rob --data_path ./data --save_path ./save
+python main.py -c process -dir pdf
 ```
+
+* Reads PDF files from the `pdf/` directory
+* Uses Google Gemini to extract full text
+* Saves output as `.txt` files with the same name
+* Skips files that have already been processed
 
 ---
 
-## 🧠 Commands
-
-### ### **🔹 1. ROB2 Evaluation**
-
-```
---command rob
-```
-
-For each file in `data_path`, this will:
-
-* load the text
-* extract ROB2-specific info
-* run 5 domain evaluations via LLM
-* compute overall judgment
-* save results as JSON
-
-Output example:
-
-```
-/save/study1.json
-/save/study2.json
-```
-
----
-
-### ### **🔹 2. Report Info Extraction**
-
-```
---command report
-```
-
-This reads a metadata file and extracts sections such as:
-
-* report_1
-* report_3_1
-* report_3_2
-* report_3_3
-* report_3_4
-* report_3_5
-
-Usage:
+### 2. Extract Meta Information
 
 ```bash
-python main.py --command report --save_path ./meta/report.txt
+python main.py -c extract -m meta/SR1.txt -data data/SR1
 ```
 
 ---
 
-### ### **🔹 3. Meta-analysis Checking**
+### 3. Check Meta Table Consistency
 
-```
---command check
-```
-
-This command:
-
-* loads extracted meta-analysis data
-* determines whether the dataset is binary or continuous
-* runs appropriate statistical validation
-* outputs corrected values + diagnostics
-
-Output example:
-
-```
-SR4_output.json
+```bash
+python main.py -c check_info -m meta/SR1.txt -data data/SR1
 ```
 
 ---
 
-## 📝 Logging
+### 4. Meta Data Correctness Analysis
 
-Two logging channels are enabled:
-
-1. **Console**
-2. **File `mylog.log`**
-
-You will see detailed information for debugging, including:
-
-* current configuration
-* file processing progress
-* ROB2 domain evaluation results
-
----
-
-## 🧩 Key Functions
-
-### `rob_run(file_path, file, save_path)`
-
-Performs ROB2 domain analysis.
-
-### `extract_report_info()`
-
-Extracts predefined structured items from report text.
-
-### `meta_check()`
-
-Checks consistency of meta-analysis datasets (binary & continuous).
-
-### `read_content()` / `write_str_to_file()`
-
-Basic IO utilities.
-
----
-
-## 📤 Output Example
-
-### ROB2 JSON Output
-
-```json
-{
-    "domains": [
-        { "domain_1": { "judgment": "low" } },
-        { "domain_2": { "judgment": "some concerns" } },
-        ...
-    ],
-    "overall": "some concerns"
-}
+```bash
+python main.py -c meta_data_correct -n SR1 -data data
 ```
 
 ---
 
+### 5. Meta Logic and Structure Validation
+
+```bash
+python main.py -c meta_check -n SR1 -data data
+```
+
+---
+
+### 6. Generate ROB2 Assessments
+
+```bash
+python main.py -c rob2_generate -data data/SR1 -s data/SR1/rob2_result
+```
+
+---
+
+### 7. Refactor ROB2 Results
+
+```bash
+python main.py -c rob2_refactor -data data/SR1/rob2_result
+```
+
+---
+
+### 8. Compare ROB2 Results (Original vs Automated)
+
+```bash
+python main.py -c rob2_compare \
+  -m meta/SR1.txt \
+  -n SR1 \
+  -data data/SR1/rob2_result \
+  -s result
+```
+
+---
+
+### 9. Export ROB2 Comparison to Word
+
+```bash
+python main.py -c rob2_doc \
+  -data result/SR1_rob2_compare.txt \
+  -s report_doc/rob2.docx
+```
+
+---
+
+### 10. Generate Wrong-Field Report
+
+```bash
+python main.py -c wrong_field_report -n SR1 -data data
+```
+
+---
+
+### 11. Generate Data Error Summary
+
+```bash
+python main.py -c data_wrong_summary -n SR1 -data data
+```
+
+---
+
+### 12. Generate ROB2 Summary Report
+
+```bash
+python main.py -c report_2_3_4 -n SR1 -data data
+```
+
+---
+
+### 13. Generate Meta-Analysis Summary Report
+
+```bash
+python main.py -c report_2_4_4 -n SR1 -data data
+```
+
+---
+
+### 14. Export JSON Report
+
+```bash
+python main.py -c report_json \
+  -m meta/SR1.txt \
+  -t report_1 \
+  -s result/SR1_report_1.json \
+  -n SR1
+```
+
+---
+
+### 15. Generate ROB2 Report for a Single Paper
+
+```bash
+python main.py -c rob2_paper_doc \
+  -r data/SR1/rob2_result/SR1Agulloetal2023.txt \
+  -data data/SR1/SR1Agulloetal2023.txt \
+  -s report_doc/SR1_1.docx
+```
+
+(Outputs can be Word or TXT depending on the save path.)
+
+---
+
+### 16. Merge Multiple Reports into One Word File
+
+```bash
+python main.py -c merge -n SR1 -data data -s report_doc/SR1_output.docx
+```
+
+---
+
+## Logging
+
+* Logs are written to:
+
+  * Console output
+  * `agent.log`
+
+---
+
+## Notes
+
+* Designed for **Systematic Review and Meta-Analysis automation**
+* Commands can be executed independently or as a pipeline
+* Recommended workflow:
+
+```text
+process → extract → check → rob2 → report
+```

@@ -201,9 +201,9 @@ def meta_item(item):
         else:
             for study in studies:
                 sub_group: str = study['study_group'];
-                if not ('pass' in study):
-                    continue;
-                pass_data = study['pass'];
+                pass_data = True;
+                if  ('pass' in study):
+                    pass_data = study['pass'];
 
                 if model_study_group.lower() == (sub_group.lower()):
                     if pass_data:

@@ -2,10 +2,11 @@ from openai import  OpenAI
 import json;
 import os;
 from utils import content_utils;
-from prompt_1.meta_analysis import check_meta_analysis
-from prompt_1.extract_info import indify_paper
+from utils.client_utils import get_client;
 
-client = OpenAI(base_url='https://api.openai-proxy.org/v1', api_key='sk-p8KW4EtRdh7i2MWf9o7YmmQZihySS5HA5D0Z1iEdddtLURpJ');
+from extract.extract_info import indify_paper
+
+client = get_client();
 
 def read_content(path):
     with open(path, "r", encoding="utf-8") as f:
@@ -116,6 +117,8 @@ def meta_read(dir):
     meta_array = [];
     paper_list = [];
     for file in files:
+        if file.__contains__("extracted"):
+            continue;
         if file.__contains__("meta"):
             continue;
         if not file.__contains__(".txt"):
@@ -222,12 +225,18 @@ def check_table(meta_path, data_path):
     result = extract_table_result(meta_path);
     tables = result['tables'];
     index_map = {};
+    #Thomas et al
+   # indify_result = indify_paper("Thomas et al", meta_content)
+    #print(f" indify_result is {indify_result} ");
     for table in tables:
         index = table['table_index']
         table_item = original_tables[index-1];
         headers = table_item['headers'];
         new_header = headers + ['check'];
-
+        save_file_path = meta_path.replace(".txt", f"_table_{index}.txt")
+        print(f" save file path is {save_file_path} ");
+        if os.path.exists(save_file_path):
+            continue;
         new_table = {};
         new_table['headers'] = new_header;
         new_table['title'] = table_item['title'];
@@ -242,6 +251,7 @@ def check_table(meta_path, data_path):
             if not index_map.__contains__(study):
                 #print(f" row is {row}, study is {study} ");
                 indify_result = indify_paper(study, meta_content)
+                print(f" study is: {study}, indify_result is {indify_result} ");
                 check_result = check_index_field(indify_result);
                 if not check_result:
                     # repeate call
@@ -273,7 +283,7 @@ def check_table(meta_path, data_path):
             count = count + 1;
 
         formatted_json = json.dumps(new_table, ensure_ascii=False, indent=4)
-
+        content_utils.write_str_to_file(save_file_path, formatted_json)
         print(f" new_table is {formatted_json}");
 
 
@@ -285,7 +295,10 @@ if __name__ == "__main__":
     meta_path = base_path + "\\" + meta_name + ".txt";
     data_path = f"D:\\project\\zky\\paperAgent\\all_txt\\{meta_name}"
 
-    check_table(meta_path, data_path);
+    print(f" meta_path is {meta_path} ");
+    print(f" data_path is {data_path} ");
+
+    #check_table(meta_path, data_path);
 
 
 

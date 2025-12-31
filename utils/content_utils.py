@@ -10,6 +10,8 @@ def read_content(path):
     content = content.replace("```", "");
     return content;
 
+
+
 def remove_dot_bracket(text: str) -> str:
     """
     去掉 'Hamilton et al. [21]' 中的 '. [21]'。
