@@ -1,9 +1,3 @@
-Sure 👍
-Below is a **clean, file-level English README.md**, written for **developers and users who run the project directly**.
-You can **copy–paste this as `README.md`**.
-
----
-
 # README
 
 ## Overview
