@@ -1,6 +1,9 @@
-# README
+# VeriSR
 
-## Overview
+`VeriSR` is an agent for systematic review evidence workflows.  
+It orchestrates PDF-to-text processing, structured information extraction, consistency verification, ROB2 generation, and final report export.
+
+## Agent Overview
 
 This system is a large language model–based intelligent agent designed to assist in the auditing of systematic reviews. 
 Using pharmacogenomics as an example, it enables automated review and textual interpretation of data extraction, meta-analysis, and risk-of-bias assessment results reported
@@ -15,234 +18,131 @@ It supports an end-to-end workflow including:
 * Automatic report generation (Word / JSON)
 * Merging multiple reports into a single document
 
-All functions are orchestrated via **`main.py` using command-line arguments**.
 
----
-
-## Requirements
-
-* Python ≥ 3.9
-* Windows / Linux / macOS
-
-### Install Dependencies
-
-```bash
-pip install -r requirement.txt
-```
-
-(Additional dependencies may be required by submodules.)
-
----
-
-## Environment Variables
-
-Create a `.env` file in the project root directory:
-
-```env
-gemini_key=YOUR_GOOGLE_GEMINI_API_KEY
-```
-
-The application will automatically load this key at runtime.
-
----
 
 ## Project Structure
 
-```
-paperAgent/
-├── main.py
-├── prompt_extract_content.txt
-├── agent.log
-├── pdf/                     # Input PDF files
-├── meta/                    # Meta text and intermediate results
-├── data/                    # Extracted structured data
-├── result/                  # Intermediate and final outputs
-├── rob2_meta/               # ROB2 generation and refactoring
-├── extract/                 # Information extraction modules
-├── check/                   # Data validation and consistency checks
-├── report/                  # Report generation and merging
-├── utils/                   # Utility functions
-├── .env
-└── README.md
-```
+Top-level folders and their responsibilities:
 
----
+| Folder | Contains | Function |
+|---|---|---|
+| `all_txt/` | Meta-review text files (for example `SR1.txt`), included-study text files under subfolders (for example `SR1/*.txt`), and runtime intermediate files | Primary working data space for agent ingestion, extraction, verification, and ROB2/report staging |
+| `backup/` | Archived docs, legacy samples, historical outputs, logs, and cleanup snapshots | Keeps non-minimal or historical artifacts out of the active runtime path while preserving rollback/reference material |
+| `check/` | Verification modules such as `check_info.py`, `meta_check.py`, `meta_analysis.py` | Verification agent logic that checks extracted content consistency and performs meta-check tasks |
+| `extract/` | Extraction modules such as `etract_info_main.py`, `extract_info.py`, `meta_extract_info.py` | Extraction agent logic that parses source content and produces structured outputs |
+| `meta/` | Meta-processing helpers such as `continue_meta_code.py`, `bin_meta_code.py` | Shared meta-analysis support logic used by checking/reporting steps |
+| `pdf/` | Source PDF inputs (for example `SR1.pdf`) | Input area for PDF ingestion before conversion/extraction |
+| `prompt_1/` | Prompt templates and prompt-driven modules (for extraction, meta analysis, reporting, ROB2) | Prompt layer for LLM-backed agent behaviors |
+| `report/` | Report assembly and export modules such as `report_merge.py`, `report_to_doc.py`, `rob2_report.py` | Reporting agent logic that transforms intermediate outputs into reviewable report artifacts |
+| `report_doc/` | Generated report outputs (typically `.docx` and ROB2-related text artifacts) | Final export/output directory for deliverables |
+| `rob2_meta/` | ROB2 modules such as `rob2_generate.py`, `ROB2_analysis.py` | ROB2 agent logic for risk-of-bias generation/refinement |
+| `utils/` | Shared helpers such as `client_utils.py`, `content_utils.py`, `alg_util.py` | Cross-module utilities for API client setup, file/content operations, and common helpers |
 
-## Usage
+Top-level key files:
 
-All functionality is accessed through:
+- `main.py`: CLI entry point and command router for agent tasks (`process`, `extract`, `check_info`, `rob2_generate`, etc.)
+- `run_full_pipeline.py` and `run_full_pipeline.sh`: one-command end-to-end orchestration scripts
+- `rerun_meta_report.sh` and `rerun_meta_report.bat`: rerun meta-check + final report merge only
+- `prompt_extract_content.txt`: auxiliary prompt text resource
+
+## Requirements
+
+- Python 3.10+ (recommended)
+- Valid model API credentials
+
+Install dependencies:
 
 ```bash
-python main.py -c <command> [options]
+pip install openai google-genai anthropic python-dotenv python-docx openpyxl numpy pandas scipy matplotlib PyPDF2 camelot-py json5
 ```
 
----
+## Configuration
 
-## Commands
+Create a `.env` file in the repository root (you can copy from `.env.example`):
 
-### 1. Extract Text from PDFs
+```env
+gemini_key=YOUR_GEMINI_KEY
+openai_key=YOUR_OPENAI_KEY
+openai_base_url=YOUR_OPENAI_BASE_URL
+OPENAI_MODEL=YOUR_MODEL_NAME
+```
+
+Do not commit real API keys or private endpoints.
+
+## Quick Start
+
+1. Validate API credentials:
+
+```bash
+python main.py -c test_gemini
+```
+
+2. Run the standard agent workflow steps:
 
 ```bash
 python main.py -c process -dir pdf
+python main.py -c extract -m all_txt/SR1.txt -data all_txt/SR1
+python main.py -c check_info -m all_txt/SR1.txt -data all_txt/SR1
+python main.py -c rob2_generate -data all_txt/SR1 -s all_txt/SR1/rob2_result
 ```
 
-* Reads PDF files from the `pdf/` directory
-* Uses Google Gemini to extract full text
-* Saves output as `.txt` files with the same name
-* Skips files that have already been processed
+## Full Agent Workflow (Cross-Platform)
 
----
-
-### 2. Extract Meta Information
+Run the end-to-end agent workflow with one command:
 
 ```bash
-python main.py -c extract -m meta/SR1.txt -data data/SR1
+python run_full_pipeline.py \
+  --meta-name SR1 \
+  --meta-file all_txt/SR1.txt \
+  --study-dir all_txt/SR1 \
+  --work-dir all_txt \
+  --report-file report_doc/SR1_output.docx
 ```
 
----
-
-### 3. Check Meta Table Consistency
+On Linux/macOS, shell wrapper is also available:
 
 ```bash
-python main.py -c check_info -m meta/SR1.txt -data data/SR1
+chmod +x run_full_pipeline.sh
+./run_full_pipeline.sh \
+  --meta-name SR1 \
+  --meta-file all_txt/SR1.txt \
+  --study-dir all_txt/SR1 \
+  --work-dir all_txt \
+  --report-file report_doc/SR1_output.docx
 ```
 
----
+## Typical Outputs
 
-### 4. Meta Data Correctness Analysis
+- `all_txt/extract_result_all_SR1.json`
+- `all_txt/SR1_meta_check_output.json`
+- `all_txt/SR1_rob2_compare.txt`
+- `all_txt/SR1_report_*.json`
+- `all_txt/SR1_rob2_*.txt`
+- `report_doc/SR1_output.docx`
+
+## Rerun Meta + Final Report Only
+
+If extraction/verification steps are already done and you only need to rerun meta-check and merge:
+
+Linux/macOS:
 
 ```bash
-python main.py -c meta_data_correct -n SR1 -data data
+./rerun_meta_report.sh SR1
 ```
 
----
+Windows:
 
-### 5. Meta Logic and Structure Validation
-
-```bash
-python main.py -c meta_check -n SR1 -data data
+```bat
+rerun_meta_report.bat SR1
 ```
 
----
+Optional argument order: `META_NAME WORK_DIR REPORT_FILE`  
+Defaults: `SR1`, `all_txt`, `report_doc/SR1_output.docx`
 
-### 6. Generate ROB2 Assessments
+## Troubleshooting
 
-```bash
-python main.py -c rob2_generate -data data/SR1 -s data/SR1/rob2_result
-```
+- Credential errors: run `python main.py -c test_gemini` first
+- Missing dependencies: re-check Python version and installed packages
+- Path issues: run commands from repository root and verify relative paths
 
----
 
-### 7. Refactor ROB2 Results
-
-```bash
-python main.py -c rob2_refactor -data data/SR1/rob2_result
-```
-
----
-
-### 8. Compare ROB2 Results (Original vs Automated)
-
-```bash
-python main.py -c rob2_compare \
-  -m meta/SR1.txt \
-  -n SR1 \
-  -data data/SR1/rob2_result \
-  -s result
-```
-
----
-
-### 9. Export ROB2 Comparison to Word
-
-```bash
-python main.py -c rob2_doc \
-  -data result/SR1_rob2_compare.txt \
-  -s report_doc/rob2.docx
-```
-
----
-
-### 10. Generate Wrong-Field Report
-
-```bash
-python main.py -c wrong_field_report -n SR1 -data data
-```
-
----
-
-### 11. Generate Data Error Summary
-
-```bash
-python main.py -c data_wrong_summary -n SR1 -data data
-```
-
----
-
-### 12. Generate ROB2 Summary Report
-
-```bash
-python main.py -c report_2_3_4 -n SR1 -data data
-```
-
----
-
-### 13. Generate Meta-Analysis Summary Report
-
-```bash
-python main.py -c report_2_4_4 -n SR1 -data data
-```
-
----
-
-### 14. Export JSON Report
-
-```bash
-python main.py -c report_json \
-  -m meta/SR1.txt \
-  -t report_1 \
-  -s result/SR1_report_1.json \
-  -n SR1
-```
-
----
-
-### 15. Generate ROB2 Report for a Single Paper
-
-```bash
-python main.py -c rob2_paper_doc \
-  -r data/SR1/rob2_result/SR1Agulloetal2023.txt \
-  -data data/SR1/SR1Agulloetal2023.txt \
-  -s report_doc/SR1_1.docx
-```
-
-(Outputs can be Word or TXT depending on the save path.)
-
----
-
-### 16. Merge Multiple Reports into One Word File
-
-```bash
-python main.py -c merge -n SR1 -data data -s report_doc/SR1_output.docx
-```
-
----
-
-## Logging
-
-* Logs are written to:
-
-  * Console output
-  * `agent.log`
-
----
-
-## Notes
-
-* Designed for **Systematic Review and Meta-Analysis automation**
-* Commands can be executed independently or as a pipeline
-* Recommended workflow:
-
-```text
-process → extract → check → rob2 → report
-```
