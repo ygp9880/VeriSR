@@ -61,6 +61,8 @@ Create a `.env` file in the repository root (you can copy from `.env.example`):
 
 ```env
 gemini_key=YOUR_GEMINI_KEY
+gemini_base_url=YOUR_GEMINI_BASE_URL
+GREMINI_MODEL=YOUR_MODEL_NAME
 openai_key=YOUR_OPENAI_KEY
 openai_base_url=YOUR_OPENAI_BASE_URL
 OPENAI_MODEL=YOUR_MODEL_NAME
@@ -84,6 +86,92 @@ python main.py -c extract -m all_txt/SR1.txt -data all_txt/SR1
 python main.py -c check_info -m all_txt/SR1.txt -data all_txt/SR1
 python main.py -c rob2_generate -data all_txt/SR1 -s all_txt/SR1/rob2_result
 ```
+
+## Step-by-Step Commands
+
+Use these commands when you want to run each agent stage manually.
+
+1. API sanity check (`Gemini`):
+
+```bash
+python main.py -c test_gemini
+```
+
+2. PDF to text conversion (meta-review PDF files in `pdf/`):
+
+```bash
+python main.py -c process -dir pdf
+```
+
+3. Structured data extraction from one review set (`SR1`):
+
+```bash
+python main.py -c extract -m all_txt/SR1.txt -data all_txt/SR1
+```
+
+4. Data consistency verification against original study text:
+
+```bash
+python main.py -c check_info -m all_txt/SR1.txt -data all_txt/SR1
+```
+
+5. Meta-analysis data correction/generation step:
+
+```bash
+python main.py -c meta_data_correct -n SR1 -data all_txt
+```
+
+6. Meta-analysis check step:
+
+```bash
+python main.py -c meta_check -n SR1 -data all_txt
+```
+
+7. Risk-of-bias (ROB2) generation:
+
+```bash
+python main.py -c rob2_generate -data all_txt/SR1 -s all_txt/SR1/rob2_result
+```
+
+8. ROB2 refactor (normalize generated ROB2 files):
+
+```bash
+python main.py -c rob2_refactor -data all_txt/SR1/rob2_result
+```
+
+9. ROB2 comparison against review context:
+
+```bash
+python main.py -c rob2_compare -n SR1 -m all_txt/SR1.txt -data all_txt/SR1/rob2_result -s all_txt
+```
+
+10. Report JSON generation (example: section `report_1`):
+
+```bash
+python main.py -c report_json -n SR1 -m all_txt/SR1.txt -t report_1 -s all_txt/SR1_report_1.json
+```
+
+11. Final report merge/export (`.docx`):
+
+```bash
+python main.py -c merge -n SR1 -data all_txt -s report_doc/SR1_output.docx
+```
+
+### Command/Input/Output Mapping
+
+| Step | Command | Main Inputs | Main Outputs |
+|---|---|---|---|
+| API check | `python main.py -c test_gemini` | `.env` credentials | Console success message |
+| PDF conversion | `python main.py -c process -dir pdf` | `pdf/*.pdf` | Extracted text/json-like content in `all_txt/` |
+| Data extraction | `python main.py -c extract -m all_txt/SR1.txt -data all_txt/SR1` | `all_txt/SR1.txt`, `all_txt/SR1/*.txt` | `all_txt/extract_result_all_SR1.json` and per-table intermediate files |
+| Consistency check | `python main.py -c check_info -m all_txt/SR1.txt -data all_txt/SR1` | Extracted tables + original study texts | `all_txt/SR1_table_*.txt` |
+| Meta data correction | `python main.py -c meta_data_correct -n SR1 -data all_txt` | Prior extraction outputs in `all_txt/` | Meta-correction JSON/text artifacts in `all_txt/` |
+| Meta check | `python main.py -c meta_check -n SR1 -data all_txt` | Meta-correction outputs | `all_txt/SR1_meta_check_output.json` |
+| ROB2 generation | `python main.py -c rob2_generate -data all_txt/SR1 -s all_txt/SR1/rob2_result` | `all_txt/SR1/*.txt` | `all_txt/SR1/rob2_result/*.txt` |
+| ROB2 refactor | `python main.py -c rob2_refactor -data all_txt/SR1/rob2_result` | Raw ROB2 outputs | Refactored ROB2 files in same folder |
+| ROB2 compare | `python main.py -c rob2_compare -n SR1 -m all_txt/SR1.txt -data all_txt/SR1/rob2_result -s all_txt` | ROB2 outputs + meta context | `all_txt/SR1_rob2_compare.txt` |
+| Report JSON | `python main.py -c report_json -n SR1 -m all_txt/SR1.txt -t report_1 -s all_txt/SR1_report_1.json` | Meta file + selected report type | `all_txt/SR1_report_1.json` (or chosen report file) |
+| Final merge | `python main.py -c merge -n SR1 -data all_txt -s report_doc/SR1_output.docx` | Report JSON/ROB2/meta-check artifacts | `report_doc/SR1_output.docx` |
 
 ## Full Agent Workflow (Cross-Platform)
 
@@ -142,6 +230,6 @@ Defaults: `SR1`, `all_txt`, `report_doc/SR1_output.docx`
 
 - Credential errors: run `python main.py -c test_gemini` first
 - Missing dependencies: re-check Python version and installed packages
-- Path issues: run commands from repository root and verify relative paths
+- Path issues: run commands from repository root and verify relative pathsd verify relative paths
 
 
