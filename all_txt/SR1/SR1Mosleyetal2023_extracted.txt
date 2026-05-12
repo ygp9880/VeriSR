@@ -1,0 +1,615 @@
+{
+  "Basic_information": {
+    "Title": {
+      "value": "CYP2D6-guided opioid therapy for adults with cancer pain: a randomized implementation clinical trial",
+      "source": "metadata.Title"
+    },
+    "First_author": {
+      "value": "Scott A. Mosley",
+      "source": "metadata.First_author"
+    },
+    "Published_year": {
+      "value": "2023",
+      "source": "metadata.Published_year"
+    },
+    "Journal": {
+      "value": "Pharmacotherapy",
+      "source": "metadata.Journal"
+    },
+    "Corresponding": {
+      "value": "Larisa H. Cavallari, Department of Pharmacotherapy and Translational Research and Center for Pharmacogenomics, University of Florida, P O Box 100486, Gainesville, FL 32610-0486; Tel 352-273-8245; lcavallari@cop.ufl.edu.",
+      "source": "metadata.Corresponding"
+    },
+    "DOI": {
+      "value": "10.1002/phar.2875",
+      "source": "metadata.DOI"
+    },
+    "Declaration_of_interest": {
+      "value": "S.A.M and L.H.C received support for this study from Mallinckrodt Pharmaceuticals. Mallinckrodt Pharmaceuticals had no role in the study design, data collection, analysis, interpretation of data, or writing of the report. There were no restrictions regarding the submission of the report for publication and Mallinckrodt Pharmaceuticals did not have access to any study data. J.S.S. is a member of the company advisory boards for Taiho, Pfizer, Helsinn Therapeutics, Tersera, Ipsen, Advanced Accelerated Applications, and Cancer Expert Now, but none of these companies had a role in funding, conducting, or publishing this report. T.J.G is a member of the company advisory boards for YES, BillionToOne, Tempus Labs, and Pfizer, but none of these companies had a role in funding, conducting, or publishing this report. H.L.M is a member of the company advisory boards for Viecure and Illumina, is on the board of directors for Vyant Bio, and is co-founder of Clarified Precision Medicine. PGx Accelerator, and Genovation Health, but none of these companies had a role in funding, conducting, or publishing this report. All other authors reported no conflicts of interest.",
+      "source": "metadata.Declaration_of_interest"
+    },
+    "Funding": {
+      "value": "This work was funded, in part, by a fellowship award from Mallinckrodt Pharmaceuticals. Work by S.A.M. was supported by the National Center for Advancing Translational Science (NCATS) of the U.S. National Institutes of Health (NIH) grant UL1 TR001855. Work by L.H.C. was supported by the National Institutes of Health (NIH) grant U01 HG007269 as part of the NIH IGNITE network and NIH UL1 TR001427. The trial is registered at Clinical Trials.gov, #NCT02664350; URL: https://clinicaltrials.gov/ct2/show/NCT02664350.",
+      "source": "metadata.Funding; Acknowledgements"
+    }
+  },
+  "Study_design_population": {
+    "Study_design": {
+      "value": "Hybrid implementation-effectiveness randomized clinical trial; two-arm (CYP2D6 genotype-guided vs usual care), open-label (patients, providers, and researchers not blinded)",
+      "source": "Methods – Study design and procedures: \"hybrid implementation-effectiveness trial\"; \"patients were randomized to the CYP2D6-guided or usual care arm\"; \"Patients, providers, and researchers were not blinded to randomization groups.\""
+    },
+    "Country": {
+      "value": "United States",
+      "source": "Methods – Study design and procedures: adult cancer patients from UF Health Cancer Center (University of Florida) and Moffitt Cancer Center (US institutions); affiliations in Corresponding author address"
+    },
+    "Sample_size": {
+      "value": "85",
+      "source": "Results – Patient population: \"Of the remaining 85 patients, 38 were randomized to the genotype-guided arm and 47 to the usual care arm\""
+    },
+    "Age": {
+      "value": "57 ± 10 years (overall mean age)",
+      "source": "Results – Patient population: \"The mean age of participants was 57°10 years\"; Table 1: \"Age, years, mean (SD) 57 ±10\""
+    },
+    "Male(%)": {
+      "value": "52%",
+      "source": "Table 1: \"Male, n (%) All (n=85) 44 (52)\""
+    },
+    "Inclusion_criteria": {
+      "value": "Adult cancer patients with suboptimal pain control (pain score ≥4) referred for trial enrollment by their oncologist at UF Health Cancer Center or by a Moffitt Supportive Care Medicine clinician in consultation with the patient's primary oncologist.",
+      "source": "Methods – Study design and procedures: \"Adult cancer patients with suboptimal pain control (pain score ≥4) were referred for trial enrollment by their oncologist at UF Health Cancer Center or by a Moffitt Supportive Care Medicine (SCM) clinician in consultation with the patient's primary oncologist.\""
+    },
+    "Exclusion_criteria": {
+      "value": "NA",
+      "source": "Not reported in provided text/PDF excerpt."
+    },
+    "Follow_up_time": {
+      "value": "Up to 8 weeks (questionnaires at baseline and 2, 4, 6, and 8 weeks; analysis of pain outcomes included patients with ≥1 follow-up questionnaire after 2 weeks, with last follow-up used for change calculations).",
+      "source": "Methods – Data collection: \"At baseline and 2, 4, 6, and 8 weeks, patients in both arms were asked to complete...\"; Results – Patient population: \"completed the baseline and ≥1 follow up questionnaire after 2 weeks\"; Methods – Data analysis: \"change in pain and symptom severity scores was calculated... to the score at last follow up\""
+    }
+  },
+  "Experimental_Group": {
+    "Experimental_group_definition": {
+      "value": "Patients randomized to CYP2D6 genotype-guided opioid therapy: buccal sample sent for clinical CYP2D6 genotyping; phenotype (including adjustment for CYP2D6 inhibitors) used by pharmacists to provide opioid prescribing recommendations (avoid codeine, tramadol, hydrocodone, and oxycodone for PMs, IMs, and UMs; recommend morphine or hydromorphone as alternatives), with results and consult note provided to treating physicians for clinical use.",
+      "source": "Methods – Study design and procedures: description of genotype-guided arm; recommendations and EHR reporting"
+    },
+    "Experimental_group_number": {
+      "value": "38",
+      "source": "Results – Patient population: \"38 were randomized to the genotype-guided arm\"; Table 1: \"CYP2D6 guided (n=38)\""
+    },
+    "Experimental_group_male": {
+      "value": "55%",
+      "source": "Table 1: \"Male, n (%) CYP2D6 guided (n=38) 21 (55)\""
+    },
+    "Experimental_group_female": {
+      "value": "45%",
+      "source": "Calculated as 100% - 55% male using Table 1: \"Male, n (%) CYP2D6 guided (n=38) 21 (55)\""
+    },
+    "Experimental_group_mean_age": {
+      "value": "59 ± 11 years",
+      "source": "Table 1: \"Age, years, mean (SD) ... CYP2D6 guided (n=38) 59±11\""
+    },
+    "Experimental_group_ethnicity": {
+      "value": "White 32 (84%), Black 4 (11%), Other 2 (5%)",
+      "source": "Table 1: Race distribution for \"CYP2D6 guided (n=38)\": White 32 (84), Black 4 (11), Other 2 (5)"
+    }
+  },
+  "Control_Group": {
+    "Control_group_definition": {
+      "value": "Patients randomized to usual care: buccal sample collected at enrollment but CYP2D6 genotyping performed at study end for research purposes only; genotype results were not placed in the EHR or shared with physicians and did not guide opioid prescribing.",
+      "source": "Methods – Study design and procedures: \"Samples collected from patients in the usual care arm were sent ... for CYP2D6 genotyping at the end of the study for research purposes only (i.e., were not placed in the EHR or shared with physicians for clinical use)\""
+    },
+    "Control_group_number": {
+      "value": "47",
+      "source": "Results – Patient population: \"47 to the usual care arm\"; Table 1: \"Usual Care (n=47)\""
+    },
+    "Control_group_male(%)": {
+      "value": "49%",
+      "source": "Table 1: \"Male, n (%) Usual Care (n=47) 23 (49)\""
+    },
+    "Control_group_female(%)": {
+      "value": "51%",
+      "source": "Calculated as 100% - 49% male using Table 1: \"Male, n (%) Usual Care (n=47) 23 (49)\""
+    },
+    "Control_group_mean_age(SD)": {
+      "value": "56 ± 10 years",
+      "source": "Table 1: \"Age, years, mean (SD) ... Usual Care (n=47) 56±10\""
+    },
+    "Control_group_ethnicity(%)": {
+      "value": "{\"White\": 83, \"Black\": 6, \"Other\": 11}",
+      "source": "Table 1: Race distribution for \"Usual Care (n=47)\": White 39 (83), Black 3 (6), Other 5 (11)"
+    }
+  },
+  "Gene": {
+    "Disease": {
+      "value": "Cancer-related pain in adult patients with various cancers (most commonly lung and colon, majority with metastatic disease).",
+      "source": "Introduction: \"Cancer-related pain is a frequent and burdensome symptom\"; Results – Patient population: cancer types and metastatic disease distribution"
+    },
+    "Drug_type": {
+      "value": "Opioid analgesics (CYP2D6-metabolized: oxycodone, tramadol, hydrocodone; non-CYP2D6-metabolized: morphine, hydromorphone, fentanyl, methadone) and concomitant non-opioid pain medications.",
+      "source": "Introduction; Results – Patient population and Table 1: opioid and non-opioid use; Methods – Study design and procedures: recommendations on opioids"
+    },
+    "Experimental_group_Drug_use": {
+      "value": "At baseline, 79% received oxycodone, 5% tramadol, 3% hydrocodone; 29% morphine, 11% fentanyl, 3% hydromorphone, 3% methadone. Pharmacists recommended avoiding codeine, tramadol, hydrocodone, and oxycodone in PMs, IMs, and UMs, generally suggesting morphine or hydromorphone as alternatives; prescribing changes were at physicians’ discretion and occurred congruent with recommendations in 2 of 11 patients with actionable phenotypes.",
+      "source": "Table 1: opioid use by arm; Methods – Study design and procedures: recommendations; Results – Implementation metrics: drug change in concordance"
+    },
+    "Control_group_Drug_use": {
+      "value": "At baseline, 64% received oxycodone, 6% tramadol, 6% hydrocodone; 23% morphine, 19% fentanyl, 11% hydromorphone, 9% methadone. Pain management followed usual clinical practice without access to CYP2D6 results; changes from CYP2D6-metabolized to non-CYP2D6-metabolized opioids were rare (none in patients with actionable phenotypes, 1 of 39 with normal metabolizer phenotype).",
+      "source": "Table 1: opioid use by arm; Results – Implementation metrics: \"In the usual care group, changes from CYP2D6-metabolized to non-CYP2D6-metabolized medication occurred in none of the patients with an actionable phenotype (0/7) and in 1/39 (2.6%) with the NM phenotype.\""
+    },
+    "Gene": {
+      "value": "CYP2D6 (Cytochrome P450 2D6)",
+      "source": "Title; Introduction; Methods – Study design and procedures"
+    },
+    "Genetic_testing_methods": {
+      "value": "For the genotype-guided arm, clinical CYP2D6 genotyping was performed at UF Health Pathology Laboratory using the Luminex 100/200 System with the xTAG CYP2D6 Kit v3 Assay, validated per College of American Pathologists/CLIA standards, testing CYP2D6 variants and copy number alterations. For the usual care arm (research-only genotyping), CYP2D6 genotyping used PCR and pyrosequencing methods as previously described.",
+      "source": "Methods – Study design and procedures: \"Luminex® 100/200™ System using xTAG® CYP2D6 Kit v3 Assay\" and \"using PCR and pyrosequencing as previously described.24,25\""
+    },
+    "Variant": {
+      "value": "Specific CYP2D6 alleles and copy number alterations were tested (including deletions and duplications), with phenotypes categorized as normal metabolizer (NM), intermediate metabolizer (IM), poor metabolizer (PM), and NM–ultrarapid metabolizer (NM–UM) based on diplotype-derived activity score and adjusted for CYP2D6 inhibitor use.",
+      "source": "Introduction: description of CYP2D6 polymorphisms; Methods – Study design and procedures: \"The CYP2D6 variants and copy number alterations tested for were previously described (Table S1).\"; Table 3: phenotypes NM-UM, NM, IM, PM; description of phenoconversion with inhibitors"
+    },
+    "Method_of_genotyping": {
+      "value": "Genotype-guided arm: laboratory-based clinical assay using Luminex 100/200 System with xTAG CYP2D6 Kit v3 (multiplex bead-based genotyping, reporting duplications but not specific duplicated allele nor copy number beyond presence). Usual care arm (research genotyping): PCR amplification followed by pyrosequencing and a separate method for determining CYP2D6 gene copy number and duplicated alleles.",
+      "source": "Methods – Study design and procedures; References 24–25: \"Genetic variation analyses by Pyrosequencing\" and \"A novel simple method for determining CYP2D6 gene copy number\""
+    }
+  },
+  "Outcomes": {
+    "1": {
+      "Outcomes": {
+        "value": "Composite pain score (Brief Pain Inventory-Short Form): average of worst pain, pain on average in last 24 hours, and pain right now (scale 1–10). Baseline comparison between arms.",
+        "source": "Methods – Data analysis: composite pain score definition; Table 4: \"Composite pain score, mean ± SD\""
+      },
+      "Experimental_Outcome_number": {
+        "value": "38",
+        "source": "Table 4: CYP2D6 genotype-guided (n=38) for baseline composite pain score"
+      },
+      "Control_Outcome_number": {
+        "value": "44",
+        "source": "Table 4: Usual Care (n=44) for baseline composite pain score"
+      },
+      "Measurement_time": {
+        "value": "Baseline (at enrollment before randomization-guided changes could occur)",
+        "source": "Methods – Data collection: \"At baseline and 2, 4, 6, and 8 weeks...\"; Table 4 heading: baseline measures"
+      },
+      "Experimental_group_results": {
+        "value": "5.22 ± 2.23",
+        "source": "Table 4: \"Composite pain score, mean ± SD ... CYP2D6 genotype-guided (n=38) 5.22 ± 2.23\""
+      },
+      "Control_group_results": {
+        "value": "5.68 ± 1.70",
+        "source": "Table 4: \"Composite pain score, mean ± SD ... Usual Care (n=44) 5.68 ± 1.70\""
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test (or Wilcoxon rank-sum as per protocol for continuous data)",
+        "source": "Methods – Data analysis: \"Data were compared between the two arms using ... the two-sample t-test or Wilcoxon rank-sum for ... continuous data\"; Table 4: p-value reported"
+      },
+      "Statistical_result": {
+        "value": "P = 0.28",
+        "source": "Table 4: \"Composite pain score ... P-value 0.28\""
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "No effect size (e.g., mean difference with CI) reported for baseline composite pain comparison."
+      }
+    },
+    "2": {
+      "Outcomes": {
+        "value": "Core symptom severity (MD Anderson Symptom Inventory): mean of 13 core symptom items. Baseline comparison between arms.",
+        "source": "Methods – Data analysis: definition of core symptom severity; Table 4"
+      },
+      "Experimental_Outcome_number": {
+        "value": "38",
+        "source": "Table 4: CYP2D6 genotype-guided (n=38)"
+      },
+      "Control_Outcome_number": {
+        "value": "44",
+        "source": "Table 4: Usual Care (n=44)"
+      },
+      "Measurement_time": {
+        "value": "Baseline",
+        "source": "Table 4 heading: baseline measures"
+      },
+      "Experimental_group_results": {
+        "value": "3.60 ± 1.61",
+        "source": "Table 4: \"Core symptom severity mean ± SD ... CYP2D6 genotype-guided 3.60 ± 1.61\""
+      },
+      "Control_group_results": {
+        "value": "3.89 ± 1.80",
+        "source": "Table 4: \"Core symptom severity mean ± SD ... Usual Care 3.89 ± 1.80\""
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test (or Wilcoxon rank-sum, per analysis plan)",
+        "source": "Methods – Data analysis; Table 4 p-value"
+      },
+      "Statistical_result": {
+        "value": "P = 0.45",
+        "source": "Table 4: \"Core symptom severity ... P-value 0.45\""
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "No effect size reported."
+      }
+    },
+    "3": {
+      "Outcomes": {
+        "value": "Symptom distress (MDASI interference composite): mean of 6 interference items. Baseline comparison between arms.",
+        "source": "Methods – Data analysis: symptom distress definition; Table 4"
+      },
+      "Experimental_Outcome_number": {
+        "value": "38",
+        "source": "Table 4: CYP2D6 genotype-guided (n=38)"
+      },
+      "Control_Outcome_number": {
+        "value": "44",
+        "source": "Table 4: Usual Care (n=44)"
+      },
+      "Measurement_time": {
+        "value": "Baseline",
+        "source": "Table 4 heading"
+      },
+      "Experimental_group_results": {
+        "value": "4.30 ± 2.38",
+        "source": "Table 4: \"Symptom distress, mean ± SD ... CYP2D6 genotype-guided 4.30 ± 2.38\""
+      },
+      "Control_group_results": {
+        "value": "4.23 ± 2.63",
+        "source": "Table 4: \"Symptom distress, mean ± SD ... Usual Care 4.23 ± 2.63\""
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test (or Wilcoxon rank-sum, per analysis plan)",
+        "source": "Methods – Data analysis; Table 4"
+      },
+      "Statistical_result": {
+        "value": "P = 0.89",
+        "source": "Table 4: \"Symptom distress ... P-value 0.89\""
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "No effect size reported."
+      }
+    },
+    "4": {
+      "Outcomes": {
+        "value": "Change in composite pain score from baseline to last follow-up (continuous outcome).",
+        "source": "Results – Patient reported outcome metrics: change in composite pain score; Methods – Data analysis: calculation of change"
+      },
+      "Experimental_Outcome_number": {
+        "value": "22",
+        "source": "Results – Patient population: \"22 (58%) in the genotype-guided arm ... completed the baseline and ≥1 follow up questionnaire after 2 weeks\"; Results – Patient reported outcome metrics: use of n=22 for genotype-guided arm"
+      },
+      "Control_Outcome_number": {
+        "value": "26",
+        "source": "Results – Patient population: \"26 (55%) in the usual care arm completed the baseline and ≥1 follow up questionnaire after 2 weeks\"; Results – Patient reported outcome metrics: use of n=26 for usual care arm"
+      },
+      "Measurement_time": {
+        "value": "From baseline to last completed survey after week 2 (up to 8 weeks).",
+        "source": "Methods – Data collection: surveys at baseline and weeks 2, 4, 6, 8; Methods – Data analysis: \"score at last follow up\"; exclusion of those with only baseline and week 2"
+      },
+      "Experimental_group_results": {
+        "value": "−0.41 ± 2.51 (from 4.79 ± 2.21 at baseline to 4.38 ± 2.05 at last follow-up; n=22)",
+        "source": "Results – Patient reported outcome metrics: \"by -0.41 ± 2.51 in the genotype-guided arm (from 4.79 ± 2.21 at baseline to 4.38 ± 2.05 at last follow-up; n=22)\""
+      },
+      "Control_group_results": {
+        "value": "−1.01 ± 2.10 (from 5.18 ± 1.55 at baseline to 4.17 ± 2.08 at last follow-up; n=26)",
+        "source": "Results – Patient reported outcome metrics: \"The mean change in composite pain score ... was -1.01 ± 2.10 in the usual care arm (from 5.18 ± 1.55 at baseline to 4.17 ± 2.08 at last follow-up; n=26)\""
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test (or Wilcoxon rank-sum) comparing change in composite pain score between groups",
+        "source": "Methods – Data analysis: continuous data compared using t-test or Wilcoxon rank-sum; Results: p-values reported for change comparison"
+      },
+      "Statistical_result": {
+        "value": "P = 0.37 (text) or P = 0.19 (abstract results section); discrepancy noted in article.",
+        "source": "Results – Patient reported outcome metrics: \"(p=0.37)\"; Introduction – Results summary: \"p=0.19\""
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "No explicit effect size (e.g., mean difference with confidence interval) reported for change in composite pain."
+      }
+    },
+    "5": {
+      "Outcomes": {
+        "value": "Change in MDASI core symptom severity from baseline to last follow-up (percent change).",
+        "source": "Methods – Data analysis: \"core symptom severity\" and change calculation; Results – Patient reported outcome metrics"
+      },
+      "Experimental_Outcome_number": {
+        "value": "22",
+        "source": "Results – Patient reported outcome metrics: core symptom severity at last follow-up in genotype-guided arm (n=22)"
+      },
+      "Control_Outcome_number": {
+        "value": "26",
+        "source": "Results – Patient reported outcome metrics: core symptom severity at last follow-up in usual care arm (n=26)"
+      },
+      "Measurement_time": {
+        "value": "From baseline to last completed survey after week 2 (up to 8 weeks).",
+        "source": "Methods – Data collection and Data analysis; Results – Patient reported outcome metrics"
+      },
+      "Experimental_group_results": {
+        "value": "Core symptom severity increased by 14% to 3.47 ± 1.78 at last follow-up (n=22).",
+        "source": "Results – Patient reported outcome metrics: \"14% in the genotype-guided arm (3.47 ± 1.78 at last follow-up; n=22)\""
+      },
+      "Control_group_results": {
+        "value": "Core symptom severity increased by 28% to 3.96 ± 2.18 at last follow-up (n=26).",
+        "source": "Results – Patient reported outcome metrics: \"Core symptom severity increased by 28% in the usual care arm (to 3.96 ± 2.18 at last follow-up; n=26)\""
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test (or Wilcoxon rank-sum) comparing percent change between arms",
+        "source": "Methods – Data analysis: continuous data compared using t-test or Wilcoxon rank-sum; Results – Patient reported outcome metrics: p-value given"
+      },
+      "Statistical_result": {
+        "value": "P = 0.63",
+        "source": "Results – Patient reported outcome metrics: \"(p=0.63)\" for core symptom severity change comparison"
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "No effect size reported."
+      }
+    },
+    "6": {
+      "Outcomes": {
+        "value": "Change in MDASI symptom distress from baseline to last follow-up (percent change).",
+        "source": "Methods – Data analysis: definition of symptom distress; Results – Patient reported outcome metrics"
+      },
+      "Experimental_Outcome_number": {
+        "value": "20",
+        "source": "Results – Patient reported outcome metrics: \"n=20\" for genotype-guided arm symptom distress at last follow-up"
+      },
+      "Control_Outcome_number": {
+        "value": "26",
+        "source": "Results – Patient reported outcome metrics: \"n=26\" for usual care arm symptom distress at last follow-up"
+      },
+      "Measurement_time": {
+        "value": "From baseline to last completed survey after week 2 (up to 8 weeks).",
+        "source": "Methods – Data collection and Data analysis; Results – Patient reported outcome metrics"
+      },
+      "Experimental_group_results": {
+        "value": "Symptom distress increased by 5% to 4.36 ± 2.56 at last follow-up (n=20).",
+        "source": "Results – Patient reported outcome metrics: \"and 5% in the genotype-guided arm (4.36 ± 2.56 at last follow-up; n=20)\""
+      },
+      "Control_group_results": {
+        "value": "Symptom distress increased by 22% to 4.10 ± 2.78 at last follow-up (n=26).",
+        "source": "Results – Patient reported outcome metrics: \"Symptom distress increased by 22% in the usual care arm (to 4.10 ± 2.78 at last follow-up; n=26)\""
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test (or Wilcoxon rank-sum) comparing percent change between arms",
+        "source": "Methods – Data analysis; Results – Patient reported outcome metrics"
+      },
+      "Statistical_result": {
+        "value": "P = 0.54",
+        "source": "Results – Patient reported outcome metrics: \"(p-value=0.54)\""
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "No effect size reported."
+      }
+    },
+    "7": {
+      "Outcomes": {
+        "value": "Baseline composite pain score by CYP2D6 clinical phenotype among patients on oxycodone, tramadol, or hydrocodone (cross-sectional association).",
+        "source": "Results – Patient reported outcome metrics; Figure 2 description"
+      },
+      "Experimental_Outcome_number": {
+        "value": "NA",
+        "source": "Analysis pooled genotype-guided and usual care groups (n=63 total); not separated into trial arms."
+      },
+      "Control_Outcome_number": {
+        "value": "NA",
+        "source": "As above, pooled across arms."
+      },
+      "Measurement_time": {
+        "value": "Baseline",
+        "source": "Figure 2: \"Baseline composite pain score by CYP2D6 phenotype\""
+      },
+      "Experimental_group_results": {
+        "value": "NA",
+        "source": "Results by phenotype (NM, IM, PM) not stratified by trial arm."
+      },
+      "Control_group_results": {
+        "value": "NA",
+        "source": "Results by phenotype (NM, IM, PM) not stratified by trial arm."
+      },
+      "Statistical_method": {
+        "value": "Kruskal–Wallis or ANOVA-type comparison across phenotype groups (exact test name not specified; p-value reported for difference across clinical phenotypes).",
+        "source": "Results – Patient reported outcome metrics: \"no difference (P=0.89) in median baseline composite pain scores by clinical phenotype\""
+      },
+      "Statistical_result": {
+        "value": "P = 0.89 (no difference in median baseline composite pain scores among NM, IM, PM phenotypes; n=63). Median composite pain scores: NM 5.00 (n=47), IM 5.00 (n=8), PM 6.17 (n=4).",
+        "source": "Figure 2 legend: detailed values and p=0.89"
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "No effect size reported for phenotype comparison."
+      }
+    },
+    "8": {
+      "Outcomes": {
+        "value": "Feasibility: patient willingness to participate in the trial (participation rate among approached patients).",
+        "source": "Results – Patient population: description of approached vs enrolled; Methods – Data analysis: feasibility metrics"
+      },
+      "Experimental_Outcome_number": {
+        "value": "NA",
+        "source": "Feasibility metric considered for the entire cohort, not by arm."
+      },
+      "Control_Outcome_number": {
+        "value": "NA",
+        "source": "As above."
+      },
+      "Measurement_time": {
+        "value": "At recruitment/enrollment (single time point).",
+        "source": "Results – Patient population: description of approached and consent process"
+      },
+      "Experimental_group_results": {
+        "value": "NA",
+        "source": "Participation rate not stratified by eventual randomization group."
+      },
+      "Control_group_results": {
+        "value": "NA",
+        "source": "As above."
+      },
+      "Statistical_method": {
+        "value": "Descriptive only (no between-group comparison).",
+        "source": "Results – Patient population: participation percentages reported without statistical tests"
+      },
+      "Statistical_result": {
+        "value": "87 of 114 (76%) approached patients agreed to participate.",
+        "source": "Results – Patient population: \"Of 114 patients approached across sites, 87 (76%) agreed to participate\""
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "No inferential statistic; descriptive feasibility outcome."
+      }
+    },
+    "9": {
+      "Outcomes": {
+        "value": "Feasibility: genotype turnaround time for CYP2D6 testing in genotype-guided arm.",
+        "source": "Results – Implementation metrics; Table 2"
+      },
+      "Experimental_Outcome_number": {
+        "value": "38 (genotype-guided arm; TAT effectively based on 36 with successful genotyping).",
+        "source": "Results – Implementation metrics: \"Results were ultimately returned for 36/38 (95%) patients.\"; Table 2: genotype-guided n=38"
+      },
+      "Control_Outcome_number": {
+        "value": "NA",
+        "source": "Usual care arm genotyping was research-only at end of study; TAT not used as implementation outcome."
+      },
+      "Measurement_time": {
+        "value": "From sample collection to reporting of results by pathology laboratory (days).",
+        "source": "Methods – Data analysis: genotype turnaround time definition; Table 2"
+      },
+      "Experimental_group_results": {
+        "value": "Median 10 days (range 3–37) overall; at UF, 9 days (3–37); at Moffitt, 13.5 days (7–22). After excluding recollections, median 9 days (3–18).",
+        "source": "Results – Implementation metrics; Table 2: \"Genotyping turnaround time (TAT), median days (range)†* 10 (3-37) overall\""
+      },
+      "Control_group_results": {
+        "value": "NA",
+        "source": "No TAT outcome reported for usual care arm."
+      },
+      "Statistical_method": {
+        "value": "Descriptive; no between-arm comparison.",
+        "source": "Table 2 and associated text present descriptive metrics only."
+      },
+      "Statistical_result": {
+        "value": "NA",
+        "source": "No p-value or comparative statistic reported."
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "Not applicable."
+      }
+    },
+    "10": {
+      "Outcomes": {
+        "value": "Feasibility: physician acknowledgement of genotype results in clinical notes (genotype-guided arm).",
+        "source": "Results – Implementation metrics; Table 2"
+      },
+      "Experimental_Outcome_number": {
+        "value": "38",
+        "source": "Table 2: genotype-guided arm (n=38)"
+      },
+      "Control_Outcome_number": {
+        "value": "NA",
+        "source": "Outcome only relevant to genotype-guided arm."
+      },
+      "Measurement_time": {
+        "value": "During each patient's period of trial enrollment.",
+        "source": "Data collection: EHR reviewed upon study completion to evaluate notes during enrollment period"
+      },
+      "Experimental_group_results": {
+        "value": "9 of 38 (24%) had genotype acknowledged in a clinic note overall; at UF, 9 of 30 (30%); at Moffitt, 0 of 8 (0%).",
+        "source": "Table 2: \"Physician acknowledged genotype for pain management in clinic note, n (%) Overall 9 (24%)\""
+      },
+      "Control_group_results": {
+        "value": "NA",
+        "source": "Usual care arm had no clinical genotype results."
+      },
+      "Statistical_method": {
+        "value": "Descriptive only.",
+        "source": "Table 2, no comparative statistics reported."
+      },
+      "Statistical_result": {
+        "value": "NA",
+        "source": "No p-value reported."
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "Not applicable."
+      }
+    },
+    "11": {
+      "Outcomes": {
+        "value": "Feasibility: proportion of patients with actionable CYP2D6 clinical phenotype (PM, IM, or NM–UM) in genotype-guided arm.",
+        "source": "Results – Implementation metrics; Table 3 and Table 2"
+      },
+      "Experimental_Outcome_number": {
+        "value": "38 (genotype-guided arm; 36 with successful genotyping, 11 with actionable phenotype).",
+        "source": "Results – Implementation metrics: \"Of the 11 patients in the genotype guided arm with a PM, IM, or NM-UM clinical phenotype\"; Table 2: \"Patients with actionable CYP2D6 clinical phenotype 11 (29%)\""
+      },
+      "Control_Outcome_number": {
+        "value": "47 (7 with actionable phenotype).",
+        "source": "Results – Implementation metrics: \"In the usual care group, changes ... in none of the patients with an actionable phenotype (0/7)\""
+      },
+      "Measurement_time": {
+        "value": "At time of genotype result and clinical phenotype assignment.",
+        "source": "Methods – Study design and procedures: phenotype assignment; Implementation metrics"
+      },
+      "Experimental_group_results": {
+        "value": "11 of 38 (29%) had actionable PM, IM, or NM–UM clinical phenotype.",
+        "source": "Table 2: \"Patients with actionable CYP2D6 clinical phenotype 11 (29%)\""
+      },
+      "Control_group_results": {
+        "value": "7 of 47 (15%) had actionable PM, IM, or NM–UM clinical phenotype (derived from text: 0/7 with actionable phenotype had drug change).",
+        "source": "Results – Implementation metrics: \"In the usual care group, changes ... occurred in none of the patients with an actionable phenotype (0/7)\""
+      },
+      "Statistical_method": {
+        "value": "Descriptive; no between-arm statistical test reported.",
+        "source": "Implementation metrics narrative and tables"
+      },
+      "Statistical_result": {
+        "value": "NA",
+        "source": "No p-value reported."
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "Not applicable."
+      }
+    },
+    "12": {
+      "Outcomes": {
+        "value": "Feasibility: proportion of patients with pharmacotherapy change congruent with CYP2D6-guided recommendations among those with actionable phenotypes.",
+        "source": "Results – Implementation metrics; Table 2"
+      },
+      "Experimental_Outcome_number": {
+        "value": "11 (genotype-guided patients with actionable phenotypes).",
+        "source": "Table 2: \"Patients with actionable CYP2D6 clinical phenotype\"; \"Drug change in concordance\" row"
+      },
+      "Control_Outcome_number": {
+        "value": "7 (usual care patients with actionable phenotypes).",
+        "source": "Results – Implementation metrics: \"In the usual care group ... none of the patients with an actionable phenotype (0/7)\""
+      },
+      "Measurement_time": {
+        "value": "During follow-up period after genotype results became available.",
+        "source": "Results – Implementation metrics; Data collection: review of EHR during enrollment period"
+      },
+      "Experimental_group_results": {
+        "value": "2 of 11 (18%) had a drug change congruent with recommendations (switch from oxycodone to fentanyl or morphine).",
+        "source": "Results – Implementation metrics: \"occurred in 2/11 patients (18%)\"; Table 2: \"Drug change in concordance with CYP2D6-guided recommendations, n (%) 2 (18%)\""
+      },
+      "Control_group_results": {
+        "value": "0 of 7 (0%) with actionable phenotype; 1 of 39 (2.6%) with NM phenotype had a change from CYP2D6-metabolized to non-CYP2D6-metabolized opioid.",
+        "source": "Results – Implementation metrics: \"In the usual care group, changes ... occurred in none of the patients with an actionable phenotype (0/7) and in 1/39 (2.6%) with the NM phenotype.\""
+      },
+      "Statistical_method": {
+        "value": "Descriptive proportions; no comparative statistics reported.",
+        "source": "Implementation metrics section"
+      },
+      "Statistical_result": {
+        "value": "NA",
+        "source": "No p-values reported."
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "Not applicable."
+      }
+    }
+  },
+  "Data_Extract": {}
+}

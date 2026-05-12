@@ -1,0 +1,75 @@
+{
+    "headers": [
+        "Study",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "Overall",
+        "check"
+    ],
+    "title": "Table 5. Risk of bias assessment.",
+    "data": [
+        [
+            "Kraus et al",
+            "+",
+            "+",
+            "+",
+            "+",
+            "+",
+            "+",
+            "The extracted data labels all five domains (D1–D5) and Overall as '+', implying low risk of bias across all domains and overall. However, the provided text does not include any risk-of-bias assessment (no RoB table or domain-level judgments are reported). Therefore, these '+' entries are not verifiable from the text and should not be assigned based on the available information. The correct values for D1, D2, D3, D4, D5, and Overall cannot be determined from the provided article excerpt and should be left unspecified or marked as 'not reported' rather than '+'."
+        ],
+        [
+            "Mosley et al",
+            "+",
+            "X",
+            "-",
+            "+",
+            "+",
+            "X",
+            "The original text provided does not contain an explicit risk-of-bias assessment or any information that maps to domains D1–D5 or an 'Overall' judgment. Therefore, the extracted entries for D1='+', D2='X', D3='-', D4='+', D5='+', and Overall='X' cannot be verified against the text and should not be inferred from it. They should be treated as missing/not reported rather than assigned these values."
+        ],
+        [
+            "Agullo et al",
+            "+",
+            "+",
+            "+",
+            "+",
+            "+",
+            "+",
+            "The extracted row marks all risk-of-bias domains (D1–D5) and Overall as '+', indicating low risk/low concern for all domains. The provided article text does not contain any risk-of-bias assessment, description, or judgement corresponding to D1–D5 or an Overall rating. Therefore, these '+' entries cannot be verified against the original text and should not be assumed as such based on the provided content."
+        ],
+        [
+            "Hamilton et al (2022)",
+            "+",
+            "+",
+            "+",
+            "+",
+            "+",
+            "+",
+            "The extracted data lists risk of bias domains D1–D5 and Overall as '+', but the provided original text contains no risk of bias assessment table or information from which these judgments (D1–D5, Overall) could be derived. Therefore, these entries cannot be verified and should not be assumed to be '+'. The correct values for D1, D2, D3, D4, D5, and Overall cannot be determined from the supplied text."
+        ],
+        [
+            "Thomas et al",
+            "+",
+            "+",
+            "+",
+            "-",
+            "+",
+            "-",
+            "The extracted row appears to represent risk-of-bias domains (D1–D5 and Overall), but the provided original text does not contain any risk-of-bias assessment or judgments for this study. Therefore, the specific ratings ('+', '+', '+', '-', '+', '-') for D1, D2, D3, D4, D5, and Overall cannot be verified against the text and should not be assumed as correct. These fields are effectively unsupported by the original text."
+        ],
+        [
+            "Hamilton et al (2020)",
+            "+",
+            "+",
+            "+",
+            "+",
+            "+",
+            "+",
+            "The extracted row assigns Hamilton et al (2020) a risk-of-bias assessment of '+' for domains D1–D5 and Overall. However, the provided original text is the full article 'Prospective Randomized Study Using Pharmacogenetics to Customize Postoperative Pain Medication Following Hip and Knee Arthroplasty' by William G. Hamilton, published in 2022 in The Journal of Arthroplasty. This text contains no risk-of-bias table or domain-specific judgments (D1–D5, Overall), so these '+' entries cannot be verified or supported. The correct values for D1, D2, D3, D4, D5, and Overall are not reported in the provided text and therefore should be left as missing/unknown rather than '+'."
+        ]
+    ]
+}

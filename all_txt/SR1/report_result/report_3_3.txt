@@ -1,0 +1,5 @@
+{
+  "Tool_Selection": "The review used the Cochrane Risk of Bias 2 (RoB 2) tool for randomized controlled trials, which is appropriate given that all included studies were RCTs.",
+  "Assessment_Process": "Risk of bias was assessed for each trial using the RoB 2 template (revised Cochrane risk-of-bias tool for randomized trials, 22 Aug 2019). Two reviewers (SJ and a second reviewer, MB) conducted the assessments independently. No third-party adjudication or reviewer training was reported for the risk of bias assessment.",
+  "Results_Presentation": "Findings were summarized in Table 5 across five RoB 2 domains (D1–D5) with an overall judgment. Four of six studies were judged low risk, one had some concerns, and one (Mosley et al.) was high risk due to deviations from intended interventions and missing outcome data; this high-risk study was excluded from the meta-analysis for methodological rigor."
+}

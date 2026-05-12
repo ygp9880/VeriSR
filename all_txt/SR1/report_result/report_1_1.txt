@@ -1,0 +1,18 @@
+{
+  "Title": "Pharmacogenomic-guided opioid therapy for pain: a systematic review and meta-analysis of randomised controlled trials",
+  "Objective": "To evaluate whether pharmacogenomic-guided opioid prescribing improves outcomes compared with usual care in adults requiring opioid treatment for pain.",
+  "Sample_size_total": "619",
+  "Number_of_studies_included": "6",
+  "Inclusion_criteria": {
+    "Population": "Adults (18 years and above) requiring opioid therapy for pain",
+    "Intervention": "Pharmacogenomic-guided opioid prescribing",
+    "Comparison": "Treatment as usual",
+    "Outcome": "Pain intensity or severity; adverse event incidence or frequency; mean opioid consumption"
+  },
+  "Main_results": [
+    "Pharmacogenomic-guided prescribing significantly reduced opioid consumption (SMD -0.38; 95% CI -0.67 to -0.08; p = 0.01).",
+    "No significant difference in pain intensity was observed between groups (SMD -0.31; 95% CI -0.89 to 0.27; p = 0.30).",
+    "In one trial, adverse events were lower with pharmacogenomic guidance (median [IQR] 1 [0–2] vs. 3 [1–5]; p < 0.01)."
+  ],
+  "Notes": "Six RCTs were included; four had low risk of bias, one high, and one had some concerns; the Mosley et al. study was excluded from meta-analysis due to high risk of bias; heterogeneity for pain intensity was substantial (I² = 81%), while heterogeneity for opioid consumption was low (I² = 22%)."
+}

@@ -1,0 +1,463 @@
+{
+  "Basic_information": {
+    "Title": {
+      "value": "A Hybrid Implementation-Effectiveness Randomized Trial of CYP2D6 Guided Post-operative Pain Management",
+      "source": "metadata.Title"
+    },
+    "First_author": {
+      "value": "Cameron D. Thomas",
+      "source": "metadata.First_author"
+    },
+    "Published_year": {
+      "value": "2021",
+      "source": "metadata.Published_year"
+    },
+    "Journal": {
+      "value": "Genet Med.",
+      "source": "metadata.Journal"
+    },
+    "Corresponding": {
+      "value": "Larisa H. Cavallari; lcavallari@cop.ufl.edu",
+      "source": "metadata.Corresponding"
+    },
+    "DOI": {
+      "value": "10.1038/s41436-020-01050-4",
+      "source": "metadata.DOI"
+    },
+    "Declaration_of_interest": {
+      "value": "All study participants provided written, informed consent. The study was approved by the University of Florida Institutional Review Board, and all procedures were in accordance with the ethical standards of the Declaration of Helsinki and registered in Clinical Trials.gov (NCT03534063). Dataset and code available upon request. Y.G., R.B.F., J.A.J., and L.H.C. have received research funding from the National Institutes of Health. P.S. receives support from University of Florida Health Pathology Laboratories. C.F.G. is a stockholder for ROMTech. The other authors declare no conflicts of interest.",
+      "source": "metadata.Declaration_of_interest"
+    },
+    "Funding": {
+      "value": "This work was supported by the University of Florida Clinical and Translational Science Institute, which is supported in part by the NIH National Center for Advancing Translational Sciences under award number UL1TR001427 and University of Florida Health Shands. Work by C.D.T. was supported by T32 HG008958. Research reported in this publication was also supported by NIH/NHGRI (U01 HG 007269). The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.",
+      "source": "metadata.Funding"
+    }
+  },
+  "Study_design_population": {
+    "Study_design": {
+      "value": "Randomized, open-label, type 2 hybrid implementation-effectiveness trial, 2:1 allocation (CYP2D6-guided vs usual care)",
+      "source": "MATERIALS AND METHODS – Study design: \"This study was a randomized, open label, type 2 hybrid implementation-effectiveness trial…\" and \"participants were randomized 2:1 to a CYP2D6-guided or usual post-operative pain management approach.\""
+    },
+    "Country": {
+      "value": "United States (University of Florida Health system)",
+      "source": "MATERIALS AND METHODS – Study design: \"funded under a University of Florida (UF) Health-Clinical and Translational Science Institute…\" plus multiple references to UF Health Shands hospital in the United States."
+    },
+    "Sample_size": {
+      "value": "260 randomized; 234 underwent total joint arthroplasty (CYP2D6-guided n=154, usual care n=80)",
+      "source": "RESULTS – Participant population: \"260 (92%) agreed to participate and were randomized to the genotype-guided (n=173) or usual care (n=87) arm… total joint arthroplasty was performed in 90% (234/260) of participants, including 154 in the genotype-guided arm and 80 in the usual care arm.\""
+    },
+    "Age": {
+      "value": "CYP2D6-guided: 68 [62–74] years; Usual care: 65 [57–72] years",
+      "source": "Table 1. Study Participant Characteristics by Allocated Treatment Group – row \"Age, years\""
+    },
+    "Male(%)": {
+      "value": "Overall: 97/234 (41.5%) male (calculated from 63/154 [41%] in CYP2D6-guided and 34/80 [42%] in usual care)",
+      "source": "Table 1 – row \"Female\": CYP2D6-guided 91 (59), Usual Care 46 (58); males calculated as 154–91=63 and 80–46=34."
+    },
+    "Inclusion_criteria": {
+      "value": "Adults ≥18 years of age scheduled for primary unilateral total hip or knee arthroplasty.",
+      "source": "MATERIALS AND METHODS – Study participants: \"Eligible participants were adults ≥18 years of age scheduled for primary unilateral total hip or knee arthroplasty.\""
+    },
+    "Exclusion_criteria": {
+      "value": "Scheduled to undergo a revision or bilateral procedure; planned discharge to a rehabilitation facility; receiving long-term opioid therapy (use of opioids on most days for more than three months); allergy to opioids.",
+      "source": "MATERIALS AND METHODS – Study participants: \"Those scheduled to undergo a revision or bilateral procedure; with planned discharge to a rehabilitation facility; receiving long-term opioid therapy, defined as use of opioids on most days for more than three months; or with an allergy to opioids were excluded.\""
+    },
+    "Follow_up_time": {
+      "value": "Primary effectiveness outcomes collected at 2 weeks (±4 days) post-surgery; additional assessments at 1 week post-surgery.",
+      "source": "Abstract – Methods: \"Effectiveness outcomes were collected 2-weeks post-surgery.\" and MATERIALS AND METHODS – Study surveys: \"At 1-week post-surgery… At 2 weeks (± 4 days) post-surgery…\""
+    }
+  },
+  "Experimental_Group": {
+    "Experimental_group_definition": {
+      "value": "Participants randomized to CYP2D6 genotype-guided post-operative pain management, where CYP2D6 metabolizer phenotype informed opioid prescribing recommendations.",
+      "source": "Abstract – Methods: \"Adults undergoing total joint arthroplasty were randomized 2:1 to genotype-guided or usual pain management.\" and MATERIALS AND METHODS – CYP2D6 genotyping…: description of recommendations based on phenotype for the genotype-guided arm."
+    },
+    "Experimental_group_number": {
+      "value": "154 participants who underwent total joint arthroplasty",
+      "source": "RESULTS – Participant population: \"including 154 in the genotype-guided arm and 80 in the usual care arm.\""
+    },
+    "Experimental_group_male": {
+      "value": "41%",
+      "source": "Table 1 – \"Female\" row for CYP2D6-guided: 91 (59); males calculated as 100%–59%=41% (63/154)."
+    },
+    "Experimental_group_female": {
+      "value": "59%",
+      "source": "Table 1 – \"Female\" row: CYP2D6-guided 91 (59)."
+    },
+    "Experimental_group_mean_age": {
+      "value": "68 [62–74] years (median [interquartile range])",
+      "source": "Table 1 – row \"Age, years\": CYP2D6-guided 68 [62-74]"
+    },
+    "Experimental_group_ethnicity": {
+      "value": "White 131 (85%), Black 16 (10%), Asian 3 (2%), Other 4 (3%)",
+      "source": "Table 1 – Race rows for CYP2D6-guided: White 131 (85), Black 16 (10), Asian 3 (2), Other 4 (3)."
+    }
+  },
+  "Control_Group": {
+    "Control_group_definition": {
+      "value": "Participants randomized to usual post-operative pain management without CYP2D6-guided prescribing during the study; CYP2D6 genotyping was performed after study completion for future use.",
+      "source": "MATERIALS AND METHODS – Randomization and baseline procedures: \"participants were randomized 2:1 to a CYP2D6-guided or usual post-operative pain management approach\" and description of sample storage and delayed genotyping in the usual care arm."
+    },
+    "Control_group_number": {
+      "value": "80 participants who underwent total joint arthroplasty",
+      "source": "RESULTS – Participant population: \"including 154 in the genotype-guided arm and 80 in the usual care arm.\""
+    },
+    "Control_group_male(%)": {
+      "value": "42%",
+      "source": "Table 1 – \"Female\" row for Usual Care: 46 (58); males calculated as 100%–58%=42% (34/80)."
+    },
+    "Control_group_female(%)": {
+      "value": "58%",
+      "source": "Table 1 – \"Female\" row: Usual Care 46 (58)."
+    },
+    "Control_group_mean_age(SD)": {
+      "value": "65 [57–72] years (median [interquartile range])",
+      "source": "Table 1 – row \"Age, years\": Usual Care 65 [57-72]"
+    },
+    "Control_group_ethnicity(%)": {
+      "value": "{\"White\": 81, \"Black\": 15, \"Asian\": 1, \"Other\": 3}",
+      "source": "Table 1 – Race rows for Usual Care: White 65 (81), Black 12 (15), Asian 1 (1), Other 2 (3)."
+    }
+  },
+  "Gene": {
+    "Disease": {
+      "value": "Post-operative pain after primary unilateral total hip or knee arthroplasty (total joint arthroplasty for osteoarthritis and related indications).",
+      "source": "MATERIALS AND METHODS – Study participants: \"scheduled for primary unilateral total hip or knee arthroplasty\" and Table 1 – Past medical history: high prevalence of osteoarthritis."
+    },
+    "Drug_type": {
+      "value": "Opioid analgesics for post-operative pain management.",
+      "source": "INTRODUCTION and Abstract – Purpose/Methods: multiple references to \"opioids\" and \"post-surgical pain management\"."
+    },
+    "Experimental_group_Drug_use": {
+      "value": "Opioid prescribing guided by CYP2D6 phenotype: for PM, IM, UM, or NM-UM phenotypes, avoidance of hydrocodone, tramadol, codeine, and oxycodone with recommendation to use alternative opioids (e.g., morphine, hydromorphone) or non-opioid analgesics (e.g., NSAIDs); for normal metabolizers, tramadol recommended as preferred opioid, often with concomitant hydrocodone or another opioid per usual practice.",
+      "source": "MATERIALS AND METHODS – CYP2D6 genotyping, phenotype assignment, and recommendations: description of high-risk phenotype recommendations and use of tramadol in NMs; RESULTS – Feasibility and Implementation Metrics: description of actual prescribing patterns in genotype-guided arm."
+    },
+    "Control_group_Drug_use": {
+      "value": "Usual post-operative opioid prescribing without CYP2D6-guided modifications; most normal metabolizers received tramadol-based regimens, commonly with concomitant hydrocodone or another opioid, and none of the high-risk phenotype participants received an alternative opioid instead of codeine, tramadol, hydrocodone, or oxycodone.",
+      "source": "RESULTS – Feasibility and Implementation Metrics: \"None of the usual care participants with a high-risk phenotype received an alternative opioid\" and tramadol-based regimens in NMs in usual care arm."
+    },
+    "Gene": {
+      "value": "CYP2D6 (cytochrome P450 2D6)",
+      "source": "Title and INTRODUCTION: multiple mentions of \"CYP2D6\" as central gene."
+    },
+    "Genetic_testing_methods": {
+      "value": "Clinical CYP2D6 genotyping in a College of American Pathologists/CLIA-licensed pathology laboratory using primarily the Luminex xTAG CYP2D6 Kit v3, with later samples genotyped on the QuantStudio 12K Flex Real-Time PCR System; assays included testing for multiple CYP2D6 alleles (*2, *3, *4, *5, *6, *7, *8, *9, *10, *11, *15, *17, *29, *35, *41) and copy number variation.",
+      "source": "MATERIALS AND METHODS – CYP2D6 genotyping, phenotype assignment, and recommendations: detailed description of platforms and alleles tested."
+    },
+    "Variant": {
+      "value": "CYP2D6 star alleles and copy number variants including *2, *3, *4, *5, *6, *7, *8, *9, *10, *11, *15, *17, *29, *35, *41; phenotypes categorized as poor metabolizer (PM), intermediate metabolizer (IM), normal metabolizer (NM), ultra-rapid metabolizer (UM), and ranged phenotypes (NM-UM, IM-UM), with phenoconversion adjustments based on CYP2D6 inhibitor co-medication.",
+      "source": "MATERIALS AND METHODS – CYP2D6 genotyping…: list of alleles tested and phenotype assignment rules; Table 2 – CYP2D6 phenotype frequencies."
+    },
+    "Method_of_genotyping": {
+      "value": "Genotyping performed using the Luminex xTAG CYP2D6 Kit v3 (multiplex bead-based assay) for most participants and the QuantStudio 12K Flex Real-Time PCR System (TaqMan/real-time PCR-based platform) for the final four participants, with activity scores calculated per CPIC guidance and adjusted for CYP2D6 inhibitor use (phenoconversion).",
+      "source": "MATERIALS AND METHODS – CYP2D6 genotyping, phenotype assignment, and recommendations: description of platforms and activity score method."
+    }
+  },
+  "Outcomes": {
+    "1": {
+      "Outcomes": {
+        "value": "Opioid consumption at 2 weeks post-surgery (morphine milligram equivalents, overall population)",
+        "source": "Abstract – Results and RESULTS – Opioid Consumption and Pain Intensity: \"In an exploratory analysis, there was less opioid consumption (200 [104-280] vs. 230 [133-350] morphine milligram equivalents; p=0.047) in the genotype-guided vs. usual care arm\""
+      },
+      "Experimental_Outcome_number": {
+        "value": "126",
+        "source": "RESULTS – Opioid Consumption and Pain Intensity: \"MME data were provided by 72% (111/154) and 82% (126/154) of CYP2D6-guided... at the 1- and 2-weeks post-operative timepoints.\""
+      },
+      "Control_Outcome_number": {
+        "value": "68",
+        "source": "RESULTS – Opioid Consumption and Pain Intensity: \"MME data were provided by ... 71% (57/80) and 85% (68/80) of usual care participants at the 1- and 2-weeks post-operative timepoints.\""
+      },
+      "Measurement_time": {
+        "value": "2 weeks post-surgery",
+        "source": "Abstract – Methods: \"Effectiveness outcomes were collected 2-weeks post-surgery.\" and RESULTS – Opioid Consumption and Pain Intensity."
+      },
+      "Experimental_group_results": {
+        "value": "200 mg [104–280] MME (median [interquartile range])",
+        "source": "Abstract – Results and RESULTS – Opioid Consumption and Pain Intensity: \"200 mg [104 mg – 280 mg]\""
+      },
+      "Control_group_results": {
+        "value": "230 mg [133–350] MME (median [interquartile range])",
+        "source": "Abstract – Results and RESULTS – Opioid Consumption and Pain Intensity: \"230 mg [133 mg – 350 mg]\""
+      },
+      "Statistical_method": {
+        "value": "Mann-Whitney U test; analysis of covariance adjusting for BMI and clinical CYP2D6 phenotype (sensitivity analysis)",
+        "source": "MATERIALS AND METHODS – Data analysis: \"Opioid consumption data were not normally distributed and were compared between study arms using the Mann-Whitney U test.\" and \"Comparisons… were also performed by analysis of covariance, adjusting for baseline differences between groups.\""
+      },
+      "Statistical_result": {
+        "value": "p=0.047 (unadjusted between-group comparison); p=0.029 (ANCOVA adjusted for BMI and CYP2D6 phenotype)",
+        "source": "RESULTS – Opioid Consumption and Pain Intensity: \"p=0.047\" and \"Adjusting for BMI and clinical CYP2D6 phenotype did not influence results… MME consumption (p=0.029).\""
+      },
+      "Effect_size": {
+        "value": "Not explicitly reported (no OR, RR, or mean difference with CI provided).",
+        "source": "MATERIALS AND METHODS – Data analysis and RESULTS – Opioid Consumption and Pain Intensity (no effect size stated)."
+      }
+    },
+    "2": {
+      "Outcomes": {
+        "value": "Composite pain intensity at 2 weeks post-surgery (overall population)",
+        "source": "Abstract – Results and RESULTS – Opioid Consumption and Pain Intensity."
+      },
+      "Experimental_Outcome_number": {
+        "value": "137",
+        "source": "RESULTS – Opioid Consumption and Pain Intensity: \"two-week post-operative pain intensity surveys were completed by 89% (137/154) of CYP2D6-guided\""
+      },
+      "Control_Outcome_number": {
+        "value": "74",
+        "source": "RESULTS – Opioid Consumption and Pain Intensity: \"and 93% (74/80) of usual care participants\""
+      },
+      "Measurement_time": {
+        "value": "2 weeks post-surgery",
+        "source": "MATERIALS AND METHODS – Study surveys and RESULTS – Opioid Consumption and Pain Intensity."
+      },
+      "Experimental_group_results": {
+        "value": "2.6 ± 0.8 (composite pain intensity score, mean ± SD)",
+        "source": "Abstract – Results and RESULTS – Opioid Consumption and Pain Intensity: \"composite pain intensity was similar between CYP2D6-guided (2.6 ± 0.8)\""
+      },
+      "Control_group_results": {
+        "value": "2.5 ± 0.7 (composite pain intensity score, mean ± SD)",
+        "source": "Abstract – Results and RESULTS – Opioid Consumption and Pain Intensity: \"and usual care (2.5 ± 0.7) arms\""
+      },
+      "Statistical_method": {
+        "value": "Two independent samples t-test; analysis of covariance adjusting for BMI and clinical CYP2D6 phenotype (sensitivity analysis)",
+        "source": "MATERIALS AND METHODS – Data analysis: \"composite pain intensity… were compared between the CYP2D6-guided and usual care arms by… two independent samples t-test\" and ANCOVA description."
+      },
+      "Statistical_result": {
+        "value": "p=0.638 (unadjusted); p=0.640 (ANCOVA adjusted for BMI and CYP2D6 phenotype)",
+        "source": "RESULTS – Opioid Consumption and Pain Intensity: \"(p=0.638\" and \"Adjusting for BMI and clinical CYP2D6 phenotype did not influence results for pain intensity (p=0.640)\""
+      },
+      "Effect_size": {
+        "value": "Not reported.",
+        "source": "RESULTS – Opioid Consumption and Pain Intensity (no effect size stated)."
+      }
+    },
+    "3": {
+      "Outcomes": {
+        "value": "Opioid consumption at 2 weeks post-surgery stratified by surgery type: total hip arthroplasty (THA)",
+        "source": "Table 3 – Clinical Effectiveness Outcomes at 2-weeks Post-arthroplasty Stratified by Surgery Indication – MME Consumption, THA rows."
+      },
+      "Experimental_Outcome_number": {
+        "value": "51",
+        "source": "Table 3 – \"THA\" row under MME Consumption: \"150 mg [68-255] (n=51)\""
+      },
+      "Control_Outcome_number": {
+        "value": "26",
+        "source": "Table 3 – \"THA\" row under MME Consumption: \"133 mg [45-230] (n=26)\""
+      },
+      "Measurement_time": {
+        "value": "2 weeks post-arthroplasty (THA subgroup)",
+        "source": "Table 3 title and row labels."
+      },
+      "Experimental_group_results": {
+        "value": "150 mg [68–255] MME (median [interquartile range])",
+        "source": "Table 3 – MME Consumption, THA, CYP2D6-guided column."
+      },
+      "Control_group_results": {
+        "value": "133 mg [45–230] MME (median [interquartile range])",
+        "source": "Table 3 – MME Consumption, THA, Usual Care column."
+      },
+      "Statistical_method": {
+        "value": "Mann-Whitney U test",
+        "source": "MATERIALS AND METHODS – Data analysis: opioid consumption comparisons used Mann-Whitney U test; Table 3 provides p-values for between-arm comparison."
+      },
+      "Statistical_result": {
+        "value": "p=0.865 (CYP2D6-guided vs usual care, THA subgroup)",
+        "source": "Table 3 – MME Consumption, THA row, P values column: \"0.865\""
+      },
+      "Effect_size": {
+        "value": "Not reported.",
+        "source": "Table 3."
+      }
+    },
+    "4": {
+      "Outcomes": {
+        "value": "Opioid consumption at 2 weeks post-surgery stratified by surgery type: total knee arthroplasty (TKA)",
+        "source": "Table 3 – MME Consumption, TKA rows."
+      },
+      "Experimental_Outcome_number": {
+        "value": "75",
+        "source": "Table 3 – \"TKA\" row under MME Consumption: \"216 mg [125-325] (n=75)\""
+      },
+      "Control_Outcome_number": {
+        "value": "42",
+        "source": "Table 3 – \"TKA\" row under MME Consumption: \"308 mg [193-413] (n=42)\""
+      },
+      "Measurement_time": {
+        "value": "2 weeks post-arthroplasty (TKA subgroup)",
+        "source": "Table 3."
+      },
+      "Experimental_group_results": {
+        "value": "216 mg [125–325] MME (median [interquartile range])",
+        "source": "Table 3 – MME Consumption, TKA, CYP2D6-guided column."
+      },
+      "Control_group_results": {
+        "value": "308 mg [193–413] MME (median [interquartile range])",
+        "source": "Table 3 – MME Consumption, TKA, Usual Care column."
+      },
+      "Statistical_method": {
+        "value": "Mann-Whitney U test",
+        "source": "MATERIALS AND METHODS – Data analysis and Table 3 p-values."
+      },
+      "Statistical_result": {
+        "value": "p=0.003 (CYP2D6-guided vs usual care, TKA subgroup)",
+        "source": "Table 3 – MME Consumption, TKA row, P values column: \"0.003\""
+      },
+      "Effect_size": {
+        "value": "Not reported.",
+        "source": "Table 3."
+      }
+    },
+    "5": {
+      "Outcomes": {
+        "value": "Composite pain intensity at 2 weeks post-surgery stratified by surgery type: total hip arthroplasty (THA)",
+        "source": "Table 3 – Composite Pain Intensity, THA rows."
+      },
+      "Experimental_Outcome_number": {
+        "value": "55",
+        "source": "Table 3 – Composite Pain Intensity, THA, CYP2D6-guided: \"2.3 ± 0.7 (n=55)\""
+      },
+      "Control_Outcome_number": {
+        "value": "28",
+        "source": "Table 3 – Composite Pain Intensity, THA, Usual Care: \"2.3 ± 0.6 (n=28)\""
+      },
+      "Measurement_time": {
+        "value": "2 weeks post-arthroplasty (THA subgroup)",
+        "source": "Table 3."
+      },
+      "Experimental_group_results": {
+        "value": "2.3 ± 0.7 (mean ± SD)",
+        "source": "Table 3 – Composite Pain Intensity, THA, CYP2D6-guided."
+      },
+      "Control_group_results": {
+        "value": "2.3 ± 0.6 (mean ± SD)",
+        "source": "Table 3 – Composite Pain Intensity, THA, Usual Care."
+      },
+      "Statistical_method": {
+        "value": "Two independent samples t-test",
+        "source": "MATERIALS AND METHODS – Data analysis: composite pain intensity compared by two independent samples t-test; Table 3 provides p-values."
+      },
+      "Statistical_result": {
+        "value": "p=0.973 (CYP2D6-guided vs usual care, THA subgroup)",
+        "source": "Table 3 – Composite Pain Intensity, THA row, P values column: \"0.973\""
+      },
+      "Effect_size": {
+        "value": "Not reported.",
+        "source": "Table 3."
+      }
+    },
+    "6": {
+      "Outcomes": {
+        "value": "Composite pain intensity at 2 weeks post-surgery stratified by surgery type: total knee arthroplasty (TKA)",
+        "source": "Table 3 – Composite Pain Intensity, TKA rows."
+      },
+      "Experimental_Outcome_number": {
+        "value": "82",
+        "source": "Table 3 – Composite Pain Intensity, TKA, CYP2D6-guided: \"2.8 ± 0.8 (n=82)\""
+      },
+      "Control_Outcome_number": {
+        "value": "46",
+        "source": "Table 3 – Composite Pain Intensity, TKA, Usual Care: \"2.7 ± 0.8 (n=46)\""
+      },
+      "Measurement_time": {
+        "value": "2 weeks post-arthroplasty (TKA subgroup)",
+        "source": "Table 3."
+      },
+      "Experimental_group_results": {
+        "value": "2.8 ± 0.8 (mean ± SD)",
+        "source": "Table 3 – Composite Pain Intensity, TKA, CYP2D6-guided."
+      },
+      "Control_group_results": {
+        "value": "2.7 ± 0.8 (mean ± SD)",
+        "source": "Table 3 – Composite Pain Intensity, TKA, Usual Care."
+      },
+      "Statistical_method": {
+        "value": "Two independent samples t-test",
+        "source": "MATERIALS AND METHODS – Data analysis and Table 3."
+      },
+      "Statistical_result": {
+        "value": "p=0.506 (CYP2D6-guided vs usual care, TKA subgroup)",
+        "source": "Table 3 – Composite Pain Intensity, TKA row, P values column: \"0.506\""
+      },
+      "Effect_size": {
+        "value": "Not reported.",
+        "source": "Table 3."
+      }
+    },
+    "7": {
+      "Outcomes": {
+        "value": "Difference in opioid consumption between TKA and THA within each treatment arm at 2 weeks post-surgery",
+        "source": "Table 3 – rows \"p-value for THA vs. TKA\" under MME Consumption."
+      },
+      "Experimental_Outcome_number": {
+        "value": "THA n=51, TKA n=75 in CYP2D6-guided arm (for MME consumption)",
+        "source": "Table 3 – MME Consumption, THA and TKA, CYP2D6-guided columns."
+      },
+      "Control_Outcome_number": {
+        "value": "THA n=26, TKA n=42 in usual care arm (for MME consumption)",
+        "source": "Table 3 – MME Consumption, THA and TKA, Usual Care columns."
+      },
+      "Measurement_time": {
+        "value": "2 weeks post-arthroplasty (comparison of surgery indications within each arm)",
+        "source": "Table 3."
+      },
+      "Experimental_group_results": {
+        "value": "Higher opioid consumption in TKA vs THA; p=0.036 within CYP2D6-guided arm",
+        "source": "Table 3 – MME Consumption, \"p-value for THA vs. TKA\" row: CYP2D6-guided column = 0.036."
+      },
+      "Control_group_results": {
+        "value": "Higher opioid consumption in TKA vs THA; p<0.001 within usual care arm",
+        "source": "Table 3 – MME Consumption, \"p-value for THA vs. TKA\" row: Usual Care column = \"<0.001\"."
+      },
+      "Statistical_method": {
+        "value": "Mann-Whitney U test (between-surgery comparison of non-normally distributed MME within arms)",
+        "source": "MATERIALS AND METHODS – Data analysis: MME compared by Mann-Whitney U test; Table 3 provides within-arm p-values by surgery type."
+      },
+      "Statistical_result": {
+        "value": "CYP2D6-guided: p=0.036; Usual care: p<0.001 (TKA vs THA MME consumption)",
+        "source": "Table 3 – MME Consumption, \"p-value for THA vs. TKA\" row."
+      },
+      "Effect_size": {
+        "value": "Not reported.",
+        "source": "Table 3."
+      }
+    },
+    "8": {
+      "Outcomes": {
+        "value": "Difference in composite pain intensity between TKA and THA within each treatment arm at 2 weeks post-surgery",
+        "source": "Table 3 – rows \"p-value for THA vs. TKA\" under Composite Pain Intensity."
+      },
+      "Experimental_Outcome_number": {
+        "value": "THA n=55, TKA n=82 in CYP2D6-guided arm (pain intensity)",
+        "source": "Table 3 – Composite Pain Intensity, THA and TKA, CYP2D6-guided columns."
+      },
+      "Control_Outcome_number": {
+        "value": "THA n=28, TKA n=46 in usual care arm (pain intensity)",
+        "source": "Table 3 – Composite Pain Intensity, THA and TKA, Usual Care columns."
+      },
+      "Measurement_time": {
+        "value": "2 weeks post-arthroplasty (comparison of surgery indications within each arm)",
+        "source": "Table 3."
+      },
+      "Experimental_group_results": {
+        "value": "Higher composite pain intensity in TKA vs THA; p<0.001 within CYP2D6-guided arm",
+        "source": "Table 3 – Composite Pain Intensity, \"p-value for THA vs. TKA\" row: CYP2D6-guided column = \"<0.001\"."
+      },
+      "Control_group_results": {
+        "value": "Higher composite pain intensity in TKA vs THA; p=0.031 within usual care arm",
+        "source": "Table 3 – Composite Pain Intensity, \"p-value for THA vs. TKA\" row: Usual Care column = \"0.031\"."
+      },
+      "Statistical_method": {
+        "value": "Two independent samples t-test (comparison of mean pain intensity between surgery types within arms)",
+        "source": "MATERIALS AND METHODS – Data analysis and Table 3."
+      },
+      "Statistical_result": {
+        "value": "CYP2D6-guided: p<0.001; Usual care: p=0.031 (TKA vs THA composite pain intensity)",
+        "source": "Table 3 – Composite Pain Intensity, \"p-value for THA vs. TKA\" row."
+      },
+      "Effect_size": {
+        "value": "Not reported.",
+        "source": "Table 3."
+      }
+    }
+  },
+  "Data_Extract": {}
+}

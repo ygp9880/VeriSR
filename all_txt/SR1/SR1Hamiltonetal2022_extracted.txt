@@ -1,0 +1,691 @@
+{
+  "Basic_information": {
+    "Title": {
+      "value": "Prospective Randomized Study Using Pharmacogenetics to Customize Postoperative Pain Medication Following Hip and Knee Arthroplasty",
+      "source": "metadata.Title"
+    },
+    "First_author": {
+      "value": "William G. Hamilton",
+      "source": "metadata.First_author"
+    },
+    "Published_year": {
+      "value": "2022",
+      "source": "metadata.Published_year"
+    },
+    "Journal": {
+      "value": "The Journal of Arthroplasty",
+      "source": "metadata.Journal"
+    },
+    "Corresponding": {
+      "value": "Nancy Parks, MS, Anderson Orthopaedic Research Institute, PO Box 7088, Alexandria, VA 22307.",
+      "source": "metadata.Corresponding"
+    },
+    "DOI": {
+      "value": "10.1016/j.arth.2022.02.037",
+      "source": "metadata.DOI"
+    },
+    "Declaration_of_interest": {
+      "value": "One or more of the authors of this paper have disclosed potential or pertinent conflicts of interest, which may include receipt of payment, either direct or indirect, institutional support, or association with an entity in the biomedical field which may be perceived to have potential conflict of interest with this work. For full disclosure statements refer to https://doi.org/10.1016/j.arth.2022.02.037.",
+      "source": "metadata.Declaration_of_interest"
+    },
+    "Funding": {
+      "value": "This study was supported, in part, by general research funding provided by the Inova Health System and a gift from Roy B. Harrill.",
+      "source": "metadata.Funding; Acknowledgments section"
+    }
+  },
+  "Study_design_population": {
+    "Study_design": {
+      "value": "Prospective, randomized, single-blind (patients), two-arm clinical study (custom pharmacogenetic-guided postoperative analgesia vs standard care) in primary hip or knee arthroplasty",
+      "source": "Methods – Study Design: “This prospective, randomized study… Patients were randomized into 2 groups… Patients were blinded to their study group…”"
+    },
+    "Country": {
+      "value": "United States",
+      "source": "Inference from addresses: NEXT Molecular Analytics, Chester, VA, USA; Inova Health System, USA; practice context"
+    },
+    "Sample_size": {
+      "value": "107",
+      "source": "Results: “Of the remaining 130 patients who underwent surgery, 107 of them (82.3%) completed the pain and medication logs and returned them for analysis. Their results are presented here.”"
+    },
+    "Age": {
+      "value": "65.7 years (range 40.6–85.8)",
+      "source": "Results: “Subjects included 53 males and 54 females with an average age of 65.7 years (range 40.6-85.8).”"
+    },
+    "Male(%)": {
+      "value": "49.5% (53/107)",
+      "source": "Results: “Subjects included 53 males and 54 females…”"
+    },
+    "Inclusion_criteria": {
+      "value": "All primary hip or knee arthroplasty patients over the age of 18 were screened for participation.",
+      "source": "Methods: “All primary hip or knee arthroplasty patients over the age of 18 were screened for participation.”"
+    },
+    "Exclusion_criteria": {
+      "value": "History of opioid dependency; any systemic comorbidities that would contraindicate the use of pain medication; no exclusion criteria based on race or ethnic origin.",
+      "source": "Methods: “Patients with a history of opioid dependency or any systemic comorbidities that would contraindi-cate the use of pain medication were excluded from the study. There were no exclusion criteria based on race or ethnic origin.”"
+    },
+    "Follow_up_time": {
+      "value": "10 days postoperatively",
+      "source": "Methods – Study Design: “Patients in both groups documented their overall daily level of pain preoperatively and for the first 10 days postoperatively…”; Abstract: “…for the first 10 days following surgery.”"
+    }
+  },
+  "Experimental_Group": {
+    "Experimental_group_definition": {
+      "value": "Custom pharmacogenetic-guided postoperative pain management: patients randomized to the custom medication arm; if pharmacogenetic testing showed a genetic variant affecting oxycodone, tramadol, or celecoxib, these drugs were avoided and alternative medications metabolized normally were prescribed (hydromorphone 2 mg for opioids; meloxicam 7.5 mg for NSAIDs).",
+      "source": "Methods – Study Design; Results: “Patients in the custom arm who had genetic variants… Those unable to metabolize oxycodone or tramadol… were prescribed hydromorphone 2 mg instead. Those unable to metabolize celecoxib were prescribed meloxicam 7.5 mg…”"
+    },
+    "Experimental_group_number": {
+      "value": "61 (custom arm total), of whom 11 had genetic variants requiring customized prescriptions (group D demographic subset)",
+      "source": "Results: “There were 61 patients (45 hips, 16 knees) randomized to the custom medication arm of the study… Patients in the custom arm who had genetic variants… (N = 11) are designated as group D…”; Table 3 row N"
+    },
+    "Experimental_group_male": {
+      "value": "NA",
+      "source": "Not reported separately for custom group or for group D."
+    },
+    "Experimental_group_female": {
+      "value": "NA",
+      "source": "Not reported separately for custom group or for group D."
+    },
+    "Experimental_group_mean_age": {
+      "value": "NA",
+      "source": "Mean age not stratified by group (custom vs control or D vs others) in the text or tables."
+    },
+    "Experimental_group_ethnicity": {
+      "value": "NA",
+      "source": "Ethnicity distribution not reported."
+    }
+  },
+  "Control_Group": {
+    "Control_group_definition": {
+      "value": "Standard postoperative pain management without pharmacogenetic-guided customization: patients randomized to the control arm received the historical standard prescriptions (acetaminophen, tramadol, oxycodone, and celecoxib) regardless of pharmacogenetic results.",
+      "source": "Methods – Study Design: “Patients in the control group received the standard postoperative pain prescriptions historically used in our practice…”; Results: “The control arm of the study was made up of 46 primary joint replacement patients… They all received the standard postoperative pain management protocol, including 13 patients (28%) who had genetic variants…”"
+    },
+    "Control_group_number": {
+      "value": "46 (control arm total), of whom 13 had genetic variants (group B demographic subset)",
+      "source": "Results: “The control arm of the study was made up of 46 primary joint replacement patients… including 13 patients (28%) who had genetic variants…”; Table 3 row N"
+    },
+    "Control_group_male(%)": {
+      "value": "NA",
+      "source": "Not reported separately for control group or for group B."
+    },
+    "Control_group_female(%)": {
+      "value": "NA",
+      "source": "Not reported separately for control group or for group B."
+    },
+    "Control_group_mean_age(SD)": {
+      "value": "NA",
+      "source": "Mean age not stratified by group (control vs custom or B vs others) in the text or tables."
+    },
+    "Control_group_ethnicity(%)": {
+      "value": "NA",
+      "source": "Ethnicity distribution not reported."
+    }
+  },
+  "Gene": {
+    "Disease": {
+      "value": "Postoperative pain after primary total hip arthroplasty (THA) and total knee arthroplasty (TKA)",
+      "source": "ABSTRACT – Background; Results: “postoperative pain medicine following total joint replacement… 79 primary THAs… 28 primary TKAs.”"
+    },
+    "Drug_type": {
+      "value": "Opioid analgesics and non-steroidal anti-inflammatory drugs (NSAIDs); adjunct acetaminophen",
+      "source": "Methods – Study Design; ABSTRACT – Methods: mentions oxycodone, tramadol (opioids), celecoxib and meloxicam (NSAIDs), acetaminophen."
+    },
+    "Experimental_group_Drug_use": {
+      "value": "Preoperative buccal swab–guided. Standard regimen (acetaminophen 1,000 mg q8h, tramadol 50 mg q6h PRN, oxycodone 10 mg q4h PRN, celecoxib 200 mg) initially considered; where PGx showed abnormal metabolism of oxycodone or tramadol (CYP2D6) hydromorphone 2 mg was substituted; where celecoxib (CYP2C9) was affected, meloxicam 7.5 mg was used instead. Patients logged all analgesic intake for the first 10 days postoperatively.",
+      "source": "Methods – Study Design; Results: description of group D; ABSTRACT – Methods."
+    },
+    "Control_group_Drug_use": {
+      "value": "Fixed standard regimen irrespective of PGx results: acetaminophen 1,000 mg every 8 hours (max 3 g/day), tramadol 50 mg every 6 hours as needed, oxycodone 10 mg every 4 hours as needed, and celecoxib 200 mg; no systematic substitution based on genetic variants, although per protocol some medication changes were allowed in response to side effects.",
+      "source": "Methods – Study Design; Results: control arm description; “In accordance with the protocol, patients were allowed to make changes to medication…”"
+    },
+    "Gene": {
+      "value": "Key genes influencing postoperative analgesic response: CYP2D6, CYP2C9, CYP1A2, OPRM1 (within a broader 16-gene pharmacogenetic panel including COMT, CYP1A2, CYP2B6, CYP2C19, CYP2C8, CYP2C9, CYP2D6, CYP3A4, CYP3A5, Factor II, Factor V Leiden, GRIK4, MTHFR, OPRM1, SLCO1B1, VKORC1).",
+      "source": "ABSTRACT – Methods: “including CYP2D6, CYP2C9, OPRM1, and CYP1A2…”; Table 1 Genes and Alleles in Pharmacogenetic Testing Panel."
+    },
+    "Genetic_testing_methods": {
+      "value": "Pharmacogenomic testing on preoperative buccal swabs performed at a CLIA-certified laboratory (NEXT Molecular Analytics). Genomic DNA was extracted and genotyped using next-generation sequencing (Ion Torrent assay methodologies) with data for SNPs or short indels analyzed using TaqMan Genotyper Software to generate a 16-gene pharmacogenetic panel.",
+      "source": "Methods – Pharmacogenetic Testing Methods: description of buccal swabs, CLIA-certified lab, Ion Torrent, next-generation sequencing, TaqMan Genotyper Software, Table 1."
+    },
+    "Variant": {
+      "value": "Panel-level variants across 16 genes, including: COMT Val158Met; CYP1A2 *1C, *1D, *1E, *1F, *1J, *1K, *1L, *1V, *1W, *3, *4, *5, *6, *7, *8, *11, *15, *16; CYP2B6 *2, *4, *5, *6, *9, *11, *18, *22, *28; CYP2C19 *2, *3, *4, *4B, *5, *6, *7, *8, *9, *10, *17; CYP2C8 *2, *3; CYP2C9 *2, *3, *4, *5, *6, *8, *9, *10, *11, *13, *15, *16, *27; CYP2D6 *2, *3, *4, *4M, *6, *7, *8, *9, *10, *11, *12, *14A, *14B, *15, *17, *20, *29, *35, *41; CYP3A4 *1B, *2, *3, *6, *12, *13, *15, *17, *20, *22; CYP3A5 *1D, *2, *3, *3B, *3C, *3K, *6, *7, *8, *9; Factor II 20210G>A; Factor V Leiden 1691G>A; GRIK4 83-10039T>C; MTHFR 1298A>C, 677C>T; OPRM1 A118G; SLCO1B1 388A>G, 521T>C; VKORC1 1639>A, 1542G>C, 2255C>T, 3730G>A, 5808T>G, 1173C>T.",
+      "source": "Table 1 Genes and Alleles in Pharmacogenetic Testing Panel."
+    },
+    "Method_of_genotyping": {
+      "value": "Next-generation sequencing using Ion Torrent assay methodologies on extracted genomic DNA, with genotyping of SNPs and short indels performed and called using TaqMan Genotyper Software.",
+      "source": "Methods – Pharmacogenetic Testing Methods: “…analyzed for a combination of the genes below using Ion Torrent assay methodologies… genotyped using TaqMan Genotyper Software.”"
+    }
+  },
+  "Outcomes": {
+    "1": {
+      "Outcomes": {
+        "value": "Frequency of patients with genetic variants affecting standard postoperative opioid (oxycodone, tramadol via CYP2D6) and NSAID (celecoxib via CYP2C9) medications",
+        "source": "Statistical Plan – primary outcome; Results: “Genetic variations to the standard opioid and NSAID pain medications occurred in 22.4% of patients.”; Table 2."
+      },
+      "Experimental_Outcome_number": {
+        "value": "61 (all custom-arm patients tested; 11/61 with variants ≈ 18.0%)",
+        "source": "Results: “There were 61 patients… randomized to the custom medication arm… Patients in the custom arm who had genetic variants… (N = 11)… Genetic variations… occurred in 24 of the 107 patients (22.4%).”"
+      },
+      "Control_Outcome_number": {
+        "value": "46 (all control-arm patients tested; 13/46 with variants ≈ 28.3%)",
+        "source": "Results: “The control arm of the study was made up of 46… including 13 patients (28%) who had genetic variants… Genetic variations… occurred in 24 of the 107 patients (22.4%).”"
+      },
+      "Measurement_time": {
+        "value": "Preoperative pharmacogenetic testing (single time point), prior to surgery and postoperative analgesic prescribing",
+        "source": "Methods – Pharmacogenetic Testing Methods; Methods – Study Design: buccal swabs collected preoperatively."
+      },
+      "Experimental_group_results": {
+        "value": "18.0% (11/61) of custom-arm patients had genetic variants affecting standard postoperative opioid and/or NSAID medications.",
+        "source": "Results: “Patients in the custom arm who had genetic variants to the standard pain medications (N = 11)…” with 61 in custom arm."
+      },
+      "Control_group_results": {
+        "value": "28.3% (13/46) of control-arm patients had genetic variants affecting standard postoperative opioid and/or NSAID medications.",
+        "source": "Results: “The control arm… 46… including 13 patients (28%) who had genetic variants to oxycodone, tramadol, or celecoxib.”"
+      },
+      "Statistical_method": {
+        "value": "NA",
+        "source": "No explicit statistical comparison of variant frequency between arms reported."
+      },
+      "Statistical_result": {
+        "value": "NA",
+        "source": "Not reported."
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "Not reported."
+      }
+    },
+    "2": {
+      "Outcomes": {
+        "value": "CYP2D6 metabolizer phenotype distribution for oxycodone",
+        "source": "Table 2: row “Oxycodone (CYP2D6)”"
+      },
+      "Experimental_Outcome_number": {
+        "value": "61 (all custom-arm patients tested; phenotype distribution not stratified by arm, so effective N per arm not given)",
+        "source": "Study Methods; Table 2 is for all 107 patients, but arm-level breakdown not provided."
+      },
+      "Control_Outcome_number": {
+        "value": "46 (all control-arm patients tested; same limitation as above)",
+        "source": "Study Methods; Table 2."
+      },
+      "Measurement_time": {
+        "value": "Preoperative pharmacogenetic testing",
+        "source": "Methods – Pharmacogenetic Testing Methods."
+      },
+      "Experimental_group_results": {
+        "value": "Across entire cohort (107): poor metabolizer 14.30%, normal metabolizer 82%, rapid or ultra-rapid metabolizer 3.60%; intermediate metabolizer not reported for oxycodone.",
+        "source": "Table 2: “Oxycodone (CYP2D6)”"
+      },
+      "Control_group_results": {
+        "value": "Same overall cohort distribution—no arm-stratified data: poor metabolizer 14.30%, normal metabolizer 82%, rapid or ultra-rapid metabolizer 3.60%; intermediate metabolizer not reported.",
+        "source": "Table 2: “Oxycodone (CYP2D6)”"
+      },
+      "Statistical_method": {
+        "value": "NA",
+        "source": "No statistical comparison of phenotype frequencies reported."
+      },
+      "Statistical_result": {
+        "value": "NA",
+        "source": "Not reported."
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "Not reported."
+      }
+    },
+    "3": {
+      "Outcomes": {
+        "value": "CYP2D6 metabolizer phenotype distribution for tramadol",
+        "source": "Table 2: row “Tramadol (CYP2D6)”"
+      },
+      "Experimental_Outcome_number": {
+        "value": "61 (not stratified in table; whole-cohort phenotypes reported)",
+        "source": "Methods; Table 2."
+      },
+      "Control_Outcome_number": {
+        "value": "46 (not stratified in table; whole-cohort phenotypes reported)",
+        "source": "Methods; Table 2."
+      },
+      "Measurement_time": {
+        "value": "Preoperative pharmacogenetic testing",
+        "source": "Methods – Pharmacogenetic Testing Methods."
+      },
+      "Experimental_group_results": {
+        "value": "Across entire cohort (107): poor metabolizer 14.30%; intermediate metabolizer 2.90%; normal metabolizer 79.30%; rapid or ultra-rapid metabolizer 3.60%.",
+        "source": "Table 2: “Tramadol (CYP2D6)”"
+      },
+      "Control_group_results": {
+        "value": "Same overall cohort distribution—no arm stratification: poor 14.30%; intermediate 2.90%; normal 79.30%; rapid or ultra-rapid 3.60%.",
+        "source": "Table 2."
+      },
+      "Statistical_method": {
+        "value": "NA",
+        "source": "No group comparison reported."
+      },
+      "Statistical_result": {
+        "value": "NA",
+        "source": "Not reported."
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "Not reported."
+      }
+    },
+    "4": {
+      "Outcomes": {
+        "value": "CYP2C9 metabolizer phenotype distribution for celecoxib",
+        "source": "Table 2: row “Celecoxib (CYP2C9)”"
+      },
+      "Experimental_Outcome_number": {
+        "value": "61 (not stratified by arm in table)",
+        "source": "Methods; Table 2."
+      },
+      "Control_Outcome_number": {
+        "value": "46 (not stratified by arm in table)",
+        "source": "Methods; Table 2."
+      },
+      "Measurement_time": {
+        "value": "Preoperative pharmacogenetic testing",
+        "source": "Methods – Pharmacogenetic Testing Methods."
+      },
+      "Experimental_group_results": {
+        "value": "Across entire cohort (107): poor metabolizer 4.90%; intermediate metabolizer 27.50%; normal metabolizer 67.60%; rapid or ultra-rapid metabolizer 0%.",
+        "source": "Table 2: “Celecoxib (CYP2C9)”"
+      },
+      "Control_group_results": {
+        "value": "Same overall cohort distribution—arm-level data not reported.",
+        "source": "Table 2."
+      },
+      "Statistical_method": {
+        "value": "NA",
+        "source": "Not reported."
+      },
+      "Statistical_result": {
+        "value": "NA",
+        "source": "Not reported."
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "Not reported."
+      }
+    },
+    "5": {
+      "Outcomes": {
+        "value": "CYP1A2 metabolizer phenotype distribution for acetaminophen",
+        "source": "Table 2: row “Acetaminophen (CYP1A2)” and Results text"
+      },
+      "Experimental_Outcome_number": {
+        "value": "61 (not stratified by arm in table)",
+        "source": "Methods; Table 2."
+      },
+      "Control_Outcome_number": {
+        "value": "46 (not stratified by arm in table)",
+        "source": "Methods; Table 2."
+      },
+      "Measurement_time": {
+        "value": "Preoperative pharmacogenetic testing",
+        "source": "Methods – Pharmacogenetic Testing Methods."
+      },
+      "Experimental_group_results": {
+        "value": "Across entire cohort (107): poor metabolizer 0%; intermediate metabolizer 0.70%; normal metabolizer 38.30%; rapid or ultra-rapid metabolizer 61.0%.",
+        "source": "Table 2: “Acetaminophen (CYP1A2)”"
+      },
+      "Control_group_results": {
+        "value": "Same overall cohort distribution—arm-level data not reported.",
+        "source": "Table 2; Results: “Only 38.3% of patients were normal metabolizers for CYP1A2, with the majority (61%) being rapid or ultra-rapid metabolizers.”"
+      },
+      "Statistical_method": {
+        "value": "NA",
+        "source": "Not reported."
+      },
+      "Statistical_result": {
+        "value": "NA",
+        "source": "Not reported."
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "Not reported."
+      }
+    },
+    "6": {
+      "Outcomes": {
+        "value": "10-day total morphine milligram equivalents (MME) – comparison between control patients with variants (group B) and custom patients with variants (group D)",
+        "source": "Table 3; ABSTRACT – Results; Results text"
+      },
+      "Experimental_Outcome_number": {
+        "value": "11 (group D, custom arm with genetic variants)",
+        "source": "Table 3: N for “Custom, Variants D” = 11; Results: “Patients in the custom arm who had genetic variants… (N = 11) are designated as group D…”"
+      },
+      "Control_Outcome_number": {
+        "value": "13 (group B, control arm with genetic variants)",
+        "source": "Table 3: N for “Control, Variants B” = 13; Results: “The 13 control group patients who had genetic variants are shown… as group B.”"
+      },
+      "Measurement_time": {
+        "value": "Cumulative over postoperative days 1–10",
+        "source": "Methods – Study Design: “for the first 10 days postoperatively”; Table 3 label “Mean10-d morphine equivalents.”"
+      },
+      "Experimental_group_results": {
+        "value": "86.68 MME (mean over 10 days)",
+        "source": "Table 3: row “Mean10-d morphine equivalents”, column “Custom, Variants D”: 86.68182; Results: “consumed only 86.7 MME in the same timeframe”"
+      },
+      "Control_group_results": {
+        "value": "162.58 MME (mean over 10 days)",
+        "source": "Table 3: row “Mean10-d morphine equivalents”, column “Control, Variants B”: 162.5769; Results: “The 10-day MME… was 162.6 mg.”"
+      },
+      "Statistical_method": {
+        "value": "t-test",
+        "source": "Statistical Plan: “…10-day morphine equivalents… were compared with a t-test of the treatment group vs control group.”; Table 3: “P-Value” column for “Mean10-d morphine equivalents”"
+      },
+      "Statistical_result": {
+        "value": "P = 0.126118 (reported as P = .126 in text)",
+        "source": "Table 3: “Mean10-d morphine equivalents” – P-Value .126118; Results: “…although the difference did not reach significance (P = .12)…”"
+      },
+      "Effect_size": {
+        "value": "Mean difference in 10-day MME (B − D) ≈ 75.9 mg (162.6 − 86.7); relative reduction ≈ 46.7%",
+        "source": "Calculated from Table 3 means; Results: “Over the course of 10 days, we saw a difference of 75.9 mg and a 47% difference between groups B and D.”"
+      }
+    },
+    "7": {
+      "Outcomes": {
+        "value": "10-day average pain score (0–10 numeric rating scale) – comparison between control patients with variants (group B) and custom patients with variants (group D)",
+        "source": "Table 3; ABSTRACT – Results; Results text"
+      },
+      "Experimental_Outcome_number": {
+        "value": "11 (group D, custom arm with variants)",
+        "source": "Table 3; Results."
+      },
+      "Control_Outcome_number": {
+        "value": "13 (group B, control arm with variants)",
+        "source": "Table 3; Results."
+      },
+      "Measurement_time": {
+        "value": "Mean daily pain score over postoperative days 1–10",
+        "source": "Methods – Study Design: “Patients… documented their overall daily level of pain… for the first 10 days postoperatively”; Table 3 row “10-d average pain (0-10)”"
+      },
+      "Experimental_group_results": {
+        "value": "3.08 (mean 10-day average pain score)",
+        "source": "Table 3: “10-d average pain (0-10)” – Custom, Variants D: 3.081818; Results: “custom group pain level of only 3.1”"
+      },
+      "Control_group_results": {
+        "value": "4.24 (mean 10-day average pain score)",
+        "source": "Table 3: “10-d average pain (0-10)” – Control, Variants B: 4.24359; Results: “control group demonstrated a higher 10-day average pain level of 4.2”"
+      },
+      "Statistical_method": {
+        "value": "t-test",
+        "source": "Statistical Plan; Table 3: P-Value column for “10-d average pain (0-10)”"
+      },
+      "Statistical_result": {
+        "value": "P = 0.025698 (reported as P < .05, and P = .02 for B vs D in text)",
+        "source": "Table 3: “10-d average pain (0-10)” – P-Value .025698; Results: “Customizing pain medications… lead to significantly lower pain scores… (group B vs group D, P = .02).”"
+      },
+      "Effect_size": {
+        "value": "Mean difference in 10-day average pain (B − D) = 1.16 points (4.24 − 3.08), corresponding to approximately 27% relative reduction from group B baseline.",
+        "source": "Table 3; Results: “the difference between group B and D was 1.16 points (27%).”"
+      }
+    },
+    "8": {
+      "Outcomes": {
+        "value": "10-day total morphine milligram equivalents (MME) – comparison across all four study subgroups (A, B, C, D)",
+        "source": "Table 3; Results text"
+      },
+      "Experimental_Outcome_number": {
+        "value": "61 (group C: 50; group D: 11 – both in custom arm)",
+        "source": "Table 3: N row; Results."
+      },
+      "Control_Outcome_number": {
+        "value": "46 (group A: 33; group B: 13 – both in control arm)",
+        "source": "Table 3: N row; Results."
+      },
+      "Measurement_time": {
+        "value": "Cumulative over postoperative days 1–10",
+        "source": "Table 3: “Mean10-d morphine equivalents”; Methods."
+      },
+      "Experimental_group_results": {
+        "value": "Group C (custom, no variants): 106.07 MME (mean); minimum 0 (N = 6); maximum 439.5. Group D (custom, variants): 86.68 MME (mean); minimum 0 (N = 3); maximum 264.",
+        "source": "Table 3: rows “Mean10-d morphine equivalents”, “Minimum”, “Maximum”, columns “Custom, No Variant C” and “Custom, Variants D”"
+      },
+      "Control_group_results": {
+        "value": "Group A (control, no variants): 124.44 MME (mean); minimum 0 (N = 1); maximum 327.5. Group B (control, variants): 162.58 MME (mean); minimum 0 (N = 2); maximum 741.",
+        "source": "Table 3: same rows, columns “Control, No Variant A” and “Control, Variants B”; Results text."
+      },
+      "Statistical_method": {
+        "value": "t-test (mainly B vs D; other pairwise tests not fully detailed)",
+        "source": "Statistical Plan; Table 3 “P-Value” shows only B vs D comparison labeled."
+      },
+      "Statistical_result": {
+        "value": "For B vs D, P = 0.126118 (non-significant); no P-values reported for other pairwise comparisons.",
+        "source": "Table 3; Results: “Consumption of narcotics was also reduced (162.5 vs 86.7 MME) although the difference did not reach significance (P = .12)…”"
+      },
+      "Effect_size": {
+        "value": "Group means: A = 124.44, B = 162.58, C = 106.07, D = 86.68 MME. Largest contrast is B vs D with ≈ 75.9 mg lower MME in group D over 10 days.",
+        "source": "Table 3."
+      }
+    },
+    "9": {
+      "Outcomes": {
+        "value": "10-day average pain score (0–10) – comparison across all four study subgroups (A, B, C, D)",
+        "source": "Table 3; Results"
+      },
+      "Experimental_Outcome_number": {
+        "value": "61 (group C: 50; group D: 11 – custom arm)",
+        "source": "Table 3."
+      },
+      "Control_Outcome_number": {
+        "value": "46 (group A: 33; group B: 13 – control arm)",
+        "source": "Table 3."
+      },
+      "Measurement_time": {
+        "value": "Mean daily pain score over postoperative days 1–10",
+        "source": "Methods; Table 3: “10-d average pain (0-10)”"
+      },
+      "Experimental_group_results": {
+        "value": "Group C (custom, no variants): 4.13; Group D (custom, variants): 3.08.",
+        "source": "Table 3: “10-d average pain (0-10)” – columns C and D (4.125289 and 3.081818)."
+      },
+      "Control_group_results": {
+        "value": "Group A (control, no variants): 3.93; Group B (control, variants): 4.24.",
+        "source": "Table 3: “10-d average pain (0-10)” – columns A and B (3.93147 and 4.24359); Results text."
+      },
+      "Statistical_method": {
+        "value": "t-test (for primary comparison between B and D)",
+        "source": "Statistical Plan; Table 3; Results."
+      },
+      "Statistical_result": {
+        "value": "For B vs D, P = 0.025698 (statistically significant, P < 0.05).",
+        "source": "Table 3; Results: “significantly lower pain scores… (group B vs group D, P = .02).”"
+      },
+      "Effect_size": {
+        "value": "Mean pain differences: B vs D = 1.16 points; C vs A = 0.19 points; C vs B = −0.11 points; A vs D = 0.85 points.",
+        "source": "Calculated from Table 3; Results."
+      }
+    },
+    "10": {
+      "Outcomes": {
+        "value": "Pain × MME (combined parameter: 10-day average pain multiplied by 10-day total morphine milligram equivalents) – comparison across subgroups A, B, C, D",
+        "source": "Table 3; Results: “shown in Table 2 as ‘pain × MME.’” (table misreferenced as Table 2 in text)"
+      },
+      "Experimental_Outcome_number": {
+        "value": "61 (group C: 50; group D: 11 – custom arm)",
+        "source": "Table 3."
+      },
+      "Control_Outcome_number": {
+        "value": "46 (group A: 33; group B: 13 – control arm)",
+        "source": "Table 3."
+      },
+      "Measurement_time": {
+        "value": "Derived over postoperative days 1–10 (pain × cumulative 10-day MME)",
+        "source": "Results: description of parameter; Table 3 row “Pain × MME.”"
+      },
+      "Experimental_group_results": {
+        "value": "Group C (custom, no variants): 517.90; Group D (custom, variants): 375.69.",
+        "source": "Table 3: “Pain × MME” – columns C and D (517.9025; 375.6864)."
+      },
+      "Control_group_results": {
+        "value": "Group A (control, no variants): 532.47; Group B (control, variants): 743.97.",
+        "source": "Table 3: “Pain × MME” – columns A and B (532.4736; 743.9731); Results text."
+      },
+      "Statistical_method": {
+        "value": "t-test (for B vs D)",
+        "source": "Table 3: P-Value column; Results text."
+      },
+      "Statistical_result": {
+        "value": "For B vs D, P = 0.119762 (non-significant).",
+        "source": "Table 3: “Pain × MME” – P-Value .119762; Results: “group B was the highest and group D was the lowest in this combined parameter.”"
+      },
+      "Effect_size": {
+        "value": "Mean difference in pain × MME (B − D) ≈ 368.29; A vs C difference ≈ 14.57; A vs D ≈ 156.79.",
+        "source": "Calculated from Table 3."
+      }
+    },
+    "11": {
+      "Outcomes": {
+        "value": "10-day total MME – comparison by joint (hip vs knee) over entire cohort",
+        "source": "Table 4; Results text"
+      },
+      "Experimental_Outcome_number": {
+        "value": "NA",
+        "source": "Joint-based comparison pools arms; no experimental vs control separation."
+      },
+      "Control_Outcome_number": {
+        "value": "NA",
+        "source": "Same as above."
+      },
+      "Measurement_time": {
+        "value": "Cumulative over postoperative days 1–10, stratified by joint (hip vs knee)",
+        "source": "Table 4: “Mean 10 d MME”"
+      },
+      "Experimental_group_results": {
+        "value": "Hips: 99.42 MME (mean; N = 79; minimum 0, maximum 741).",
+        "source": "Table 4: N row and “Mean 10 d MME” row – Hip column (99.42466); min and max rows."
+      },
+      "Control_group_results": {
+        "value": "Knees: 162.34 MME (mean; N = 28; minimum 0, maximum 430).",
+        "source": "Table 4: Knee column (162.3393); N row; min and max rows."
+      },
+      "Statistical_method": {
+        "value": "t-test",
+        "source": "Statistical Plan for continuous outcomes; Table 4 includes P-Value for mean 10 d MME."
+      },
+      "Statistical_result": {
+        "value": "P = 0.011737 (hips vs knees)",
+        "source": "Table 4: “Mean 10 d MME” – P-Value .011737; Results: “knee replacement patients took significantly more pain medicine… (162.3 vs 99.4 mg MME, P = .012).”"
+      },
+      "Effect_size": {
+        "value": "Mean difference (knees − hips) ≈ 62.9 MME over 10 days.",
+        "source": "Table 4 means."
+      }
+    },
+    "12": {
+      "Outcomes": {
+        "value": "10-day average pain score – comparison by joint (hip vs knee) over entire cohort",
+        "source": "Table 4; Results text"
+      },
+      "Experimental_Outcome_number": {
+        "value": "NA",
+        "source": "Joint-based comparison not stratified by arm."
+      },
+      "Control_Outcome_number": {
+        "value": "NA",
+        "source": "Same as above."
+      },
+      "Measurement_time": {
+        "value": "Mean daily pain score over postoperative days 1–10, by joint",
+        "source": "Table 4: “10-d average pain”"
+      },
+      "Experimental_group_results": {
+        "value": "Hips: 3.86 (10-day average pain).",
+        "source": "Table 4: “10-d average pain” – Hips column (3.856452)."
+      },
+      "Control_group_results": {
+        "value": "Knees: 4.28 (10-day average pain).",
+        "source": "Table 4: “10-d average pain” – Knees column (4.275794)."
+      },
+      "Statistical_method": {
+        "value": "t-test",
+        "source": "Statistical Plan; Table 4 includes P-Value for 10-d average pain."
+      },
+      "Statistical_result": {
+        "value": "P = 0.098236 (hips vs knees)",
+        "source": "Table 4: “10-d average pain” – P-Value .098236; Results: “The knee patients also reported higher average pain scores… (P=.098).”"
+      },
+      "Effect_size": {
+        "value": "Mean difference (knees − hips) ≈ 0.42 pain points.",
+        "source": "Table 4."
+      }
+    },
+    "13": {
+      "Outcomes": {
+        "value": "10-day total acetaminophen use (mg) – comparison by joint (hip vs knee) over entire cohort",
+        "source": "Table 4"
+      },
+      "Experimental_Outcome_number": {
+        "value": "NA",
+        "source": "Joint-based, not arm-based."
+      },
+      "Control_Outcome_number": {
+        "value": "NA",
+        "source": "Joint-based, not arm-based."
+      },
+      "Measurement_time": {
+        "value": "Cumulative acetaminophen dose over postoperative days 1–10",
+        "source": "Table 4: “10 d mg of Tylenol”"
+      },
+      "Experimental_group_results": {
+        "value": "Hips: 17,111.11 mg over 10 days (mean).",
+        "source": "Table 4: “10 d mg of Tylenol” – Hips column (17,111.11)."
+      },
+      "Control_group_results": {
+        "value": "Knees: 18,791.07 mg over 10 days (mean).",
+        "source": "Table 4: same row – Knees column (18,791.07)."
+      },
+      "Statistical_method": {
+        "value": "t-test",
+        "source": "Statistical Plan; Table 4 includes P-Value for this row."
+      },
+      "Statistical_result": {
+        "value": "P = 0.242408 (hips vs knees)",
+        "source": "Table 4: “10 d mg of Tylenol” – P-Value .242408."
+      },
+      "Effect_size": {
+        "value": "Mean difference (knees − hips) ≈ 1,679.96 mg over 10 days.",
+        "source": "Table 4."
+      }
+    },
+    "14": {
+      "Outcomes": {
+        "value": "Pain × medications (joint-level combined parameter) – hips vs knees",
+        "source": "Table 4: row “Pain x medications”"
+      },
+      "Experimental_Outcome_number": {
+        "value": "NA",
+        "source": "Joint-based summary, no arm separation."
+      },
+      "Control_Outcome_number": {
+        "value": "NA",
+        "source": "Same as above."
+      },
+      "Measurement_time": {
+        "value": "Combined over postoperative days 1–10 by joint",
+        "source": "Table 4."
+      },
+      "Experimental_group_results": {
+        "value": "Hips: 440.97.",
+        "source": "Table 4: “Pain x medications” – Hips column (440.9695)."
+      },
+      "Control_group_results": {
+        "value": "Knees: 783.18.",
+        "source": "Table 4: “Pain x medications” – Knees column (783.1804)."
+      },
+      "Statistical_method": {
+        "value": "NA",
+        "source": "No P-value reported for this row in Table 4."
+      },
+      "Statistical_result": {
+        "value": "NA",
+        "source": "Not reported."
+      },
+      "Effect_size": {
+        "value": "Mean difference (knees − hips) ≈ 342.21.",
+        "source": "Table 4."
+      }
+    }
+  },
+  "Data_Extract": {}
+}

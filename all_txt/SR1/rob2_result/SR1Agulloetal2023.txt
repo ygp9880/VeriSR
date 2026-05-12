@@ -1,0 +1,144 @@
+{
+    "article_title": "Pharmacogenetic Guided Opioid Therapy Improves Chronic Pain Outcomes and Comorbid Mental Health: A Randomized, Double-Blind, Controlled Study",
+    "domains": [
+        {
+            "Q1_1": {
+                "answer": "Yes",
+                "confidence": "High (95%)",
+                "analysis": "The methods state: 'the researchers randomly allocated patients to one of the two arms using the clinical trial management software OxMaR (v2014)'. Use of a randomization/clinical trial management software indicates computer-generated allocation, satisfying random sequence generation."
+            },
+            "Q1_2": {
+                "answer": "No Information",
+                "confidence": "High (95%)",
+                "analysis": "The article does not describe any allocation concealment procedures (e.g., centralized/remote randomization, independent allocation service, sequentially numbered opaque envelopes). Although software was used, there is no explicit statement that the allocation sequence was concealed from enrolling personnel."
+            },
+            "Q1_3": {
+                "answer": "No Information",
+                "confidence": "High (95%)",
+                "analysis": "Baseline characteristics are reported for the 50 participants who completed follow-up (28 vs 22), not for all 60 randomized. The paper notes some baseline imbalances among completers (e.g., higher proportion of women in the PGx arm; differences in some baseline adverse events and simple analgesic use), but these may reflect chance or differential attrition (dropout 2 vs 8). Because baseline data for all randomized participants are not provided, it is not possible to judge whether imbalances reflect a problem with the randomization process."
+            },
+            "judgment": "Some concerns"
+        },
+        {
+            "Q2_1": {
+                "answer": "No",
+                "confidence": {
+                    "rating": "Moderate",
+                    "percentage": 90
+                },
+                "analysis": "The abstract labels the study as double-blind, and the methods explicitly state that genotyping results were not communicated to patients. There is no indication that participants were told their allocation. Although medication choices could differ, this would not reliably reveal assignment to patients. Therefore, participants were likely unaware."
+            },
+            "Q2_2": {
+                "answer": "Yes",
+                "confidence": {
+                    "rating": "High",
+                    "percentage": 95
+                },
+                "analysis": "The methods state that clinicians received genotype information only for the PGx-guided arm and were provided prescribing recommendations via EHR. This necessarily reveals treatment allocation to clinicians/intervention providers, despite the abstract claiming double-blind."
+            },
+            "Q2_3": {
+                "answer": "No Information",
+                "confidence": {
+                    "rating": "Low",
+                    "percentage": 60
+                },
+                "analysis": "The study does not describe non-protocol co-interventions or deviations arising because of awareness of allocation. Differences in concomitant medications (e.g., greater fentanyl use in controls) appear to be part of the intended flexible prescribing within each arm rather than protocol violations. Non-adherence leading to exclusions (10/60) is reported, but it is not clearly linked to awareness of allocation or characterized as non-protocol deviations."
+            },
+            "Q2_4": {
+                "answer": "No Information",
+                "confidence": {
+                    "rating": "Low",
+                    "percentage": 60
+                },
+                "analysis": "Because deviations due to trial context were not clearly identified, their impact on outcomes cannot be determined from the article."
+            },
+            "Q2_5": {
+                "answer": "No Information",
+                "confidence": {
+                    "rating": "Low",
+                    "percentage": 65
+                },
+                "analysis": "While overall exclusions (10/60) suggest >10% non-adherence/attrition, the article does not clearly attribute deviations to trial context nor report the distribution of specific non-protocol deviations by arm. Attrition was unbalanced (2 PGx vs 8 usual care), but reasons (e.g., no opioid adherence vs other reasons) are not stratified by arm, limiting assessment of balance for deviations arising from the trial context."
+            },
+            "Q2_6": {
+                "answer": "No",
+                "confidence": {
+                    "rating": "High",
+                    "percentage": 95
+                },
+                "analysis": "The analysis appears to be a complete-case comparison of those completing follow-up (n=50), with standard hypothesis tests. There is no indication of ITT, instrumental variable methods, or inverse probability weighting to estimate the effect of assignment in the presence of non-adherence/attrition. Thus, per the guidance, this is not an appropriate causal analysis for assignment-to-intervention effects."
+            },
+            "judgment": "High"
+        },
+        {
+            "Q3_1": {
+                "answer": "No",
+                "confidence": "High (98%)",
+                "analysis": "The trial randomized 60 participants, but only 50 completed the 3-month follow-up and were included in analyses. Continuous outcomes such as pain intensity (VAS), pain relief (VAS), quality of life (EuroQol VAS), health utility, HADS scores, and SF-12 scores were reported for these 50 completers. This is <95% of randomized participants, so data were not available for all or nearly all participants for continuous outcomes."
+            },
+            "Q3_2": {
+                "answer": "No",
+                "confidence": "Moderate (85%)",
+                "analysis": "The article reports standard comparative statistics (e.g., t-tests, Mann-Whitney U, chi-square) on completers and does not describe intention-to-treat analyses, multiple imputation, adjustment methods for missing data bias, or sensitivity analyses assessing robustness to missing outcomes. Therefore, there is no evidence that appropriate analytical methods were used to mitigate potential bias from missing outcome data."
+            },
+            "Q3_3": {
+                "answer": "Yes",
+                "confidence": "Moderate (80%)",
+                "analysis": "The primary reported reasons for exclusion were no opioid adherence (n=7), one missing case (n=1), and insufficient saliva samples (n=2). Non-adherence to opioid therapy is plausibly related to the clinical outcomes (e.g., pain relief and adverse events) and could reflect poor treatment response or tolerability. Hence, missingness could depend on the true outcome values."
+            },
+            "Q3_4": {
+                "answer": "Yes",
+                "confidence": "Moderate (90%)",
+                "analysis": "There was a notable difference in attrition between groups: 2 exclusions in the PGx-guided arm versus 8 in usual care (about 6.7% vs 26.7% of each arm if initially balanced), indicating differential missingness. The predominant exclusion reason (no opioid adherence) suggests missingness could depend on treatment response or tolerability (true outcome values). No analysis accounting for characteristics explaining this relationship was reported. Therefore, it is likely that missingness depended on the true outcome."
+            },
+            "judgment": "High"
+        },
+        {
+            "Q4_1": {
+                "answer": "Probably No",
+                "confidence": "85% (Moderate Certainty)",
+                "analysis": "Primary outcomes (pain intensity and relief via 100-mm VAS, EQ-VAS, EQ-5D health utility, HADS, SF-12) are established, validated instruments with appropriate ranges and sensitivity. MEDD is calculated from prescriptions using referenced conversion tables. Adverse events were collected using a study-developed questionnaire based on product characteristics; while not a formally validated AE instrument, it is reasonable and unlikely to be insensitive. Overall, methods appear appropriate."
+            },
+            "Q4_2": {
+                "answer": "No",
+                "confidence": "80% (Moderate Certainty)",
+                "analysis": "Both groups used the same self-administered questionnaires, supported by clinicians, at comparable time points (baseline and 3 months; with a first-month visit noted for follow-up in both arms). There is no indication that the intervention arm had additional outcome assessments or different thresholds. The pharmacogenetic recommendation was delivered to physicians via EHR note without indicating extra measurement visits."
+            },
+            "Q4_3": {
+                "answer": "No Information",
+                "confidence": "60% (Low Certainty)",
+                "analysis": "The title states the study is double-blind, but methods indicate clinicians in the PGx arm received genotype results, implying treating clinicians were not blinded. Questionnaires were self-administered with an expert clinician present, but it is not explicit whether outcome assessors (patients or supporting clinicians/research staff) were blinded to allocation. Therefore, assessor blinding cannot be confirmed."
+            },
+            "Q4_4": {
+                "answer": "Yes",
+                "confidence": "90% (High Certainty)",
+                "analysis": "Key outcomes (pain VAS, EQ-VAS, EQ-5D utility, HADS, SF-12, and self-reported adverse events) are subjective and could be influenced if assessors (patients or clinicians assisting) were aware of allocation."
+            },
+            "Q4_5": {
+                "answer": "Probably Yes",
+                "confidence": "70% (Low to Moderate Certainty)",
+                "analysis": "Given the subjectivity of the outcomes and the possibility that assessors (patients or clinicians assisting with self-administered questionnaires) were aware of intervention status, it is likely that knowledge could influence outcome reporting. However, explicit assessor blinding is unclear, so this is rated as probable rather than definite."
+            },
+            "judgment": "High"
+        },
+        {
+            "Q5_1": {
+                "answer": "No Information",
+                "confidence": "Moderate (80%)",
+                "analysis": "The article states the trial was registered (EudraCT Registration Number: 2021-001238-21) and provides general statistical methods used, but it does not present or link to a pre-specified protocol or statistical analysis plan, nor explicitly state that analyses adhered to a finalized plan prior to unblinding. There is no information about timing of finalization of the analysis plan relative to access to unblinded outcome data. No changes to the plan are described as occurring before unblinding. Therefore, based on the provided text, there is insufficient information to confirm adherence to a pre-specified analysis plan."
+            },
+            "Q5_2": {
+                "answer": "Probably No",
+                "confidence": "Moderate (85%)",
+                "analysis": "Within key outcome domains, the study appears to report multiple relevant measures rather than a single selectively chosen measure: pain management efficacy includes pain intensity VAS and pain relief VAS; quality of life includes EQ-VAS and EQ-5D health utility, and SF-12 physical and mental component scores; mental health includes HADS Anxiety and Depression; safety includes a comprehensive list of adverse events. Both baseline and 3-month time points are reported, and tables show non-significant results alongside significant ones. There is no evidence from the text that only one of several eligible measures was selectively reported based on favorable results. While the protocol is not accessible to verify pre-specification of primary vs secondary outcomes, the breadth of reported endpoints reduces concern for selective outcome measurement reporting."
+            },
+            "Q5_3": {
+                "answer": "No Information",
+                "confidence": "Moderate (75%)",
+                "analysis": "The article does not provide a protocol or statistical analysis plan detailing pre-specified analytic approaches (e.g., change-from-baseline vs final value comparisons, ANCOVA adjusting for baseline, ITT vs per-protocol). The study reports multiple types of comparisons (within-arm baseline vs final, and between-arm differences at final), uses parametric or non-parametric tests based on distribution, and excludes 10 participants (non-adherence/missing samples), suggesting a per-protocol analysis. However, there is no explicit indication that multiple alternative analyses were conducted with selective reporting of favorable ones. Without access to a pre-specified plan, and given multiple plausible analytic choices exist, there is insufficient information to judge whether the reported numerical results were selected from multiple eligible analyses."
+            },
+            "judgment": "Some concerns"
+        }
+    ],
+    "overall": "High"
+}

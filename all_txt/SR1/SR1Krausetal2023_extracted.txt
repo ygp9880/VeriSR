@@ -1,0 +1,1375 @@
+{
+  "Basic_information": {
+    "Title": {
+      "value": "Does Preoperative Pharmacogenomic Testing of Patients Undergoing TKA Improve Postoperative Pain? A Randomized Trial",
+      "source": "metadata.Title"
+    },
+    "First_author": {
+      "value": "Molly B. Kraus",
+      "source": "metadata.First_author"
+    },
+    "Published_year": {
+      "value": "2024",
+      "source": "metadata.Published_year"
+    },
+    "Journal": {
+      "value": "Clinical Orthopaedics and Related Research (Clin Orthop Relat Res)",
+      "source": "metadata.Journal"
+    },
+    "Corresponding": {
+      "value": "M. B. Kraus, Department of Anesthesiology and Perioperative Medicine, Mayo Clinic, 5777 East Mayo Boulevard, Phoenix, AZ 85054, USA, Email: kraus.molly@mayo.edu",
+      "source": "metadata.Corresponding"
+    },
+    "DOI": {
+      "value": "10.1097/CORR.0000000000002767",
+      "source": "metadata.DOI"
+    },
+    "Declaration_of_interest": {
+      "value": "The pharmacogenomic test used in this study, RightMed by OneOME, was cofounded by Mayo Clinic. The authors have no personal associations with the company that might pose a conflict of interest. All ICMJE Conflict of Interest Forms for authors and Clinical Orthopaedics and Related Research® editors and board members are on file with the publication and can be viewed on request.",
+      "source": "metadata.Declaration_of_interest"
+    },
+    "Funding": {
+      "value": "This study occurred during the COVID-19 pandemic, and elective surgical procedures were stopped on multiple occasions. The study took longer to complete than initially planned, which affected the study funding. (Source of funding not explicitly stated).",
+      "source": "metadata.Funding"
+    }
+  },
+  "Study_design_population": {
+    "Study_design": {
+      "value": "Randomized controlled clinical trial, single-center, 2-arm (pharmacogenomic-guided vs standard care), open-label (patients unaware of results; clinicians in experimental arm aware)",
+      "source": "article_structure[2].subsections[0].content[0]; Abstract Methods"
+    },
+    "Country": {
+      "value": "USA (Mayo Clinic Hospital, Arizona)",
+      "source": "article_structure[2].subsections[0].content[0]"
+    },
+    "Sample_size": {
+      "value": "68 (30 control, 38 experimental included in primary analysis)",
+      "source": "Abstract Methods; Patients and Methods – Study Participants; Fig. 1"
+    },
+    "Age": {
+      "value": "66 ± 9 years overall (control 65 ± 9, experimental 66 ± 10)",
+      "source": "Patients and Methods – Descriptive Data; Table 1, Age in years"
+    },
+    "Male(%)": {
+      "value": "33% (25 of 76); control 35% (12 of 34), experimental 31% (13 of 42)",
+      "source": "Table 1, Women row (women 65% and 69%); Patients and Methods – Descriptive Data (67% women overall)"
+    },
+    "Inclusion_criteria": {
+      "value": "Aged 18 to 80 years; undergoing primary total knee arthroplasty performed using mechanical instrumentation; surgery under general anesthesia.",
+      "source": "Patients and Methods – Study Participants"
+    },
+    "Exclusion_criteria": {
+      "value": "History of chronic pain; history of narcotic use greater than 7 days before surgery; chronic kidney disease (high creatinine level); patient preference or need for regional anesthesia; undergoing robotic surgery.",
+      "source": "Patients and Methods – Study Participants"
+    },
+    "Follow_up_time": {
+      "value": "Primary outcomes assessed at 24 hours postoperatively (OBAS and 24-hour mean pain score); opioid use recorded up to 24 hours after PACU discharge or at time of discharge.",
+      "source": "Abstract Methods; Patients and Methods – Experiment; Outcome Measures"
+    }
+  },
+  "Experimental_Group": {
+    "Experimental_group_definition": {
+      "value": "Patients undergoing primary TKA under general anesthesia whose preoperative pharmacogenomic test results (RightMed, OneOme) were reviewed by a pharmacist before surgery; perioperative and home medications adjusted based on clinically relevant drug–gene interactions and CPIC guidelines.",
+      "source": "Abstract Methods; Patients and Methods – Experiment"
+    },
+    "Experimental_group_number": {
+      "value": "42 randomized/received allocated intervention; 38 included in primary analysis with OBAS data; 42 in baseline and outcome tables.",
+      "source": "Patients and Methods – Study Participants; Fig. 1; Table 1; Table 2; Table 3"
+    },
+    "Experimental_group_male": {
+      "value": "31% male (13 of 42); 69% women",
+      "source": "Table 1, Women row: Experimental 69% (29 of 42)"
+    },
+    "Experimental_group_female": {
+      "value": "69% female (29 of 42)",
+      "source": "Table 1, Women row: Experimental 69% (29 of 42)"
+    },
+    "Experimental_group_mean_age": {
+      "value": "66 ± 10 years",
+      "source": "Table 1, Age in years – Experimental"
+    },
+    "Experimental_group_ethnicity": {
+      "value": "92% White non-Hispanic (34 of 37); 3% Asian (1 of 37); 3% Black (1 of 37); 3% Hispanic (1 of 37).",
+      "source": "Table 1, Race and ethnicity section – Experimental column"
+    }
+  },
+  "Control_Group": {
+    "Control_group_definition": {
+      "value": "Patients undergoing primary TKA under general anesthesia whose pharmacogenomic test results were not reviewed before surgery; received standard perioperative medications (including preoperative oxycodone, dexamethasone, celecoxib, acetaminophen, and aspirin) according to institutional care pathways.",
+      "source": "Abstract Methods; Patients and Methods – Experiment"
+    },
+    "Control_group_number": {
+      "value": "34 randomized/received allocated intervention; 30 included in primary analysis with OBAS data; 34 in baseline and outcome tables.",
+      "source": "Patients and Methods – Study Participants; Fig. 1; Table 1; Table 2; Table 3"
+    },
+    "Control_group_male(%)": {
+      "value": "35% male (12 of 34); 65% women",
+      "source": "Table 1, Women row: Control 65% (22 of 34)"
+    },
+    "Control_group_female(%)": {
+      "value": "65% female (22 of 34)",
+      "source": "Table 1, Women row: Control 65% (22 of 34)"
+    },
+    "Control_group_mean_age(SD)": {
+      "value": "65 ± 9 years",
+      "source": "Table 1, Age in years – Control"
+    },
+    "Control_group_ethnicity(%)": {
+      "value": "97% White non-Hispanic (32 of 33); 3% Hispanic (1 of 33); 0% Asian; 0% Black.",
+      "source": "Table 1, Race and ethnicity section – Control column"
+    }
+  },
+  "Gene": {
+    "Disease": {
+      "value": "Postoperative pain after primary total knee arthroplasty (TKA) under general anesthesia",
+      "source": "Title; Abstract Background; Patients and Methods – Study Participants"
+    },
+    "Drug_type": {
+      "value": "Opioid and non-opioid analgesics (e.g., oxycodone, morphine, fentanyl, hydromorphone, tramadol, NSAIDs such as ketorolac, celecoxib, and acetaminophen).",
+      "source": "Introduction (analgesics/opioids/NSAIDs); Patients and Methods – Experiment; Table 3"
+    },
+    "Experimental_group_Drug_use": {
+      "value": "Perioperative and home medications chosen/adjusted based on pharmacogenomic testing (RightMed, OneOme). Pharmacist reviewed results preoperatively, assessed clinically relevant drug–gene interactions for perioperative medications list, and categorized drugs as green/yellow/red using CPIC evidence (final A and B levels), recommending alternative drugs or doses when indicated. Standard multimodal regimen (including oxycodone, dexamethasone, celecoxib, acetaminophen, aspirin, ketorolac periarticular injection, and opioids such as fentanyl, morphine, hydromorphone, tramadol) used but modified when actionable interactions were present.",
+      "source": "Patients and Methods – Experiment; Table 3"
+    },
+    "Control_group_Drug_use": {
+      "value": "Received standard perioperative and postoperative multimodal analgesia per institutional pathways without pharmacogenomic guidance: preoperative oxycodone, dexamethasone, celecoxib, acetaminophen, aspirin; intraoperative and PACU opioids (fentanyl, morphine, hydromorphone, oxycodone, tramadol) according to usual care.",
+      "source": "Patients and Methods – Experiment; Table 3"
+    },
+    "Gene": {
+      "value": "CYP1A2, CYP2B6, CYP2C9, CYP2C CLUSTER, CYP2C19, CYP2D6, CYP3A4, CYP3A5, CYP4F2, COMT (catechol-O-methyltransferase), DRD2, DPYD, F2, F5, GRIK4, HLA-A*31:01, HLA-B*15:02, HLA-B*57:01, HLA-B*58:01, HTR2A, HTR2C, IL28, NUDT, OPRM1 (opioid receptor mu 1), SLC01B1, SLC6A4, TPMT, UGT1A1, VKORC1; analysis focused on CYP2B6, CYP2C9, CYP2C19, CYP2D6, CYP3A4, COMT, and OPRM1.",
+      "source": "Patients and Methods – Experiment (genotyped 81 variants in 27 genes; seven key genes listed)"
+    },
+    "Genetic_testing_methods": {
+      "value": "Preoperative pharmacogenomic panel test (RightMed, OneOme) performed via buccal swab, genotyping 81 variants in 27 pharmacokinetic and pharmacodynamic genes to infer genotypes and predicted phenotypes.",
+      "source": "Patients and Methods – Experiment (\"pharmacogenomic test (RightMed, OneOME)... via buccal swab ... This test genotyped 81 variants in 27 genes\")"
+    },
+    "Variant": {
+      "value": "Specific alleles examined in exploratory analyses included CYP2B6*6, CYP2C19*2, CYP2C19*17, CYP2D6*1, and CYP2D6*2A; phenotype categories included poor-to-intermediate vs normal-to-ultrarapid activity for CYP2B6, CYP2C9, CYP2C19, CYP2D6; low vs intermediate-to-high activity for COMT; decreased-response vs normal-to-increased response for OPRM1; rapid/ultrarapid vs poor-to-normal activity for any CYP gene.",
+      "source": "Patients and Methods – Outcome Measures (phenotype comparisons); Results – Other Relevant Findings: Phenotypes for CYP, COMT, and OPRM1"
+    },
+    "Method_of_genotyping": {
+      "value": "Commercial multi-gene pharmacogenomic panel (RightMed, OneOme) using genotyping assays to detect common and predominant variants of pharmacokinetic and pharmacodynamic genes; specific laboratory platform not detailed.",
+      "source": "Introduction (\"mostly based on genotyping methods\"); Patients and Methods – Experiment (RightMed, OneOME genotyping 81 variants)"
+    }
+  },
+  "Outcomes": {
+    "1": {
+      "Outcomes": {
+        "value": "Overall Benefit of Analgesic Score (OBAS) – total score (0–28)",
+        "source": "Patients and Methods – Outcome Measures; Table 2, OBAS Total"
+      },
+      "Experimental_Outcome_number": {
+        "value": "38",
+        "source": "Results – OBAS (\"38 patients in the experimental group\" included for analysis)"
+      },
+      "Control_Outcome_number": {
+        "value": "30",
+        "source": "Results – OBAS (\"30 patients in the control group\" included for analysis)"
+      },
+      "Measurement_time": {
+        "value": "24 hours postoperatively",
+        "source": "Abstract Methods; Patients and Methods – Experiment; Outcome Measures"
+      },
+      "Experimental_group_results": {
+        "value": "4.2 ± 2.8",
+        "source": "Abstract Results; Table 2, OBAS Total – Experimental"
+      },
+      "Control_group_results": {
+        "value": "4.7 ± 3.7",
+        "source": "Abstract Results; Table 2, OBAS Total – Control"
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test",
+        "source": "Abstract Methods; Statistical Analysis; Table 2 footnote (implied)"
+      },
+      "Statistical_result": {
+        "value": "p = 0.55; mean difference 0.5 ± 3.2 (95% CI -1.1 to 2.1)",
+        "source": "Results – OBAS; Table 2, OBAS Total row"
+      },
+      "Effect_size": {
+        "value": "Mean difference 0.5 (95% CI -1.1 to 2.1); posterior probability 96% that difference < 2.0 points (Bayesian analysis with noninformative prior)",
+        "source": "Results – OBAS"
+      }
+    },
+    "2": {
+      "Outcomes": {
+        "value": "OBAS pain subscore",
+        "source": "Table 2, OBAS Pain row"
+      },
+      "Experimental_Outcome_number": {
+        "value": "38 (assumed same OBAS analyzable set)",
+        "source": "Results – OBAS; Table 2"
+      },
+      "Control_Outcome_number": {
+        "value": "30 (assumed same OBAS analyzable set)",
+        "source": "Results – OBAS; Table 2"
+      },
+      "Measurement_time": {
+        "value": "24 hours postoperatively",
+        "source": "Outcome Measures; Table 2"
+      },
+      "Experimental_group_results": {
+        "value": "1.9 ± 1.0",
+        "source": "Table 2, Pain – Experimental"
+      },
+      "Control_group_results": {
+        "value": "2.1 ± 1.1",
+        "source": "Table 2, Pain – Control"
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test",
+        "source": "Statistical Analysis; Table 2"
+      },
+      "Statistical_result": {
+        "value": "p = 0.65; mean difference 0.1 ± 1.1 (95% CI -0.4 to 0.6)",
+        "source": "Table 2, Pain row"
+      },
+      "Effect_size": {
+        "value": "Mean difference 0.1 (95% CI -0.4 to 0.6)",
+        "source": "Table 2, Pain row"
+      }
+    },
+    "3": {
+      "Outcomes": {
+        "value": "OBAS vomiting subscore",
+        "source": "Table 2, Vomiting row"
+      },
+      "Experimental_Outcome_number": {
+        "value": "38",
+        "source": "Table 2 (same OBAS cohort)"
+      },
+      "Control_Outcome_number": {
+        "value": "30",
+        "source": "Table 2 (same OBAS cohort)"
+      },
+      "Measurement_time": {
+        "value": "24 hours postoperatively",
+        "source": "Outcome Measures; Table 2"
+      },
+      "Experimental_group_results": {
+        "value": "0.2 ± 0.5",
+        "source": "Table 2, Vomiting – Experimental"
+      },
+      "Control_group_results": {
+        "value": "0.3 ± 0.8",
+        "source": "Table 2, Vomiting – Control"
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test",
+        "source": "Statistical Analysis; Table 2"
+      },
+      "Statistical_result": {
+        "value": "p = 0.37; mean difference 0.1 ± 0.6 (95% CI -0.2 to 0.5)",
+        "source": "Table 2, Vomiting row"
+      },
+      "Effect_size": {
+        "value": "Mean difference 0.1 (95% CI -0.2 to 0.5)",
+        "source": "Table 2, Vomiting row"
+      }
+    },
+    "4": {
+      "Outcomes": {
+        "value": "OBAS itching subscore",
+        "source": "Table 2, Itching row"
+      },
+      "Experimental_Outcome_number": {
+        "value": "38",
+        "source": "Table 2"
+      },
+      "Control_Outcome_number": {
+        "value": "30",
+        "source": "Table 2"
+      },
+      "Measurement_time": {
+        "value": "24 hours postoperatively",
+        "source": "Outcome Measures; Table 2"
+      },
+      "Experimental_group_results": {
+        "value": "0.3 ± 0.7",
+        "source": "Table 2, Itching – Experimental"
+      },
+      "Control_group_results": {
+        "value": "0.1 ± 0.5",
+        "source": "Table 2, Itching – Control"
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test",
+        "source": "Statistical Analysis; Table 2"
+      },
+      "Statistical_result": {
+        "value": "p = 0.19; mean difference -0.2 ± 0.7 (95% CI -0.5 to 0.1)",
+        "source": "Table 2, Itching row"
+      },
+      "Effect_size": {
+        "value": "Mean difference -0.2 (95% CI -0.5 to 0.1)",
+        "source": "Table 2, Itching row"
+      }
+    },
+    "5": {
+      "Outcomes": {
+        "value": "OBAS sweating subscore",
+        "source": "Table 2, Sweating row"
+      },
+      "Experimental_Outcome_number": {
+        "value": "38",
+        "source": "Table 2"
+      },
+      "Control_Outcome_number": {
+        "value": "30",
+        "source": "Table 2"
+      },
+      "Measurement_time": {
+        "value": "24 hours postoperatively",
+        "source": "Outcome Measures; Table 2"
+      },
+      "Experimental_group_results": {
+        "value": "0.3 ± 0.7",
+        "source": "Table 2, Sweating – Experimental"
+      },
+      "Control_group_results": {
+        "value": "0.7 ± 1.3",
+        "source": "Table 2, Sweating – Control"
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test",
+        "source": "Statistical Analysis; Table 2"
+      },
+      "Statistical_result": {
+        "value": "p = 0.10; mean difference 0.4 ± 1.0 (95% CI -0.1 to 0.9)",
+        "source": "Table 2, Sweating row"
+      },
+      "Effect_size": {
+        "value": "Mean difference 0.4 (95% CI -0.1 to 0.9)",
+        "source": "Table 2, Sweating row"
+      }
+    },
+    "6": {
+      "Outcomes": {
+        "value": "OBAS freezing subscore",
+        "source": "Table 2, Freezing row"
+      },
+      "Experimental_Outcome_number": {
+        "value": "38",
+        "source": "Table 2"
+      },
+      "Control_Outcome_number": {
+        "value": "30",
+        "source": "Table 2"
+      },
+      "Measurement_time": {
+        "value": "24 hours postoperatively",
+        "source": "Outcome Measures; Table 2"
+      },
+      "Experimental_group_results": {
+        "value": "0.2 ± 0.5",
+        "source": "Table 2, Freezing – Experimental"
+      },
+      "Control_group_results": {
+        "value": "0.1 ± 0.4",
+        "source": "Table 2, Freezing – Control"
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test",
+        "source": "Statistical Analysis; Table 2"
+      },
+      "Statistical_result": {
+        "value": "p = 0.63; mean difference -0.1 ± 0.5 (95% CI -0.3 to 0.2)",
+        "source": "Table 2, Freezing row"
+      },
+      "Effect_size": {
+        "value": "Mean difference -0.1 (95% CI -0.3 to 0.2)",
+        "source": "Table 2, Freezing row"
+      }
+    },
+    "7": {
+      "Outcomes": {
+        "value": "OBAS dizziness subscore",
+        "source": "Table 2, Dizziness row"
+      },
+      "Experimental_Outcome_number": {
+        "value": "38",
+        "source": "Table 2"
+      },
+      "Control_Outcome_number": {
+        "value": "30",
+        "source": "Table 2"
+      },
+      "Measurement_time": {
+        "value": "24 hours postoperatively",
+        "source": "Outcome Measures; Table 2"
+      },
+      "Experimental_group_results": {
+        "value": "0.9 ± 1.1",
+        "source": "Table 2, Dizziness – Experimental"
+      },
+      "Control_group_results": {
+        "value": "0.7 ± 1.3",
+        "source": "Table 2, Dizziness – Control"
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test",
+        "source": "Statistical Analysis; Table 2"
+      },
+      "Statistical_result": {
+        "value": "p = 0.45; mean difference -0.2 ± 1.2 (95% CI -0.8 to 0.4)",
+        "source": "Table 2, Dizziness row"
+      },
+      "Effect_size": {
+        "value": "Mean difference -0.2 (95% CI -0.8 to 0.4)",
+        "source": "Table 2, Dizziness row"
+      }
+    },
+    "8": {
+      "Outcomes": {
+        "value": "OBAS satisfaction subscore",
+        "source": "Table 2, Satisfaction row"
+      },
+      "Experimental_Outcome_number": {
+        "value": "38",
+        "source": "Table 2"
+      },
+      "Control_Outcome_number": {
+        "value": "30",
+        "source": "Table 2"
+      },
+      "Measurement_time": {
+        "value": "24 hours postoperatively",
+        "source": "Outcome Measures; Table 2"
+      },
+      "Experimental_group_results": {
+        "value": "3.6 ± 0.8",
+        "source": "Table 2, Satisfaction – Experimental"
+      },
+      "Control_group_results": {
+        "value": "3.3 ± 1.2",
+        "source": "Table 2, Satisfaction – Control"
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test",
+        "source": "Statistical Analysis; Table 2"
+      },
+      "Statistical_result": {
+        "value": "p = 0.21; mean difference -0.3 ± 1.0 (95% CI -0.8 to 0.2)",
+        "source": "Table 2, Satisfaction row"
+      },
+      "Effect_size": {
+        "value": "Mean difference -0.3 (95% CI -0.8 to 0.2)",
+        "source": "Table 2, Satisfaction row"
+      }
+    },
+    "9": {
+      "Outcomes": {
+        "value": "PACU time (minutes)",
+        "source": "Table 2, PACU time in minutes"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 2 (Experimental n = 42)"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 2 (Control n = 34)"
+      },
+      "Measurement_time": {
+        "value": "During immediate postoperative PACU stay",
+        "source": "Table 2; Patients and Methods – Experiment (pain and opioid recording times)"
+      },
+      "Experimental_group_results": {
+        "value": "150 ± 80 minutes",
+        "source": "Table 2, PACU time in minutes – Experimental"
+      },
+      "Control_group_results": {
+        "value": "130 ± 40 minutes",
+        "source": "Table 2, PACU time in minutes – Control"
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test",
+        "source": "Statistical Analysis; Table 2"
+      },
+      "Statistical_result": {
+        "value": "p = 0.16; mean difference -20 ± 60 (95% CI -50 to 10)",
+        "source": "Table 2, PACU time row"
+      },
+      "Effect_size": {
+        "value": "Mean difference -20 minutes (95% CI -50 to 10)",
+        "source": "Table 2, PACU time row"
+      }
+    },
+    "10": {
+      "Outcomes": {
+        "value": "PACU to discharge time (hours)",
+        "source": "Table 2, PACU to discharge in hours"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 2"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 2"
+      },
+      "Measurement_time": {
+        "value": "From PACU to hospital discharge",
+        "source": "Table 2"
+      },
+      "Experimental_group_results": {
+        "value": "38 ± 29 hours",
+        "source": "Table 2, PACU to discharge in hours – Experimental"
+      },
+      "Control_group_results": {
+        "value": "38 ± 21 hours",
+        "source": "Table 2, PACU to discharge in hours – Control"
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test",
+        "source": "Statistical Analysis; Table 2"
+      },
+      "Statistical_result": {
+        "value": "p = 0.96; mean difference 0 ± 25 (95% CI -11 to 12)",
+        "source": "Table 2, PACU to discharge row"
+      },
+      "Effect_size": {
+        "value": "Mean difference 0 hours (95% CI -11 to 12)",
+        "source": "Table 2, PACU to discharge row"
+      }
+    },
+    "11": {
+      "Outcomes": {
+        "value": "Mean pain score over first 24 hours (VAS 0–10)",
+        "source": "Results – OBAS; Table 2, Pain, 24-hour"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 2 (Experimental n = 42)"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 2 (Control n = 34)"
+      },
+      "Measurement_time": {
+        "value": "First 24 hours after surgery",
+        "source": "Patients and Methods – Experiment; Outcome Measures"
+      },
+      "Experimental_group_results": {
+        "value": "3.1 ± 1.4",
+        "source": "Table 2, Pain, 24-hour – Experimental"
+      },
+      "Control_group_results": {
+        "value": "3.2 ± 1.6",
+        "source": "Table 2, Pain, 24-hour – Control"
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test",
+        "source": "Statistical Analysis; Table 2"
+      },
+      "Statistical_result": {
+        "value": "p = 0.70; mean difference 0.1 ± 1.5 (95% CI -0.6 to 0.8)",
+        "source": "Results – OBAS; Table 2, Pain, 24-hour row"
+      },
+      "Effect_size": {
+        "value": "Mean difference 0.1 (95% CI -0.6 to 0.8)",
+        "source": "Table 2, Pain, 24-hour row"
+      }
+    },
+    "12": {
+      "Outcomes": {
+        "value": "Total opioid consumption (MME) over perioperative period",
+        "source": "Results – Total Opioids Given; Table 2, MME Total"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 2"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 2"
+      },
+      "Measurement_time": {
+        "value": "Combined preoperative, intraoperative, PACU, and up to 24 hours after PACU discharge",
+        "source": "Patients and Methods – Experiment; Table 2"
+      },
+      "Experimental_group_results": {
+        "value": "130 ± 90 MME",
+        "source": "Table 2, MME Total – Experimental"
+      },
+      "Control_group_results": {
+        "value": "170 ± 190 MME",
+        "source": "Table 2, MME Total – Control"
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test",
+        "source": "Statistical Analysis; Table 2"
+      },
+      "Statistical_result": {
+        "value": "p = 0.24; mean difference 40 ± 140 (95% CI -30 to 100)",
+        "source": "Table 2, MME Total row"
+      },
+      "Effect_size": {
+        "value": "Mean difference 40 MME (95% CI -30 to 100)",
+        "source": "Table 2, MME Total row"
+      }
+    },
+    "13": {
+      "Outcomes": {
+        "value": "Preoperative opioid dose (MME)",
+        "source": "Table 2, MME Preoperatively"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 2"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 2"
+      },
+      "Measurement_time": {
+        "value": "Preoperative period on day of surgery",
+        "source": "Patients and Methods – Experiment; Table 2"
+      },
+      "Experimental_group_results": {
+        "value": "20 ± 9 MME",
+        "source": "Table 2, Preoperatively – Experimental"
+      },
+      "Control_group_results": {
+        "value": "19 ± 12 MME",
+        "source": "Table 2, Preoperatively – Control"
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test",
+        "source": "Statistical Analysis; Table 2"
+      },
+      "Statistical_result": {
+        "value": "p = 0.88; mean difference 0 ± 10 (95% CI -5 to 4)",
+        "source": "Table 2, Preoperatively row"
+      },
+      "Effect_size": {
+        "value": "Mean difference 0 MME (95% CI -5 to 4)",
+        "source": "Table 2, Preoperatively row"
+      }
+    },
+    "14": {
+      "Outcomes": {
+        "value": "Intraoperative opioid dose (MME)",
+        "source": "Table 2, MME Intraoperatively"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 2"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 2"
+      },
+      "Measurement_time": {
+        "value": "During surgery (intraoperative period)",
+        "source": "Patients and Methods – Experiment; Table 2"
+      },
+      "Experimental_group_results": {
+        "value": "9 ± 10 MME",
+        "source": "Table 2, Intraoperatively – Experimental"
+      },
+      "Control_group_results": {
+        "value": "9 ± 9 MME",
+        "source": "Table 2, Intraoperatively – Control"
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test",
+        "source": "Statistical Analysis; Table 2"
+      },
+      "Statistical_result": {
+        "value": "p = 0.95; mean difference 0 ± 10 (95% CI -4 to 5)",
+        "source": "Table 2, Intraoperatively row"
+      },
+      "Effect_size": {
+        "value": "Mean difference 0 MME (95% CI -4 to 5)",
+        "source": "Table 2, Intraoperatively row"
+      }
+    },
+    "15": {
+      "Outcomes": {
+        "value": "PACU opioid dose (MME)",
+        "source": "Table 2, MME In PACU"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 2"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 2"
+      },
+      "Measurement_time": {
+        "value": "During PACU stay",
+        "source": "Patients and Methods – Experiment; Table 2"
+      },
+      "Experimental_group_results": {
+        "value": "7 ± 7 MME",
+        "source": "Table 2, In PACU – Experimental"
+      },
+      "Control_group_results": {
+        "value": "7 ± 7 MME",
+        "source": "Table 2, In PACU – Control"
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test",
+        "source": "Statistical Analysis; Table 2"
+      },
+      "Statistical_result": {
+        "value": "p = 0.83; mean difference 0 ± 7 (95% CI -4 to 3)",
+        "source": "Table 2, In PACU row"
+      },
+      "Effect_size": {
+        "value": "Mean difference 0 MME (95% CI -4 to 3)",
+        "source": "Table 2, In PACU row"
+      }
+    },
+    "16": {
+      "Outcomes": {
+        "value": "Opioid dose (MME) at 24 hours after PACU discharge",
+        "source": "Table 2, MME At 24 hours after PACU discharge"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 2"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 2"
+      },
+      "Measurement_time": {
+        "value": "24 hours after PACU discharge (or at time of hospital discharge)",
+        "source": "Patients and Methods – Experiment; Table 2"
+      },
+      "Experimental_group_results": {
+        "value": "40 ± 30 MME",
+        "source": "Table 2, At 24 hours after PACU discharge – Experimental"
+      },
+      "Control_group_results": {
+        "value": "50 ± 80 MME",
+        "source": "Table 2, At 24 hours after PACU discharge – Control"
+      },
+      "Statistical_method": {
+        "value": "Two-sample t-test",
+        "source": "Statistical Analysis; Table 2"
+      },
+      "Statistical_result": {
+        "value": "p = 0.23; mean difference 20 ± 60 (95% CI -10 to 40)",
+        "source": "Table 2, At 24 hours after PACU discharge row"
+      },
+      "Effect_size": {
+        "value": "Mean difference 20 MME (95% CI -10 to 40)",
+        "source": "Table 2, At 24 hours after PACU discharge row"
+      }
+    },
+    "17": {
+      "Outcomes": {
+        "value": "Use of oxycodone preoperatively (proportion of patients)",
+        "source": "Table 3, Preoperative – Oxycodone"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 3 (Experimental n = 42)"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 3 (Control n = 34)"
+      },
+      "Measurement_time": {
+        "value": "Preoperative period (before surgery)",
+        "source": "Table 3"
+      },
+      "Experimental_group_results": {
+        "value": "36% (15 of 42) received oxycodone",
+        "source": "Table 3, Oxycodone – Experimental"
+      },
+      "Control_group_results": {
+        "value": "44% (15 of 34) received oxycodone",
+        "source": "Table 3, Oxycodone – Control"
+      },
+      "Statistical_method": {
+        "value": "Pearson chi-square test",
+        "source": "Statistical Analysis; Table 3"
+      },
+      "Statistical_result": {
+        "value": "p = 0.61; proportion difference 0.08 (95% CI -0.16 to 0.33)",
+        "source": "Table 3, Oxycodone row under Preoperative"
+      },
+      "Effect_size": {
+        "value": "Proportion difference 0.08 (95% CI -0.16 to 0.33)",
+        "source": "Table 3, Oxycodone row under Preoperative"
+      }
+    },
+    "18": {
+      "Outcomes": {
+        "value": "Use of morphine preoperatively (proportion of patients)",
+        "source": "Table 3, Preoperative – Morphine"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 3"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 3"
+      },
+      "Measurement_time": {
+        "value": "Preoperative",
+        "source": "Table 3"
+      },
+      "Experimental_group_results": {
+        "value": "2% (1 of 42) received morphine",
+        "source": "Table 3, Morphine – Experimental"
+      },
+      "Control_group_results": {
+        "value": "0% (0 of 34) received morphine",
+        "source": "Table 3, Morphine – Control"
+      },
+      "Statistical_method": {
+        "value": "Fisher exact test (minimum expected cell count < 5)",
+        "source": "Statistical Analysis; Table 3 (\"p > 0.99\" suggests Fisher exact)"
+      },
+      "Statistical_result": {
+        "value": "p > 0.99; proportion difference -0.02 (95% CI -0.13 to 0.08)",
+        "source": "Table 3, Morphine row under Preoperative"
+      },
+      "Effect_size": {
+        "value": "Proportion difference -0.02 (95% CI -0.13 to 0.08)",
+        "source": "Table 3, Morphine row under Preoperative"
+      }
+    },
+    "19": {
+      "Outcomes": {
+        "value": "Use of fentanyl preoperatively (proportion of patients)",
+        "source": "Table 3, Preoperative – Fentanyl"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 3"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 3"
+      },
+      "Measurement_time": {
+        "value": "Preoperative",
+        "source": "Table 3"
+      },
+      "Experimental_group_results": {
+        "value": "90% (38 of 42) received fentanyl",
+        "source": "Table 3, Fentanyl – Experimental"
+      },
+      "Control_group_results": {
+        "value": "85% (29 of 34) received fentanyl",
+        "source": "Table 3, Fentanyl – Control"
+      },
+      "Statistical_method": {
+        "value": "Pearson chi-square test",
+        "source": "Statistical Analysis; Table 3"
+      },
+      "Statistical_result": {
+        "value": "p = 0.50; proportion difference -0.05 (95% CI -0.23 to 0.10)",
+        "source": "Table 3, Fentanyl row under Preoperative"
+      },
+      "Effect_size": {
+        "value": "Proportion difference -0.05 (95% CI -0.23 to 0.10)",
+        "source": "Table 3, Fentanyl row under Preoperative"
+      }
+    },
+    "20": {
+      "Outcomes": {
+        "value": "Use of hydromorphone preoperatively (proportion of patients)",
+        "source": "Table 3, Preoperative – Hydromorphone"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 3"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 3"
+      },
+      "Measurement_time": {
+        "value": "Preoperative",
+        "source": "Table 3"
+      },
+      "Experimental_group_results": {
+        "value": "26% (11 of 42) received hydromorphone",
+        "source": "Table 3, Hydromorphone – Experimental"
+      },
+      "Control_group_results": {
+        "value": "12% (4 of 34) received hydromorphone",
+        "source": "Table 3, Hydromorphone – Control"
+      },
+      "Statistical_method": {
+        "value": "Pearson chi-square test or Fisher exact test (small cell sizes)",
+        "source": "Statistical Analysis; Table 3"
+      },
+      "Statistical_result": {
+        "value": "p = 0.20; proportion difference -0.14 (95% CI -0.34 to 0.05)",
+        "source": "Table 3, Hydromorphone row under Preoperative"
+      },
+      "Effect_size": {
+        "value": "Proportion difference -0.14 (95% CI -0.34 to 0.05)",
+        "source": "Table 3, Hydromorphone row under Preoperative"
+      }
+    },
+    "21": {
+      "Outcomes": {
+        "value": "Use of morphine intraoperatively (proportion of patients)",
+        "source": "Table 3, Intraoperative – Morphine"
+      },
+      "Experimental_Outcome_number": {
+        "value": "40 (denominator for experimental morphine row)",
+        "source": "Table 3, Morphine – Experimental (\"40\")"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 3"
+      },
+      "Measurement_time": {
+        "value": "Intraoperative",
+        "source": "Table 3"
+      },
+      "Experimental_group_results": {
+        "value": "40% (16 of 40) received morphine",
+        "source": "Table 3, Morphine – Experimental"
+      },
+      "Control_group_results": {
+        "value": "62% (21 of 34) received morphine",
+        "source": "Table 3, Morphine – Control"
+      },
+      "Statistical_method": {
+        "value": "Pearson chi-square test",
+        "source": "Statistical Analysis; Table 3"
+      },
+      "Statistical_result": {
+        "value": "p = 0.10; proportion difference 0.22 (95% CI -0.03 to 0.47)",
+        "source": "Table 3, Morphine row under Intraoperative"
+      },
+      "Effect_size": {
+        "value": "Proportion difference 0.22 (95% CI -0.03 to 0.47)",
+        "source": "Table 3, Morphine row under Intraoperative"
+      }
+    },
+    "22": {
+      "Outcomes": {
+        "value": "Use of fentanyl intraoperatively (proportion of patients)",
+        "source": "Table 3, Intraoperative – Fentanyl"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 3"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 3"
+      },
+      "Measurement_time": {
+        "value": "Intraoperative",
+        "source": "Table 3"
+      },
+      "Experimental_group_results": {
+        "value": "36% (15 of 42) received fentanyl",
+        "source": "Table 3, Fentanyl – Experimental"
+      },
+      "Control_group_results": {
+        "value": "32% (11 of 34) received fentanyl",
+        "source": "Table 3, Fentanyl – Control"
+      },
+      "Statistical_method": {
+        "value": "Pearson chi-square test",
+        "source": "Statistical Analysis; Table 3"
+      },
+      "Statistical_result": {
+        "value": "p = 0.95; proportion difference -0.03 (95% CI -0.27 to 0.21)",
+        "source": "Table 3, Fentanyl row under Intraoperative"
+      },
+      "Effect_size": {
+        "value": "Proportion difference -0.03 (95% CI -0.27 to 0.21)",
+        "source": "Table 3, Fentanyl row under Intraoperative"
+      }
+    },
+    "23": {
+      "Outcomes": {
+        "value": "Use of hydromorphone intraoperatively (proportion of patients)",
+        "source": "Table 3, Intraoperative – Hydromorphone"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 3"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 3"
+      },
+      "Measurement_time": {
+        "value": "Intraoperative",
+        "source": "Table 3"
+      },
+      "Experimental_group_results": {
+        "value": "43% (18 of 42) received hydromorphone",
+        "source": "Table 3, Hydromorphone – Experimental"
+      },
+      "Control_group_results": {
+        "value": "41% (14 of 34) received hydromorphone",
+        "source": "Table 3, Hydromorphone – Control"
+      },
+      "Statistical_method": {
+        "value": "Pearson chi-square test or Fisher exact test",
+        "source": "Statistical Analysis; Table 3"
+      },
+      "Statistical_result": {
+        "value": "p > 0.99; proportion difference -0.02 (95% CI -0.26 to 0.22)",
+        "source": "Table 3, Hydromorphone row under Intraoperative"
+      },
+      "Effect_size": {
+        "value": "Proportion difference -0.02 (95% CI -0.26 to 0.22)",
+        "source": "Table 3, Hydromorphone row under Intraoperative"
+      }
+    },
+    "24": {
+      "Outcomes": {
+        "value": "Use of oxycodone in PACU (proportion of patients)",
+        "source": "Table 3, PACU – Oxycodone"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 3"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 3"
+      },
+      "Measurement_time": {
+        "value": "During PACU stay",
+        "source": "Table 3"
+      },
+      "Experimental_group_results": {
+        "value": "7% (3 of 42) received oxycodone",
+        "source": "Table 3, Oxycodone – Experimental"
+      },
+      "Control_group_results": {
+        "value": "3% (1 of 34) received oxycodone",
+        "source": "Table 3, Oxycodone – Control"
+      },
+      "Statistical_method": {
+        "value": "Fisher exact test",
+        "source": "Statistical Analysis; Table 3 (small numbers, p = 0.62)"
+      },
+      "Statistical_result": {
+        "value": "p = 0.62; proportion difference -0.04 (95% CI -0.17 to 0.10)",
+        "source": "Table 3, Oxycodone row under PACU"
+      },
+      "Effect_size": {
+        "value": "Proportion difference -0.04 (95% CI -0.17 to 0.10)",
+        "source": "Table 3, Oxycodone row under PACU"
+      }
+    },
+    "25": {
+      "Outcomes": {
+        "value": "Use of tramadol in PACU (proportion of patients)",
+        "source": "Table 3, PACU – Tramadol"
+      },
+      "Experimental_Outcome_number": {
+        "value": "41 (denominator reported)",
+        "source": "Table 3, Tramadol – Experimental (\"1 of 41\")"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 3"
+      },
+      "Measurement_time": {
+        "value": "During PACU",
+        "source": "Table 3"
+      },
+      "Experimental_group_results": {
+        "value": "2% (1 of 41) received tramadol",
+        "source": "Table 3, Tramadol – Experimental"
+      },
+      "Control_group_results": {
+        "value": "3% (1 of 34) received tramadol",
+        "source": "Table 3, Tramadol – Control"
+      },
+      "Statistical_method": {
+        "value": "Fisher exact test",
+        "source": "Statistical Analysis; Table 3 (p > 0.99)"
+      },
+      "Statistical_result": {
+        "value": "p > 0.99; proportion difference 0.01 (95% CI -0.10 to 0.13)",
+        "source": "Table 3, Tramadol row under PACU"
+      },
+      "Effect_size": {
+        "value": "Proportion difference 0.01 (95% CI -0.10 to 0.13)",
+        "source": "Table 3, Tramadol row under PACU"
+      }
+    },
+    "26": {
+      "Outcomes": {
+        "value": "Use of fentanyl in PACU (proportion of patients)",
+        "source": "Table 3, PACU – Fentanyl"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 3"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 3"
+      },
+      "Measurement_time": {
+        "value": "During PACU",
+        "source": "Table 3"
+      },
+      "Experimental_group_results": {
+        "value": "62% (26 of 42) received fentanyl",
+        "source": "Table 3, Fentanyl – Experimental"
+      },
+      "Control_group_results": {
+        "value": "50% (17 of 34) received fentanyl",
+        "source": "Table 3, Fentanyl – Control"
+      },
+      "Statistical_method": {
+        "value": "Pearson chi-square test",
+        "source": "Statistical Analysis; Table 3"
+      },
+      "Statistical_result": {
+        "value": "p = 0.42; proportion difference -0.12 (95% CI -0.37 to 0.13)",
+        "source": "Table 3, Fentanyl row under PACU"
+      },
+      "Effect_size": {
+        "value": "Proportion difference -0.12 (95% CI -0.37 to 0.13)",
+        "source": "Table 3, Fentanyl row under PACU"
+      }
+    },
+    "27": {
+      "Outcomes": {
+        "value": "Use of hydromorphone in PACU (proportion of patients)",
+        "source": "Table 3, PACU – Hydromorphone"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 3"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 3"
+      },
+      "Measurement_time": {
+        "value": "During PACU",
+        "source": "Table 3"
+      },
+      "Experimental_group_results": {
+        "value": "26% (11 of 42) received hydromorphone",
+        "source": "Table 3, Hydromorphone – Experimental"
+      },
+      "Control_group_results": {
+        "value": "18% (6 of 34) received hydromorphone",
+        "source": "Table 3, Hydromorphone – Control"
+      },
+      "Statistical_method": {
+        "value": "Pearson chi-square test or Fisher exact test",
+        "source": "Statistical Analysis; Table 3"
+      },
+      "Statistical_result": {
+        "value": "p = 0.54; proportion difference -0.09 (95% CI -0.30 to 0.13)",
+        "source": "Table 3, Hydromorphone row under PACU"
+      },
+      "Effect_size": {
+        "value": "Proportion difference -0.09 (95% CI -0.30 to 0.13)",
+        "source": "Table 3, Hydromorphone row under PACU"
+      }
+    },
+    "28": {
+      "Outcomes": {
+        "value": "Use of oxycodone at 24 hours postoperatively (proportion of patients)",
+        "source": "Table 3, At 24 hours postoperatively – Oxycodone"
+      },
+      "Experimental_Outcome_number": {
+        "value": "39 (denominator reported)",
+        "source": "Table 3, Oxycodone – Experimental (\"25 of 39\")"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 3"
+      },
+      "Measurement_time": {
+        "value": "Within 24 hours postoperatively",
+        "source": "Table 3"
+      },
+      "Experimental_group_results": {
+        "value": "64% (25 of 39) received oxycodone",
+        "source": "Table 3, Oxycodone – Experimental"
+      },
+      "Control_group_results": {
+        "value": "50% (17 of 34) received oxycodone",
+        "source": "Table 3, Oxycodone – Control"
+      },
+      "Statistical_method": {
+        "value": "Pearson chi-square test",
+        "source": "Statistical Analysis; Table 3"
+      },
+      "Statistical_result": {
+        "value": "p = 0.33; proportion difference -0.14 (95% CI -0.39 to 0.11)",
+        "source": "Table 3, Oxycodone row under At 24 hours postoperatively"
+      },
+      "Effect_size": {
+        "value": "Proportion difference -0.14 (95% CI -0.39 to 0.11)",
+        "source": "Table 3, Oxycodone row under At 24 hours postoperatively"
+      }
+    },
+    "29": {
+      "Outcomes": {
+        "value": "Use of tramadol at 24 hours postoperatively (proportion of patients)",
+        "source": "Results – Changes in Opioid Prescribing; Table 3, At 24 hours postoperatively – Tramadol"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42 (tramadol experimental group, 17 of 42)",
+        "source": "Table 3, Tramadol – Experimental (\"41 (17)\" -> 41% of 42)"
+      },
+      "Control_Outcome_number": {
+        "value": "34 (tramadol control group, 24 of 34)",
+        "source": "Table 3, Tramadol – Control"
+      },
+      "Measurement_time": {
+        "value": "Within 24 hours postoperatively",
+        "source": "Table 3"
+      },
+      "Experimental_group_results": {
+        "value": "41% (17 of 42) received tramadol",
+        "source": "Table 3, Tramadol – Experimental"
+      },
+      "Control_group_results": {
+        "value": "71% (24 of 34) received tramadol",
+        "source": "Table 3, Tramadol – Control"
+      },
+      "Statistical_method": {
+        "value": "Pearson chi-square test with Bonferroni adjustment for multiple comparisons",
+        "source": "Statistical Analysis; Results – Changes in Opioid Prescribing"
+      },
+      "Statistical_result": {
+        "value": "Nominal p = 0.02; adjusted p > 0.99; proportion difference 0.29 (95% CI 0.05 to 0.53)",
+        "source": "Results – Changes in Opioid Prescribing; Table 3, Tramadol row under At 24 hours postoperatively"
+      },
+      "Effect_size": {
+        "value": "Proportion difference 0.29 (95% CI 0.05 to 0.53)",
+        "source": "Table 3, Tramadol row under At 24 hours postoperatively"
+      }
+    },
+    "30": {
+      "Outcomes": {
+        "value": "Use of morphine at 24 hours postoperatively (proportion of patients)",
+        "source": "Table 3, At 24 hours postoperatively – Morphine"
+      },
+      "Experimental_Outcome_number": {
+        "value": "40 (denominator reported)",
+        "source": "Table 3, Morphine – Experimental (\"1 of 40\")"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 3"
+      },
+      "Measurement_time": {
+        "value": "Within 24 hours postoperatively",
+        "source": "Table 3"
+      },
+      "Experimental_group_results": {
+        "value": "2% (1 of 40) received morphine",
+        "source": "Table 3, Morphine – Experimental"
+      },
+      "Control_group_results": {
+        "value": "0% (0 of 34) received morphine",
+        "source": "Table 3, Morphine – Control"
+      },
+      "Statistical_method": {
+        "value": "Fisher exact test",
+        "source": "Statistical Analysis; Table 3 (p > 0.99)"
+      },
+      "Statistical_result": {
+        "value": "p > 0.99; proportion difference -0.03 (95% CI -0.14 to 0.08)",
+        "source": "Table 3, Morphine row under At 24 hours postoperatively"
+      },
+      "Effect_size": {
+        "value": "Proportion difference -0.03 (95% CI -0.14 to 0.08)",
+        "source": "Table 3, Morphine row under At 24 hours postoperatively"
+      }
+    },
+    "31": {
+      "Outcomes": {
+        "value": "Use of fentanyl at 24 hours postoperatively (proportion of patients)",
+        "source": "Table 3, At 24 hours postoperatively – Fentanyl"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 3"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 3"
+      },
+      "Measurement_time": {
+        "value": "Within 24 hours postoperatively",
+        "source": "Table 3"
+      },
+      "Experimental_group_results": {
+        "value": "57% (24 of 42) received fentanyl",
+        "source": "Table 3, Fentanyl – Experimental"
+      },
+      "Control_group_results": {
+        "value": "53% (18 of 34) received fentanyl",
+        "source": "Table 3, Fentanyl – Control"
+      },
+      "Statistical_method": {
+        "value": "Pearson chi-square test",
+        "source": "Statistical Analysis; Table 3"
+      },
+      "Statistical_result": {
+        "value": "p = 0.89; proportion difference -0.04 (95% CI -0.29 to 0.21)",
+        "source": "Table 3, Fentanyl row under At 24 hours postoperatively"
+      },
+      "Effect_size": {
+        "value": "Proportion difference -0.04 (95% CI -0.29 to 0.21)",
+        "source": "Table 3, Fentanyl row under At 24 hours postoperatively"
+      }
+    },
+    "32": {
+      "Outcomes": {
+        "value": "Use of hydromorphone at 24 hours postoperatively (proportion of patients)",
+        "source": "Table 3, At 24 hours postoperatively – Hydromorphone"
+      },
+      "Experimental_Outcome_number": {
+        "value": "42",
+        "source": "Table 3"
+      },
+      "Control_Outcome_number": {
+        "value": "34",
+        "source": "Table 3"
+      },
+      "Measurement_time": {
+        "value": "Within 24 hours postoperatively",
+        "source": "Table 3"
+      },
+      "Experimental_group_results": {
+        "value": "29% (12 of 42) received hydromorphone",
+        "source": "Table 3, Hydromorphone – Experimental"
+      },
+      "Control_group_results": {
+        "value": "18% (6 of 34) received hydromorphone",
+        "source": "Table 3, Hydromorphone – Control"
+      },
+      "Statistical_method": {
+        "value": "Pearson chi-square test or Fisher exact test",
+        "source": "Statistical Analysis; Table 3"
+      },
+      "Statistical_result": {
+        "value": "p = 0.40; proportion difference -0.11 (95% CI -0.32 to 0.10)",
+        "source": "Table 3, Hydromorphone row under At 24 hours postoperatively"
+      },
+      "Effect_size": {
+        "value": "Proportion difference -0.11 (95% CI -0.32 to 0.10)",
+        "source": "Table 3, Hydromorphone row under At 24 hours postoperatively"
+      }
+    }
+  },
+  "Data_Extract": {}
+}

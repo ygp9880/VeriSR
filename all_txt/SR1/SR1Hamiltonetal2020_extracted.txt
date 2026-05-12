@@ -1,0 +1,311 @@
+{
+  "Basic_information": {
+    "Title": {
+      "value": "Using pharmacogenetics to structure individual pain management protocols in total knee arthroplasty: A RANDOMIZED PILOT STUDY",
+      "source": "metadata.Title"
+    },
+    "First_author": {
+      "value": "W. G. Hamilton",
+      "source": "metadata.First_author"
+    },
+    "Published_year": {
+      "value": "2020",
+      "source": "metadata.Published_year"
+    },
+    "Journal": {
+      "value": "Bone Joint J",
+      "source": "metadata.Journal"
+    },
+    "Corresponding": {
+      "value": "N. L. Parks; email: nparks@aori.org",
+      "source": "metadata.Corresponding"
+    },
+    "DOI": {
+      "value": "10.1302/0301-620X.102B6. BJJ-2019-1539.R1",
+      "source": "metadata.DOI"
+    },
+    "Declaration_of_interest": {
+      "value": "Although none of the authors has received or will receive benefits for personal or professional use from a commercial party related directly or indirectly to the subject of this article, benefits have been or will be received but will be directed solely to a research fund, foundation, educational institution, or other non- profit organization with which one or more of the authors are associated. W. G. Hamilton reports personal payments for consultancy and royalties from DePuy Synthes, unrelated to this study.",
+      "source": "metadata.Declaration_of_interest; ICMJE COI statement"
+    },
+    "Funding": {
+      "value": "This study was supported, in part, by general research funding provided by the Inova Health System and a gift from Roy B. Harrill.",
+      "source": "metadata.Funding; Acknowledgements"
+    }
+  },
+  "Study_design_population": {
+    "Study_design": {
+      "value": "Prospective, randomized, patient-blinded pilot study",
+      "source": "Methods – Trial design: \"This was a prospective, randomized, patient-blinded pilot study on the use of pharmacogenetics in postoperative pain management following TKA.\""
+    },
+    "Country": {
+      "value": "USA",
+      "source": "Author information: Anderson Orthopaedic Research Institute, Alexandria, Virginia, USA."
+    },
+    "Sample_size": {
+      "value": "31",
+      "source": "Methods – Allocation and randomization: \"Overall, 31 patients were enrolled\""
+    },
+    "Age": {
+      "value": "69.5 years (45.7 to 89.9)",
+      "source": "Methods – Allocation and randomization: \"The mean age was 69.5 years (45.7 to 89.9).\""
+    },
+    "Male(%)": {
+      "value": "29.0%",
+      "source": "Methods – Allocation and randomization: \"31 patients were enrolled, which included nine men and 22 women\" (9/31 ≈ 29.0%)"
+    },
+    "Inclusion_criteria": {
+      "value": "Primary total knee arthroplasty patients over the age of 18 years who consented to participate; all patients recruited and underwent surgery at one institution by a single provider.",
+      "source": "Methods – Inclusion and exclusion criteria"
+    },
+    "Exclusion_criteria": {
+      "value": "Any history of opioid dependency, or any systemic comorbidities or allergies that contraindicated the use of standard pain medications; one patient excluded for daily opioid use preoperatively.",
+      "source": "Methods – Inclusion and exclusion criteria"
+    },
+    "Follow_up_time": {
+      "value": "10 days postoperatively",
+      "source": "Methods – Intervention and Outcome measures: \"For the first ten postoperative days, patients recorded pain scores, medication, and side effects.\""
+    }
+  },
+  "Experimental_Group": {
+    "Experimental_group_definition": {
+      "value": "Patients randomized to the pharmacogenetics-guided treatment group who received a customized postoperative pain regimen based on pharmacogenetic results (categories C and D; only category D had adjusted medication because of variants).",
+      "source": "Methods – Allocation and randomization; Methods – Intervention: \"study group received a customized regimen based on the pharmacogenetic results.\""
+    },
+    "Experimental_group_number": {
+      "value": "16 randomized; 13 completed and returned pain and medication log",
+      "source": "Table II: \"Total, n – PGx-guided treatment group 16\"; \"Completed and returned pain and medication log, n – PGx-guided treatment group 13\""
+    },
+    "Experimental_group_male": {
+      "value": "NA",
+      "source": "Not reported separately by group"
+    },
+    "Experimental_group_female": {
+      "value": "NA",
+      "source": "Not reported separately by group"
+    },
+    "Experimental_group_mean_age": {
+      "value": "NA",
+      "source": "Not reported separately by group"
+    },
+    "Experimental_group_ethnicity": {
+      "value": "NA",
+      "source": "No ethnicity information reported"
+    }
+  },
+  "Control_Group": {
+    "Control_group_definition": {
+      "value": "Patients randomized to the control group who received the standard postoperative pain management protocol regardless of pharmacogenetic variants.",
+      "source": "Methods – Methods: \"the control group received the standard postoperative pain regimen\"; Intervention: \"Patients in the control group followed our standard postoperative pain management protocol regardless of genetic variants.\""
+    },
+    "Control_group_number": {
+      "value": "15 randomized; 12 completed and returned pain and medication log",
+      "source": "Table II: \"Total, n – Control group 15\"; \"Completed and returned pain and medication log, n – Control group 12\""
+    },
+    "Control_group_male(%)": {
+      "value": "NA",
+      "source": "Not reported separately by group"
+    },
+    "Control_group_female(%)": {
+      "value": "NA",
+      "source": "Not reported separately by group"
+    },
+    "Control_group_mean_age(SD)": {
+      "value": "NA",
+      "source": "Not reported separately by group"
+    },
+    "Control_group_ethnicity(%)": {
+      "value": "NA",
+      "source": "No ethnicity information reported"
+    }
+  },
+  "Gene": {
+    "Disease": {
+      "value": "Postoperative pain following primary total knee arthroplasty",
+      "source": "Aims; Introduction: postoperative pain management following TKA"
+    },
+    "Drug_type": {
+      "value": "Non-steroidal anti-inflammatory drugs (NSAIDs) and opioids",
+      "source": "Methods – Methods: \"These genes affect the pharmacodynamics and pharmacokinetics of non-steroidal anti-inflammatory drugs and opioids.\""
+    },
+    "Experimental_group_Drug_use": {
+      "value": "Customized postoperative analgesic regimen using only medications in the green “Standard Precautions” category of the pharmacogenetic report; standard pain medications (ketorolac, acetaminophen, tramadol, hydrocodone, celecoxib) were substituted with alternative green-category drugs when variants indicated reduced efficacy or increased toxicity.",
+      "source": "Methods – Intervention: description of customized regimen for study group"
+    },
+    "Control_group_Drug_use": {
+      "value": "Standard postoperative pain protocol: ketorolac 30 mg once; acetaminophen 650 mg every 6 hours (max 3 g/24 h); tramadol 50 mg every 6 hours; hydrocodone 5 mg every 6 hours alternating with tramadol/as needed; celecoxib 200 mg once daily, regardless of pharmacogenetic variants.",
+      "source": "Methods – Intervention: description of standard medications given to control group"
+    },
+    "Gene": {
+      "value": "OPRM1; CYP1A2; CYP2B6; CYP2C19; CYP3A4; CYP2C9; CYP2D6",
+      "source": "Methods – Methods: \"Pharmacogenetics testing examined genetic variants in genes OPRM1, CYP1A2, CYP2B6, CYP2C19, CYP3A4, CYP2C9, and CYP2D6.\""
+    },
+    "Genetic_testing_methods": {
+      "value": "Pharmacogenomic testing of buccal cheek swab DNA samples performed by Inova Genomics Lab, reported as a MediMap patient report categorizing medications into green, yellow, and red with phenotype-based dosing guidance.",
+      "source": "Methods – Intervention: description of buccal swabs, Inova Genomics Lab, MediMap report"
+    },
+    "Variant": {
+      "value": "OPRM1: normal vs altered mu-opioid receptor; CYP2D6: normal, poor, and ultra-rapid metabolizer phenotypes; CYP2C9: normal and intermediate metabolizer phenotypes affecting celecoxib; overall, 42% of patients had variants affecting standard pain medications.",
+      "source": "Table I; Results section: description of frequencies and phenotypes"
+    },
+    "Method_of_genotyping": {
+      "value": "Not specified beyond buccal DNA collection and pharmacogenomic testing at Inova Genomics Lab (platform/assay details not reported).",
+      "source": "Methods – Intervention: \"DNA samples were collected from each patient by two buccal cheek swabs… Pharmacogenomic testing… was provided by Inova Genomics Lab\""
+    }
+  },
+  "Outcomes": {
+    "1": {
+      "Outcomes": {
+        "value": "Proportion of patients with genetic variants affecting standard postoperative pain medications",
+        "source": "Methods – Outcome measures; Results"
+      },
+      "Experimental_Outcome_number": {
+        "value": "13/31 patients with genetic variants (overall study cohort; not group-specific)",
+        "source": "Results: \"13 (42%) were found to have genetic variants in one or more of the genes that affect the metabolism of our standard pain prescriptions.\""
+      },
+      "Control_Outcome_number": {
+        "value": "NA",
+        "source": "Primary genetic variant frequency reported for total cohort, not by randomized group"
+      },
+      "Measurement_time": {
+        "value": "At baseline (preoperative pharmacogenetic testing)",
+        "source": "Methods – Methods and Intervention: buccal samples collected at preoperative clinic visit"
+      },
+      "Experimental_group_results": {
+        "value": "42.0% of 31 TKA patients had at least one genetic variant affecting celecoxib, hydrocodone, or tramadol metabolism.",
+        "source": "Results: \"Among the 31 TKA patients enrolled for this study, 13 (42%) were found to have genetic variants...\""
+      },
+      "Control_group_results": {
+        "value": "NA",
+        "source": "Genetic variant frequency not stratified by control vs PGx-guided groups"
+      },
+      "Statistical_method": {
+        "value": "Descriptive statistics (percentage of patients with variants)",
+        "source": "Methods – Outcome measures; Results: description without inferential test"
+      },
+      "Statistical_result": {
+        "value": "42% with genetic variants",
+        "source": "Results section"
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "No comparative effect size reported for this descriptive outcome"
+      }
+    },
+    "2": {
+      "Outcomes": {
+        "value": "Ten-day mean pain score (0–10 numeric rating scale)",
+        "source": "Methods – Outcome measures; Results – Pain and morphine equivalents; Table II"
+      },
+      "Experimental_Outcome_number": {
+        "value": "13",
+        "source": "Results – Pain and morphine equivalents: \"Complete pain and medication data were available from 25 patients: 12 controls, and 13 treatment group patients.\""
+      },
+      "Control_Outcome_number": {
+        "value": "12",
+        "source": "Results – Pain and morphine equivalents"
+      },
+      "Measurement_time": {
+        "value": "First ten postoperative days",
+        "source": "Methods – Outcome measures"
+      },
+      "Experimental_group_results": {
+        "value": "Mean ten-day pain: 4.2 (3.3 to 5.25) in PGx-guided treatment group overall; in category D (PGx-guided with variants) mean 3.2 (2.4 to 3.7).",
+        "source": "Table II: \"Mean pain, 0 to 10 (range) – PGx-guided treatment group 4.2 (3.3 to 5.25)\" and Results – Pain and morphine equivalents: \"treatment group who received customized prescriptions (Category D) reported mean ten-day pain levels of 3.2 (2.4 to 3.7)\""
+      },
+      "Control_group_results": {
+        "value": "Mean ten-day pain: 4.9 (3.8 to 8.3) for control group overall; for those with no variants 5.0 (1.6 to 6.9).",
+        "source": "Table II: \"Mean pain, 0 to 10 (range) – Control group 4.9 (3.8 to 8.3)\" and \"5.0 (1.6 to 6.9)\""
+      },
+      "Statistical_method": {
+        "value": "Independent-samples t-test",
+        "source": "Methods – Outcome measures: \"mean pain levels and SD of each category were compared by an independent-samples t-test.\""
+      },
+      "Statistical_result": {
+        "value": "p = 0.019 (control vs custom-guided group for mean pain levels over first ten days)",
+        "source": "Results – Pain and morphine equivalents: \"(p = 0.019 for pain\""
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "No effect size (e.g., mean difference with CI) reported"
+      }
+    },
+    "3": {
+      "Outcomes": {
+        "value": "Ten-day total morphine equivalents (MEQs) consumed",
+        "source": "Methods – Outcome measures; Results – Pain and morphine equivalents; Table II"
+      },
+      "Experimental_Outcome_number": {
+        "value": "13",
+        "source": "Results – Pain and morphine equivalents: same 25 patients for pain and MEQs"
+      },
+      "Control_Outcome_number": {
+        "value": "12",
+        "source": "Results – Pain and morphine equivalents"
+      },
+      "Measurement_time": {
+        "value": "First ten postoperative days",
+        "source": "Methods – Outcome measures"
+      },
+      "Experimental_group_results": {
+        "value": "Ten-day morphine equivalents: overall PGx-guided group 249 (100 to 520); category D (PGx-guided with variants) 182 (32 to 428).",
+        "source": "Table II: \"Ten-day morphine equivalents (range) – PGx-guided treatment group 249 (100 to 520)\" and \"182 (32 to 428)\""
+      },
+      "Control_group_results": {
+        "value": "Ten-day morphine equivalents: control group 241 (145 to 450); control subgroup without variants 255 (145 to 390).",
+        "source": "Table II: \"Ten-day morphine equivalents (range) – Control group 241 (145 to 450)\" and \"255 (145 to 390)\""
+      },
+      "Statistical_method": {
+        "value": "Independent-samples t-test",
+        "source": "Methods – Outcome measures: same method applied to pain and MEQs; Results – Pain and morphine equivalents"
+      },
+      "Statistical_result": {
+        "value": "p = 0.655 (control vs custom-guided group for MEQs over first ten days)",
+        "source": "Results – Pain and morphine equivalents: \"p = 0.655 for MEQ\""
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "No effect size (e.g., ratio or mean difference with CI) reported"
+      }
+    },
+    "4": {
+      "Outcomes": {
+        "value": "Change in mean pain score after medication change in crossover control patients with genetic variants",
+        "source": "Results – Pain and morphine equivalents"
+      },
+      "Experimental_Outcome_number": {
+        "value": "NA",
+        "source": "Outcome pertains to crossover patients from control group, not experimental group"
+      },
+      "Control_Outcome_number": {
+        "value": "2 individual cases described (subset of 7 controls with genetic variants)",
+        "source": "Results – Pain and morphine equivalents: description of two specific patients"
+      },
+      "Measurement_time": {
+        "value": "Within first ten postoperative days, before and after medication change based on PGx report",
+        "source": "Results – Pain and morphine equivalents"
+      },
+      "Experimental_group_results": {
+        "value": "NA",
+        "source": "Not applicable; outcome concerns control patients after crossover"
+      },
+      "Control_group_results": {
+        "value": "Case 1: mean pain decreased from 6.5 to 2.5 (3.5 to 1.5) after changing medicine based on PGx report. Case 2: pain improved from 5.5 to 4.5 on day 4 after changing medication.",
+        "source": "Results – Pain and morphine equivalents: description of two crossover patients"
+      },
+      "Statistical_method": {
+        "value": "NA",
+        "source": "Only descriptive case-level data, no formal statistical test"
+      },
+      "Statistical_result": {
+        "value": "NA",
+        "source": "No p-value or CI reported for these case observations"
+      },
+      "Effect_size": {
+        "value": "NA",
+        "source": "No formal effect size reported"
+      }
+    }
+  },
+  "Data_Extract": {}
+}

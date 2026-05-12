@@ -1,0 +1,131 @@
+{
+    "article_title": "Does Preoperative Pharmacogenomic Testing of Patients Undergoing TKA Improve Postoperative Pain? A Randomized Trial",
+    "domains": [
+        {
+            "Q1_1": {
+                "answer": "Yes",
+                "confidence": "High (98%)",
+                "analysis": "The article explicitly states that a randomized treatment allocation schedule was created using a computer random number generator with 50/50 probability for each assignment. This is a clear description of a random sequence generation method."
+            },
+            "Q1_2": {
+                "answer": "Yes",
+                "confidence": "High (95%)",
+                "analysis": "The allocation schedule was concealed by storing it in the REDCap Randomization Module, and the study coordinator obtained the assigned group from the module after each patient was enrolled. This indicates centralized, electronic concealment and that assignments were revealed only after enrollment."
+            },
+            "Q1_3": {
+                "answer": "NO",
+                "confidence": "High (92%)",
+                "analysis": "Baseline characteristics were reported and described as similar between groups (age, gender, race), with no significant imbalances reported. Although the analyzed sample sizes differed (30 vs 38) due to post-randomization exclusions, this does not indicate a problem with the randomization process itself. There were no signals of excessive baseline imbalance or patterns inconsistent with chance."
+            },
+            "judgment": "Low"
+        },
+        {
+            "Q2_1": {
+                "answer": "No",
+                "confidence": "High (95%)",
+                "analysis": "The article states, \"Patients were unaware of their pharmacogenomic results.\" There is no indication that participants were informed of their group assignment, and the control group’s genomic results were sealed until study completion. Hence, participants were likely unaware of their assigned intervention."
+            },
+            "Q2_2": {
+                "answer": "Yes",
+                "confidence": "High (98%)",
+                "analysis": "The care team (anesthesiologist, CRNA, surgeon, PA) were explicitly alerted preoperatively when a patient was in the experimental group and were emailed that the pharmacogenomic results and pharmacy note were available in the health record. This indicates carers/intervention providers were aware of assignment."
+            },
+            "Q2_3": {
+                "answer": "Yes",
+                "confidence": "High (95%)",
+                "analysis": "There were deviations from the intended intervention due to the trial context: 11 patients in each group did not receive the allocated intervention for reasons including surgery canceled, spinal anesthesia, changes in surgery plan, missed consultation/pharmacogenomic testing. The study also occurred during COVID-19, with elective surgeries stopped, affecting completion and funding. These factors are clear evidence of trial-context-driven deviations."
+            },
+            "Q2_4": {
+                "answer": "Probably Yes",
+                "confidence": "Moderate (85%)",
+                "analysis": "The deviations (e.g., cancellations, changes to spinal anesthesia, missed testing/consultation) led to substantial post-randomization exclusions and reduced sample size (98 randomized vs 68 analyzed). This likely affected the outcome estimate through reduced precision and potential selection (change in estimand to those who proceeded under general anesthesia and completed OBAS). While the deviations were mostly external to the intervention assignment, their magnitude suggests they may have affected results."
+            },
+            "Q2_5": {
+                "answer": "Yes",
+                "confidence": "High (97%)",
+                "analysis": "The flow diagram shows balanced deviations: 11 per group did not receive the allocated intervention, and 4 per group were excluded due to missing OBAS. Although specific reasons varied slightly (e.g., number of cancellations), the total deviations were numerically balanced between groups."
+            },
+            "Q2_6": {
+                "answer": "No",
+                "confidence": "Moderate (90%)",
+                "analysis": "Although the article claims \"Intention-to-treat principles were used,\" the primary analysis excluded participants who did not receive the allocated intervention (11 per group) and those with missing OBAS (4 per group), resulting in 30 vs 38 analyzed from 45 vs 53 randomized. This indicates a per-protocol/complete-case approach for the primary analysis rather than ITT. A sensitivity analysis with multiple imputation was performed for missing OBAS, but the substantial exclusion of those not receiving the intervention remained."
+            },
+            "Q2_7": {
+                "answer": "Probably No",
+                "confidence": "Moderate (80%)",
+                "analysis": "While 31% of randomized participants were excluded from the primary analysis, exclusions were balanced between groups (15 per arm) and driven by external clinical/logistical factors (e.g., cancellations, anesthesia type change) rather than intervention assignment. This makes a substantial bias in the estimated effect less likely, though precision was reduced. Therefore, a substantial impact on the result due to failure to analyze all randomized participants in their assigned groups is probably unlikely."
+            },
+            "judgment": "Some concerns"
+        },
+        {
+            "Q3_1": {
+                "answer": "No",
+                "confidence": "High (98%)",
+                "analysis": "For the primary continuous outcome (OBAS), 98 participants were randomized, but only 68 (30 control + 38 experimental) had observed OBAS data included in the complete-case primary analysis. A total of 30 participants (15 per group) were excluded, including 4 per group with missing OBAS and 11 per group who did not receive the allocated intervention (e.g., surgery canceled or anesthesia type changed), resulting in <95% availability (~69%) of outcome data."
+            },
+            "Q3_2": {
+                "answer": "Yes",
+                "confidence": "Moderate (85%)",
+                "analysis": "Given the 'No' to Q3_1, the article reports an appropriate sensitivity analysis using multiple imputation for missing OBAS values. The imputed analysis produced results consistent with the complete-case analysis (imputed mean difference 0.7; p = 0.40 vs complete-case mean difference 0.5; p = 0.55), suggesting the primary finding is robust to missing data under the imputation approach."
+            },
+            "Q3_3": {
+                "answer": "Not Applicable",
+                "confidence": "High (95%)",
+                "analysis": "This item applies only if Q3_2 is No or Probably No. Because Q3_2 is Yes (evidence suggests the result was not biased by missing data due to appropriate sensitivity analysis), further evaluation of whether missingness could depend on true values is not required."
+            },
+            "Q3_4": {
+                "answer": "Not Applicable",
+                "confidence": "High (95%)",
+                "analysis": "This item applies only if Q3_3 is Yes, Probably Yes, or No Information. Since Q3_3 is not applicable due to Q3_2 being Yes, additional assessment of the likelihood that missingness depended on true outcome values is not required."
+            },
+            "judgment": "Low"
+        },
+        {
+            "Q4_1": {
+                "answer": "No",
+                "confidence": "High (96%)",
+                "analysis": "The primary outcome (OBAS) is a validated, patient-reported tool assessing analgesia benefits and adverse effects, explicitly chosen for its sensitivity over pain-only measures. The article cites prior validation and sensitivity (refs 17, 22), and details standardized administration at 24 hours postoperatively. Secondary outcomes (VAS pain, MME, opioid selection) are standard, with VAS routinely documented by nurses and MME calculated from recorded doses. There is no indication of poor validity or an insensitive measurement method."
+            },
+            "Q4_2": {
+                "answer": "No",
+                "confidence": "High (92%)",
+                "analysis": "Both groups used the same outcome measurement methods and time points: OBAS at 24 hours, VAS pain recorded per nursing protocol at prespecified perioperative intervals, and opioid use recorded and converted to MMEs. The article describes uniform protocols across groups, including identical surgery techniques and pain assessment schedules. No evidence suggests differential ascertainment between groups."
+            },
+            "Q4_3": {
+                "answer": "No Information",
+                "confidence": "Moderate (80%)",
+                "analysis": "Outcome assessors for OBAS are the patients; for VAS, nurses documented scores per routine protocol. The article states patients were unaware of their pharmacogenomic results, but does not specify whether patients or nurses were aware of group allocation. Care teams were notified for experimental-group patients, but it is not explicitly stated whether this included the nursing staff performing pain assessments or whether patients knew their allocation. Therefore, assessor awareness cannot be determined from the provided text."
+            },
+            "Q4_4": {
+                "answer": "Yes",
+                "confidence": "Moderate (85%)",
+                "analysis": "Given the lack of information about blinding of outcome assessors (Q4.3: No Information) and the subjective nature of the primary outcome (OBAS) and VAS pain scores, knowledge of intervention status could influence assessment (e.g., expectation or reporting bias). Objective outcomes like MME would be less susceptible, but the primary outcome is subjective."
+            },
+            "Q4_5": {
+                "answer": "Probably Yes",
+                "confidence": "Low (70%)",
+                "analysis": "Because the main outcomes (OBAS and VAS) are subjective and we do not know whether assessors were blinded to allocation, there is a plausible risk that knowledge of intervention status could influence reported pain and satisfaction. However, patients were explicitly unaware of their pharmacogenomic results, which may mitigate this risk; still, without clear blinding to allocation, some influence remains likely for subjective outcomes."
+            },
+            "judgment": "High"
+        },
+        {
+            "Q5_1": {
+                "answer": "No Information",
+                "confidence": "Moderate (80%)",
+                "analysis": "The article clearly specifies the primary outcome (OBAS at 24 hours), planned sample size and power assumptions, and the primary statistical method (two-sample t-test), with sensitivity analysis using multiple imputation. However, there is no mention of a trial registration number, protocol, or statistical analysis plan finalized before unblinded outcome data were available. Although the study notes COVID-related recruitment limitations (unrelated to analysis), it also reports post hoc exploratory analyses. In the absence of explicit pre-specified analysis plan documentation or registration, the safest judgment is No Information."
+            },
+            "Q5_2": {
+                "answer": "Probably No",
+                "confidence": "Moderate-High (88%)",
+                "analysis": "Building on Q5_1 (No Information), we assessed internal consistency. The Methods pre-specify OBAS (composite instrument) at 24 hours as the primary outcome and a two-sample t-test for comparison. While multiple pain-related measures were collected (OBAS sub-items, 24-hour mean VAS pain, PACU min/max pain, and various opioid measures), the primary outcome measure and its time point were clearly stated a priori in the article. The Results report the primary OBAS total and also present secondary pain and opioid outcomes without evidence of selective reporting or suppression. Therefore, despite the lack of protocol access, the likelihood that the primary numerical result was selected post hoc from multiple eligible pain outcome measurements appears low."
+            },
+            "Q5_3": {
+                "answer": "Probably No",
+                "confidence": "Moderate (82%)",
+                "analysis": "Given Q5_1 (No Information), we examined whether multiple alternative analyses could have been chosen post hoc. The article specifies a two-sample t-test for the primary outcome and presents a sensitivity analysis via multiple imputation for missing OBAS values, with both analyses reported and yielding consistent conclusions (no difference). There is no indication that alternative models (e.g., adjusted regression, non-parametric tests) were performed and selectively reported. Although multiple feasible analytical approaches exist in principle, the article’s stated primary analysis method and transparent reporting of sensitivity analysis reduce concerns that the numerical result was selected from multiple eligible analyses based on the findings."
+            },
+            "judgment": "Some concerns"
+        }
+    ],
+    "overall": "High"
+}

@@ -1,0 +1,131 @@
+{
+    "article_title": "Prospective Randomized Study Using Pharmacogenetics to Customize Postoperative Pain Medication Following Hip and Knee Arthroplasty",
+    "domains": [
+        {
+            "Q1_1": {
+                "answer": "Yes",
+                "confidence": "High (98%)",
+                "analysis": "The Methods (Study Design) state: \"Patients were randomized into 2 groups, a treatment group and a control group, using a computer-generated block randomization scheme with 7 groups of 20.\" This explicitly describes a random sequence generation method (computer-generated block randomization), which meets the criteria for a random allocation sequence."
+            },
+            "Q1_2": {
+                "answer": "No Information",
+                "confidence": "Moderate (80%)",
+                "analysis": "Although randomization was described, the article does not report any procedures ensuring allocation concealment (e.g., centralized randomization, sealed opaque envelopes, independent allocation management). The text notes participants were blinded to their group, but this pertains to post-allocation blinding rather than concealment before assignment. Therefore, allocation concealment cannot be determined from the provided information."
+            },
+            "Q1_3": {
+                "answer": "No Information",
+                "confidence": "Moderate (85%)",
+                "analysis": "The article does not provide a comprehensive baseline characteristics table comparing the randomized arms (control vs custom) for key prognostic factors (e.g., age, sex, baseline pain). It reports that the control arm had 34 hips/12 knees and the custom arm had 45 hips/16 knees—proportions that appear similar—but other baseline variables are not presented. Subgroup distributions by genetic variant (A/B/C/D) differ, but these are post-randomization stratifications and small numbers, and no clear evidence of imbalances strongly suggesting a randomization problem is provided. Given incomplete baseline information, the appropriate judgment is No Information."
+            },
+            "judgment": "Some concerns"
+        },
+        {
+            "Q2_1": {
+                "answer": "No",
+                "confidence": "High (98%)",
+                "analysis": "The Methods and Results sections explicitly state that patients were randomized and blinded to their group: 'Patients were randomized to a control group or custom group and blinded to their group' and 'All patients were blinded to the study groups and did not see their PGx reports until after they turned in their pain and medication logs.' Therefore, participants were unaware of their assigned intervention."
+            },
+            "Q2_2": {
+                "answer": "Yes",
+                "confidence": "High (95%)",
+                "analysis": "The study required prescribers to implement different postoperative pain regimens depending on group assignment and PGx results (standard prescriptions for control; alternative drugs for custom group if variants present). This necessitates that clinicians/carers delivering the interventions knew the assignment. The article does not claim double-blinding of providers; it indicates providers prescribed based on PGx and group assignment."
+            },
+            "Q2_3": {
+                "answer": "No",
+                "confidence": "High (92%)",
+                "analysis": "Given carers were aware (Q2.2=Yes), we examined whether deviations arose due to the trial context. The protocol explicitly allowed medication changes for patients reporting significant side effects or lack of pain relief: 'In accordance with the protocol, patients were allowed to make changes to medication...' and notably '3 patients in group B were changed after complaining of significant side effects or lack of pain relief.' These changes were pre-specified and consistent with usual clinical practice; thus, they are not deviations caused by the trial context implementing interventions not allowed by protocol."
+            },
+            "Q2_4": {
+                "answer": "Not Applicable",
+                "confidence": "High (96%)",
+                "analysis": "As Q2.3 was No (no deviations from intended intervention due to trial context), there were no such deviations to affect outcomes. Therefore, deviations were not likely to have affected the outcome."
+            },
+            "Q2_5": {
+                "answer": "Not Applicable",
+                "confidence": "High (95%)",
+                "analysis": "Because Q2.3 found no deviations due to trial context, the question of balance between groups does not apply. There were no protocol-inconsistent deviations to evaluate for balance."
+            },
+            "Q2_6": {
+                "answer": "Probably No",
+                "confidence": "High (90%)",
+                "analysis": "The article does not state that an ITT or mITT analysis was used. Of 140 randomized/enrolled participants, only 107 with complete pain and medication logs were analyzed ('A complete dataset...was obtained for 107 patients'). Eligible participants were excluded after randomization due to missing logs, and the analysis appears to be restricted to completers, which is inconsistent with ITT. Under the rule, absence of stated analysis method and fewer analyzed than randomized supports 'Probably No.'"
+            },
+            "Q2_7": {
+                "answer": "Probably Yes",
+                "confidence": "Moderate (80%)",
+                "analysis": "Given Q2.6 is Probably No, there is potential for substantial impact from excluding participants post-randomization. Only 107/140 (or 107/130 who had surgery) were analyzed, meaning 23 surgical participants (17.7%) lacked outcome logs and were excluded; the article provides no information on whether missingness was balanced between groups or related to outcomes. Given the outcomes are self-reported pain and medication logs, non-completion may be associated with outcome severity, plausibly biasing results."
+            },
+            "judgment": "High"
+        },
+        {
+            "Q3_1": {
+                "answer": "No",
+                "confidence": "High (98%)",
+                "analysis": "The key outcomes (10-day average pain and 10-day MME) are continuous. Of 140 randomized participants, only 107 provided outcome data (pain and medication logs), i.e., 107/140 = 76.4%. Even considering only those who underwent surgery (130), completion was 107/130 = 82.3%. Both are below the 95% threshold for continuous outcomes."
+            },
+            "Q3_2": {
+                "answer": "No",
+                "confidence": "High (97%)",
+                "analysis": "The report does not describe any analytical methods to address bias from missing outcome data (e.g., multiple imputation, inverse probability weighting) or sensitivity analyses. Analyses (t-tests) appear to be conducted on complete cases only, without adjustment."
+            },
+            "Q3_3": {
+                "answer": "No Information",
+                "confidence": "High (95%)",
+                "analysis": "The article reports that 107/130 surgical patients returned logs but does not provide reasons for the 23 missing logs or whether missingness differed by group. There is insufficient information to determine whether missingness depended on true outcome values."
+            },
+            "Q3_4": {
+                "answer": "No Information",
+                "confidence": "High (95%)",
+                "analysis": "No data are provided on differences in proportions of missing outcomes between groups, reasons for missingness, or analyses accounting for factors related to missingness. While diary-based postoperative outcomes could plausibly relate to pain severity or side effects, the trial report does not supply relevant information to conclude that missingness depended on true values."
+            },
+            "judgment": "High"
+        },
+        {
+            "Q4_1": {
+                "answer": "No",
+                "confidence": "High (96%)",
+                "analysis": "Primary outcomes were 10-day average pain using a 0–10 Numeric Rating Scale (NRS) and opioid consumption converted to morphine milligram equivalents (MME), based on patient daily logs for the first 10 postoperative days. The NRS is a widely used, validated measure for pain, and MME is an objective conversion based on recorded medication doses. Outcomes and methods were pre-specified in the Statistical Plan. There is no indication that the measurement tools were invalid or insensitive to expected effects."
+            },
+            "Q4_2": {
+                "answer": "No",
+                "confidence": "High (95%)",
+                "analysis": "Both groups used the same outcome measurement procedures: daily self-reported pain on the same NRS and daily logs of all medications taken over the same 10-day postoperative period. There is no report of differing thresholds or timing of measurements between groups, nor additional visits specifically for outcome ascertainment in one group vs the other."
+            },
+            "Q4_3": {
+                "answer": "No",
+                "confidence": "High (95%)",
+                "analysis": "Participants were the outcome assessors (they recorded pain and medications). The article explicitly states that patients were randomized and blinded to their group and did not see their pharmacogenetic (PGx) reports until after submitting their logs. Therefore, outcome assessors were unaware of intervention status during outcome recording."
+            },
+            "Q4_4": {
+                "answer": "Not Applicable",
+                "confidence": "High (95%)",
+                "analysis": "Not applicable given Q4.3 = No. If assessors are unaware of intervention assignment, their assessment should not be influenced by knowledge of the intervention. Note: While pain is a subjective outcome that could be influenced by expectations, the study states participants were blinded to group allocation during data collection, and MME is objective."
+            },
+            "Q4_5": {
+                "answer": "Not Applicable",
+                "confidence": "High (95%)",
+                "analysis": "Not applicable given Q4.4 = No. Since assessors were blinded and the objective measure (MME) is not subject to expectation bias, it is unlikely that the assessment of the outcomes was influenced by knowledge of the intervention."
+            },
+            "judgment": "Low"
+        },
+        {
+            "Q5_1": {
+                "answer": "Probably No",
+                "confidence": "Moderate (85%)",
+                "analysis": "Interpreting the primary numerical result as the difference in 10-day average pain between control patients with genetic variants (group B) and custom-treated patients with variants (group D), the Statistical Plan section pre-specified comparisons of 10-day MME and 10-day average pain between the randomized treatment vs control groups. It did not pre-specify subgroup analyses stratified by genetic variant status (B vs D) nor the composite 'pain × MME' metric, which the authors state they 'created' after observing patient behaviors. There is no trial registration number or separate protocol/SAP cited to demonstrate that the B vs D analysis was finalized prior to unblinded data availability. Therefore, for the highlighted B vs D result, the analysis does not clearly adhere to a pre-specified plan."
+            },
+            "Q5_2": {
+                "answer": "Probably No",
+                "confidence": "Moderate (80%)",
+                "analysis": "Building on Q5_1 and focusing on the 10-day average pain outcome: the Methods/Statistical Plan explicitly state that '10-day morphine equivalents and the average pain levels in the first 10 days' would be compared, indicating a pre-specified measurement (average over 10 days). Although daily pain logs could allow many time points or alternative summaries (e.g., maximum pain, day-by-day trajectories), the reported outcome metric (10-day average pain) matches the stated plan. Thus, despite potential for multiple measurement choices, the chosen measure appears pre-specified, making selective reporting of alternative pain measurement methods less likely for this result."
+            },
+            "Q5_3": {
+                "answer": "Probably Yes",
+                "confidence": "Moderate (85%)",
+                "analysis": "Given Q5_1, there is evidence that multiple eligible analyses were possible (e.g., overall randomized treatment vs control as pre-specified; subgroup analyses by genetic variant status; joint-type stratification; creation of a composite 'pain × MME'). The paper emphasizes the subgroup comparison B vs D (variants only) with a significant P value for pain, while the originally pre-specified overall treatment vs control comparison is not prominently reported for pain. The introduction of an additional composite metric post hoc further suggests analysis multiplicity with selective emphasis. In the absence of a pre-registered analysis plan confirming these analyses were pre-specified, the numerical result is likely to have been selected from multiple possible analyses."
+            },
+            "judgment": "High"
+        }
+    ],
+    "overall": "High"
+}

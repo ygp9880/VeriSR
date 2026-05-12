@@ -1,0 +1,131 @@
+{
+    "article_title": "A Hybrid Implementation-Effectiveness Randomized Trial of CYP2D6 Guided Post-operative Pain Management",
+    "domains": [
+        {
+            "Q1_1": {
+                "answer": "Yes",
+                "confidence": "High (98%)",
+                "analysis": "The article explicitly states: 'Simple random allocation with block sizes of 6 or 12 was performed within each site,' which is a valid random sequence generation method (block randomization)."
+            },
+            "Q1_2": {
+                "answer": "No Information",
+                "confidence": "High (95%)",
+                "analysis": "The report does not describe any allocation concealment method (e.g., central randomization, sealed opaque envelopes). Although the trial was open-label, concealment prior to assignment is not detailed; therefore, adequacy of concealment cannot be determined."
+            },
+            "Q1_3": {
+                "answer": "Yes",
+                "confidence": "Moderate (80%)",
+                "analysis": "Notable baseline imbalances were present: BMI differed between groups (median 29 vs 32 kg/m²; p=0.039) and clinical CYP2D6 phenotype distribution differed (normal metabolizers 77% in guided vs 56% in usual care; p=0.012). The latter is a key prognostic factor for opioid response and central to the intervention. Authors suggest the imbalance may be due to adding a second site without initially adjusting randomization by site, indicating potential issues in the randomization process."
+            },
+            "judgment": "High"
+        },
+        {
+            "Q2_1": {
+                "answer": "Yes",
+                "confidence": "High (98%)",
+                "analysis": "The study is explicitly described as a randomized, open-label trial. Although the authors state they did not actively provide CYP2D6 results to participants to mitigate placebo effects, the open-label design implies participants were not blinded to group assignment, and results could be accessed via the patient portal or discussed by surgeons."
+            },
+            "Q2_2": {
+                "answer": "Yes",
+                "confidence": "High (99%)",
+                "analysis": "Clinicians and pharmacists delivered the intervention via EHR consult notes with genotype-guided recommendations, and acceptance by surgeons was measured, indicating that carers/providers were aware of allocation in this open-label design."
+            },
+            "Q2_3": {
+                "answer": "Probably Yes",
+                "confidence": "Moderate (80%)",
+                "analysis": "Given Q2.1 and Q2.2 are Yes (open-label), there is evidence of at least one deviation arising from the trial context: in the genotype-guided arm, genotype results were not available before the pre-operative prescribing visit for 6% (9/154) of participants, preventing implementation of the intended genotype-guided recommendations at the planned time point. This shortfall was due to laboratory turnaround/logistics specific to the trial setting. Variability in clinician acceptance of recommendations was part of the intended pragmatic intervention (not a deviation), and concomitant prescribing practices were routine in both arms."
+            },
+            "Q2_4": {
+                "answer": "Probably Yes",
+                "confidence": "Moderate (78%)",
+                "analysis": "The delayed availability of genotype results in ~6% of the genotype-guided arm likely influenced whether those participants received genotype-guided prescribing at the critical pre-op visit, which could affect opioid selection and subsequent opioid consumption/pain outcomes."
+            },
+            "Q2_5": {
+                "answer": "No",
+                "confidence": "High (90%)",
+                "analysis": "This deviation (genotype result unavailable at the prescribing visit) could only occur in the genotype-guided arm; the usual care arm did not rely on pre-op genotype availability for prescribing. Therefore, deviations were not balanced between groups."
+            },
+            "Q2_6": {
+                "answer": "Probably No",
+                "confidence": "Moderate (85%)",
+                "analysis": "The article does not state that an ITT or mITT analysis was used. Of 260 randomized, only 234 who underwent surgery were included in baseline characteristics and subsequent analyses, and outcome analyses further included only those with available data (e.g., 126/154 and 68/80 for MME at 2 weeks), indicating post-randomization exclusions and analysis of completers rather than all randomized participants."
+            },
+            "Q2_7": {
+                "answer": "Probably No",
+                "confidence": "Low (72%)",
+                "analysis": "While participants who did not undergo surgery (26/260) and those with missing outcomes were excluded, the proportions of available outcome data at 2 weeks were similar between arms (MME data for 82% vs 85%; pain surveys 89% vs 93%), suggesting the failure to analyze all randomized participants is unlikely to have had a substantial impact on the comparative results. However, some uncertainty remains due to the non-ITT approach and missing data."
+            },
+            "judgment": "High"
+        },
+        {
+            "Q3_1": {
+                "answer": "No",
+                "confidence": "High (98%)",
+                "analysis": "The key continuous effectiveness outcomes were opioid consumption (MME) and composite pain intensity at 2 weeks. Reported completion rates among those who underwent surgery were 82% (126/154) and 85% (68/80) for MME, and 89% (137/154) and 93% (74/80) for pain intensity in the genotype-guided and usual care arms, respectively—both below the 95% threshold. Considering all randomized participants (n=260), availability is even lower (MME: 194/260 ≈ 75%; pain intensity: 211/260 ≈ 81%). Therefore, data were not available for all or nearly all participants randomized."
+            },
+            "Q3_2": {
+                "answer": "No",
+                "confidence": "Moderate-High (90%)",
+                "analysis": "The study relied on available-case analyses of participants who completed the follow-up surveys. While ANCOVA adjusted for BMI and clinical CYP2D6 phenotype, there is no indication of methods that specifically adjust for bias due to missing outcome data (e.g., multiple imputation with sensitivity analyses) or sensitivity analyses exploring the impact of different missing data assumptions. Hence, there is no evidence that the results were not biased by missing outcome data."
+            },
+            "Q3_3": {
+                "answer": "Probably Yes",
+                "confidence": "Moderate (80%)",
+                "analysis": "Loss to follow-up was not random and may be related to participants’ health status or outcomes. The study notes that none of the participants with the UM phenotype completed study follow-up—a group at potentially higher risk for adverse outcomes or atypical opioid response—suggesting a plausible link between missingness and true outcome values. Additionally, outcomes were self-reported in a pragmatic setting (in-person or remote), which commonly leads to missingness correlated with symptom severity or medication use. Reasons for missingness were not systematically reported, increasing the likelihood that missingness could depend on outcome values."
+            },
+            "Q3_4": {
+                "answer": "Yes",
+                "confidence": "Moderate (82%)",
+                "analysis": "It is likely that missingness depended on true values: (1) The pragmatic, self-reported postoperative pain/opioid use setting suggests participants with certain outcome profiles (e.g., higher pain, complications, dissatisfaction, or unusual opioid responses) may be differentially less likely to complete surveys. (2) The specific observation that none of the UM phenotype participants completed follow-up indicates potential outcome-related missingness in a subgroup at risk for atypical opioid effects. (3) The study did not report reasons for missing data nor conduct analyses to account for characteristics explaining missingness mechanisms. Although the proportion of missing data was not drastically different between arms, the setting and observed subgroup pattern support that missingness likely depended on the outcomes."
+            },
+            "judgment": "High"
+        },
+        {
+            "Q4_1": {
+                "answer": "No",
+                "confidence": "High (92%)",
+                "analysis": "The outcomes were measured using established and appropriate methods: pain intensity via PROMIS pain intensity survey (validated instrument) with a composite of three 5-point Likert items, and opioid consumption via participant-reported pill counts converted to morphine milligram equivalents (MME) using standard conversion factors. Feasibility metrics were straightforward (percentages, EHR-recorded recommendations). There is no indication that these methods are insensitive to detecting differences or lack validity."
+            },
+            "Q4_2": {
+                "answer": "No",
+                "confidence": "High (90%)",
+                "analysis": "Both arms used the same outcome measurement methods (PROMIS surveys, HOOS-JR/KOOS-JR, self-reported opioid pill counts converted to MME) at the same time points (1 week and 2 weeks post-op). The article explicitly states participants in both arms completed identical surveys at comparable time points, with data collection conducted either in-person or remotely based on participant preference. Completion rates were similar across arms, suggesting no systematic differences in ascertainment."
+            },
+            "Q4_3": {
+                "answer": "Yes",
+                "confidence": "Moderate (85%)",
+                "analysis": "The study is described as randomized, open label. Outcome collection involved study staff (pharmacist or pharmacy technician) contacting participants by phone/email/text and clinic staff during follow-up visits, and there is no indication of assessor blinding. Therefore, outcome assessors were likely aware of treatment assignment."
+            },
+            "Q4_4": {
+                "answer": "Yes",
+                "confidence": "High (95%)",
+                "analysis": "Pain intensity is a subjective outcome (PROMIS Likert scales), which can be influenced by knowledge of intervention. Opioid consumption was self-reported (pill counts), which is also susceptible to reporting bias if assessors or participants are aware of allocation. Thus, assessment could have been influenced by knowledge of intervention."
+            },
+            "Q4_5": {
+                "answer": "Probably Yes",
+                "confidence": "Moderate (85%)",
+                "analysis": "Given the open-label design and subjective nature of pain intensity, it is likely that assessment was influenced by knowledge of intervention. Although the authors attempted to mitigate by not actively informing participants of genotype results, they acknowledge that surgeons might have discussed results or patients could access them via the portal. Self-reported opioid use could also be affected by expectations or guidance, making influence plausible."
+            },
+            "judgment": "High"
+        },
+        {
+            "Q5_1": {
+                "answer": "No Information",
+                "confidence": "Moderate Certainty (80%)",
+                "analysis": "The article states the trial was registered on ClinicalTrials.gov (NCT03534063) and describes primary/secondary outcomes and statistical methods. However, it does not provide or reference a detailed pre-specified statistical analysis plan (SAP) finalized before outcome data were available, nor does it explicitly state adherence to a finalized SAP. The trial was open-label, the sample size was expanded after trial start due to additional funding, and opioid consumption (MME) is described as exploratory in the limitations. Without access to the protocol/SAP content or explicit confirmation of pre-specification and adherence, we cannot confirm that analyses were conducted per a plan finalized before unblinded outcomes were available."
+            },
+            "Q5_2": {
+                "answer": "Probably No",
+                "confidence": "Moderate Certainty (85%)",
+                "analysis": "Given Q5.1 yielded No Information about a finalized SAP, we assess selective outcome measurement based on reported methods/results. Opioid consumption (MME) and composite pain intensity were collected at 1 and 2 weeks post-op, with the 2-week time point designated in Methods as the primary time-point for pain control. The 1-week results are reported in Supplementary materials, and the 2-week results are reported in the main text, consistent with pre-specified emphasis. Composite pain intensity was clearly defined (mean of current, worst, and average pain over past 7 days on a 5-point Likert scale). MME calculation used standard conversion factors. There is no indication that multiple alternative pain scales or time points were measured and selectively reported without justification. Thus, it is unlikely the numerical result was selected from multiple eligible measurement methods/time points within the domain."
+            },
+            "Q5_3": {
+                "answer": "Probably No",
+                "confidence": "Moderate Certainty (85%)",
+                "analysis": "Although we lack a finalized SAP (Q5_1: No Information), the paper transparently reports multiple analyses for the key outcomes: nonparametric comparisons (Mann-Whitney U), adjusted analyses via ANCOVA (with BMI and clinical CYP2D6 phenotype), subset analyses by phenotype (IM/PM and NM), and stratification by surgery type (THA vs TKA). Both unadjusted (p=0.047 for MME) and adjusted (p=0.029 for MME) results are reported, as are non-significant subset analyses and supplementary results. This transparency reduces concern that the reported numerical result was cherry-picked from multiple feasible analyses. Therefore, it is unlikely that the result was selected based on the results from multiple eligible analyses."
+            },
+            "judgment": "Some concerns"
+        }
+    ],
+    "overall": "High"
+}

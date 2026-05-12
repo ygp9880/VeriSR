@@ -1,0 +1,68 @@
+{
+    "headers": [
+        "Author",
+        "Study design",
+        "Sample size (patients)",
+        "Country",
+        "Type of pain",
+        "Pharmacogenomic test used",
+        "check"
+    ],
+    "title": "Table 2. Summary of included studies.",
+    "data": [
+        [
+            "Kraus et al. [20]",
+            "RCT, single-blind (patients), single-site",
+            "76",
+            "USA",
+            "Post-operative pain",
+            "RightMed pharmacogenomic test. CYP2B6, CYP2C9, CYP2C19, CYP2D6, OPRM1, CYP3A4, COMT genotyping",
+            "The 'Type of pain' field is too generic and should be more specific. The study is on patients undergoing primary total knee arthroplasty (TKA), so the correct value should be 'Postoperative pain after total knee arthroplasty (TKA)'. The 'Pharmacogenomic test used' field is slightly incomplete: the study reports use of the RightMed pharmacogenomic test (OneOme) genotyping 81 variants in 27 genes, with focus on CYP2B6, CYP2C9, CYP2C19, CYP2D6, CYP3A4, COMT, and OPRM1 for perioperative medications. A more accurate value would specify 'RightMed pharmacogenomic test (OneOme), genotyping 81 variants in 27 genes; perioperative focus on CYP2B6, CYP2C9, CYP2C19, CYP2D6, CYP3A4, COMT, and OPRM1.' Other checked fields (Sample size 76, Country USA) are consistent."
+        ],
+        [
+            "Mosley et al. [23]",
+            "RCT, multisite, open-label",
+            "85",
+            "USA",
+            "Cancer pain",
+            "Luminex 100/200 system. CYP2D6 genotyping",
+            "consistent"
+        ],
+        [
+            "Agullo et al. [19]",
+            "Double-blinded RCT, single site, primary care",
+            "60",
+            "Spain",
+            "Chronic non-cancer pain",
+            "Real-time PCR rotor gene Q system. CYP2D6, OPRM1, and COMT genotyping",
+            "consistent"
+        ],
+        [
+            "Hamilton et al. [21]",
+            "RCT, patient blinded, single site",
+            "107",
+            "USA",
+            "Post-operative pain",
+            "CYP2D6, CYP3A4, CYP2B6, CYP2C19, CYP2C9, OPRM1, COMT and CYP1A2 genotyping. NEXT molecular analytics laboratory",
+            "The 'Pharmacogenomic test used' field is incomplete. The original text states that the pharmacogenetic testing panel included 16 genes: COMT, CYP1A2, CYP2B6, CYP2C19, CYP2C8, CYP2C9, CYP2D6, CYP3A4, CYP3A5, Factor II, Factor V Leiden, GRIK4, MTHFR, OPRM1, SLCO1B1, and VKORC1, tested by NEXT Molecular Analytics. The extracted value only lists CYP2D6, CYP3A4, CYP2B6, CYP2C19, CYP2C9, OPRM1, COMT, and CYP1A2, omitting CYP2C8, CYP3A5, Factor II, Factor V Leiden, GRIK4, MTHFR, SLCO1B1, and VKORC1. The correct description should mention that a 16-gene panel including these genes was used by NEXT Molecular Analytics."
+        ],
+        [
+            "Thomas et al. [24]",
+            "RCT, Open-label, multisite",
+            "260",
+            "USA",
+            "Post-operative pain",
+            "OPRM1, CYP1A2, CYP2B6, CYP2C19, CYP3A4, CYP2C9, and CYP2D6 genotyping. Next generation sequencing",
+            "The field 'Pharmacogenomic test used' is incorrect. The original text specifies only CYP2D6 genotyping using a Luminex xTAG CYP2D6 Kit v3 and later the QuantStudio 12K Flex Real-Time PCR System, testing for CYP2D6 alleles and copy number variation. It does not mention OPRM1, CYP1A2, CYP2B6, CYP2C19, CYP3A4, CYP2C9, or next generation sequencing. The correct value should be limited to CYP2D6 genotyping using Luminex xTAG CYP2D6 Kit v3 and QuantStudio 12K Flex Real-Time PCR System."
+        ],
+        [
+            "Hamilton et al. [22]",
+            "RCT, single-blinded, single-site",
+            "31",
+            "USA",
+            "Post-operative pain",
+            "CYP2D6 genotyping using Luminex XTAG CYP2D6 Kit v3",
+            "The following field is incorrect:\n- \"Pharmacogenomic test used\": Extracted as \"CYP2D6 genotyping using Luminex XTAG CYP2D6 Kit v3\". The original text states that pharmacogenetic testing was performed by NEXT Molecular Analytics using next-generation sequencing (Ion Torrent assay methodologies) on a 16-gene panel, with genotyping using TaqMan Genotyper Software. No mention is made of Luminex XTAG CYP2D6 Kit v3. A correct description based on the text would be: \"Next-generation sequencing (Ion Torrent) panel of 16 genes, including CYP2D6, with genotyping using TaqMan Genotyper Software.\"\n\nOther checked fields (Sample size, Country, Type of pain) are consistent with the original text."
+        ]
+    ]
+}

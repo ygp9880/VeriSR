@@ -1,0 +1,674 @@
+```json
+{
+  "metadata": {
+    "Title": "Does Preoperative Pharmacogenomic Testing of Patients Undergoing TKA Improve Postoperative Pain? A Randomized Trial",
+    "First_author": "Molly B. Kraus MD",
+    "Published_year": 2024,
+    "Journal": "Clin Orthop Relat Res",
+    "Corresponding": "M. B. Kraus, Department of Anesthesiology and Perioperative Medicine, Mayo Clinic, 5777 East Mayo Boulevard, Phoenix, AZ 85054, USA, Email: kraus.molly@mayo.edu",
+    "DOI": "10.1097/CORR.0000000000002767",
+    "Declaration_of_interest": "The pharmacogenomic test used in this study, RightMed by OneOME, was cofounded by Mayo Clinic. The authors have no personal associations with the company that might pose a conflict of interest. All ICMJE Conflict of Interest Forms for authors and Clinical Orthopaedics and Related Research® editors and board members are on file with the publication and can be viewed on request.",
+    "Funding": "This study occurred during the COVID-19 pandemic, and elective surgical procedures were stopped on multiple occasions. The study took longer to complete than initially planned, which affected the study funding. (Source of funding not explicitly stated)."
+  },
+  "article_structure": [
+    {
+      "level": 1,
+      "title": "Clinical Research",
+      "content": [],
+      "subsections": []
+    },
+    {
+      "level": 2,
+      "title": "Abstract",
+      "content": [
+        "Background Pharmacogenomics is an emerging and af- fordable tool that may improve postoperative pain control. One challenge to successful pain control is the large in- terindividual variability among analgesics in their efficacy and adverse drug events. Whether preoperative pharmacogenomic testing is worthwhile for patients undergoing TKA is unclear. Questions/purposes (1) Are the results of preoperative pharmacogenetic testing associated with lower post- operative pain scores as measured by the Overall Benefit of Analgesic Score (OBAS)? (2) Do the results of preoperative pharmacogenomic testing lead to less total opioids given? (3) Do the results of preoperative pharmacogenomic testing lead to changes in opioid prescribing patterns? Methods Participants of this randomized trial were enrolled from September 2018 through December 2021 if they were aged 18 to 80 years and were undergoing primary TKA under general anesthesia. Patients were excluded if they had chronic kidney disease, a history of chronic pain or narcotic use before surgery, or if they were undergoing robotic surgery. Preoperatively, patients completed pharmacogenomic testing (RightMed, OneOME) and a questionnaire and were ran- domly assigned to the experimental group or control group. Of 99 patients screened, 23 were excluded, one before ran- domization; 11 allocated patients in each group did not re- ceive their allocated interventions for reasons such as surgery canceled, patients ultimately undergoing spinal anesthesia, and change in surgery plan. Another four patients in each group were excluded from the analysis because they were missing an OBAS report. This left 30 patients for analysis in the control group and 38 patients in the experimental group. The control and experimental groups were similar in age, gender, and race. Pharmacogenomic test results for patients in the experimental group were reviewed before surgery by a pharmacist, who recommended perioperative medications to the clinical team. A pharmacist also assessed for clinically relevant drug-gene interactions and recommended drug and dose selection according to guidelines from the Clinical Pharmacogenomics Implementation Consortium for each patient enrolled in the study. Patients were unaware of their pharmacogenomic results. Pharmacogenomic test results for patients in the control group were not reviewed before sur- gery; instead, standard perioperative medications were ad- ministered in adherence to our institutional care pathways. The OBAS (maximum 28 points) was the primary outcome measure, recorded 24 hours postoperatively. A two-sample t-test was used to compare the mean OBAS between groups. Secondary measures were the mean 24-hour pain score, total morphine milligram equivalent, and frequency of opioid use. Postoperatively, patients were assessed for pain with a VAS (range 0 to 10). Opioid use was recorded preoperatively, intraoperatively, in the postanesthesia care unit, and 24 hours after discharge from the postanesthesia care unit. Changes in perioperative opioid use based on pharmacogenomic testing were recorded, as were changes in prescription patterns for postoperative pain control. Preoperative characteristics were also compared between patients with and without various phenotypes ascertained from pharmacogenomic test results. Results The mean OBAS did not differ between groups (mean ± SD 4.7 ± 3.7 in the control group versus 4.2 ± 2.8 in the experimental group, mean difference 0.5 [95% CI -1.1 to 2.1]; p = 0.55). Total opioids given did not differ between groups or at any single perioperative timepoint (preoperative, intraoperative, or postoperative). We found no difference in opioid prescribing pattern. After adjusting for multiple comparisons, no difference was observed be- tween the treatment and control groups in tramadol use (41% versus 71%, proportion difference 0.29 [95% CI 0.05 to 0.53]; nominal p = 0.02; adjusted p > 0.99). Conclusion Routine use of pharmacogenomic testing for patients undergoing TKA did not lead to better pain control or decreased opioid consumption. Future studies might focus on at-risk populations, such as patients with chronic pain or those undergoing complex, painful surgical pro- cedures, to test whether pharmacogenomic results might be beneficial in certain circumstances. Level of Evidence Level I, therapeutic study."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 2,
+      "title": "Introduction",
+      "content": [
+        "Inadequate pain management after surgery remains the primary reason for a longer hospital stay [2]. One challenge to successful pain control is the large interindividual vari- ability among analgesics in their efficacy and adverse drug events. Adverse drug events are a leading cause of pre- ventable harm in surgery, and in 2003 (the most recent year for which data are available) accounted for an additional USD 3.5 billion in avoidable healthcare costs [12].",
+        "Pharmacogenomics, which has become increasingly ac- cessible and affordable, may help address the problem of differences in individual variability of pain control and ad- verse drug events [21]. Although not a new science, phar- macogenomic testing has yet to be incorporated into routine clinical practice [1, 5, 15]. Decades of pharmacogenetic and pharmacogenomic research have shown that individuals may express drug-associated genes differently. Those differences include drug-metabolizing enzymes (pharmacokinetics) and transporters and targets (pharmacodynamics). Interindividual differences in pharmacogenomics and pharmacodynamics account for individual variations in analgesics, such as in- adequate pain relief [9, 14, 23, 25, 26] and adverse effects, including nausea, vomiting, constipation, sedation, impaired cognition, and even death [10, 18, 24]. Pharmacogenomic test samples can easily be obtained through a buccal swab or blood draw, and results yield information about the variants (genotype) and predicted drug response (phenotype). Pharmacogenomic testing is mostly based on genotyping methods to detect common and predominant variants of pharmacokinetic and pharmacodynamic genes [27].",
+        "Most analgesics are metabolized in the liver by the cy- tochrome P450 (CYP) drug-metabolizing enzymes [19]. Opioids undergo metabolism by CYP2D6 and CYP3A4 to either active or inactive metabolites, whereas most NSAIDs undergo metabolism by CYP2C9 to inactive metabolites [13, 15, 20]. The highly polymorphic nature of these genes, especially CYP2D6, contributes to altered pharmacokinetics or drug disposition. These genetic vari- ations may affect drug efficacy and the incidence of ad- verse drug events [7, 8, 28]. Given that important genes related to pain control are available in pharmacogenomic reports, we sought to evaluate whether preoperative phar- macogenomic testing might result in overall better pain control, reduced opioids given, and differences in analgesic medications among patients undergoing TKA.",
+        "Among patients undergoing TKA, we therefore asked: (1) Are the results of preoperative pharmacogenetic testing associated with lower postoperative pain scores as mea- sured by the Overall Benefit of Analgesic Score (OBAS)? (2) Do the results of preoperative pharmacogenomic testing lead to less total opioids given? (3) Do the results of pre- operative pharmacogenomic testing lead to changes in opioid prescribing patterns?"
+      ],
+      "subsections": []
+    },
+    {
+      "level": 2,
+      "title": "Patients and Methods",
+      "content": [],
+      "subsections": [
+        {
+          "level": 3,
+          "title": "Study Design and Setting",
+          "content": [
+            "For this randomized controlled clinical trial, participants were assigned to the experimental or control group in a 1:1 ratio. A randomized treatment allocation schedule was created by using a computer random number generator with 50/50 probability for each assignment. The allocation schedule was concealed by storing it in the REDCap (Research Electronic Data Capture) Randomization Module. The study coordinator obtained the assigned group from the Randomization Module after each patient was enrolled. The study took place at the Mayo Clinic Hospital campus in Arizona."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 3,
+          "title": "Study Participants",
+          "content": [
+            "Patients were enrolled from September 1, 2018, through December 31, 2021. Patients were eligible for inclusion if they were aged 18 to 80 years and were undergoing primary TKA performed using mechanical instrumentation with the patient under general anesthesia. Patients were excluded if they had a history of chronic pain, a history of narcotic use greater than 7 days before surgery, chronic kidney disease (high creatinine level), patient preference or need for re- gional anesthesia, or if they were undergoing robotic sur- gery. The goal for recruitment was 80 patients: 40 patients in the experimental group and 40 patients in the control group. Of 99 patients screened, 23 were excluded, one before randomization; 11 allocated patients in each group did not receive allocated interventions for reasons such as surgery canceled, patients ultimately undergoing spinal anesthesia, and change in surgery plan. Additionally, four patients in each group were excluded from the analysis because they were missing an OBAS report. Therefore, 30 patients in the control group and 38 patients in the experimental group were included for analysis (Fig. 1). The control and ex- perimental groups were similar in age, gender, and race. No crossover or randomization errors occurred. Intention-to- treat principles were used."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 3,
+          "title": "Descriptive Data",
+          "content": [
+            "Baseline characteristics did not differ substantially between the groups (Table 1). The mean ± SD age was 66 ± 9 years, and 67% (51 of 76) were women. Approximately 94% were non-Hispanic White, and four patients were Hispanic (n = 2), Asian (n = 1), or Black (n = 1). Nearly all (93% [71 of 76]) had prior surgery. The mean satisfaction with pain control for prior surgery was 8 points on a scale from 0 to 10 points, with 0 indicating the least and 10 the most satisfaction."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 3,
+          "title": "Experiment",
+          "content": [
+            "After recruited patients gave informed consent, we admin- istered a pharmacogenomic test (RightMed, OneOME, cofounded by Mayo Clinic) via buccal swab during the preoperative evaluation. This test genotyped 81 variants in 27 genes (the 27 genes, in alphabetical order, are CYP1A2, CYP2B6, CYP2C9, CYP2C CLUSTER, CYP2C19, CYP2D6, CYP3A4, CYP3A5, CYP4F2, COMT, DRD2, DPYD, F2, F5, GRIK4, HLA-A*31:01, HLA-B* [15:02, HLA-B*57:01, and HLA-B*58:01 alleles], HTR2A, HTR2C, IL28, NUDT, OPRM1, SLC01B1, SLC6A4, TPMT, UGT1A1, and VKORC1). Of those, we considered genes that were relevant and were involved in metabolism, transport, and response to perioperative medications. Therefore, we focused on these seven genes: CYP2B6, CYP2C9, CYP2C19, CYP2D6, CYP3A4, catechol-O- methyltransferase, and opioid receptor mu 1 [4]. Patients were unaware of their pharmacogenomic results. At the preoperative visit, participants also completed a pre- operative questionnaire to provide their relevant history (Supplemental Digital Content 1; http://links.lww. com/CORR/B166). The mean pain score during the first 24 hours was calculated for each patient. Participants were randomly assigned to one of two groups using a computer- generated assignment. The control group's genomic results were sealed until the patients completed the study.",
+            "For the experimental group, the pharmacogenomic re- sults were available before the day of surgery and were reviewed by a pharmacist (AK or CBG), who recom- mended perioperative medications to the clinical team. Pharmacists involved in the study had specific expertise in pharmacogenomics and were given a list of medications used perioperatively by the anesthesia and surgical teams (Supplemental Digital Content 2; http://links.lww. com/CORR/B167). Pharmacists assessed each medication on the perioperative list for clinically relevant and actionable drug-gene interactions based on evidence and guidelines from the Clinical Pharmacogenomics Implementation Consortium. In-depth review by the Clinical Pharmacogenomics Implementation Consortium assigns levels to drugs and genes as A, B, C, or D and as final or provisional. The pharmacy note categorized the medications into green, yellow, or red categories to help the perioperative teams make decisions at a glance (Supplemental Digital Content 3; http://links.lww. com/CORR/B168). Medications with significant drug- gene interactions (final A level) were categorized into the red category. For these, an alternative dose or drug was recommended based on the perioperative drug list. Medications with moderate drug-gene interactions (final B, provisional A/B levels) were categorized in the yellow category, with recommendations to a physician for closer monitoring of drug safety, efficacy, or both. Medication with either minimal or no known drug-gene interactions (other levels or no levels) were categorized in the green category, and the standard dose was recommended. Similarly, assessment and recommendations were made for home medications according to the severity of drug-gene interactions following Clinical Pharmacogenomics Implementation Consortium levels of evidence.",
+            "Anesthesia was induced intravenously, a paralytic agent was administered, and the patient was intubated. All patients were operated on by one of three surgeons who use a similar surgical technique: cemented posterior stabilized TKA. All patients had periarticular injections with the same technique, consisting of weight-based ropivacaine and epinephrine dosing and fixed-dose ketorolac. Patients also followed the same postoperative rehabilitation program.",
+            "The anesthesia and surgical teams were alerted pre- operatively of a patient's participation in the study. If the patient was part of the experimental group, the care team members (anesthesiologist, certified registered nurse anesthetist, orthopaedic surgeon, and surgical physician assistant) were emailed before the procedure that the pa- tient was in the study and were alerted that the patient's results and pharmacy note were available in the patient's health record. The care team was asked to review the pharmacogenomic results and pharmacy note before de- veloping an anesthetic plan or writing perioperative medication orders. Medications were adjusted as needed based on the pharmacogenomic results for the experi- mental group.",
+            "For the control group, standard perioperative medica- tions, including preoperative oxycodone, dexamethasone, celecoxib, acetaminophen, and aspirin, were administered in adherence to our institutional care pathways at that time.",
+            "All patients were assessed for pain according to our nursing protocol. Nurses documented pain scores accord- ing to their usual practice by using a VAS, with 0 indicating no pain and 10 indicating the worst pain possible. Pain scores were recorded as follows: postanesthesia care unit (PACU) minimum and maximum pain scores, mean pain score in the first 24 hours, minimum and maximum pain scores in the first 24 hours, and pain score on the morning of postoperative day 1. Opioid use was recorded at various times: preoperatively, intraoperatively, in the PACU, and at 24 hours after PACU discharge or at the time of dis- charge. The opioid dose was converted into morphine milligram equivalents (MMEs). The OBAS was recorded at 24 hours postoperatively (Supplemental Digital Content 4; http://links.lww.com/CORR/B169). Total antiemetic use during hospitalization was also recorded. Changes in opioid use perioperatively based on pharmacogenomic testing were recorded, as were changes in prescription pattern for postoperative pain control.",
+            "All study participants were offered a medication man- agement consultation with the pharmacist after the study concluded to address any medications outside the peri- operative focus of this protocol. A letter was also sent to the patient's primary care practitioner at our institution alerting them to the possibility that pharmacogenomic results would be present in the medical record and outlining the online medical procedures for additional guidance from the pharmacogenomic consulting service (eConsult, AristaMD) if needed. The pharmacogenomic report was available to patients via an institutional online patient portal when they completed their study participation. Participants could also request that the medical records department send a copy of their results to their primary care practitioner if that person was outside the institution."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 3,
+          "title": "Outcome Measures",
+          "content": [
+            "The primary outcome measure was the OBAS, a seven- question tool to evaluate patients' satisfaction with analgesia, pain severity, and adverse effects. The OBAS has a maximum of 28 points, with the scores for each question ranging from 0, indicating minimal or not at all, to 4, indicating maximal or very much (Supplemental Digital Content 4; http://links.lww. com/CORR/B169). A lower OBAS indicates greater patient satisfaction. The OBAS was used as the primary measure because it assesses adverse effects in addition to pain and has been shown to be more sensitive than measures of pain alone [17]. The mean OBAS for the experimental group was compared with that of the control group. A sample of 40 patients per group was planned to have 80% power (a<0.05) to detect a difference of 2 points on the mean OBAS, assuming an SD of 3 points. The SD was estimated from a report of the OBAS, with an enhanced recovery protocol used after major abdominal surgery [22]. A difference of 2 points was less than 10% of the range of the scale and would correspond to a difference of at least 1 point on at least two of the seven items. Senagore et al. [22] reported a mean improvement of nearly 2 points on the OBAS, with an enhanced recovery protocol after major abdominal surgery. The validation study for the OBAS instrument reported a difference of 3 points between parecoxib and placebo treatment [17]. Secondary measures were the mean 24-hour pain score, total MME, and frequency of patients who were administered each type of opioid. Our study stopped short of achieving the enrollment initially intended. This study oc- curred during the COVID-19 pandemic, and elective surgical procedures were stopped on multiple occasions. The study took longer to complete than initially planned, which affected the study funding. Additionally, we used a post hoc analysis to compare 17 preoperative characteristics obtained with the pre- operative questionnaire, such as pain tolerance, experi- ence with prior pain control, and stress (Supplemental Digital Content 1; http://links.lww.com/CORR/B166) between patients with and without abnormal phenotypes, irrespective of treatment assignment. For each CYP gene (2B6, 2C9, 2C19, and 2D6), we compared patients with poor-to-intermediate activity with those with normal-to- ultrarapid activity. We compared patients with a low- activity phenotype for COMT with those with intermediate-to-high activity. Patients with a decreased- response phenotype for OPRM1 were compared with those with a normal-to-increased response. We compared patients with rapid or ultrarapid activity for any of the CYP genes with those with poor-to-normal activity for all the CYP genes. Comparisons were made if at least 20 patients were in each phenotype category. Finally, the mean 24-hour pain score and total MME were compared between carriers and noncarriers for alleles with at least 20 carriers."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 3,
+          "title": "Ethical Approval",
+          "content": [
+            "Ethical approval for this study was obtained from the Mayo Clinic Institutional Review Board (17-006577)."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 3,
+          "title": "Statistical Analysis",
+          "content": [
+            "Significance for the primary outcome measure was calcu- lated using a two-sample t-test. Sensitivity analysis was performed using multiple imputation for missing values of the primary outcome measure. Significance for secondary measures was calculated using the two-sample t-test for continuous measures or Pearson chi-square test for di- chotomous measures. Fisher exact test and Z-pooled CIs were used in place of the chi-square test when the minimum expected cell count was less than 5. A total of 200 ex- ploratory comparisons were made so that nominal p values less than 0.00025 would be statistically significant with a family alpha of 0.05 and Bonferroni adjustment for mul- tiple comparisons. Therefore, nominal significance for secondary measures was considered hypothesis generating rather than confirmatory. Analyses were performed with R software (version 4.1.2, R Foundation for Statistical Computing)."
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Results",
+      "content": [],
+      "subsections": [
+        {
+          "level": 3,
+          "title": "OBAS",
+          "content": [
+            "The primary outcome measure, OBAS, did not differ be- tween groups (mean ± SD 4.7 ± 3.7 in the control group versus 4.2 ± 2.8 in the experimental group, mean difference 0.5 [95% CI -1.1 to 2.1]; p = 0.55) (Table 2). The 95% CI for the difference did not exclude the minimum clinically im- portant difference. The SD was higher than the estimate from the power calculation, which resulted in a CI that was wider than planned. The results indicated a 96% probability that the difference was less than 2.0 points (based on the Bayes posterior probability with a noninformative prior distribution). The mean OBAS also did not differ between groups when analyzed with multiple imputations for missing values (mean ± standard error 4.8 ± 0.6 in the control group versus 4.1 ± 0.6 in the experimental group, mean difference 0.7 [95% CI -0.9 to 2.2]; p = 0.40). The OBAS was 3 points or less for 43% of patients (13 of 30) in the control group versus 45% of patients (17 of 38) in the experimental group (mean difference -0.014 [95% CI -0.27 to 0.24]). The group mean of each patient's mean pain score during 24 hours did not differ (mean difference 0.1 points [95% CI -0.6 to 0.8]; p = 0.70)."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 3,
+          "title": "Total Opioids Given",
+          "content": [
+            "Total opioids given, as measured in MMEs, did not differ between groups at any time studied (Table 2). No differ- ence was observed between the experimental and control groups in total opioids or when compared preoperatively, intraoperatively, in the PACU, or at 24 hours after PACU discharge."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 3,
+          "title": "Changes in Opioid Prescribing",
+          "content": [
+            "The opioids selected did not differ between groups during any perioperative time (Table 3). After adjusting for mul- tiple comparisons, there was no difference between the treatment and control groups in tramadol use (71% for the control group versus 41% for the experimental group, proportion difference 0.29 [95% CI 0.05 to 0.53]; nominal p = 0.02, adjusted p > 0.99)."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 3,
+          "title": "Other Relevant Findings: Phenotypes for CYP, COMT, and OPRM1",
+          "content": [
+            "Preoperative characteristics did not differ substantially between the lower-activity and higher-activity groups for each CYP gene (2B6, 2C9, 2C19, and 2D6) (Supplemental Digital Content 5; http://links.lww.com/CORR/B170). Only 19 patients had a low-activity type, and only 18 pa- tients had a high-activity type for the COMT gene. In total, 23 patients had a decreased-response phenotype for the OPRM1 gene. Preoperative characteristics of patients with a decreased-response phenotype for the OPRM1 gene did not differ substantially from those with a normal-to- increased response (Supplemental Digital Content 5; http:// links.lww.com/CORR/B170). Nearly all patients (95% [72 of 76]) had a poor-activity to intermediate-activity or low- activity phenotype (CYP, COMT, or OPRM1) for at least one gene (Supplemental Digital Content 5; http://links. lww.com/CORR/B170). Nearly all patients (92% [70 of 76]) also had a poor-activity to intermediate-activity phe- notype for at least one of the four CYP genes. Patients with a rapid-activity to ultrarapid-activity phenotype for at least one of the four CYP genes (n = 31) were compared with those without a rapid-to-ultrarapid activity phenotype (n = 45) for any of the four CYP genes (Supplemental Digital Content 6; http://links.lww.com/CORR/B171), but differences were not found for this combined category. No differences in pain or analgesic use were found be- tween the carriers and noncarriers for each of the CYP2B6*6, CYP2C19*2, CYP2C19*17, CYP2D6*1, and CYP2D6*2A alleles (Supplemental Digital Content 7; http://links.lww. com/CORR/B172). Heterogeneity of treatment effects analysis showed no effect of treatment for either female or male subgroups, and no difference in the effect of treatment between male and female subgroups (Supplemental Digital Content 8; http://links.lww.com/CORR/B173)."
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Discussion",
+      "content": [
+        "Interindividual differences in pharmacogenomics and phar- macodynamics have been shown to account for individual variations in analgesics, such as inadequate pain relief [9, 14, 23, 25, 26] and adverse effects, including nausea, vomiting, constipation, sedation, impaired cognition, and even death [10, 18, 24]. We evaluated whether preoperative pharmaco- genomic testing of patients might lead to better postoperative pain control and more-targeted pain management. Our find- ings suggest that universal preoperative pharmacogenomic testing is not beneficial for patients undergoing TKA. Our study patients had no differences in pain satisfaction scores or total morphine equivalents given, with no influence on pain medications prescribed."
+      ],
+      "subsections": [
+        {
+          "level": 3,
+          "title": "Limitations",
+          "content": [
+            "The study included a relatively small, homogeneous group. In a general population, the incidence of genetic variants depends on ancestry and geographic allelic distribution. Patients in our cohort were predominantly White women. The heterogeneity of treatment effects analysis showed no effect of treatment for either the female or male subgroups and no difference in the effect of treatment between female and male subgroups. A larger and more-diverse sample may be needed in future studies to capture more genomic variations of extreme phenotypes.",
+            "Additionally, the composite OBAS was low in the control and experimental groups, showing that even controls already had minimal concerns about analgesia, pain, or adverse ef- fects during the first 24 hours after surgery. At least three of seven questions achieved the lowest possible score of 0 (meaning no concern). The fact that patient satisfaction was so good with our standard protocols may have made it diffi- cult to show any improvements or differences. Further studies in more-specific subgroups of patients or surgical procedures that are typically more painful are needed to evaluate whether preoperative pharmacogenomic testing is beneficial or whether results would prove similar. Additionally, the study design using a preset genomic panel did not allow our team to screen for an expression quantitative trait locus outside the coding region of the target gene. Whether such screening would have made a difference in our ability to better associate variation within genes to preoperative characteristics is un- clear, but further study is warranted. Advances in sequencing technology have progressed since this study began, allowing for a more-complete assessment of how genomic variation affects clinical outcomes."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 3,
+          "title": "Discussion of Key Findings",
+          "content": [
+            "We found no benefit from modified anesthesia and perioper- ative pain management strategies based on individual varia- tions of genes known to affect the pharmacokinetics or pharmacodynamics of opioids. Fukuda et al. [9] reported a difference in perioperative fentanyl doses in Japanese patients undergoing painful orofacial surgery who carried a specific single-nucleotide variation of OPRM1. Of interest, this same study found no difference in VAS scores [9]. In a meta-analysis involving 18 studies, Hwang et al. [14] reported that carriers of the G allele at OPRM1 had higher opioid analgesic use. Results from studies evaluating postpartum pain management have suggested that the 118G variant of OPRM1 is associated with greater opioid consumption [3]. This association was the strongest in Asian patients, individuals using morphine, and surgical procedures involving a viscus [14]. In a pilot study of patients at a spine clinic, almost 50% of the patients experi- enced suboptimal metabolization of at least one medication in their analgesic regimen; however, pain scores were similar between those with optimal and suboptimal metabolism [6].",
+            "Similarly, in our study, all patients had genetic variants in one or more of the seven genes studied. Our findings also reflect the results from the RIGHT 10K study of more than 10,000 long-term patients, which showed that more than 99% of study participants had a clinically actionable result related to these seven genes and additional genes studied [29]. As this science continues to grow, further research might continue to elucidate which variants are clinically relevant and will sub- stantially affect patient care and outcomes.",
+            "Personalized medicine for perioperative analgesia con- tinues to emerge as the cost of pharmacogenomic testing de- creases and pharmacogenomic implementation increases across the clinical spectrum. We did not identify a subset population who would benefit from genetic testing for pain control before TKA. The reason may be because our patients' demographic characteristics do not fit the high-risk category in which pharmacogenomic testing could have a substantial impact. For example, some ethnic and ancestry groups carry an increased risk of respiratory depression from certain opioids caused by the ultrarapid metabolizer phenotype of the CYP2D6 gene (20% to 29% in East African people) [16]. Furthermore, some recent evidence suggests that pain per- ception might be altered with advancing age and may be as- sociated with an increased pain threshold for acute pain [11].",
+            "As the field of pharmacogenomics continues to expand, physicians will probably encounter pharmacogenomic results from patients at increasing frequency. Pharmacogenomic re- ports can be overwhelming for clinicians who are unfamiliar with them, especially if care teams are given results imme- diately before surgery. If institutions have pharmacists who are familiar with pharmacogenomic testing, having a phar- macist review the results and then note recommendations for perioperative medications in the patient's health record can be valuable. Implementing this process at our large academic center was achievable. We recognize this may not be possible at some centers. As pharmacogenomic testing becomes more prevalent, there will most likely be an increased need to create a pathway such as the one in this study for pharmacists to assist clinicians in evaluating these results."
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Conclusion",
+      "content": [
+        "The results of this randomized trial found no improvement in analgesia after TKA using preoperative pharmacogenomic testing. This finding suggests that universal preemptive testing is not beneficial in this population. However, this work did not answer the question of the clinical utility of testing patients with extreme phenotypes or those who may have mutations that are still clinically relevant but are not assessed with this test, and it did not exclude the benefits of preoperative pharmacogenomic testing for all surgical groups. More studies are necessary to further evaluate the utility, if any, of preoperative pharmacogenomic testing."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 2,
+      "title": "Acknowledgments",
+      "content": [
+        "We thank Noel M. De Lucia at Mayo Clinic, whose hard work as clinical research coordinator contributed to the suc- cessful completion of this project. We also thank Kathleen Louden ELS, a senior scientific/medical editor at Mayo Clinic, for substantively editing the manuscript, and the scientific publications staff at Mayo Clinic for providing proofreading, administrative, and clerical support."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 2,
+      "title": "References",
+      "content": [],
+      "subsections": []
+    }
+  ],
+  "Figs": [
+    {
+      "title": "This flow diagram shows enrollment of participants in the GOODS study. GOODS = Genomic Opioid Optimization of Dosing and Selections; OBAS = Overall Benefit of Analgesic Score.",
+      "data": [
+        "Assessed for eligibility (N = 99)",
+        "Excluded (n = 1)",
+        "  • Creatinine level",
+        "Randomized (n = 98)",
+        "Allocated to control intervention (n = 45)",
+        "  • Received allocated intervention (n = 34)",
+        "  • Did not receive allocated intervention (n = 11)",
+        "    Surgery canceled (n = 5)",
+        "    Spinal anesthesia (n = 3)",
+        "    Surgery type (n = 1)",
+        "    Other (n = 1)",
+        "    Missed laboratory testing (n = 1)",
+        "Allocated to experimental intervention (n = 53)",
+        "  • Received allocated intervention (n = 42)",
+        "  • Did not receive allocated intervention (n = 11)",
+        "    Surgery canceled (n = 3)",
+        "    Spinal anesthesia (n = 2)",
+        "    Creatinine level (n = 1)",
+        "    Robotic procedure (n = 1)",
+        "    Surgery type (n = 2)",
+        "    Missed consultation (n = 1)",
+        "    Missed pharmacogenomic testing (n = 1)",
+        "Analyzed in primary analysis (n = 30)",
+        "  • Excluded from primary analysis (n = 15)",
+        "    Did not receive intervention (n = 11)",
+        "    OBAS missing (n = 4)",
+        "Analyzed in primary analysis (n = 38)",
+        "  • Excluded from primary analysis (n = 15)",
+        "    Did not receive intervention (n = 11)",
+        "    OBAS missing (n=4)"
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "title": "Table 1. Baseline characteristics of participants",
+      "headers": [
+        "Characteristic",
+        "Control\n(n = 34)",
+        "Experimental\n(n = 42)"
+      ],
+      "rows": [
+        [
+          "Age in years",
+          "65 ± 9",
+          "66 ± 10"
+        ],
+        [
+          "Women",
+          "65 (22 of 34)",
+          "69 (29 of 42)"
+        ],
+        [
+          "Race and ethnicity",
+          "",
+          ""
+        ],
+        [
+          "White, non-Hispanic",
+          "97 (32 of 33)",
+          "92 (34 of 37)"
+        ],
+        [
+          "Asian",
+          "0 (0)",
+          "3 (1 of 37)"
+        ],
+        [
+          "Black",
+          "0 (0)",
+          "3 (1 of 37)"
+        ],
+        [
+          "Hispanic",
+          "3 (1 of 33)",
+          "3 (1 of 37)"
+        ],
+        [
+          "Smoking",
+          "",
+          ""
+        ],
+        [
+          "Never",
+          "59 (20 of 34)",
+          "66 (27 of 41)"
+        ],
+        [
+          "Former",
+          "3 (1 of 34)",
+          "5 (2 of 41)"
+        ],
+        [
+          "Current",
+          "38 (13 of 34)",
+          "29 (12 of 41)"
+        ],
+        [
+          "Prior surgery",
+          "91 (31 of 34)",
+          "100 (40 of 40)"
+        ],
+        [
+          "Nausea with prior surgery",
+          "29 (9 of 31)",
+          "32 (12 of 38)"
+        ],
+        [
+          "Self-reported chronic pain",
+          "12 (4 of 33)",
+          "10 (4 of 40)"
+        ],
+        [
+          "Self-reported high pain\ntolerance",
+          "82 (23 of 28)",
+          "92 (36 of 39)"
+        ],
+        [
+          "Relative with poor pain\ncontrol",
+          "30 (7 of 23)",
+          "9 (2 of 22)"
+        ],
+        [
+          "Relative with chronic pain",
+          "19 (6 of 31)",
+          "11 (4 of 36)"
+        ],
+        [
+          "Opioid use",
+          "0 (0)",
+          "0 (0)"
+        ],
+        [
+          "Drug use disorder",
+          "0 (0)",
+          "0 (0)"
+        ],
+        [
+          "Alcohol use disorder",
+          "6 (2 of 34)",
+          "2 (1 of 41)"
+        ],
+        [
+          "Allergies",
+          "6 (2 of 31)",
+          "13 (5 of 39)"
+        ],
+        [
+          "Adverse effects",
+          "38 (12 of 32)",
+          "34 (13 of 38)"
+        ],
+        [
+          "Depression or anxiety",
+          "21 (7 of 34)",
+          "20 (8 of 40)"
+        ],
+        [
+          "Pain control for prior\nsurgerya,b",
+          "7.9 ± 2.3",
+          "8.2 ± 2.5"
+        ],
+        [
+          "Stressa,c",
+          "4.1 ± 2.6",
+          "3.9 ± 2.2"
+        ],
+        [
+          "Preoperative painª",
+          "0.2 ± 0.8",
+          "0.3 ± 1.1"
+        ],
+        [
+          "Surgical time, min",
+          "116 ± 21",
+          "108 ± 24"
+        ]
+      ]
+    },
+    {
+      "title": "Table 2. Effect of pharmacogenomic testing on anesthesia outcomes",
+      "headers": [
+        "Outcome",
+        "Control (n = 34)",
+        "Experimental (n = 42)",
+        "Mean difference (95% CI)",
+        "p value"
+      ],
+      "rows": [
+        [
+          "OBASA",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "4.7 ± 3.7",
+          "4.2 ± 2.8",
+          "0.5 ± 3.2 (-1.1 to 2.1)",
+          "0.55"
+        ],
+        [
+          "Pain",
+          "2.1 ± 1.1",
+          "1.9 ± 1.0",
+          "0.1 ± 1.1 (-0.4 to 0.6)",
+          "0.65"
+        ],
+        [
+          "Vomiting",
+          "0.3 ± 0.8",
+          "0.2 ± 0.5",
+          "0.1 ± 0.6 (-0.2 to 0.5)",
+          "0.37"
+        ],
+        [
+          "Itching",
+          "0.1 ± 0.5",
+          "0.3 ± 0.7",
+          "-0.2 ± 0.7 (-0.5 to 0.1)",
+          "0.19"
+        ],
+        [
+          "Sweating",
+          "0.7 ± 1.3",
+          "0.3 ± 0.7",
+          "0.4 ± 1.0 (-0.1 to 0.9)",
+          "0.10"
+        ],
+        [
+          "Freezing",
+          "0.1 ± 0.4",
+          "0.2 ± 0.5",
+          "-0.1 ± 0.5 (-0.3 to 0.2)",
+          "0.63"
+        ],
+        [
+          "Dizziness",
+          "0.7 ± 1.3",
+          "0.9 ± 1.1",
+          "-0.2 ± 1.2 (-0.8 to 0.4)",
+          "0.45"
+        ],
+        [
+          "Satisfaction",
+          "3.3 ± 1.2",
+          "3.6 ± 0.8",
+          "-0.3 ± 1.0 (-0.8 to 0.2)",
+          "0.21"
+        ],
+        [
+          "PACU time in minutes",
+          "130 ± 40",
+          "150 ± 80",
+          "-20 ± 60 (-50 to 10)",
+          "0.16"
+        ],
+        [
+          "PACU to discharge in hours",
+          "38 ± 21",
+          "38 ± 29",
+          "0 ± 25 (-11 to 12)",
+          "0.96"
+        ],
+        [
+          "Pain, 24-hour",
+          "3.2 ± 1.6",
+          "3.1 ± 1.4",
+          "0.1 ± 1.5 (-0.6 to 0.8)",
+          "0.70"
+        ],
+        [
+          "MME",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "170 ± 190",
+          "130 ± 90",
+          "40 ± 140 (-30 to 100)",
+          "0.24"
+        ],
+        [
+          "Preoperatively",
+          "19 ± 12",
+          "20 ± 9",
+          "0 ± 10 (-5 to 4)",
+          "0.88"
+        ],
+        [
+          "Intraoperatively",
+          "9 ± 9",
+          "9 ± 10",
+          "0 ± 10 (-4 to 5)",
+          "0.95"
+        ],
+        [
+          "In PACU",
+          "7 ± 7",
+          "7 ± 7",
+          "0 ± 7 (-4 to 3)",
+          "0.83"
+        ],
+        [
+          "At 24 hours after PACU discharge",
+          "50 ± 80",
+          "40 ± 30",
+          "20 ± 60 (-10 to 40)",
+          "0.23"
+        ]
+      ]
+    },
+    {
+      "title": "Table 3. Effect of pharmacogenomic testing on selection of opioids",
+      "headers": [
+        "Administration timing",
+        "Control (n = 34)",
+        "Experimental (n = 42)",
+        "Proportion difference (95% CI)",
+        "p value"
+      ],
+      "rows": [
+        [
+          "Preoperative",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Oxycodone",
+          "44 (15)",
+          "36 (15)",
+          "0.08 (-0.16 to 0.33)",
+          "0.61"
+        ],
+        [
+          "Morphine",
+          "0 (0)",
+          "2 (1)",
+          "-0.02 (-0.13 to 0.08)",
+          "> 0.99"
+        ],
+        [
+          "Fentanyl",
+          "85 (29)",
+          "90 (38)",
+          "-0.05 (-0.23 to 0.10)",
+          "0.50"
+        ],
+        [
+          "Hydromorphone",
+          "12 (4)",
+          "26 (11)",
+          "-0.14 (-0.34 to 0.05)",
+          "0.20"
+        ],
+        [
+          "Intraoperative",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Morphine",
+          "62 (21)",
+          "40 (16 of 40)",
+          "0.22 (-0.03 to 0.47)",
+          "0.10"
+        ],
+        [
+          "Fentanyl",
+          "32 (11)",
+          "36 (15)",
+          "-0.03 (-0.27 to 0.21)",
+          "0.95"
+        ],
+        [
+          "Hydromorphone",
+          "41 (14)",
+          "43 (18)",
+          "-0.02 (-0.26 to 0.22)",
+          "> 0.99"
+        ],
+        [
+          "PACU",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Oxycodone",
+          "3 (1)",
+          "7 (3)",
+          "-0.04 (-0.17 to 0.10)",
+          "0.62"
+        ],
+        [
+          "Tramadol",
+          "3 (1)",
+          "2 (1 of 41)",
+          "0.01 (-0.10 to 0.13)",
+          "> 0.99"
+        ],
+        [
+          "Fentanyl",
+          "50 (17)",
+          "62 (26)",
+          "-0.12 (-0.37 to 0.13)",
+          "0.42"
+        ],
+        [
+          "Hydromorphone",
+          "18 (6)",
+          "26 (11)",
+          "-0.09 (-0.30 to 0.13)",
+          "0.54"
+        ],
+        [
+          "At 24 hours postoperatively",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Oxycodone",
+          "50 (17)",
+          "64 (25 of 39)",
+          "-0.14 (-0.39 to 0.11)",
+          "0.33"
+        ],
+        [
+          "Tramadol",
+          "71 (24)",
+          "41 (17)",
+          "0.29 (0.05 to 0.53)",
+          "0.02"
+        ],
+        [
+          "Morphine",
+          "0 (0)",
+          "2 (1 of 40)",
+          "-0.03 (-0.14 to 0.08)",
+          "> 0.99"
+        ],
+        [
+          "Fentanyl",
+          "53 (18)",
+          "57 (24)",
+          "-0.04 (-0.29 to 0.21)",
+          "0.89"
+        ],
+        [
+          "Hydromorphone",
+          "18 (6)",
+          "29 (12)",
+          "-0.11 (-0.32 to 0.10)",
+          "0.40"
+        ]
+      ]
+    }
+  ]
+}
+```

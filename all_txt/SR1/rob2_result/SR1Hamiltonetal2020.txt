@@ -1,0 +1,140 @@
+{
+    "article_title": "Using pharmacogenetics to structure individual pain management protocols in total knee arthroplasty A RANDOMIZED PILOT STUDY",
+    "domains": [
+        {
+            "Q1_1": {
+                "answer": "Yes",
+                "confidence": {
+                    "rating": "High",
+                    "percentage": 98
+                },
+                "analysis": "The Methods section states: 'Patients were randomized into one of two groups ... using a computer-generated block randomization scheme.' This explicitly describes a random component and method for sequence generation."
+            },
+            "Q1_2": {
+                "answer": "No Information",
+                "confidence": {
+                    "rating": "High",
+                    "percentage": 95
+                },
+                "analysis": "The article does not describe any allocation concealment procedures (e.g., centralized randomization, sealed opaque envelopes). Although it mentions patient blinding, there is no information on whether the allocation sequence was concealed from enrolling personnel."
+            },
+            "Q1_3": {
+                "answer": "No Information",
+                "confidence": {
+                    "rating": "High",
+                    "percentage": 95
+                },
+                "analysis": "Baseline characteristics by randomized group are not reported. The paper provides overall demographics and post-enrollment counts (e.g., 15 vs 16 randomized; cancellations and log completion), but no comparative baseline table or data that would allow assessment of imbalances in key prognostic factors. Therefore, it is not possible to judge whether baseline differences suggest a problem with randomization."
+            },
+            "judgment": "Some concerns"
+        },
+        {
+            "Q2_1": {
+                "answer": "No",
+                "confidence": "High (98%)",
+                "analysis": "The article explicitly states this was a prospective, randomized, patient-blinded pilot study and that 'Patients were not told which group they were in.' There is no indication of unblinding during the trial."
+            },
+            "Q2_2": {
+                "answer": "Yes",
+                "confidence": "High (95%)",
+                "analysis": "The surgeon received the PGx 'MediMap' report and used it to create customized regimens for the treatment group. The intervention section also describes crossovers in the control group where clinicians reviewed PGx results to change medications. This indicates that carers/people delivering the intervention (surgeon/clinical team) were aware of assignment."
+            },
+            "Q2_3": {
+                "answer": "No",
+                "confidence": "Moderate (85%)",
+                "analysis": "Although providers were aware (Q2.2=Yes), the described changes (crossovers in controls with inadequate pain control/side effects) were pre-specified within the protocol and reflect typical clinical management (adjusting analgesics for inadequate pain or side effects). The question asks about deviations from intended intervention that arose because of the trial context and were not allowed by protocol. Here, changes were protocol-permitted and consistent with usual care; thus, they are not considered deviations arising due to the trial context per the guidance."
+            },
+            "Q2_4": {
+                "answer": "Not Applicable",
+                "confidence": "Moderate (80%)",
+                "analysis": "Not applicable, as Q2.3 was answered 'No' (no deviations from intended intervention arising due to trial context were identified). The article does not report any unplanned deviations attributable to the trial context that would require assessment of their effect on outcomes."
+            },
+            "Q2_5": {
+                "answer": "Not Applicable",
+                "confidence": "Moderate (80%)",
+                "analysis": "Not applicable, as Q2.3 was 'No' and Q2.4 could not be assessed. The article does not provide information on balance of unplanned deviations between groups because such deviations were not reported."
+            },
+            "Q2_6": {
+                "answer": "Probably No",
+                "confidence": "High (90%)",
+                "analysis": "The article does not state that an ITT or mITT analysis was used. Outcome analyses for pain and MEQs included only 25 of 31 randomized participants (12 controls, 13 treatment) who completed logs; 6 randomized participants (3 cancelled surgery, 3 did not complete logs) were excluded. Per the guidance, if the analysis method is not described and fewer participants are analyzed than randomized, answer 'Probably No.'"
+            },
+            "Q2_7": {
+                "answer": "Probably Yes",
+                "confidence": "Moderate (80%)",
+                "analysis": "Excluding 6/31 (≈19%) randomized participants in a small pilot RCT can plausibly have a substantial impact on results, particularly for subjective outcomes (pain scores) and medication consumption. Additionally, the handling of crossovers is not clearly described analytically (assigned vs as-treated), increasing the potential for bias in the effect estimate of assignment to intervention."
+            },
+            "judgment": "High"
+        },
+        {
+            "Q3_1": {
+                "answer": "No",
+                "confidence": "98%",
+                "analysis": "The primary analyzed outcomes relevant here are continuous (pain scores 0–10 and morphine equivalents). Outcome data were available for 25 of 31 randomized participants (12 controls, 13 treatment), as explicitly stated in Results and Table II. This is ~80.6%, which is less than the 95% threshold. Six participants had missing outcome data (3 cancelled surgery; 3 did not complete the 10-day log). Therefore, data were not available for all or nearly all participants."
+            },
+            "Q3_2": {
+                "answer": "No",
+                "confidence": "95%",
+                "analysis": "Given Q3.1 = No, we assessed whether appropriate analytical methods were used to address missing outcome data. The article reports independent-samples t-tests on available cases with p-values, and does not describe any bias-adjustment methods, sensitivity analyses, or multiple imputation. There is no indication of methods that adjust for bias due to missing data. Hence, there is no evidence the result was not biased by missing outcome data."
+            },
+            "Q3_3": {
+                "answer": "Probably Yes",
+                "confidence": "80%",
+                "analysis": "With no adjustment for missing data, we considered whether missingness could depend on true outcome values. Three participants did not complete the pain/medication log—a self-reported daily instrument—making it plausible that non-completion was related to pain severity or side effects (i.e., outcome-related). Additionally, three cancelled surgery, which may relate to health status, potentially influencing post-operative outcomes had they undergone surgery. Based on the information provided, missingness may be related to participants’ health status and could depend on true outcome values."
+            },
+            "Q3_4": {
+                "answer": "No Information",
+                "confidence": "75%",
+                "analysis": "Given Q3.3 = Probably Yes, we evaluated whether it is likely that missingness depended on true values. The report provides limited detail on reasons for missingness (categorical counts of cancelled surgery and did not complete log) and no qualitative reasons linking missingness directly to outcome values. Proportions of missing data are similar across groups (Control: 3/15; PGx: 3/16). There is no analysis accounting for participant characteristics that might explain the relationship. The trial setting (self-reported logs) suggests a possibility, but the article does not provide sufficient information to conclude it is likely. Therefore, No Information."
+            },
+            "judgment": "High"
+        },
+        {
+            "Q4_1": {
+                "answer": "No",
+                "confidence": "High (95%)",
+                "analysis": "The study measured pain using a 0–10 numeric rating scale, a widely used and validated tool for postoperative pain assessment (they cite reference 13). Opioid consumption was recorded via patient daily logs and converted to morphine equivalents (MEQs), which is a standard approach. There is no indication that the tools used were invalid or insensitive to detecting differences over the 10-day postoperative period."
+            },
+            "Q4_2": {
+                "answer": "No",
+                "confidence": "High (95%)",
+                "analysis": "Both intervention and control groups used the same patient-completed daily pain and medication log over the first 10 postoperative days. Patients were blinded, and outcomes were recorded at comparable time points with identical methods. Although some controls with genetic variants later telephoned and had medications adjusted, the measurement method itself (daily logs) did not differ between groups."
+            },
+            "Q4_3": {
+                "answer": "No",
+                "confidence": "High (95%)",
+                "analysis": "The trial is described as patient-blinded, and the primary subjective outcome (pain) was self-reported by patients using standardized logs. As patients are effectively the outcome assessors for pain, their blinding indicates outcome assessors were unaware of intervention status. No explicit indication is given that other assessors who processed MEQs were aware in a way that would affect measurement."
+            },
+            "Q4_4": {
+                "answer": "Not Applicable",
+                "confidence": "Moderate (88%)",
+                "analysis": "Because outcome assessors (patients) were blinded (Q4.3 = No), their knowledge of intervention status should not have influenced assessment. While pain is subjective and could be influenced by awareness, blinding mitigates this concern."
+            },
+            "Q4_5": {
+                "answer": "Not Applicable",
+                "confidence": "Moderate (85%)",
+                "analysis": "Given that assessors were blinded and pain was recorded using a standardized tool across groups, it is unlikely that outcome assessment was influenced by intervention knowledge. The subjective nature of pain would raise concerns only if blinding were compromised, which the article explicitly states did not occur."
+            },
+            "judgment": "Low"
+        },
+        {
+            "Q5_1": {
+                "answer": "No Information",
+                "confidence": "Moderate Certainty (80%)",
+                "analysis": "The article states the trial was registered (ClinicalTrials.gov NCT03772535) and describes primary and secondary outcomes and that mean pain levels and SD were compared using independent-samples t-tests. However, it does not provide or reference a pre-specified statistical analysis plan finalized before unblinding of outcome data, nor does it explicitly state adherence to such a pre-specified plan. Early termination of enrollment due to the lab stopping testing is unrelated to analysis but does not establish that the analysis plan was pre-specified and followed. Therefore, based on the text provided, there is insufficient information to confirm that analyses were conducted per a finalized pre-specified plan."
+            },
+            "Q5_2": {
+                "answer": "Probably No",
+                "confidence": "Moderate Certainty (80%)",
+                "analysis": "The Methods specify pain measurement using a single 0–10 numeric rating scale recorded daily for the first ten postoperative days, with the planned comparison of mean pain levels (over the first ten days) and SD via independent-samples t-tests. The Results report mean ten-day pain and MEQs, with ranges, for control versus PGx-guided groups and by categories. There is no indication of multiple alternative pain scales, different time-point selections, or selective reporting among multiple eligible measurement definitions within the pain domain. While Q5.1 indicated no information on a finalized pre-specified plan, the described single measurement method and specified aggregation (mean across ten days) make selective choice of outcome measurement less likely."
+            },
+            "Q5_3": {
+                "answer": "No Information",
+                "confidence": "Moderate Certainty (75%)",
+                "analysis": "Although the Methods mention comparing mean pain levels and SD by independent-samples t-test, the report also presents analyses by overall randomized groups (control vs PGx-guided) and categories (A–D), and focuses on the subset of 25 participants who completed logs. Multiple feasible analysis approaches exist (e.g., ITT vs per-protocol, repeated-measures modeling across days, comparisons by categories versus overall groups, handling of crossovers), but the article does not provide a detailed, finalized pre-specified analysis plan to confirm that the reported analyses were the only planned ones. Without access to the protocol/SAP and given multiple plausible analysis strategies, selective choice of analysis cannot be ruled out."
+            },
+            "judgment": "Some concerns"
+        }
+    ],
+    "overall": "High"
+}

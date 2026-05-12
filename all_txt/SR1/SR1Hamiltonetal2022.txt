@@ -1,0 +1,397 @@
+```json
+{
+  "tables": [
+    {
+      "title": "Table 1 Genes and Alleles in Pharmacogenetic Testing Panel.",
+      "headers": [
+        "Genes",
+        "Alleles"
+      ],
+      "rows": [
+        [
+          "COMT",
+          "Val158Met"
+        ],
+        [
+          "CYP1A2",
+          "*1C, *1D, *1E, *1F, *1J, *1K, *1L, *1V, *1W, *3, *4, *5, *6, *7, *8, *11, *15, *16"
+        ],
+        [
+          "CYP2B6",
+          "*2, *4, *5, *6, *9, *11, *18, *22, *28; CYP2C19 *2, *3, *4, *4B, *5, *6, *7, *8, *9, *10, *17"
+        ],
+        [
+          "CYP2C19",
+          "*2, *3, *4, *4B, *5, *6, *7, *8, *9, *10, *17"
+        ],
+        [
+          "CYP2C8",
+          "*2, *3"
+        ],
+        [
+          "CYP2C9",
+          "*2, *3, *4, *5, *6, *8, *9, *10, *11, *13, *15, *16, *27"
+        ],
+        [
+          "CYP2D6",
+          "*2, *3, *4, *4M, *6, *7, *8, *9, *10, *11, *12, *14A, *14B, *15, *17, *20, *29, *35, *41"
+        ],
+        [
+          "CYP3A4",
+          "*1B, *2, *3, *6, *12, *13, *15, *17, *20, *22"
+        ],
+        [
+          "CYP3A5",
+          "*1D, *2, *3, *3B, *3C, *3K, *6, *7, *8, *9"
+        ],
+        [
+          "Factor II",
+          "20210G>A"
+        ],
+        [
+          "Factor V Leiden",
+          "1691G>A"
+        ],
+        [
+          "GRIK4",
+          "83-10039T>C"
+        ],
+        [
+          "MTHFR",
+          "1298A>C, 677C>T"
+        ],
+        [
+          "OPRM1",
+          "A118G"
+        ],
+        [
+          "SLCO1B1",
+          "388A>G, 521T>C"
+        ],
+        [
+          "VKORC1",
+          "1639>A, 1542G>C, 2255C>T, 3730G>A, 5808T>G, 1173C>T"
+        ]
+      ]
+    },
+    {
+      "title": "Table 2 Percentage of Patients With Genetic Variants That Affected Standard Postoperative Medications.",
+      "headers": [
+        "Genetic Variants",
+        "Poor Metabolizer",
+        "Intermediate Metabolizer",
+        "Normal Metabolizer",
+        "Rapid or Ultra-Rapid Metabolizer"
+      ],
+      "rows": [
+        [
+          "Oxycodone (CYP2D6)",
+          "14.30%",
+          "",
+          "82%",
+          "3.60%"
+        ],
+        [
+          "Tramadol (CYP2D6)",
+          "14.30%",
+          "2.90%",
+          "79.30%",
+          "3.60%"
+        ],
+        [
+          "Celecoxib (CYP2C9)",
+          "4.90%",
+          "27.50%",
+          "67.60%",
+          "0"
+        ],
+        [
+          "Acetaminophen (CYP1A2)",
+          "0",
+          "0.70%",
+          "38.30%",
+          "61%"
+        ]
+      ]
+    },
+    {
+      "title": "Table 3 Pain and Medication Levels Sorted by Study Group.",
+      "headers": [
+        "Summary",
+        "Control, No Variant A",
+        "Control, Variants B",
+        "Custom, No Variant C",
+        "Custom, Variants D",
+        "Total Pain Logs",
+        "P-Value"
+      ],
+      "rows": [
+        [
+          "N",
+          "33",
+          "13",
+          "50",
+          "11",
+          "107",
+          ""
+        ],
+        [
+          "Mean10-d morphine equivalents",
+          "124.4355",
+          "162.5769",
+          "106.0652",
+          "86.68182",
+          "B vs D",
+          ".126118"
+        ],
+        [
+          "Minimum",
+          "0 (N = 1)",
+          "0 (N = 2)",
+          "0 (N = 6)",
+          "0 (N = 3)",
+          "",
+          ""
+        ],
+        [
+          "Maximum",
+          "327.5",
+          "741",
+          "439.5",
+          "264",
+          "",
+          ""
+        ],
+        [
+          "10 d mg of Tylenol",
+          "21,053.23",
+          "18,341.67",
+          "14,645.65",
+          "19,245.45",
+          "",
+          ""
+        ],
+        [
+          "10-d average pain (0-10)",
+          "3.93147",
+          "4.24359",
+          "4.125289",
+          "3.081818",
+          "B vs D",
+          ".025698"
+        ],
+        [
+          "Pain × MME",
+          "532.4736",
+          "743.9731",
+          "517.9025",
+          "375.6864",
+          "B vs D",
+          ".119762"
+        ]
+      ]
+    },
+    {
+      "title": "Table 4 Pain and Medication Levels by Joint.",
+      "headers": [
+        "Summary",
+        "Hips (74%)",
+        "Knees (26%)",
+        "P-Value"
+      ],
+      "rows": [
+        [
+          "N",
+          "79",
+          "28",
+          ""
+        ],
+        [
+          "Mean 10 d MME",
+          "99.42466",
+          "162.3393",
+          ".011737"
+        ],
+        [
+          "Minimum",
+          "0",
+          "0",
+          ""
+        ],
+        [
+          "Maximum",
+          "741",
+          "430",
+          ""
+        ],
+        [
+          "10 d mg of Tylenol",
+          "17,111.11",
+          "18,791.07",
+          ".242408"
+        ],
+        [
+          "10-d average pain",
+          "3.856452",
+          "4.275794",
+          ".098236"
+        ],
+        [
+          "Pain x medications",
+          "440.9695",
+          "783.1804",
+          ""
+        ]
+      ]
+    }
+  ],
+  "metadata": {
+    "Title": "Prospective Randomized Study Using Pharmacogenetics to Customize Postoperative Pain Medication Following Hip and Knee Arthroplasty",
+    "First_author": "William G. Hamilton, MD",
+    "Published_year": 2022,
+    "Journal": "The Journal of Arthroplasty",
+    "Corresponding": "Nancy Parks, MS, Anderson Orthopaedic Research Institute, PO Box 7088, Alexandria, VA 22307.",
+    "DOI": "https://doi.org/10.1016/j.arth.2022.02.037",
+    "Declaration_of_interest": "One or more of the authors of this paper have disclosed potential or pertinent conflicts of interest, which may include receipt of payment, either direct or indirect, institutional support, or association with an entity in the biomedical field which may be perceived to have potential conflict of interest with this work. For full disclosure statements refer to https://doi.org/10.1016/j.arth.2022.02.037.",
+    "Funding": "The authors would like to acknowledge the support of Sarah Parks for assistance with data entry for this project. This study was supported, in part, by general research funding provided by the Inova Health System and a gift from Roy B. Harrill."
+  },
+  "article_structure": [
+    {
+      "level": 1,
+      "title": "ABSTRACT",
+      "content": [
+        "Background: The purpose of this study is to determine whether pharmacogenetic testing could be used to effectively customize postoperative pain medicine following total joint replacement.",
+        "Methods: Buccal swabs were collected preoperatively from 107 patients. Pharmacogenetic testing was performed for genetic variants on a panel of 16 genes, including CYP2D6, CYP2C9, OPRM1, and CYP1A2, which affect the pharmacodynamics and pharmacokinetics of non-steroidal anti-inflammatory drugs and many opioids. Patients were randomized to a control group or custom group and blinded to their group. The control group was prescribed oxycodone, tramadol, and celecoxib for postoperative pain management. If any of those were not normally metabolized, they were not prescribed to the patients in the custom group, who were given an alternative drug (hydromorphone for narcotics, meloxicam for non-steroidal anti-inflammatory drugs). Patients recorded their pain level (0-10 numeric scale) and all medications taken daily for the first 10 days following surgery. Medication was converted to milligram morphine equivalents (MMEs).",
+        "Results: Genetic variations to medications in our standard postoperative pain management protocol occurred in 24 of the 107 patients (22.4%). The 10-day MME consumed by patients in the control group with genetic variants was 162.6 mg. Patients with variants who had custom postoperative medication consumed only 86.7 MME in the same timeframe (P .126). The control group demonstrated a higher 10-day average pain level of 4.2 vs the custom group pain level of only 3.1 (P < .05).",
+        "Conclusion: With custom postoperative pain prescriptions based on pharmacogenetic testing, patients were able to achieve lower pain levels while reducing the consumption of pain medication."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 0,
+      "title": "",
+      "content": [
+        "In the field of total hip (THA) and total knee (TKA) arthroplasty, postoperative pain control is important for early ambulation, outcomes, and patient satisfaction [1]. Due to the ongoing opioid epidemic, as well as evidence that excessive opioid use contributes to an increased complication profile following joint replacement, surgeons aim to provide pain control while minimizing the use of opioids [2,3]. The enzymatic profile of some patients prevents normal metabolism of pain medications, which largely goes undetected yet presents a challenge for pain management. Pharma-cogenetic (PGx) testing may identify these patients and facilitate pain control of ALL patients following surgery. Unfortunately, while PGx has been studied for decades, practical use of the testing has yet to be widely adopted by practicing physicians [4-8].",
+        "Pharmacogenetics is a field with expanding interest in clinical medicine. By evaluating a patient's DNA via a simple cheek swab, a report of the patient's enzyme profile can be created to predict whether their response to various medications will be normal. These reports assess the presence or absence of the 2 alleles of a gene, and then classify the phenotype that a patient expresses for these genes into one of 4 categories. Normal metabolizers possess normal genes and therefore the appropriate enzymes to metab-olize the medication of interest and are predicted to have a normal response to the medications at standard dosing. Ultra-rapid metabolizers have genetic abnormalities that predict enhanced activity of that specific enzyme, while poor metabo-lizers lack both alleles causing absent enzymatic activity. Inter-mediate metabolizers lack 1 functional allele of the gene of interest and typically have reduced enzyme function. Most of the enzymes that are responsible for the metabolism of pain medi-cations are in the CytochromeP450 family in the liver, including CYP2C9 (non-steroidal anti-inflammatory drugs [NSAIDs]) and CYP2D6 (opioids) [7,9]. The PGx analysis provides a report spe-cific to an individual patient that can be used to customize postoperative pain medications, theoretically enhancing pain control and reducing adverse events.",
+        "In a 2020 pilot study from our institution, we performed PGx testing on 31 TKA patients and found that 13/31 (42%) patients had genetic abnormalities affecting the metabolism of commonly used postoperative pain medications [10]. These abnormalities were divided between CYP2C9 (8/31; 26%), CYP2D6 (4/31; 13%), and ORPM1 (9/31; 29%). Patients were randomized to either receive standard postoperative medications regardless of the PGx results, or have their postoperative medications tailored to their PGx re-sults. We identified trends showing that patients whose pain medications were tailored to their genetic results had lower pain scores and opioid consumption, but the enrollment was too small to draw meaningful conclusions.",
+        "The current study expands on that pilot study by increasing enrollment to determine if PGx testing can play a meaningful role of postoperative pain management following TKA and THA. For this study we asked the following questions:",
+        "• What is the incidence of genetic abnormalities to commonly used pain medications following TKA and THA?",
+        "• What specific genes are affected, and which pain medications does that influence?",
+        "• Does customizing pain medications to the results of PGx testing lead to lower pain scores and lower opioid usage following THA and TKA?",
+        "• Is there a difference in the side effect profile between patients with and without custom-prescribed pain medications?",
+        "Our null hypothesis was that there would be no difference in pain medication usage or pain scores between subjects in the standard medication group and those who are guided by the results of the pharmacogenetics test."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 1,
+      "title": "Methods",
+      "content": [
+        "This prospective, randomized study was Institutional Review Board-approved with patients consenting to participate and contribute DNA samples at the time of their preoperative clinic visit. All primary hip or knee arthroplasty patients over the age of 18 were screened for participation. Patients with a history of opioid dependency or any systemic comorbidities that would contraindi-cate the use of pain medication were excluded from the study. There were no exclusion criteria based on race or ethnic origin."
+      ],
+      "subsections": [
+        {
+          "level": 2,
+          "title": "Pharmacogenetic Testing Methods",
+          "content": [
+            "Two buccal swabs were collected for each subject and shipped to a Clinical Laboratory Improvement Act (CLIA)-certified phar-macogenomics testing facility. All testing, analysis, and interpre-tation were performed by NEXT Molecular Analytics at 11601 Ironbridge Road, Suite 101, Chester, VA 23831-CLIA #49D2104154. NEXT extracted genomic DNA. Final genotyping was determined by next-generation sequencing and extracted DNA samples were analyzed for a combination of the genes below using lon Torrent assay methodologies. Data for each assay to detect single nucleo-tide polymorphisms or short insertion/deletion sequences were genotyped using TaqMan Genotyper Software. The pharmacoge-netic testing panel included the genes and alleles shown in Table 1.",
+            "The laboratory and pharmacogenetics reports rely on the Food and Drug Administration drug label information and recommen-dations from the published Clinical Pharmacogenetics Imple-mentation Consortium dosing guide used by the Pharmacogenomics Knowledgebase. Based on the genotype and phenotype of the patient, medications are listed in the report including any expected complications due to decreased efficacy or increased toxicity. The DNA sample was kept for at least 90 days and then disposed of properly. No other tests were performed using the DNA sample."
+          ],
+          "subsections": []
+        },
+        {
+          "level": 2,
+          "title": "Study Design",
+          "content": [
+            "Patients were randomized into 2 groups, a treatment group and a control group, using a computer-generated block randomization scheme with 7 groups of 20. Patients were blinded to their study group to avoid a placebo effect. Patients in the control group received the standard postoperative pain prescriptions historically used in our practice for primary joint replacement patients:",
+            "• acetaminophen, 1,000 mg every 8 hours, not to exceed 3 g of acetaminophen in 24 hours",
+            "• tramadol, 50 mg every 6 hours, as needed",
+            "• oxycodone, 10 mg every 4 hours, as needed",
+            "• celecoxib, 200 mg",
+            "Based on the PGx report, patients in the custom group who had a genetic variant affecting one or more of the standard pain med-ications were prescribed an alternative medication that they metabolized normally. The number of patients in the custom group requiring such a modification was recorded. Patients in both groups documented their overall daily level of pain preoperatively and for the first 10 days postoperatively with a Numeric Rating Pain Scale indicating pain intensity from 0 (no pain) to 10 (worst pain possible) (Fig. 1).",
+            "Patients also logged medication type and dose for the first 10 days postoperatively as well as any side effects or complications. Opioids were converted to milligram morphine equivalents (MMEs) used each day. If any complaints of side effects or trouble with medicine were reported to clinic, the protocol allowed for patients to change medication based on the results of their PGx testing. Any changes in medication were recorded by both the cli-nicians and the patients. A complete dataset, including PGx results as well as pain and medication logs, was obtained for 107 patients."
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "title": "Statistical Plan",
+      "content": [
+        "The primary outcome was the frequency of THA and TKA pa-tients having a genetic variant that affected one of the standard pain prescriptions. In addition, 10-day morphine equivalents and the average pain levels and standard deviation in the first 10 days were compared with a t-test of the treatment group vs control group. With at least 50 patients in each group, we expected to achieve 80% power and detect a significant difference of P < .05 if the pain level dropped from 5 to 3.5 (on the 0-10 scale) with a standard deviation of 1.5. The null hypothesis was that there would be no significant difference between the groups in terms of MME, pain, or incidence of side effects. If more than 10% of patients had genetic variants, then we felt that information from the PGx report would be considered clinically valuable in the management of postoperative pain in our high-volume joint replacement practice."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 1,
+      "title": "Results",
+      "content": [
+        "For this prospective, randomized study, 142 patients consented and submitted cheek swab DNA samples for PGx testing. Two of those patients withdrew from the study, leaving 140 enrolled. Ten patients subsequently canceled their surgery, and therefore did not go on to complete postoperative pain and medication logs. All pa-tients were blinded to the study groups and did not see their PGx reports until after they turned in their pain and medication logs. Of the remaining 130 patients who underwent surgery, 107 of them (82.3%) completed the pain and medication logs and returned them for analysis. Their results are presented here. Subjects included 53 males and 54 females with an average age of 65.7 years (range 40.6-85.8). Of the 107 patients enrolled, there were 79 primary THAs (79/107, 73.8%) and 28 primary TKAs (28/107, 26.2%).",
+        "Genetic variations to the standard opioid and NSAID pain medications occurred in 22.4% of patients. Genes and phenotypes are shown in Table 2. Oxycodone and tramadol are both metabo-lized through the CYP2D6 gene pathway, and 79.3% of patients displayed normal phenotypes, processing drugs through that pathway with normal metabolism and standard side effects. About 14.3% of patients were poor metabolizers, not producing the enzyme to process those drugs, potentially reducing the effective-ness of that pain medication. In addition, 2.9% of patients displayed the phenotype for intermediate or partial metabolism for tramadol. An additional 3.6% of patients displayed a rapid or ultra-rapid phenotype for CYP2D6, resulting from excessive enzyme activity. This phenotype is known for processing the substrate quickly, shortening the time of effectiveness and increasing the severity of side effects. Celecoxib, like many NSAIDs, is processed through the CYP2C9 genetic pathway, and only 67.6% of patients exhibited the normal phenotype for that drug. In addition, 27.5% were interme-diate metabolizers, and 4.9% were poor metabolizers. CYP2C9 in-termediate metabolizers have not achieved level of evidence yet to be classified by the FDA to recommend a change in dosage, so although not \"normal,\" the report could not recommend changing their prescription.",
+        "Although acetaminophen was not the subject of this study specifically, the pharmacogenetic report did also include genetic typing for CYP1A2, for which acetaminophen as well as caffeine are substrates. Only 38.3% of patients were normal metabolizers for CYP1A2, with the majority (61%) being rapid or ultra-rapid metabolizers. With most patients consuming acetaminophen routinely, this is an area of potential future study.",
+        "The control arm of the study was made up of 46 primary joint replacement patients (34 hips, 12 knees). They all received the standard postoperative pain management protocol, including 13 patients (28%) who had genetic variants to oxycodone, tramadol, or celecoxib. Control group patients without any genetic variants to those medications are designated as study group A in Table 3 and were expected to have a standard response to their prescriptions. Their mean pain level in the first 10 days following surgery on a scale of 0-10 was 3.93, and their total morphine equivalents (MME) consumed in the first 10 days averaged 124.43 mg. One knee pa-tient in that group chose not to take any narcotic pain medication at all.",
+        "The 13 control group patients who had genetic variants are shown in Table 3 as group B. This group recorded the most pain in the first 10 days (mean 4.24 on a 10-point scale), and took the most narcotics in the first 10 days (162.5 MME). Two patients in group B chose not to consume any narcotic medication at all.",
+        "There were 61 patients (45 hips, 16 knees) randomized to the custom medication arm of the study. Fifty of them (82%) did not have any genetic variants to the standard pain medications and were designated group C in Table 3, and did not require alteration of their prescriptions. Their mean pain level in the first 10 days following surgery on a scale of 0-10 was 4.12, and their total MME consumed in the first 10 days averaged 106 mg.",
+        "Patients in the custom arm who had genetic variants to the standard pain medications (N = 11) are designated as group D in Table 3. Those unable to metabolize oxycodone or tramadol at a normal rate were prescribed hydromorphone 2 mg instead. Those unable to metabolize celecoxib were prescribed meloxicam 7.5 mg, as recommended in the report based on FDA and Pharmacoge-nomics Knowledgebase level of evidence. This group recorded the least pain in the first 10 days (mean 3.08 on a 10-point scale), and took the fewest narcotics in the first 10 days (86.7 MME). Three patients in group D chose not to consume any narcotic medication at all.",
+        "Customizing pain medications based on the results of PGx testing lead to significantly lower pain scores in patients with ge-netic variants following primary joint replacement in this study (group B vs group D, P = .02). Consumption of narcotics was also reduced (162.5 vs 86.7 MME) although the difference did not reach significance (P = .12) due to small groups and wide variation, with several patients in each group choosing not to consume any nar-cotics at all.",
+        "Some patients chose to avoid taking any narcotic medication for reasons unrelated to effectiveness. In some cases people took medication to avoid pain, while others withstood more pain in order to avoid taking narcotics. We created a third parameter of average pain multiplied by total MME to compare groups and combine these parameters, shown in Table 2 as \"pain × MME.\" Groups A and C, which were the patients without genetic variants, were very similar, while group B was the highest and group D was the lowest in this combined parameter.",
+        "Common side effects that were reported in all groups included nausea, constipation, and drowsiness. Unique side effects in the noncustomized group included diarrhea, lack of pain relief, anxiety, and loss of appetite. In accordance with the protocol, patients were allowed to make changes to medication and 3 patients in group B were changed after complaining of significant side effects or lack of pain relief.",
+        "One expected finding in our study was that knee replacement patients took significantly more pain medicine than hip patients in the first 10 days (162.3 vs 99.4 mg MME, P = .012). The knee pa-tients also reported higher average pain scores in the first 10 days (P=.098; Table 4). Each group in the study contained hip and knee patients. Looking at the effect of joint locations on the custom medication group, group B (control group with variants) had the highest percentage of hip cases (77%), which would tend to depress the pain and medication level of that group. Despite that, group B recorded the highest pain and medication levels, showing that pharmacogenetics played a greater role than joint location.",
+        "The results showed that 22.4% of patients had allele variants to CYP2D6 enzyme (opioids) and/or CYP2C9 (NSAIDs). These data support the theory that abnormalities in the enzymes metabolizing opioids and NSAIDs, 2 pillars of postoperative pain control, could contribute to increased pain and side effects [9,11-13]. Although the number of patients in each subgroup was small, pain levels and use of pain medicine was highest among patients with genetic variants using the standard medications (group B) and reached the level of significance. In contrast, the lowest pain scores and use of medication occurred in group D patients, who had those same genetic abnormalities, but took prescriptions customized to those genetic results. The minimal clinically important difference for Numeric Rating Pain Scale scores is 1 point, or 15% [14], and the difference between group B and D was 1.16 points (27%). Laigaard et al [15] attempted a systemic review of minimal clinically important difference in pain management after TKA and THA and reported MME differences of 10 mg/d or 40%. Over the course of 10 days, we saw a difference of 75.9 mg and a 47% difference between groups B and D. A similar trend was observed in our initial pilot study, adding evidence to the role that genetics plays and providing an opportunity to improve pain control in those patients [10].",
+        "The findings of this study reject our null hypothesis because there was a significant difference between groups B and D. Patients in group D had lower pain scores and MME used, although the difference was not significantly lower than groups A or C, whose patient enzyme function was normal and were prescribed oxyco-done. Perhaps hydromorphone is simply better suited for use after total hip and knee surgery. At the dose we prescribed, the MME is very close between one 2 mg pill of hydromorphone (8 MMEs) and one 5 mg pill of oxycodone (7.5 MMEs), so the strength of each medication is similar. A possible explanation is that patients with a CYP2D6 variant had prior difficulties with pain medications, either from side effects or ineffectiveness, and actively tried to avoid using opioid pain medications, although that would have also affected group B. Three of the 11 patients in group D and 2 of 13 in group B did not use any narcotics following surgery, possibly supporting this theory. The pain scores in group D patients were also lower than the average pain scores of other groups, so they may have a higher pain tolerance or managed the pain with NSAIDs and acet-aminophen. With the small numbers in each cohort, it is certainly possible that we are observing a type 1 error, finding a statistical difference between groups B and D when one does not exist. Additional study with larger cohorts would help to elucidate our findings.",
+        "There are several weaknesses of this study that should be acknowledged. Despite increasing our enrollment compared with our pilot study, our numbers still struggle to determine whether PGx testing makes a meaningful difference in postoperative pain control. When using a multimodal pain program, it can be difficult to discern which component contributes most to a specific patient's pain. Because the genetic anomalies that are of greatest interest are relatively rare, the strongest conclusions would only be reached with a significantly larger enrollment. Despite this, we saw trends in both studies indicating that PGx testing may optimize postoperative pain control. Another drawback of this study was the inclusion of both total hip and total knee patients. This was done to accelerate enrollment and discern whether a difference could be detected between the procedures, but because the pain profiles of the 2 surgeries are different, the study population is more heterogenous.",
+        "The natural question is what role does PGx testing have in clinical practice today, and does it apply to a busy joint replacement practice? Since completing enrollment, the authors have dis-continued routine use of PGx testing in practice due to associated challenges such as ordering, obtaining, and interpreting test results, along with the cost. Although some patients are willing to pay for the testing, and some insurers are starting to cover PGx tests [16], the significant out-of-pocket cost remains an obstacle for most patients. Also, for a busy practitioner whose patients are discharged home within 24 hours, subtle changes to early postoperative pain scores mostly go unnoticed by the physician. Until the results are carefully evaluated, the surgeon may not observe a change in early patient outcomes when using PGx testing. However, if the results of our study were extrapolated to the over 1 million total joint re-placements done in the United States annually, there could be much larger and clinically important ramifications. One could easily imagine the results of a one-time cheek swab being incor-porated into a patient's electronic medical record, and established algorithms helping to guide more effective prescribing of medica-tions over the course of their lifetime.",
+        "An additional goal of publishing our results is to raise awareness that these genetic variants exist. Orthopedists prescribing opioids should recognize that there is cause for patients to report different responses to pain medications, and rather than dismissing those who report a history of inefficacy, they may be more likely to accept it and offer alternatives. Currently in our practice, if a patient re-ports a history of problems with pain medication, we explain the role that their genetics may play in causing these problems. Because these concerns are often overlooked and discarded by providers, this explanation often comes as a relief to patients. They are then offered access to PGx testing or provided alternative pain medications that circumvent the more common metabolic pathways.",
+        "Based on the preliminary results of our 2 studies, these simple alterations to customize pain protocols could have significant ef-fects if applied to a large cohort of patients. In conclusion, PGx testing in this arthroplasty population demonstrated that a signif-icant percentage of patients have genetic variants influencing the metabolism of medications commonly used to control post-operative pain. Furthermore, when such patients are identified and medications are customized to their genetic profile, pain scores and opioid use were reduced."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 1,
+      "title": "Discussion",
+      "content": [
+        "Achieving good pain control after total joint replacement is a priority for surgeons as well as patients, and numerous modalities and medications have been studied to this end [2,3]. Hip and knee arthroplasty procedures result in significant postoperative pain, creating an excellent population in which to study the effects of different interventions. This study adds to information on how pharmacogenetic testing may be used in a clinical arthroplasty setting and the role genetics plays in the metabolism of commonly used pain medications. Hopefully, this study will provide valuable information for surgeons and pave the way for further study in this arena."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 1,
+      "title": "Acknowledgments",
+      "content": [
+        "The authors would like to acknowledge the support of Sarah Parks for assistance with data entry for this project. This study was supported, in part, by general research funding provided by the Inova Health System and a gift from Roy B. Harrill."
+      ],
+      "subsections": []
+    },
+    {
+      "level": 1,
+      "title": "References",
+      "content": [
+        "[1] Russo MW, Parks NL, Hamilton WG. Perioperative pain management and anesthesia: a critical component to rapid recovery total joint arthroplasty. Orthop Clin North Am 2017;48:401-5.",
+        "[2] Chung BC, Bouz GJ, Mayfield CK, Nakata H, Christ AB, Oakes DA, et al. Dose-dependent early postoperative opioid use is associated with periprosthetic joint infection and other complications in primary TJA. J Bone Joint Surg Am 2021;103:1531-42.",
+        "[3] Tedesco D, Gori D, Desai KR, Asch S, Carroll IR, Curtin C, et al. Drug-free in-terventions to reduce pain or opioid consumption after total knee arthro-plasty: a systematic review and meta-analysis. JAMA Surg 2017;152:e172872.",
+        "[4] Abbasi J. Getting pharmacogenomics into the clinic. JAMA 2016;316:1533-5.",
+        "[5] Caudle KE, Klein TE, Hoffman JM, J Muller D, Whirl-Carrillo M, Gong L, et al. Incorporation of pharmacogenomics into routine clinical practice: the Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline development process. Curr Drug Metab 2014;15:209-17.",
+        "[6] Hayashida M, Nagashima M, Satoh Y, Katoh R, Tagami M, Ide S, et al. Analgesic requirements after major abdominal surgery are associated with OPRM1 gene polymorphism genotype and haplotype. Pharmacogenomics 2008;9: 1605-16.",
+        "[7] Huddleston KL, Klein E, Fuller A, Jo G, Lawrence G, Haga SB. Introducing personalized health for the family: the experience of a single hospital system. Pharmacogenomics 2017;18:1589-94.",
+        "[8] Klein ME, Parvez MM, Shin JG. Clinical implementation of pharmacogenomics for personalized precision medicine: barriers and solutions. J Pharm Sci 2017;106:2368-79.",
+        "[9] Monte AA, Heard KJ, Campbell J, Hamamura D, Weinshilboum RM, Vasiliou V. The effect of CYP2D6 drug-drug interactions on hydrocodone effectiveness. Acad Emerg Med 2014;21:879-85.",
+        "[10] Hamilton WG, Gargiulo JM, Parks NL. Using pharmacogenetics to structure individual pain management protocols in total knee arthroplasty. Bone Joint J 2020;102-B(Supple_A):73-8.",
+        "[11] Mega JL, Close SL, Wiviott SD, Shen L, Hockett RD, Brandt JT, et al. Cytochrome p-450 polymorphisms and response to clopidogrel. N Engl J Med 2009;360:354-62.",
+        "[12] Nielsen LM, Olesen AE, Branford R, Christrup LL, Sato H, Drewes AM. Associ-ation between human pain-related genotypes and variability in opioid anal-gesia: an updated review. Pain Pract 2015;15:580-94.",
+        "[13] Smith DM, Weitzel KW, Elsey AR, Langaee T, Gong Y, Wake DT, et al. CYP2D6-guided opioid therapy improves pain control in CYP2D6 intermediate and poor metabolizers: a pragmatic clinical trial. Genet Med 2019;21:1842-50.",
+        "[14] Salaffi F, Stancati A, Silvestri CA, Ciapetti A, Grassi W. Minimal clinically important changes in chronic musculoskeletal pain intensity measured on a numerical rating scale. Eur J Pain 2004;8:283-91.",
+        "[15] Laigaard J, Pedersen C, Ronsbo TN, Mathiesen O, Karlsen APH. Minimal clini-cally important differences in randomised clinical trials on pain management after total hip and knee arthroplasty: a systematic review. Br J Anaesth 2021;126:1029-37.",
+        "[16] Empey PE, Pratt VM, Hoffman JM, Caudle KE, Klein TE. Expanding evidence leads to new pharmacogenomics payer coverage. Genet Med 2021;23: 830-2."
+      ],
+      "subsections": []
+    }
+  ],
+  "Figs": [
+    {
+      "title": "Fig. 1. Numeric Rating Pain Scale indicating pain intensity from 0 (no pain) to 10 (worst pain possible).",
+      "data": "Visual representation of a 0-10 pain scale with corresponding emotional faces and descriptive pain levels (No Pain, Mild Pain, Moderate Pain, Severe Pain, Very Severe Pain, Worst Pain Possible), transitioning from green (0-3) to orange (4-7) to red (8-10)."
+    }
+  ]
+}
+```

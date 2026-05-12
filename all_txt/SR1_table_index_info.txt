@@ -1,0 +1,124 @@
+{
+  "tables": [
+    {
+      "table_index": 2,
+      "table_title": "Table 2. Summary of included studies.",
+      "studies": [
+        {
+          "author": "Kraus et al.",
+          "year": ""
+        },
+        {
+          "author": "Mosley et al.",
+          "year": ""
+        },
+        {
+          "author": "Agullo et al.",
+          "year": ""
+        },
+        {
+          "author": "Hamilton et al.",
+          "year": ""
+        },
+        {
+          "author": "Thomas et al.",
+          "year": ""
+        },
+        {
+          "author": "Hamilton et al.",
+          "year": ""
+        }
+      ]
+    },
+    {
+      "table_index": 3,
+      "table_title": "Table 3. Summary of participant characteristics in included studies.",
+      "studies": [
+        {
+          "author": "Kraus et al.",
+          "year": ""
+        },
+        {
+          "author": "Mosley et al.",
+          "year": ""
+        },
+        {
+          "author": "Agullo et al.",
+          "year": ""
+        },
+        {
+          "author": "Hamilton et al.",
+          "year": ""
+        },
+        {
+          "author": "Thomas et al.",
+          "year": ""
+        },
+        {
+          "author": "Hamilton et al.",
+          "year": ""
+        }
+      ]
+    },
+    {
+      "table_index": 4,
+      "table_title": "Table 4. Summary of findings from included studies.",
+      "studies": [
+        {
+          "author": "Kraus et al.",
+          "year": ""
+        },
+        {
+          "author": "Mosley et al.",
+          "year": ""
+        },
+        {
+          "author": "Agullo et al.",
+          "year": ""
+        },
+        {
+          "author": "Hamilton et al.",
+          "year": ""
+        },
+        {
+          "author": "Thomas et al.",
+          "year": ""
+        },
+        {
+          "author": "Hamilton et al.",
+          "year": ""
+        }
+      ]
+    },
+    {
+      "table_index": 5,
+      "table_title": "Table 5. Risk of bias assessment.",
+      "studies": [
+        {
+          "author": "Kraus et al.",
+          "year": ""
+        },
+        {
+          "author": "Mosley et al.",
+          "year": ""
+        },
+        {
+          "author": "Agullo et al.",
+          "year": ""
+        },
+        {
+          "author": "Hamilton et al.",
+          "year": "2022"
+        },
+        {
+          "author": "Thomas et al.",
+          "year": ""
+        },
+        {
+          "author": "Hamilton et al.",
+          "year": "2020"
+        }
+      ]
+    }
+  ]
+}

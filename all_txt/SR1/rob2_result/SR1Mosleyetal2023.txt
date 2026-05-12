@@ -1,0 +1,131 @@
+{
+    "article_title": "CYP2D6-guided opioid therapy for adults with cancer pain: a randomized implementation clinical trial",
+    "domains": [
+        {
+            "Q1_1": {
+                "answer": "Yes",
+                "confidence": "High (98%)",
+                "analysis": "The Methods section states that each site used computer-based randomization tools: Moffitt used researchrandomizer.org and UF used randomization.com with permuted blocks of 10 (seed 12381). These are recognized random sequence generation methods."
+            },
+            "Q1_2": {
+                "answer": "No Information",
+                "confidence": "Low (70%)",
+                "analysis": "The article does not describe allocation concealment procedures (e.g., centralized randomization, opaque envelopes). It notes that each site managed its own randomization and maintained its own randomization log, and that patients, providers, and researchers were not blinded. However, there is no explicit information on whether the sequence was concealed until assignment, so this cannot be determined."
+            },
+            "Q1_3": {
+                "answer": "No",
+                "confidence": "High (96%)",
+                "analysis": "Baseline characteristics (Table 1) were similar between groups with no statistically significant differences reported. Although there was an imbalance in group sizes (38 vs 47), the authors attribute this to separate site randomization logs rather than a problem with randomization; no key prognostic imbalances or outcome baseline differences suggest a compromised randomization process."
+            },
+            "judgment": "Some concerns"
+        },
+        {
+            "Q2_1": {
+                "answer": "Yes",
+                "confidence": "High (99%)",
+                "analysis": "The Methods section states: “Patients, providers, and researchers were not blinded to randomization groups.” Therefore, participants were aware of their assigned intervention in this open-label trial."
+            },
+            "Q2_2": {
+                "answer": "Yes",
+                "confidence": "High (99%)",
+                "analysis": "The trial explicitly states that providers were not blinded: “Patients, providers, and researchers were not blinded to randomization groups.” Clinicians received genotype results and pharmacist recommendations in the genotype-guided arm, confirming awareness of assignment."
+            },
+            "Q2_3": {
+                "answer": "Probably No",
+                "confidence": "Moderate (85%)",
+                "analysis": "Although implementation barriers occurred (e.g., delayed genotyping turnaround time, recommendations placed in the ‘research’ section of the EHR at one site, low physician acknowledgment and low concordant prescribing), these reflect the real-world delivery of the assigned intervention (genotyping plus recommendations with prescriber discretion) rather than deviations caused by the trial context that contravened the protocol. The protocol left prescribing decisions to physician discretion, and genotyping failures/recollections were reported as feasibility metrics. Thus, there is no clear evidence that the trial setting caused protocol-disallowed interventions or prevented the intended intervention beyond what could occur in routine practice."
+            },
+            "Q2_4": {
+                "answer": "Not Applicable",
+                "confidence": "Moderate (80%)",
+                "analysis": "Not applicable because Q2.3 was answered as Probably No (no deviations due to trial context identified). The article does not discuss outcome effects of trial-context-induced deviations."
+            },
+            "Q2_5": {
+                "answer": "Not Applicable",
+                "confidence": "Moderate (80%)",
+                "analysis": "Not applicable because Q2.3 was answered as Probably No. The article does not provide information on balance of trial-context-induced deviations between groups."
+            },
+            "Q2_6": {
+                "answer": "Probably No",
+                "confidence": "High (95%)",
+                "analysis": "The article does not state that an ITT or mITT analysis was used. Analyses of pain and symptom outcomes included only participants who completed baseline and ≥1 follow-up questionnaire after 2 weeks (22/38 in genotype-guided; 26/47 in usual care), excluding many randomized participants due to missing follow-up surveys. This indicates post-randomization exclusions and not a pure ITT approach."
+            },
+            "Q2_7": {
+                "answer": "Yes",
+                "confidence": "Moderate to High (90%)",
+                "analysis": "A substantial proportion of randomized participants were excluded from the outcome analyses (48 analyzed of 85 randomized; ~43% excluded). Such exclusion after randomization can materially impact effect estimates, especially with small sample sizes, and may introduce bias if missingness relates to outcomes or intervention. Thus, there is potential for a substantial impact on results from failure to analyze all randomized participants in their assigned groups."
+            },
+            "judgment": "High"
+        },
+        {
+            "Q3_1": {
+                "answer": "No",
+                "confidence": "High (98%)",
+                "analysis": "The primary effectiveness outcome is a continuous measure (change in composite pain score). Of 85 randomized participants, only 48 (22 in the genotype-guided arm and 26 in the usual care arm) completed baseline and at least one follow-up after week 2 and were included in the outcome analysis (~56%). This is far below the 95% threshold for continuous outcomes."
+            },
+            "Q3_2": {
+                "answer": "No",
+                "confidence": "High (95%)",
+                "analysis": "The article reports available-case analyses using t-tests/Wilcoxon and excludes participants who only completed baseline and week 2. There is no indication of appropriate methods to address missing data (e.g., mixed models, multiple imputation) or sensitivity analyses exploring the impact of missingness. Therefore, there is no evidence that the result was not biased by missing outcome data."
+            },
+            "Q3_3": {
+                "answer": "Probably Yes",
+                "confidence": "Moderate (85%)",
+                "analysis": "Several aspects suggest missingness may relate to true outcomes/health status: (1) 6 participants (7%) died during follow-up; (2) one withdrew due to transfer to hospice; (3) low survey adherence attributed to patient burden in a population with advanced cancer and worsening symptoms; these factors are plausibly associated with worse pain/symptom outcomes. Thus, missingness likely depended on participants’ health status and potentially their true pain outcomes."
+            },
+            "Q3_4": {
+                "answer": "Yes",
+                "confidence": "Moderate (78%)",
+                "analysis": "The trial setting (advanced cancer with symptom burden), deaths/hospice, and low tolerance for frequent PRO surveys indicate that missingness likely depended on true outcome values (e.g., those with worse pain or deteriorating condition less likely to complete surveys). Although proportions of completers were similar across arms (22/38 vs 26/47), reasons for missingness (death, severe illness, burden) are intrinsically linked to outcomes. No analyses were reported to account for participant characteristics explaining the missingness-outcome relationship."
+            },
+            "judgment": "High"
+        },
+        {
+            "Q4_1": {
+                "answer": "No",
+                "confidence": "High (95%)",
+                "analysis": "The primary outcomes were patient-reported pain intensity (BPI-SF) and symptom severity/distress (MDASI). Both instruments are widely used and validated (references 26 and 27), and the composite pain score was derived from validated items. The measurement approach (0–10 scales) is sensitive to clinically meaningful changes and thresholds were aligned with NCCN guidance. Therefore, the outcome measurement method was appropriate."
+            },
+            "Q4_2": {
+                "answer": "No",
+                "confidence": "High (95%)",
+                "analysis": "Both arms used the same patient-reported instruments (BPI-SF and MDASI) at the same scheduled time points (baseline and 2, 4, 6, 8 weeks). The intervention did not mandate additional medical visits specifically for outcome assessment. Although completion rates differed somewhat, the measurement methods and timing were comparable between groups, so ascertainment did not differ."
+            },
+            "Q4_3": {
+                "answer": "Yes",
+                "confidence": "High (95%)",
+                "analysis": "Given Q4.1 and Q4.2 are No, we assess blinding. The study explicitly states it was open-label: 'Patients, providers, and researchers were not blinded to randomization groups.' Outcome assessors (patients completing PROs and researchers handling data) were aware of intervention status."
+            },
+            "Q4_4": {
+                "answer": "Yes",
+                "confidence": "High (95%)",
+                "analysis": "Because outcome assessors were aware of group allocation (Q4.3=Yes) and the primary outcomes are subjective (pain intensity and symptom scales), assessment could have been influenced by knowledge of the intervention received."
+            },
+            "Q4_5": {
+                "answer": "Probably Yes",
+                "confidence": "Moderate (85%)",
+                "analysis": "The subjective nature of pain and symptom reporting makes it likely that awareness of allocation could influence responses. While provider uptake of genotype-guided recommendations was low (potentially reducing expectancy effects), the open-label design and subjective outcomes still suggest a probable influence on assessment."
+            },
+            "judgment": "High"
+        },
+        {
+            "Q5_1": {
+                "answer": "No Information",
+                "confidence": "Moderate (85%)",
+                "analysis": "The trial is registered (ClinicalTrials.gov NCT02664350) and the Methods section describes primary outcomes, outcome definitions (composite BPI-SF pain score), time points (baseline and 2, 4, 6, 8 weeks), and general statistical tests. However, there is no explicit statement that a protocol or statistical analysis plan (SAP) detailing these analyses was finalized before unblinded outcome data were available. The study was open-label, and while the sample size target changed due to funding (not clearly related to outcome data), the article does not confirm adherence to a pre-specified analysis plan finalized prior to data availability. Therefore, based on the provided text, there is insufficient information to confirm pre-specification timing."
+            },
+            "Q5_2": {
+                "answer": "Probably No",
+                "confidence": "Moderate (80%)",
+                "analysis": "Building on Q5_1 (no accessible pre-specified SAP timing), the Methods clearly define the pain outcome measurement as a composite of three BPI-SF items and pre-specify using the last available follow-up (excluding patients with only baseline and week 2). Although multiple time points were collected, selecting 'last follow-up' was stated a priori in Methods. While BPI-SF has several possible individual items, the composite definition was specified. There is no indication in the Results that only a subset of multiple eligible pain scales or time points was selectively reported. Hence, selective choice among multiple eligible measurement methods/time points appears unlikely."
+            },
+            "Q5_3": {
+                "answer": "No Information",
+                "confidence": "Moderate (75%)",
+                "analysis": "Given Q5_1 (no confirmed pre-finalized SAP), multiple feasible analysis approaches exist for change in pain (e.g., absolute change vs percent change, ANCOVA vs change-score t-tests, repeated-measures models). The Methods state that change in pain and symptom severity would be calculated as percent difference from baseline to last follow-up, yet the Results for pain primarily report absolute mean change (e.g., −1.01 vs −0.41). This inconsistency suggests that different analysis scales were possible, but the article does not clarify whether the reported analysis was pre-specified or chosen post hoc. Without access to a protocol/SAP specifying the exact analysis scale and handling, we cannot determine if the numerical result was selected from multiple eligible analyses based on the findings."
+            },
+            "judgment": "Some concerns"
+        }
+    ],
+    "overall": "High"
+}

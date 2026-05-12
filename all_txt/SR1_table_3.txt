@@ -1,0 +1,89 @@
+{
+    "headers": [
+        "Study",
+        "Experimental group male (%)",
+        "Experimental group female (%)",
+        "Experimental group mean age in years (SD)",
+        "Control group male (%)",
+        "Control group female (%)",
+        "Control group mean age in years (SD)",
+        "Experimental group ethnicity (%)",
+        "Control group ethnicity (%)",
+        "check"
+    ],
+    "title": "Table 3. Summary of participant characteristics in included studies.",
+    "data": [
+        [
+            "Kraus et al. [20]",
+            "31",
+            "69",
+            "66 (10)",
+            "35",
+            "65",
+            "65 (9)",
+            "3 White\n97 Hispanic",
+            "3 White\n97 Hispanic",
+            "Sex distribution and ethnicity percentages are not correctly extracted from the original text.\n\n1. Experimental group male (%) / female (%):\n- Extracted: male 31%, female 69%.\n- Article (Table 1) gives only: Women 69% (29 of 42) in the experimental group; male percentage is not explicitly reported but can be inferred as 31%. Thus, female (%) is correct; male (%) is not directly stated in the text and should not be treated as explicitly reported.\n\n2. Control group male (%) / female (%):\n- Extracted: male 35%, female 65%.\n- Article (Table 1): Women 65% (22 of 34) in the control group; male percentage is not explicitly reported but can be inferred as 35%. Thus, female (%) is correct; male (%) is not directly stated and should not be treated as explicitly reported.\n\n3. Experimental group mean age in years (SD):\n- Extracted: 66 (10).\n- Article (Table 1): Age in years 66 ± 10 in the experimental group. This is correct.\n\n4. Control group mean age in years (SD):\n- Extracted: 65 (9).\n- Article (Table 1): Age in years 65 ± 9 in the control group. This is correct.\n\n5. Experimental group ethnicity (%):\n- Extracted: '3 White\\n97 Hispanic'.\n- Article (Table 1) for experimental group (n = 42; race/ethnicity denominators n = 37):\n  • White, non-Hispanic: 92% (34 of 37)\n  • Asian: 3% (1 of 37)\n  • Black: 3% (1 of 37)\n  • Hispanic: 3% (1 of 37)\n- Correct experimental ethnicity should reflect predominantly non-Hispanic White (92%), with 3% each Asian, Black, and Hispanic; the extracted '3 White 97 Hispanic' is incorrect.\n\n6. Control group ethnicity (%):\n- Extracted: '3 White\\n97 Hispanic'.\n- Article (Table 1) for control group (n = 34; race/ethnicity denominators n = 33):\n  • White, non-Hispanic: 97% (32 of 33)\n  • Asian: 0% (0)\n  • Black: 0% (0)\n  • Hispanic: 3% (1 of 33)\n- Correct control ethnicity should be 97% non-Hispanic White and 3% Hispanic; the extracted '3 White 97 Hispanic' is incorrect (White and Hispanic percentages are reversed and misassigned)."
+        ],
+        [
+            "Mosley et al. [23]",
+            "21",
+            "79",
+            "59 (11)",
+            "23",
+            "77",
+            "56 (10)",
+            "32 White\n5 Other",
+            "32 White\n5 Other",
+            "consistent"
+        ],
+        [
+            "Agullo et al. [19]",
+            "7",
+            "93",
+            "59 (14)",
+            "36",
+            "64",
+            "59 [14)",
+            "",
+            "",
+            "1) Experimental group male (%): Extracted as 7. The table only reports women 93% (26/28) in the PGx-guided arm; thus men are 7%. This is consistent.\n2) Experimental group female (%): Extracted as 93. This matches Table 1 (Women % PGx-guided = 93%).\n3) Experimental group mean age in years (SD): Extracted as 59 (14). This matches Table 1 (Age PGx-guided = 59 (14)).\n4) Control group male (%): Extracted as 36. Table 1 reports women 64% (14/22) in the usual care arm, so men are 36%. This is consistent.\n5) Control group female (%): Extracted as 64. This matches Table 1 (Women % usual care = 64%).\n6) Control group mean age in years (SD): Extracted as 59 [14). This is incorrect in both value and formatting. Table 1 shows Age (years old, mean (SD)) for usual care = 60 (14). The correct value should be 60 (14).\n7) Experimental group ethnicity (%): Extracted as empty. The text clearly states 'Sixty Caucasian subjects, all living in Spain, were included.' Therefore ethnicity should be recorded (e.g., 100% Caucasian) rather than left blank.\n8) Control group ethnicity (%): Extracted as empty. As above, all subjects are Caucasian; this field should not be blank and should reflect 100% Caucasian."
+        ],
+        [
+            "Hamilton et al. [21]",
+            "Not specified. 50% male overall",
+            "Not specified. 50% female overall",
+            "Not specified. Mean age 65.7 overall",
+            "Not specified. 50% male overall",
+            "Not specified. 50% female overall",
+            "Not specified. Mean age 65.7 overall",
+            "85 White\n2 Black\n2 Other",
+            "85 White\n2 Black\n2 Other",
+            "The extracted demographic fields are not supported by the provided text.\n\n1. Experimental group male (%) / female (%) and Control group male (%) / female (%):\n- Extracted: 'Not specified. 50% male overall' and 'Not specified. 50% female overall' for both groups.\n- Issue: The article only reports overall sex distribution (53 males, 54 females) for all 107 patients; there is no breakdown by experimental vs control group. The statement '50% male overall / 50% female overall' is incorrect and not present in the text.\n- Correct based on available text: Overall sample: 49.5% male (53/107), 50.5% female (54/107). Group-specific values are not reported and should be marked as 'not reported' rather than assuming 50/50.\n\n2. Experimental group mean age in years (SD) and Control group mean age in years (SD):\n- Extracted: 'Not specified. Mean age 65.7 overall' for both groups.\n- Issue: The article reports only the overall mean age (65.7 years, range 40.6–85.8) for all 107 patients; mean age by group and any SD are not given. Applying 65.7 to each group is not supported.\n- Correct based on available text: Overall mean age 65.7 years; no group-specific means or SDs reported. Group fields should be 'not reported'.\n\n3. Experimental group ethnicity (%) and Control group ethnicity (%):\n- Extracted: '85 White\\n2 Black\\n2 Other' for both groups.\n- Issue: The article excerpt contains no information on race/ethnicity at all. The provided percentages/counts are not supported by the text.\n- Correct: Ethnicity for both experimental and control groups is not reported in the provided article text and should be recorded as 'not reported'."
+        ],
+        [
+            "Thomas et al. [24]",
+            "41",
+            "59",
+            "68",
+            "42",
+            "58",
+            "65",
+            "92 White\n3 Black\n3 Asian",
+            "92 White\n3 Black\n3 Asian",
+            "Sex distribution and age values in the extracted data do not match the original text.\n\n1. Experimental group male (%) / female (%):\n   - Extracted: 41% male, 59% female.\n   - Original (CYP2D6-guided arm, n=154): Female 91 (59%). Therefore male = 41%.\n   - Conclusion: These percentages MATCH the original text.\n\n2. Control group male (%) / female (%):\n   - Extracted: 42% male, 58% female.\n   - Original (Usual care arm, n=80): Female 46 (58%). Therefore male = 42%.\n   - Conclusion: These percentages MATCH the original text.\n\n3. Experimental group mean age in years (SD):\n   - Extracted: 68.\n   - Original: Age reported as median [IQR], not mean (SD): 68 [62–74] years for the CYP2D6-guided arm.\n   - Conclusion: The central value 68 corresponds to the median, not a mean; no SD is given. The extracted field labeling this as a mean (SD) is therefore incorrect. Correct description: \"Age, years: 68 [62–74] (median [IQR])\".\n\n4. Control group mean age in years (SD):\n   - Extracted: 65.\n   - Original: Age reported as median [IQR], not mean (SD): 65 [57–72] years for the usual care arm.\n   - Conclusion: Again, 65 is the median, not a mean, and no SD is provided. Correct description: \"Age, years: 65 [57–72] (median [IQR])\".\n\n5. Experimental group ethnicity (%):\n   - Extracted: \"92 White\\n3 Black\\n3 Asian\".\n   - Original (CYP2D6-guided arm): White 131 (85%), Black 16 (10%), Asian 3 (2%), Other 4 (3%).\n   - Conclusion: The extracted values are incorrect. Correct values: \"85% White, 10% Black, 2% Asian, 3% Other\".\n\n6. Control group ethnicity (%):\n   - Extracted: \"92 White\\n3 Black\\n3 Asian\".\n   - Original (Usual care arm): White 65 (81%), Black 12 (15%), Asian 1 (1%), Other 2 (3%).\n   - Conclusion: The extracted values are incorrect. Correct values: \"81% White, 15% Black, 1% Asian, 3% Other\".\n"
+        ],
+        [
+            "Hamilton et al. [22]",
+            "Not specified. 29% male overall",
+            "Not specified. 71% female overall",
+            "Not specified. Mean age 69.5 overall",
+            "Not specified. 29% male overall",
+            "Not specified. 71% female overall",
+            "Not specified. Mean age 69.5 overall",
+            "",
+            "",
+            "Several extracted fields are not supported by the provided text.\n\n1. Experimental group male (%) / Experimental group female (%) and Control group male (%) / Control group female (%):\n- Extracted: 'Not specified. 29% male overall', 'Not specified. 71% female overall' for both experimental and control groups.\n- Issue: The provided text only states overall sex distribution for the 107 analyzed subjects: 53 males and 54 females (49.5% male, 50.5% female). It does not provide separate male/female percentages for control vs custom (experimental) groups.\n- Correct based on the text: These values should be marked as not reported separately for experimental and control groups. The only supported overall value is 53/107 males and 54/107 females.\n\n2. Experimental group mean age in years (SD) / Control group mean age in years (SD):\n- Extracted: 'Not specified. Mean age 69.5 overall' for both groups.\n- Issue: The article states an average age of 65.7 years (range 40.6–85.8) for the 107 patients; 69.5 is incorrect and no SD is reported.\n- Correct value from the text: 'Not specified. Mean age 65.7 years overall; SD not reported'.\n\n3. Experimental group ethnicity (%) / Control group ethnicity (%):\n- Extracted: '' (empty).\n- Issue: The article notes there were no exclusion criteria based on race or ethnic origin but provides no ethnicity distribution.\n- Correct handling: These fields should be explicitly marked as not reported, rather than left blank, to reflect that no ethnicity percentages are given for either group."
+        ]
+    ]
+}
