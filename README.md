@@ -27,7 +27,6 @@ Top-level folders and their responsibilities:
 | Folder | Contains | Function |
 |---|---|---|
 | `all_txt/` | Meta-review text files (for example `SR1.txt`), included-study text files under subfolders (for example `SR1/*.txt`), and runtime intermediate files | Primary working data space for agent ingestion, extraction, verification, and ROB2/report staging |
-| `backup/` | Archived docs, legacy samples, historical outputs, logs, and cleanup snapshots | Keeps non-minimal or historical artifacts out of the active runtime path while preserving rollback/reference material |
 | `check/` | Verification modules such as `check_info.py`, `meta_check.py`, `meta_analysis.py` | Verification agent logic that checks extracted content consistency and performs meta-check tasks |
 | `extract/` | Extraction modules such as `etract_info_main.py`, `extract_info.py`, `meta_extract_info.py` | Extraction agent logic that parses source content and produces structured outputs |
 | `meta/` | Meta-processing helpers such as `continue_meta_code.py`, `bin_meta_code.py` | Shared meta-analysis support logic used by checking/reporting steps |
