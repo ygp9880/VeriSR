@@ -25,8 +25,18 @@ from report.report_info2 import meta_summary_report;
 
 load_dotenv()
 
+DEFAULT_GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3-flash-preview")
+DEFAULT_OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5")
 gemini_key = os.getenv("gemini_key");
-print(f" gemini_key is {gemini_key} ");
+
+def mask_secret(secret):
+    if not secret:
+        return "missing"
+    if len(secret) <= 8:
+        return "*" * len(secret)
+    return f"{secret[:6]}...{secret[-4:]}"
+
+print(f" gemini_key is {mask_secret(gemini_key)} ");
 client = genai.Client(api_key=gemini_key)
 
 logging.basicConfig(
@@ -41,7 +51,7 @@ logging.basicConfig(
 
 extract_file_path = "prompt_extract_content.txt"
 
-def process_pdf(file_name, input_prompt):
+def process_pdf(file_name, input_prompt, model_name=DEFAULT_GEMINI_MODEL):
     save_file_name = file_name.replace(".pdf", ".txt");
     if os.path.exists(save_file_name):
         print(f" file {save_file_name} is processed");
@@ -59,13 +69,40 @@ def process_pdf(file_name, input_prompt):
     #prompt=""
 
     response = client.models.generate_content(
-      model="gemini-2.5-flash",
+      model=model_name,
       contents=[sample_file, input_prompt])
 
 
     output_file = save_file_name
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(response.text)
+
+def test_gemini_text(model_name=DEFAULT_GEMINI_MODEL):
+    response = client.models.generate_content(
+      model=model_name,
+      contents="Reply with OK only.")
+    print(" test_gemini_text success")
+    print(response.text)
+    return response.text
+
+def test_gemini_pdf(file_path, input_prompt, model_name=DEFAULT_GEMINI_MODEL, output_path=None):
+    filepath = pathlib.Path(file_path)
+    sample_file = client.files.upload(
+      file=filepath,
+    )
+
+    response = client.models.generate_content(
+      model=model_name,
+      contents=[sample_file, input_prompt])
+
+    if not output_path:
+        output_path = file_path.replace(".pdf", "_test.txt")
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(response.text)
+
+    print(f" test_gemini_pdf success: {output_path}")
+    return output_path
 
 
 # 读取整个文件内容
@@ -85,6 +122,7 @@ if __name__ == "__main__":
     parser.add_argument("-t", "--type", default="result",help="result")
 
     parser.add_argument("-data", "--data_path", default="data", help="data")
+    parser.add_argument("-model", "--model_name", default=None, help="override model name")
 
     parser.add_argument("-r", "--rob2_path", default="meta", help="meta")
 
@@ -103,10 +141,19 @@ if __name__ == "__main__":
     rob2_path = args.rob2_path;
 
     type = args.type;
+    model_name = args.model_name
+    gemini_model_name = model_name or DEFAULT_GEMINI_MODEL
+    openai_model_name = model_name or DEFAULT_OPENAI_MODEL
 
     print("dir       =", input_dir)
     print("command   =", command)
     print("save_path =", save_path)
+    if command in {"process", "test_gemini"}:
+        print("model     =", gemini_model_name)
+    elif command in {"meta_data_correct", "rob2_generate"}:
+        print("model     =", openai_model_name)
+    else:
+        print("model     =", model_name or "default")
 
     # python main.py -dir etal -c process
     # python #meta_file_path = "D:\\project\\zky\\paperAgent\\txt_new\\SR6.txt"  # 替换为你的文件路径
@@ -115,11 +162,23 @@ if __name__ == "__main__":
     if command == "process":
         #python main.py -dir pdf  -c process -save_path = ''
         # 从pdf 提取文本
-        files = os.listdir(input_dir)
+        files = sorted(os.listdir(input_dir))
         for file in files:
-            file_path = input_dir + "\\" + file;
-            process_pdf(file_path, extract_prompt);
+            file_path = os.path.join(input_dir, file);
+            if not os.path.isfile(file_path):
+                print(f" skip non-file entry: {file_path}");
+                continue;
+            if not file.lower().endswith(".pdf"):
+                print(f" skip non-pdf file: {file_path}");
+                continue;
+            process_pdf(file_path, extract_prompt, model_name=gemini_model_name);
             #print(f" file_path is {file_path} ");
+    elif command == "test_gemini":
+        if data_path.lower().endswith(".pdf") and os.path.exists(data_path):
+            output_path = None if save_path == "result" else save_path
+            test_gemini_pdf(data_path, extract_prompt, model_name=gemini_model_name, output_path=output_path);
+        else:
+            test_gemini_text(model_name=gemini_model_name);
     elif command == "extract":
         #python main.py -c extract -m D:\\project\\zky\\paperAgent\\txt_new\\SR6.txt -data D:\\project\\zky\\paperAgent\\txt_new\\SR6
         # 提取文档
@@ -131,14 +190,14 @@ if __name__ == "__main__":
     elif command == "meta_data_correct":
         # extract_result_all_SR1
         # -c  meta_data_correct  -n SR1  -data D:\project\zky\paperAgent\all_txt
-        meta_analy(meta_name,data_path);
+        meta_analy(meta_name, data_path, model=openai_model_name);
     elif command == "meta_check":
         # SR1_meta_check_output
         # -c  meta_check  -n SR1  -data D:\project\zky\paperAgent\all_txt
         meta_check(meta_name, data_path);
     elif command == "rob2_generate":
         #-c  rob2_generate   -data D:\project\zky\paperAgent\all_txt\SR1 -s D:\project\zky\paperAgent\all_txt\SR1\rob2_result
-        generate(data_path, save_path)
+        generate(data_path, save_path, model=openai_model_name)
     elif command == "rob2_refactor":
         #-c  rob2_refactor   -data D:\project\zky\paperAgent\all_txt\SR1\rob2_result
         refactor(data_path);
