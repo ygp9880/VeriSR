@@ -1,6 +1,0 @@
-python-dotenv
-openai
-google-genai
-openpyxl
-chromadb
-python-docx
